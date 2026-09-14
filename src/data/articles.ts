@@ -99,10 +99,10 @@ export const articlesData: Article[] = [
   },
   {
     title:
-      "Perbedaan Batu Gunung Ukuran 21, 23, 35, dan 57 untuk Proyek Konstruksi",
+      "Perbedaan Batu Gunung Ukuran 2x1, 2x3, 3x5, dan 5x7 untuk Proyek Konstruksi",
     slug: "perbedaan-ukuran-batu-gunung",
     excerpt:
-      "Memahami perbedaan fungsi fraksi batu gunung ukuran 21, 23, 35, dan 57 untuk cor beton, pondasi jalan, dan perkuatan tanah lunak.",
+      "Memahami perbedaan fungsi fraksi batu gunung ukuran 2x1, 2x3, 3x5, dan 5x7 untuk cor beton, pondasi jalan, dan perkuatan tanah lunak.",
     publishedDate: "20 Januari 2025",
     readTime: "6 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
@@ -129,10 +129,10 @@ export const articlesData: Article[] = [
       {
         heading: "Rincian Ukuran dan Penggunaannya di Lapangan",
         paragraphs: [
-          "1. Batu Gunung Ukuran 21 (1 – 2 cm): Fraksi ini biasa digunakan untuk campuran pengecoran beton bertulang seperti kolom praktis, balok gantung, dan plat dak lantai bertingkat. Ukurannya yang proporsional mampu mengisi celah sempit di antara anyaman besi tulangan tanpa menimbulkan rongga keropos.",
-          "2. Batu Gunung Ukuran 23 (2 – 3 cm): Ukuran yang sangat umum untuk pengecoran beton jalan (rigid pavement), pondasi telapak cakar ayam, serta lantai gudang berbeban berat.",
-          "3. Batu Gunung Ukuran 35 (3 – 5 cm): Cocok untuk lapis pondasi bawah jalan dan lapisan drainase resapan air agar tidak terjadi genangan yang merusak permukaan aspal atau beton.",
-          "4. Batu Gunung Ukuran 57 (5 – 7 cm): Fraksi kasar yang dirancang khusus untuk stabilisasi lahan lunak/rawa dan bantalan jalan akses sebelum dilapisi agregat halus. Daya interlocking-nya yang tinggi mencegah amblas.",
+          "1. Batu Gunung Ukuran 2x1 (1 – 2 cm): Fraksi ini biasa digunakan untuk campuran pengecoran beton bertulang seperti kolom praktis, balok gantung, dan plat dak lantai bertingkat. Ukurannya yang proporsional mampu mengisi celah sempit di antara anyaman besi tulangan tanpa menimbulkan rongga keropos.",
+          "2. Batu Gunung Ukuran 2x3 (2 – 3 cm): Ukuran yang sangat umum untuk pengecoran beton jalan (rigid pavement), pondasi telapak cakar ayam, serta lantai gudang berbeban berat.",
+          "3. Batu Gunung Ukuran 3x5 (3 – 5 cm): Cocok untuk lapis pondasi bawah jalan dan lapisan drainase resapan air agar tidak terjadi genangan yang merusak permukaan aspal atau beton.",
+          "4. Batu Gunung Ukuran 5x7 (5 – 7 cm): Fraksi kasar yang dirancang khusus untuk stabilisasi lahan lunak/rawa dan bantalan jalan akses sebelum dilapisi agregat halus. Daya interlocking-nya yang tinggi mencegah amblas.",
         ],
       },
       {

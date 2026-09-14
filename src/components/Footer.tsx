@@ -33,7 +33,7 @@ export function Footer() {
                   Spesifikasi Fraksi Terstandarisasi
                 </strong>
                 <p className="text-slate-400 text-xs leading-relaxed">
-                  Pecahan batu gunung ukuran 21, 23, 35, 57, abu batu, agregat,
+                  Pecahan batu gunung ukuran 2x1, 2x3, 3x5, 5x7, abu batu, agregat,
                   dan batu pondasi berkualitas padat.
                 </p>
               </div>

@@ -10,7 +10,7 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: "Katalog Batu & Material Konstruksi | PT. Bumi Kutai Perkasa",
   description:
-    "Katalog resmi material abu batu, batu agregat, batu pondasi, batu tronjolan, dan batu gunung ukuran 21, 23, 35, 57. PT. Bumi Kutai Perkasa melayani pengiriman ke Tenggarong dan Kutai Kartanegara.",
+    "Katalog resmi material abu batu, batu agregat, batu pondasi, batu tronjolan, dan batu gunung ukuran 2x1, 2x3, 3x5, 5x7. PT. Bumi Kutai Perkasa melayani pengiriman ke Tenggarong dan Kutai Kartanegara.",
   keywords: [
     "jual abu batu tenggarong",
     "jual batu pondasi tenggarong",

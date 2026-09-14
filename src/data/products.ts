@@ -39,7 +39,7 @@ export const productsData: Product[] = [
     metaTitle: "Jual Abu Batu Tenggarong | PT. Bumi Kutai Perkasa",
     metaDescription:
       "Jual abu batu berkualitas untuk kebutuhan paving, aspal, dan adukan konstruksi. Melayani pengiriman ke Tenggarong dan area Kutai Kartanegara oleh PT. Bumi Kutai Perkasa.",
-    orderUnitNote: "Pengiriman via dump truck (rit / kubikasi sesuai konfirmasi)",
+    orderUnitNote: "Sistem pengiriman menggunakan dump truck dengan metode perhitungan biaya (ritase / tonase / kubikasi) yang disesuaikan berdasarkan konfirmasi kesepakatan bersama",
   },
   {
     name: "Batu Agregat",
@@ -108,13 +108,13 @@ export const productsData: Product[] = [
     orderUnitNote: "Konfirmasi ukuran bongkahan dan armada melalui WhatsApp",
   },
   {
-    name: "Batu Gunung ukuran 21",
-    slug: "batu-gunung-21",
+    name: "Batu Gunung ukuran 2x1",
+    slug: "batu-gunung-2x1",
     category: "Batu Gunung",
     shortDescription:
-      "Batu gunung pecah fraksi ukuran 21 (1-2 cm) untuk campuran cor beton struktur presisi.",
+      "Batu gunung pecah fraksi ukuran 2x1 (1-2 cm) untuk campuran cor beton struktur presisi.",
     description:
-      "Batu Gunung ukuran 21 merupakan batuan hasil olahan quarry dengan fraksi pecahan ukuran sekitar 1 hingga 2 cm. Karakteristik batuan ini bersudut tajam dan padat, menjadikannya agregat kasar yang sangat baik untuk campuran cor beton bertulang, kolom praktis, dan plat lantai bangunan.",
+      "Batu Gunung ukuran 2x1 merupakan batuan hasil olahan quarry dengan fraksi pecahan ukuran sekitar 1 hingga 2 cm. Karakteristik batuan ini bersudut tajam dan padat, menjadikannya agregat kasar yang sangat baik untuk campuran cor beton bertulang, kolom praktis, dan plat lantai bangunan.",
     uses: [
       "Campuran cor plat lantai, kolom, dan balok beton bertulang",
       "Pengecoran beton mutu presisi untuk struktur bangunan",
@@ -123,20 +123,20 @@ export const productsData: Product[] = [
     ],
     image:
       "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Batu Gunung ukuran 21 untuk campuran cor beton di Tenggarong",
-    metaTitle: "Batu Gunung Ukuran 21 Tenggarong | PT. Bumi Kutai Perkasa",
+    imageAlt: "Batu Gunung ukuran 2x1 untuk campuran cor beton di Tenggarong",
+    metaTitle: "Batu Gunung Ukuran 2x1 Tenggarong | PT. Bumi Kutai Perkasa",
     metaDescription:
-      "Jual batu gunung ukuran 21 untuk pengecoran beton bermutu. PT. Bumi Kutai Perkasa melayani pengiriman ke Tenggarong, Kutai Kartanegara dan sekitarnya.",
+      "Jual batu gunung ukuran 2x1 untuk pengecoran beton bermutu. PT. Bumi Kutai Perkasa melayani pengiriman ke Tenggarong, Kutai Kartanegara dan sekitarnya.",
     orderUnitNote: "Takaran isi bak terukur, pengiriman dump truck",
   },
   {
-    name: "Batu Gunung ukuran 23",
-    slug: "batu-gunung-23",
+    name: "Batu Gunung ukuran 2x3",
+    slug: "batu-gunung-2x3",
     category: "Batu Gunung",
     shortDescription:
-      "Batu gunung pecah fraksi ukuran 23 (2-3 cm) untuk konstruksi beton massa dan jalan cor.",
+      "Batu gunung pecah fraksi ukuran 2x3 (2-3 cm) untuk konstruksi beton massa dan jalan cor.",
     description:
-      "Batu Gunung ukuran 23 adalah batuan pecah berukuran sekitar 2 hingga 3 cm. Ukuran ini banyak diaplikasikan pada pekerjaan pengecoran beton berskala medium hingga besar, rigid pavement jalan lingkungan, serta pondasi struktur bertingkat di Tenggarong dan kawasan Kukar.",
+      "Batu Gunung ukuran 2x3 adalah batuan pecah berukuran sekitar 2 hingga 3 cm. Ukuran ini banyak diaplikasikan pada pekerjaan pengecoran beton berskala medium hingga besar, rigid pavement jalan lingkungan, serta pondasi struktur bertingkat di Tenggarong dan kawasan Kukar.",
     uses: [
       "Campuran pengecoran beton jalan (rigid pavement)",
       "Pengecoran pondasi telapak (footplate) dan tiang pancang setempat",
@@ -145,20 +145,20 @@ export const productsData: Product[] = [
     ],
     image:
       "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Batu Gunung ukuran 23 agregat cor beton berkualitas",
-    metaTitle: "Batu Gunung Ukuran 23 Tenggarong | PT. Bumi Kutai Perkasa",
+    imageAlt: "Batu Gunung ukuran 2x3 agregat cor beton berkualitas",
+    metaTitle: "Batu Gunung Ukuran 2x3 Tenggarong | PT. Bumi Kutai Perkasa",
     metaDescription:
-      "Penyedia batu gunung ukuran 23 untuk proyek jalan beton dan konstruksi umum di Tenggarong & Kutai Kartanegara. Hubungi PT. Bumi Kutai Perkasa.",
+      "Penyedia batu gunung ukuran 2x3 untuk proyek jalan beton dan konstruksi umum di Tenggarong & Kutai Kartanegara. Hubungi PT. Bumi Kutai Perkasa.",
     orderUnitNote: "Pemesanan armada dump truck siap kirim langsung",
   },
   {
-    name: "Batu Gunung ukuran 35",
-    slug: "batu-gunung-35",
+    name: "Batu Gunung ukuran 3x5",
+    slug: "batu-gunung-3x5",
     category: "Batu Gunung",
     shortDescription:
-      "Batu gunung fraksi ukuran 35 (3-5 cm) untuk lapis perkerasan pondasi jalan dan drainase.",
+      "Batu gunung fraksi ukuran 3x5 (3-5 cm) untuk lapis perkerasan pondasi jalan dan drainase.",
     description:
-      "Batu Gunung ukuran 35 memiliki dimensi sekitar 3 hingga 5 cm. Ukuran batuan ini sangat ideal difungsikan sebagai lapis pondasi bawah perkerasan jalan, bantalan rel dan drainase rembesan, serta lapisan stabilisasi tanah sebelum pengecoran atau pengaspalan.",
+      "Batu Gunung ukuran 3x5 memiliki dimensi sekitar 3 hingga 5 cm. Ukuran batuan ini sangat ideal difungsikan sebagai lapis pondasi bawah perkerasan jalan, bantalan rel dan drainase rembesan, serta lapisan stabilisasi tanah sebelum pengecoran atau pengaspalan.",
     uses: [
       "Lapis pondasi bawah (sub-base) jalan perumahan dan jalan industri",
       "Lapisan resapan dan sistem drainase rembesan (French drain)",
@@ -167,20 +167,20 @@ export const productsData: Product[] = [
     ],
     image:
       "https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Batu Gunung ukuran 35 untuk pengerasan pondasi jalan proyek",
-    metaTitle: "Batu Gunung Ukuran 35 Tenggarong | PT. Bumi Kutai Perkasa",
+    imageAlt: "Batu Gunung ukuran 3x5 untuk pengerasan pondasi jalan proyek",
+    metaTitle: "Batu Gunung Ukuran 3x5 Tenggarong | PT. Bumi Kutai Perkasa",
     metaDescription:
-      "Jual batu gunung ukuran 35 untuk lapis perkerasan jalan dan drainase proyek di wilayah Tenggarong dan Kutai Kartanegara oleh PT. Bumi Kutai Perkasa.",
+      "Jual batu gunung ukuran 3x5 untuk lapis perkerasan jalan dan drainase proyek di wilayah Tenggarong dan Kutai Kartanegara oleh PT. Bumi Kutai Perkasa.",
     orderUnitNote: "Konfirmasi ketersediaan volume per rit via WhatsApp",
   },
   {
-    name: "Batu Gunung ukuran 57",
-    slug: "batu-gunung-57",
+    name: "Batu Gunung ukuran 5x7",
+    slug: "batu-gunung-5x7",
     category: "Batu Gunung",
     shortDescription:
-      "Batu gunung fraksi kasar ukuran 57 (5-7 cm) untuk bantalan dasar perkerasan dan stabilisasi lahan lunak.",
+      "Batu gunung fraksi kasar ukuran 5x7 (5-7 cm) untuk bantalan dasar perkerasan dan stabilisasi lahan lunak.",
     description:
-      "Batu Gunung ukuran 57 merupakan batuan fraksi kasar dengan rentang ukuran 5 hingga 7 cm. Batuan jenis ini memiliki kemampuan menahan beban tekan tinggi dan memberikan daya saling kunci (interlocking) yang kokoh, sangat efektif untuk menangani jalan amblas di tanah lembek khas Kalimantan Timur.",
+      "Batu Gunung ukuran 5x7 merupakan batuan fraksi kasar dengan rentang ukuran 5 hingga 7 cm. Batuan jenis ini memiliki kemampuan menahan beban tekan tinggi dan memberikan daya saling kunci (interlocking) yang kokoh, sangat efektif untuk menangani jalan amblas di tanah lembek khas Kalimantan Timur.",
     uses: [
       "Lapis perkerasan awal dan stabilisasi tanah lunak / rawa",
       "Bantalan dasar jalan akses kendaraan muatan berat dan logistik",
@@ -189,10 +189,10 @@ export const productsData: Product[] = [
     ],
     image:
       "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Batu Gunung ukuran 57 untuk stabilisasi tanah dan jalan berat di Kutai Kartanegara",
-    metaTitle: "Batu Gunung Ukuran 57 Tenggarong | PT. Bumi Kutai Perkasa",
+    imageAlt: "Batu Gunung ukuran 5x7 untuk stabilisasi tanah dan jalan berat di Kutai Kartanegara",
+    metaTitle: "Batu Gunung Ukuran 5x7 Tenggarong | PT. Bumi Kutai Perkasa",
     metaDescription:
-      "Supplier batu gunung ukuran 57 untuk stabilisasi tanah lembek dan pondasi jalan muatan berat di Tenggarong & Kutai Kartanegara dari PT. Bumi Kutai Perkasa.",
+      "Supplier batu gunung ukuran 5x7 untuk stabilisasi tanah lembek dan pondasi jalan muatan berat di Tenggarong & Kutai Kartanegara dari PT. Bumi Kutai Perkasa.",
     orderUnitNote: "Pengiriman terjadwal dump truck kapasitas m³ terukur",
   },
 ];

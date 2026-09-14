@@ -183,7 +183,7 @@ export default function HomePage() {
               </h2>
               <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
                 Menyediakan abu batu, batu pondasi, tronjolan, agregat, hingga
-                batu gunung ukuran 21, 23, 35, dan 57.
+                batu gunung ukuran 2x1, 2x3, 3x5, dan 5x7.
               </p>
             </div>
 

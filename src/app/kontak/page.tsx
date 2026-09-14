@@ -8,7 +8,7 @@ import { MapPin, Phone, Clock, Truck, HelpCircle, CheckCircle2 } from "lucide-re
 export const metadata: Metadata = {
   title: "Hubungi Kami & Pemesanan Material | Tenggarong",
   description:
-    "Hubungi dispatcher CV Batu Mandiri Tenggarong. Cek harga material batu belah, split cor, pasir, dan estimasi ongkos kirim dump truck di Kutai Kartanegara langsung via WhatsApp.",
+    "Hubungi dispatcher CV Batu Mandiri Tenggarong. Cek harga material batu belah, split cor, dan estimasi ongkos kirim dump truck di Kutai Kartanegara langsung via WhatsApp.",
 };
 
 const FAQ_ITEMS = [
@@ -49,7 +49,7 @@ export default function KontakPage() {
               Hubungi Dispatcher &amp; Depot Kami
             </h1>
             <p className="mt-3 text-sm sm:text-base text-slate-300 leading-relaxed">
-              Konsultasikan kebutuhan volume batu belah, koral split, pasir, atau base course langsung dengan tim operasional Tenggarong.
+              Konsultasikan kebutuhan volume batu belah, koral split, atau base course langsung dengan tim operasional Tenggarong.
             </p>
           </div>
         </div>

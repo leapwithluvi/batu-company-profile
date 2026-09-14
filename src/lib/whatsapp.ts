@@ -21,7 +21,7 @@ export function buildWhatsappMessage({
     return `Halo Admin, saya tertarik dengan ${subject} di Tenggarong. Mohon info harga terbaru dan ongkos kirim.`;
   }
 
-  return `Halo Admin, saya ingin konsultasi kebutuhan material batu dan pasir di Tenggarong. Mohon info harga terbaru dan ketersediaan pengiriman armada dump truck.`;
+  return `Halo Admin, saya ingin konsultasi kebutuhan material batu di Tenggarong. Mohon info harga terbaru dan ketersediaan pengiriman armada dump truck.`;
 }
 
 /**
