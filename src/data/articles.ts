@@ -20,8 +20,7 @@ export interface Article {
 
 export const articlesData: Article[] = [
   {
-    title:
-      "Apa Itu Abu Batu dan Kegunaannya dalam Pekerjaan Konstruksi?",
+    title: "Apa Itu Abu Batu dan Kegunaannya dalam Pekerjaan Konstruksi?",
     slug: "apa-itu-abu-batu-kegunaan",
     excerpt:
       "Mengenal fungsi abu batu sebagai agregat halus untuk campuran aspal, bahan baku paving block berkualitas, dan pelapis lantai kerja di Tenggarong.",
@@ -31,7 +30,8 @@ export const articlesData: Article[] = [
     category: "Material Agregat",
     image:
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Stok abu batu untuk kebutuhan konstruksi dan pembuatan paving block di Tenggarong",
+    imageAlt:
+      "Stok abu batu untuk kebutuhan konstruksi dan pembuatan paving block di Tenggarong",
     relatedProductSlug: "abu-batu",
     sections: [
       {
@@ -52,7 +52,7 @@ export const articlesData: Article[] = [
       {
         heading: "Pengadaan Abu Batu di Wilayah Tenggarong",
         paragraphs: [
-          "Untuk kebutuhan proyek jalan, pabrik batako, maupun pekerjaan halaman rumah tinggal, PT. Bumi Kutai Perkasa beroperasi di DSN Jambe, Kutai Kartanegara, menyediakan pasokan abu batu dengan pengiriman armada dump truck langsung ke lokasi proyek di Tenggarong dan sekitarnya.",
+          "Untuk kebutuhan proyek jalan, pabrik batako, maupun pekerjaan halaman rumah tinggal, PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Kutai Kartanegara, menyediakan pasokan abu batu dengan pengiriman armada dump truck langsung ke lokasi proyek di Tenggarong dan sekitarnya.",
           "Untuk kepastian takaran kubikasi serta jadwal ritase armada, calon pembeli dapat langsung berkonsultasi dengan tim operasional PT. Bumi Kutai Perkasa via WhatsApp.",
         ],
       },
@@ -70,7 +70,8 @@ export const articlesData: Article[] = [
     category: "Material Pondasi",
     image:
       "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Pemasangan batu pondasi lajur untuk bangunan rumah di Tenggarong",
+    imageAlt:
+      "Pemasangan batu pondasi lajur untuk bangunan rumah di Tenggarong",
     relatedProductSlug: "batu-pondasi",
     sections: [
       {
@@ -108,7 +109,8 @@ export const articlesData: Article[] = [
     category: "Batu Gunung",
     image:
       "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Pecahan fraksi batu gunung berbagai ukuran di fasilitas pengolahan batu",
+    imageAlt:
+      "Pecahan fraksi batu gunung berbagai ukuran di fasilitas pengolahan batu",
     relatedProductSlug: "batu-gunung-21",
     relatedProductSlugs: [
       "batu-gunung-21",
@@ -136,7 +138,7 @@ export const articlesData: Article[] = [
       {
         heading: "Konsultasi Kebutuhan Batu Gunung di Kutai Kartanegara",
         paragraphs: [
-          "PT. Bumi Kutai Perkasa yang beroperasi di DSN Jambe menyediakan seluruh varian ukuran Batu Gunung 21, 23, 35, dan 57 untuk menyuplai proyek konstruksi di Tenggarong, Kutai Kartanegara, dan wilayah sekitarnya. Hubungi kami untuk memastikan ketersediaan ukuran dan estimasi volume armada.",
+          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe menyediakan seluruh varian ukuran Batu Gunung 21, 23, 35, dan 57 untuk menyuplai proyek konstruksi di Tenggarong, Kutai Kartanegara, dan wilayah sekitarnya. Hubungi kami untuk memastikan ketersediaan ukuran dan estimasi volume armada.",
         ],
       },
     ],
@@ -153,7 +155,8 @@ export const articlesData: Article[] = [
     category: "Material Pondasi",
     image:
       "https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Material batu tronjolan bongkahan besar untuk pekerjaan bronjong kawat",
+    imageAlt:
+      "Material batu tronjolan bongkahan besar untuk pekerjaan bronjong kawat",
     relatedProductSlug: "batu-tronjolan",
     sections: [
       {
@@ -180,8 +183,7 @@ export const articlesData: Article[] = [
     ],
   },
   {
-    title:
-      "Kegunaan Batu Agregat dan Perannya dalam Campuran Konstruksi",
+    title: "Kegunaan Batu Agregat dan Perannya dalam Campuran Konstruksi",
     slug: "kegunaan-batu-agregat",
     excerpt:
       "Peran batu agregat terukur dalam meningkatkan kekuatan tekan beton dan kestabilan lapis pondasi jalan di Kutai Kartanegara.",
@@ -191,7 +193,8 @@ export const articlesData: Article[] = [
     category: "Material Agregat",
     image:
       "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Material batu agregat konstruksi siap kirim untuk proyek perkerasan jalan",
+    imageAlt:
+      "Material batu agregat konstruksi siap kirim untuk proyek perkerasan jalan",
     relatedProductSlug: "batu-agregat",
     sections: [
       {
@@ -210,7 +213,7 @@ export const articlesData: Article[] = [
       {
         heading: "Pengadaan Agregat Terpercaya di Kutai Kartanegara",
         paragraphs: [
-          "PT. Bumi Kutai Perkasa yang beroperasi di DSN Jambe siap memenuhi kebutuhan batu agregat untuk proyek Anda di wilayah Tenggarong dan sekitarnya. Konsultasikan jadwal pengiriman dan estimasi kubikasi langsung via WhatsApp.",
+          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe siap memenuhi kebutuhan batu agregat untuk proyek Anda di wilayah Tenggarong dan sekitarnya. Konsultasikan jadwal pengiriman dan estimasi kubikasi langsung via WhatsApp.",
         ],
       },
     ],

@@ -21,7 +21,12 @@ export function DeliveryCoverage() {
             </div>
 
             <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-              <strong>{siteConfig.name}</strong> beroperasi di <strong>DSN Jambe, Kutai Kartanegara</strong>. Untuk mendukung kontinuitas pekerjaan konstruksi, kami melayani pengiriman berbagai material batu dan agregat menggunakan armada dump truck langsung ke lokasi proyek Anda di Tenggarong dan wilayah sekitarnya.
+              <strong>{siteConfig.name}</strong> beroperasi di{" "}
+              <strong>Dusun Jambe, Kutai Kartanegara</strong>. Untuk mendukung
+              kontinuitas pekerjaan konstruksi, kami melayani pengiriman
+              berbagai material batu dan agregat menggunakan armada dump truck
+              langsung ke lokasi proyek Anda di Tenggarong dan wilayah
+              sekitarnya.
             </p>
 
             {/* Armada Details */}
@@ -34,7 +39,8 @@ export function DeliveryCoverage() {
                   Dump Truck Colt Diesel
                 </div>
                 <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] mt-2 leading-relaxed">
-                  Lincah menjangkau lokasi proyek perumahan, gang kota, dan jalan lingkungan di area Tenggarong.
+                  Lincah menjangkau lokasi proyek perumahan, gang kota, dan
+                  jalan lingkungan di area Tenggarong.
                 </p>
               </div>
 
@@ -46,7 +52,8 @@ export function DeliveryCoverage() {
                   Fuso / Tronton Dump
                 </div>
                 <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] mt-2 leading-relaxed">
-                  Efisiensi logistik volume besar untuk proyek jalan raya, pergudangan, dan pengurugan lahan luas.
+                  Efisiensi logistik volume besar untuk proyek jalan raya,
+                  pergudangan, dan pengurugan lahan luas.
                 </p>
               </div>
             </div>
@@ -73,7 +80,8 @@ export function DeliveryCoverage() {
             </div>
 
             <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] mb-6 leading-relaxed">
-              Kami melayani pengiriman material konstruksi untuk berbagai kawasan yang terjangkau di Kalimantan Timur:
+              Kami melayani pengiriman material konstruksi untuk berbagai
+              kawasan yang terjangkau di Kalimantan Timur:
             </p>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
@@ -91,7 +99,10 @@ export function DeliveryCoverage() {
             <div className="mt-6 pt-5 border-t border-[#D9DCDD]/60 dark:border-[#30363A] flex items-start gap-3 bg-[#EEF0F0]/80 dark:bg-[#202529]/60 p-3.5 border border-[#D9DCDD] dark:border-[#30363A] rounded-xs">
               <Clock className="w-4 h-4 text-[#6B7378] dark:text-[#A5ADB2] shrink-0 mt-0.5" />
               <div className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                <strong>Catatan Operasional:</strong> Lokasi operasional berada di <strong>DSN Jambe</strong>. Jadwal pengantaran dan ketersediaan ritase armada dikonfirmasi secara langsung oleh tim dispatcher sesuai antrean harian.
+                <strong>Catatan Operasional:</strong> Lokasi operasional berada
+                di <strong>Dusun Jambe</strong>. Jadwal pengantaran dan
+                ketersediaan ritase armada dikonfirmasi secara langsung oleh tim
+                dispatcher sesuai antrean harian.
               </div>
             </div>
           </div>

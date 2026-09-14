@@ -76,7 +76,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
   const relevantArticles = articlesData.filter(
     (a) =>
       a.relatedProductSlug === product.slug ||
-      a.relatedProductSlugs?.includes(product.slug)
+      a.relatedProductSlugs?.includes(product.slug),
   );
 
   const productSchema = {
@@ -172,7 +172,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
               <div className="p-4 bg-[#EEF0F0] dark:bg-[#202529] border-t border-[#D9DCDD] dark:border-[#30363A] mt-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs text-[#3F4549] dark:text-[#C2C8CC] font-mono rounded-xs">
                 <span className="flex items-center gap-1.5">
                   <ShieldCheck className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
-                  <span>PT. Bumi Kutai Perkasa &bull; DSN Jambe</span>
+                  <span>PT. Bumi Kutai Perkasa &bull; Dusun Jambe</span>
                 </span>
                 <span className="flex items-center gap-1.5">
                   <Truck className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
@@ -224,7 +224,9 @@ export default async function ProductDetailPage({ params }: PageProps) {
                 Ketentuan Pengadaan &amp; Layanan Logistik:
               </div>
               <p className="leading-relaxed">
-                {product.orderUnitNote}. Detail spesifikasi teknis dan konfirmasi ketersediaan volume dapat dikonfirmasi langsung kepada <strong>{siteConfig.name}</strong> melalui WhatsApp.
+                {product.orderUnitNote}. Detail spesifikasi teknis dan
+                konfirmasi ketersediaan volume dapat dikonfirmasi langsung
+                kepada <strong>{siteConfig.name}</strong> melalui WhatsApp.
               </p>
             </div>
 
@@ -240,7 +242,9 @@ export default async function ProductDetailPage({ params }: PageProps) {
               </div>
 
               <p className="text-xs text-slate-300 leading-relaxed">
-                Hubungi {siteConfig.name} untuk informasi ketersediaan material, estimasi volume ritase, dan jadwal pengiriman dump truck ke lokasi proyek Anda di Tenggarong dan sekitarnya.
+                Hubungi {siteConfig.name} untuk informasi ketersediaan material,
+                estimasi volume ritase, dan jadwal pengiriman dump truck ke
+                lokasi proyek Anda di Tenggarong dan sekitarnya.
               </p>
 
               <div className="pt-2">

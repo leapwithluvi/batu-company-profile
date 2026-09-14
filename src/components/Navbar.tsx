@@ -3,7 +3,15 @@
 import React, { useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, Phone, MessageSquare, Sun, Moon, Monitor } from "lucide-react";
+import {
+  Menu,
+  X,
+  Phone,
+  MessageSquare,
+  Sun,
+  Moon,
+  Monitor,
+} from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 import { getWhatsappUrl } from "@/lib/whatsapp";
 import { useTheme, type Theme } from "@/components/ThemeProvider";
@@ -20,10 +28,19 @@ const emptySubscribe = () => () => {};
 
 function ThemeSwitcher() {
   const { theme, setTheme } = useTheme();
-  const mounted = useSyncExternalStore(emptySubscribe, () => true, () => false);
+  const mounted = useSyncExternalStore(
+    emptySubscribe,
+    () => true,
+    () => false,
+  );
 
   if (!mounted) {
-    return <span className="w-24 h-7 inline-block rounded bg-slate-800/50" aria-hidden="true" />;
+    return (
+      <span
+        className="w-24 h-7 inline-block rounded bg-slate-800/50"
+        aria-hidden="true"
+      />
+    );
   }
 
   const options: { id: Theme; label: string; icon: typeof Sun }[] = [
@@ -77,7 +94,10 @@ export function Navbar() {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <p className="flex items-center gap-2">
             <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span>Operasional: DSN Jambe, Kukar &bull; Melayani Tenggarong &amp; Sekitarnya</span>
+            <span>
+              Operasional: Dusun Jambe, Kukar &bull; Melayani Tenggarong &amp;
+              Sekitarnya
+            </span>
           </p>
           <div className="flex items-center gap-4">
             <span>Operasional: {siteConfig.operatingHours}</span>
@@ -176,7 +196,10 @@ export function Navbar() {
       {/* Mobile Menu Panel */}
       {mobileMenuOpen && (
         <div className="md:hidden border-t border-[#30363A] bg-[#111416] px-4 pt-3 pb-6 space-y-2">
-          <nav aria-label="Navigasi Seluler" className="flex flex-col space-y-1">
+          <nav
+            aria-label="Navigasi Seluler"
+            className="flex flex-col space-y-1"
+          >
             {NAV_LINKS.map((link) => {
               const isActive =
                 link.href === "/"
@@ -211,7 +234,7 @@ export function Navbar() {
               <span>Tanya Harga via WhatsApp</span>
             </a>
             <div className="text-xs text-slate-400 text-center pt-2 font-mono">
-              Operasional: DSN Jambe, Kutai Kartanegara
+              Operasional: Dusun Jambe, Kutai Kartanegara
             </div>
           </div>
         </div>

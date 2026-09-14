@@ -13,7 +13,14 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { WhatsappButton } from "@/components/WhatsappButton";
 import { siteConfig } from "@/lib/site-config";
 import { safeJsonLdReplacer } from "@/lib/json-ld";
-import { Calendar, Clock, User, ArrowLeft, ArrowRight, Package } from "lucide-react";
+import {
+  Calendar,
+  Clock,
+  User,
+  ArrowLeft,
+  ArrowRight,
+  Package,
+} from "lucide-react";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -69,7 +76,9 @@ export default async function BlogDetailPage({ params }: PageProps) {
   }
 
   // Related products from single or multiple slugs
-  const relatedSlugs = article.relatedProductSlugs || (article.relatedProductSlug ? [article.relatedProductSlug] : []);
+  const relatedSlugs =
+    article.relatedProductSlugs ||
+    (article.relatedProductSlug ? [article.relatedProductSlug] : []);
   const relatedProducts = relatedSlugs
     .map((s) => getProductBySlug(s))
     .filter((p): p is NonNullable<typeof p> => p !== undefined);
@@ -113,10 +122,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
       <div className="bg-white dark:bg-[#181C1F] border-b border-[#D9DCDD] dark:border-[#30363A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb
-            items={[
-              { label: "Blog", href: "/blog" },
-              { label: article.title },
-            ]}
+            items={[{ label: "Blog", href: "/blog" }, { label: article.title }]}
           />
         </div>
       </div>
@@ -127,7 +133,9 @@ export default async function BlogDetailPage({ params }: PageProps) {
           <div className="flex items-center gap-3 text-xs font-mono text-[#1F4E5F] dark:text-[#6F9AAA] font-semibold uppercase tracking-wider mb-3">
             <span>{article.category}</span>
             <span>&bull;</span>
-            <span className="text-[#6B7378] dark:text-[#A5ADB2]">Tenggarong &amp; Kutai Kartanegara</span>
+            <span className="text-[#6B7378] dark:text-[#A5ADB2]">
+              Tenggarong &amp; Kutai Kartanegara
+            </span>
           </div>
 
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight leading-snug">
@@ -174,7 +182,10 @@ export default async function BlogDetailPage({ params }: PageProps) {
                 {section.heading}
               </h2>
               {section.paragraphs.map((p, pIdx) => (
-                <p key={pIdx} className="text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
+                <p
+                  key={pIdx}
+                  className="text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed"
+                >
                   {p}
                 </p>
               ))}
@@ -192,7 +203,9 @@ export default async function BlogDetailPage({ params }: PageProps) {
                 Kebutuhan Material Terkait dari {siteConfig.name}
               </h3>
               <p className="text-xs text-slate-300 leading-relaxed">
-                {siteConfig.name} beroperasi di DSN Jambe, Kutai Kartanegara, dan melayani kebutuhan pengiriman material ke Tenggarong dan wilayah sekitarnya.
+                {siteConfig.name} beroperasi di Dusun Jambe, Kutai Kartanegara,
+                dan melayani kebutuhan pengiriman material ke Tenggarong dan
+                wilayah sekitarnya.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">

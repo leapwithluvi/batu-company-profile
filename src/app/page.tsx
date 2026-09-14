@@ -32,7 +32,11 @@ export default function HomePage() {
               </h1>
 
               <p className="text-base sm:text-lg text-slate-300 max-w-2xl leading-relaxed">
-                <strong>{siteConfig.name}</strong> beroperasi di <strong>DSN Jambe, Kutai Kartanegara</strong>, melayani penyediaan material batu pondasi, abu batu, batu agregat, batu tronjolan, serta aneka ukuran batu gunung untuk kebutuhan proyek di Tenggarong dan wilayah sekitarnya.
+                <strong>{siteConfig.name}</strong> beroperasi di{" "}
+                <strong>Dusun Jambe, Kutai Kartanegara</strong>, melayani
+                penyediaan material batu pondasi, abu batu, batu agregat, batu
+                tronjolan, serta aneka ukuran batu gunung untuk kebutuhan proyek
+                di Tenggarong dan wilayah sekitarnya.
               </p>
 
               {/* Action Buttons */}
@@ -61,7 +65,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <div className="text-white font-bold text-base sm:text-lg font-sans">
-                    DSN Jambe
+                    Dusun Jambe
                   </div>
                   <span>Lokasi Operasional</span>
                 </div>
@@ -88,7 +92,9 @@ export default function HomePage() {
                   />
                   <div className="absolute bottom-0 inset-x-0 bg-[#111416]/90 p-3 text-xs text-slate-300 font-mono border-t border-[#30363A] flex justify-between items-center">
                     <span>{siteConfig.name}</span>
-                    <span className="text-[#6F9AAA] font-bold">Kutai Kartanegara</span>
+                    <span className="text-[#6F9AAA] font-bold">
+                      Kutai Kartanegara
+                    </span>
                   </div>
                 </div>
               </div>
@@ -120,7 +126,7 @@ export default function HomePage() {
                   Lokasi Operasional
                 </span>
                 <span className="block text-sm font-bold text-[#171A1C] dark:text-[#F1F3F4] mt-0.5">
-                  DSN Jambe, Kukar
+                  Dusun Jambe, Kukar
                 </span>
                 <span className="block text-xs text-[#6B7378] dark:text-[#A5ADB2] mt-0.5">
                   Kalimantan Timur
@@ -176,7 +182,8 @@ export default function HomePage() {
                 Katalog Produk Terstruktur
               </h2>
               <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Menyediakan abu batu, batu pondasi, tronjolan, agregat, hingga batu gunung ukuran 21, 23, 35, dan 57.
+                Menyediakan abu batu, batu pondasi, tronjolan, agregat, hingga
+                batu gunung ukuran 21, 23, 35, dan 57.
               </p>
             </div>
 
@@ -186,7 +193,8 @@ export default function HomePage() {
                 Pengiriman Terjadwal
               </h2>
               <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Armada dump truck siap mengirim pasokan material langsung ke titik proyek Anda di wilayah Tenggarong.
+                Armada dump truck siap mengirim pasokan material langsung ke
+                titik proyek Anda di wilayah Tenggarong.
               </p>
             </div>
 
@@ -196,7 +204,8 @@ export default function HomePage() {
                 Transparansi Takaran
               </h2>
               <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Kepastian volume kubikasi bak armada untuk memastikan kebutuhan material di lapangan terpenuhi.
+                Kepastian volume kubikasi bak armada untuk memastikan kebutuhan
+                material di lapangan terpenuhi.
               </p>
             </div>
 
@@ -206,7 +215,8 @@ export default function HomePage() {
                 Informasi Geografis Jujur
               </h2>
               <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Beroperasi nyata di DSN Jambe, Kutai Kartanegara, dengan jangkauan distribusi aktif ke kota Tenggarong.
+                Beroperasi nyata di Dusun Jambe, Kutai Kartanegara, dengan
+                jangkauan distribusi aktif ke kota Tenggarong.
               </p>
             </div>
           </div>
@@ -225,7 +235,8 @@ export default function HomePage() {
             </h2>
           </div>
           <p className="text-xs sm:text-sm text-[#3F4549] dark:text-[#C2C8CC] max-w-md">
-            Pilihan material konstruksi untuk pondasi bangunan, adukan cor, paving block, hingga lapis perkerasan jalan di Kutai Kartanegara.
+            Pilihan material konstruksi untuk pondasi bangunan, adukan cor,
+            paving block, hingga lapis perkerasan jalan di Kutai Kartanegara.
           </p>
         </div>
 
@@ -264,10 +275,18 @@ export default function HomePage() {
                 Penyedia Material Batu Konstruksi Resmi di Kutai Kartanegara
               </h2>
               <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                <strong>{siteConfig.name}</strong> menyediakan berbagai material batu untuk kebutuhan konstruksi di wilayah Kutai Kartanegara dan sekitarnya. Fasilitas operasional kami berlokasi di <strong>DSN Jambe</strong>, dengan fokus distribusi utama melayani kebutuhan proyek di <strong>Tenggarong</strong> serta wilayah sekitarnya.
+                <strong>{siteConfig.name}</strong> menyediakan berbagai material
+                batu untuk kebutuhan konstruksi di wilayah Kutai Kartanegara dan
+                sekitarnya. Fasilitas operasional kami berlokasi di{" "}
+                <strong>Dusun Jambe</strong>, dengan fokus distribusi utama
+                melayani kebutuhan proyek di <strong>Tenggarong</strong> serta
+                wilayah sekitarnya.
               </p>
               <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Mulai dari pekerjaan pondasi awal rumah tinggal, dinding penahan tebing turap sungai, hingga perkerasan jalan akses alat berat, kami berkomitmen menjaga ketepatan volume kubikasi serta kejelasan komunikasi pengiriman armada.
+                Mulai dari pekerjaan pondasi awal rumah tinggal, dinding penahan
+                tebing turap sungai, hingga perkerasan jalan akses alat berat,
+                kami berkomitmen menjaga ketepatan volume kubikasi serta
+                kejelasan komunikasi pengiriman armada.
               </p>
 
               <div className="border-l-4 border-[#1F4E5F] dark:border-[#6F9AAA] bg-[#EEF0F0]/60 dark:bg-[#202529] p-4 space-y-2 text-xs text-[#3F4549] dark:text-[#C2C8CC] rounded-r-xs">
@@ -277,7 +296,9 @@ export default function HomePage() {
                 <ul className="space-y-1.5">
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-3.5 h-3.5 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0" />
-                    <span>Konfirmasi ketersediaan stok material secara langsung</span>
+                    <span>
+                      Konfirmasi ketersediaan stok material secara langsung
+                    </span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-3.5 h-3.5 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0" />
@@ -295,7 +316,9 @@ export default function HomePage() {
                   href="/tentang-kami"
                   className="text-xs font-bold text-[#1F4E5F] dark:text-[#6F9AAA] hover:text-[#173B48] dark:hover:text-[#8AB2C2] inline-flex items-center gap-1.5"
                 >
-                  <span>Lihat Profil Lengkap, Legalitas &amp; Fasilitas Operasional</span>
+                  <span>
+                    Lihat Profil Lengkap, Legalitas &amp; Fasilitas Operasional
+                  </span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
               </div>
@@ -363,7 +386,10 @@ export default function HomePage() {
           </h2>
 
           <p className="mt-4 text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-            Untuk informasi ketersediaan material dan penawaran harga, calon pembeli dapat menghubungi <strong>{siteConfig.name}</strong> melalui WhatsApp. Tim kami siap membantu menghitungkan kebutuhan ritase dan biaya antar ke lokasi Anda.
+            Untuk informasi ketersediaan material dan penawaran harga, calon
+            pembeli dapat menghubungi <strong>{siteConfig.name}</strong> melalui
+            WhatsApp. Tim kami siap membantu menghitungkan kebutuhan ritase dan
+            biaya antar ke lokasi Anda.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">

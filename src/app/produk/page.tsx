@@ -34,13 +34,15 @@ export default function ProdukCatalogPage() {
 
           <div className="max-w-3xl">
             <span className="text-xs font-mono font-semibold uppercase text-[#6F9AAA] tracking-wider">
-              {siteConfig.name} &bull; DSN Jambe
+              {siteConfig.name} &bull; Dusun Jambe
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mt-1">
               Katalog Material Batu Konstruksi
             </h1>
             <p className="mt-3 text-sm sm:text-base text-slate-300 leading-relaxed">
-              Daftar produk material batu yang disediakan oleh PT. Bumi Kutai Perkasa. Beroperasi di DSN Jambe, Kutai Kartanegara, dan melayani pengiriman ke Tenggarong dan wilayah sekitarnya.
+              Daftar produk material batu yang disediakan oleh PT. Bumi Kutai
+              Perkasa. Beroperasi di Dusun Jambe, Kutai Kartanegara, dan
+              melayani pengiriman ke Tenggarong dan wilayah sekitarnya.
             </p>
           </div>
         </div>
@@ -79,7 +81,8 @@ export default function ProdukCatalogPage() {
                   {category}
                 </h2>
                 <p className="text-xs text-[#6B7378] dark:text-[#A5ADB2] mt-0.5 font-mono">
-                  Menyediakan {categoryProducts.length} pilihan spesifikasi material untuk proyek Anda
+                  Menyediakan {categoryProducts.length} pilihan spesifikasi
+                  material untuk proyek Anda
                 </p>
               </div>
 
@@ -106,12 +109,19 @@ export default function ProdukCatalogPage() {
             Pengiriman Material ke Tenggarong dan Wilayah Sekitarnya
           </h3>
           <p className="text-xs sm:text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-            PT. Bumi Kutai Perkasa beroperasi di <strong>DSN Jambe, Kutai Kartanegara</strong>. Untuk memenuhi kebutuhan proyek konstruksi perumahan, gedung, dan infrastruktur jalan, kami melayani pengiriman armada dump truck ke area Tenggarong, Kutai Kartanegara, Samarinda, dan wilayah Kalimantan Timur lainnya yang terjangkau.
+            PT. Bumi Kutai Perkasa beroperasi di{" "}
+            <strong>Dusun Jambe, Kutai Kartanegara</strong>. Untuk memenuhi
+            kebutuhan proyek konstruksi perumahan, gedung, dan infrastruktur
+            jalan, kami melayani pengiriman armada dump truck ke area
+            Tenggarong, Kutai Kartanegara, Samarinda, dan wilayah Kalimantan
+            Timur lainnya yang terjangkau.
           </p>
           <div className="pt-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-t border-[#D9DCDD]/60 dark:border-[#30363A]">
             <span className="text-xs text-[#6B7378] dark:text-[#A5ADB2] font-mono flex items-center gap-1.5">
               <Truck className="w-4 h-4 text-[#6B7378] dark:text-[#A5ADB2]" />
-              <span>Detail ukuran dan ketersediaan dapat dikonfirmasi langsung</span>
+              <span>
+                Detail ukuran dan ketersediaan dapat dikonfirmasi langsung
+              </span>
             </span>
             <WhatsappButton
               label="Tanya Ketersediaan Material via WhatsApp"

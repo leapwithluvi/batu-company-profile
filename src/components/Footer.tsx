@@ -1,13 +1,23 @@
 import React from "react";
 import Link from "next/link";
-import { MapPin, Phone, Clock, ShieldCheck, Truck, ExternalLink } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Clock,
+  ShieldCheck,
+  Truck,
+  ExternalLink,
+} from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 import { productsData } from "@/data/products";
 import { WhatsappButton } from "./WhatsappButton";
 
 export function Footer() {
   return (
-    <footer className="bg-[#111416] text-slate-300 border-t border-[#30363A]" aria-labelledby="footer-heading">
+    <footer
+      className="bg-[#111416] text-slate-300 border-t border-[#30363A]"
+      aria-labelledby="footer-heading"
+    >
       <h2 id="footer-heading" className="sr-only">
         Informasi Perusahaan dan Kontak PT. Bumi Kutai Perkasa
       </h2>
@@ -23,7 +33,8 @@ export function Footer() {
                   Spesifikasi Fraksi Terstandarisasi
                 </strong>
                 <p className="text-slate-400 text-xs leading-relaxed">
-                  Pecahan batu gunung ukuran 21, 23, 35, 57, abu batu, agregat, dan batu pondasi berkualitas padat.
+                  Pecahan batu gunung ukuran 21, 23, 35, 57, abu batu, agregat,
+                  dan batu pondasi berkualitas padat.
                 </p>
               </div>
             </div>
@@ -34,7 +45,8 @@ export function Footer() {
                   Pengiriman ke Titik Proyek
                 </strong>
                 <p className="text-slate-400 text-xs leading-relaxed">
-                  Layanan armada dump truck menjangkau Tenggarong dan wilayah sekitarnya di Kutai Kartanegara.
+                  Layanan armada dump truck menjangkau Tenggarong dan wilayah
+                  sekitarnya di Kutai Kartanegara.
                 </p>
               </div>
             </div>
@@ -42,10 +54,11 @@ export function Footer() {
               <MapPin className="w-5 h-5 text-[#6F9AAA] shrink-0 mt-0.5" />
               <div>
                 <strong className="block text-white font-semibold mb-0.5">
-                  Operasional DSN Jambe
+                  Operasional Dusun Jambe
                 </strong>
                 <p className="text-slate-400 text-xs leading-relaxed">
-                  Fasilitas operasional berlokasi di DSN Jambe, Kutai Kartanegara, Kalimantan Timur.
+                  Fasilitas operasional berlokasi di Dusun Jambe, Kutai
+                  Kartanegara, Kalimantan Timur.
                 </p>
               </div>
             </div>
@@ -65,7 +78,10 @@ export function Footer() {
               </span>
             </div>
             <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
-              Penyedia material batu pondasi, abu batu, batu agregat, batu tronjolan, dan batu gunung berbagai ukuran untuk kebutuhan pembangunan gedung, perumahan, dan infrastruktur jalan di Tenggarong dan Kutai Kartanegara.
+              Penyedia material batu pondasi, abu batu, batu agregat, batu
+              tronjolan, dan batu gunung berbagai ukuran untuk kebutuhan
+              pembangunan gedung, perumahan, dan infrastruktur jalan di
+              Tenggarong dan Kutai Kartanegara.
             </p>
             <div className="pt-2">
               <WhatsappButton
@@ -109,7 +125,8 @@ export function Footer() {
               Wilayah Layanan
             </h3>
             <p className="text-xs text-slate-400 mb-3 leading-relaxed">
-              Melayani pengiriman material konstruksi ke area yang dapat dijangkau armada di Kalimantan Timur:
+              Melayani pengiriman material konstruksi ke area yang dapat
+              dijangkau armada di Kalimantan Timur:
             </p>
             <div className="flex flex-wrap gap-1.5">
               {siteConfig.serviceAreas.map((area) => (
@@ -133,8 +150,11 @@ export function Footer() {
                 <li className="flex items-start gap-2.5">
                   <MapPin className="w-4 h-4 text-[#6F9AAA] shrink-0 mt-0.5" />
                   <span className="text-xs leading-relaxed">
-                    <strong>Lokasi Operasional:</strong><br />
-                    {siteConfig.operationalLocation.village}, {siteConfig.operationalLocation.regency}, {siteConfig.operationalLocation.province}
+                    <strong>Lokasi Operasional:</strong>
+                    <br />
+                    {siteConfig.operationalLocation.village},{" "}
+                    {siteConfig.operationalLocation.regency},{" "}
+                    {siteConfig.operationalLocation.province}
                   </span>
                 </li>
                 <li className="flex items-center gap-2.5">
@@ -167,7 +187,7 @@ export function Footer() {
                   className="absolute inset-0 opacity-15 group-hover:opacity-25 transition-opacity bg-grid-industrial pointer-events-none"
                   aria-hidden="true"
                 />
-                
+
                 <div className="relative z-10 flex items-center justify-between gap-3">
                   <div className="flex items-center gap-2.5">
                     <div className="flex items-center justify-center w-8 h-8 rounded-xs bg-[#1F4E5F]/30 border border-[#6F9AAA]/40 text-[#6F9AAA]">
@@ -178,7 +198,7 @@ export function Footer() {
                         Peta Lokasi Depot
                       </span>
                       <span className="block text-[11px] text-slate-400">
-                        DSN Jambe, Kutai Kartanegara
+                        Dusun Jambe, Kutai Kartanegara
                       </span>
                     </div>
                   </div>
@@ -195,10 +215,12 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-[#30363A]/80 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
           <p>
-            &copy; {new Date().getFullYear()} {siteConfig.name}. Hak Cipta Dilindungi.
+            &copy; {new Date().getFullYear()} {siteConfig.name}. Hak Cipta
+            Dilindungi.
           </p>
           <p className="text-slate-500 text-[11px]">
-            Beroperasi di DSN Jambe, Kutai Kartanegara &bull; Melayani pengiriman ke Tenggarong dan sekitarnya.
+            Beroperasi di Dusun Jambe, Kutai Kartanegara &bull; Melayani
+            pengiriman ke Tenggarong dan sekitarnya.
           </p>
         </div>
       </div>
