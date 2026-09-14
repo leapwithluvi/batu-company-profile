@@ -31,7 +31,7 @@ export const siteConfig: SiteConfig = {
   tagline: "Supplier Batu & Material Konstruksi Melayani Tenggarong dan Kutai Kartanegara",
   description:
     "PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Kutai Kartanegara, menyediakan material batu pondasi, abu batu, batu agregat, batu tronjolan, dan aneka ukuran batu gunung untuk kebutuhan konstruksi di Tenggarong dan sekitarnya.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://bumikutaiperkasa.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://bumikutaiperkasa.vercel.app",
   phoneDisplay: "+62 831-5224-8722",
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "6281234567890",
   googleMapsUrl:
