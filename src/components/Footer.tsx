@@ -1,0 +1,207 @@
+import React from "react";
+import Link from "next/link";
+import { MapPin, Phone, Clock, ShieldCheck, Truck, ExternalLink } from "lucide-react";
+import { siteConfig } from "@/lib/site-config";
+import { productsData } from "@/data/products";
+import { WhatsappButton } from "./WhatsappButton";
+
+export function Footer() {
+  return (
+    <footer className="bg-[#111416] text-slate-300 border-t border-[#30363A]" aria-labelledby="footer-heading">
+      <h2 id="footer-heading" className="sr-only">
+        Informasi Perusahaan dan Kontak PT. Bumi Kutai Perkasa
+      </h2>
+
+      {/* Trust bar */}
+      <div className="border-b border-[#30363A]/80 bg-[#181C1F]/60 py-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
+            <div className="flex items-start gap-3">
+              <ShieldCheck className="w-5 h-5 text-[#6F9AAA] shrink-0 mt-0.5" />
+              <div>
+                <strong className="block text-white font-semibold mb-0.5">
+                  Spesifikasi Fraksi Terstandarisasi
+                </strong>
+                <p className="text-slate-400 text-xs leading-relaxed">
+                  Pecahan batu gunung ukuran 21, 23, 35, 57, abu batu, agregat, dan batu pondasi berkualitas padat.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <Truck className="w-5 h-5 text-[#6F9AAA] shrink-0 mt-0.5" />
+              <div>
+                <strong className="block text-white font-semibold mb-0.5">
+                  Pengiriman ke Titik Proyek
+                </strong>
+                <p className="text-slate-400 text-xs leading-relaxed">
+                  Layanan armada dump truck menjangkau Tenggarong dan wilayah sekitarnya di Kutai Kartanegara.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <MapPin className="w-5 h-5 text-[#6F9AAA] shrink-0 mt-0.5" />
+              <div>
+                <strong className="block text-white font-semibold mb-0.5">
+                  Operasional DSN Jambe
+                </strong>
+                <p className="text-slate-400 text-xs leading-relaxed">
+                  Fasilitas operasional berlokasi di DSN Jambe, Kutai Kartanegara, Kalimantan Timur.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Footer Content */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
+          {/* Company Brief */}
+          <div className="space-y-4">
+            <div className="flex items-center gap-2">
+              <span className="w-3 h-3 bg-[#6F9AAA] inline-block rounded-xs" />
+              <span className="text-base font-bold tracking-tight text-white uppercase font-mono">
+                {siteConfig.name}
+              </span>
+            </div>
+            <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
+              Penyedia material batu pondasi, abu batu, batu agregat, batu tronjolan, dan batu gunung berbagai ukuran untuk kebutuhan pembangunan gedung, perumahan, dan infrastruktur jalan di Tenggarong dan Kutai Kartanegara.
+            </p>
+            <div className="pt-2">
+              <WhatsappButton
+                variant="outline"
+                className="text-xs !py-2 !px-3"
+                label="Konsultasi Kebutuhan Material"
+              />
+            </div>
+          </div>
+
+          {/* Catalog Links */}
+          <div>
+            <h3 className="text-xs font-bold text-white uppercase tracking-wider mb-4 border-l-2 border-[#6F9AAA] pl-2 font-mono">
+              Produk Material
+            </h3>
+            <ul className="space-y-2 text-xs sm:text-sm">
+              {productsData.map((item) => (
+                <li key={item.slug}>
+                  <Link
+                    href={`/produk/${item.slug}`}
+                    className="text-slate-400 hover:text-white transition-colors block py-0.5"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+              <li className="pt-2">
+                <Link
+                  href="/produk"
+                  className="text-xs text-[#6F9AAA] hover:text-white font-medium inline-flex items-center gap-1"
+                >
+                  <span>Lihat Seluruh Katalog &rarr;</span>
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Area Coverage (Local SEO) */}
+          <div>
+            <h3 className="text-xs font-bold text-white uppercase tracking-wider mb-4 border-l-2 border-[#6F9AAA] pl-2 font-mono">
+              Wilayah Layanan
+            </h3>
+            <p className="text-xs text-slate-400 mb-3 leading-relaxed">
+              Melayani pengiriman material konstruksi ke area yang dapat dijangkau armada di Kalimantan Timur:
+            </p>
+            <div className="flex flex-wrap gap-1.5">
+              {siteConfig.serviceAreas.map((area) => (
+                <span
+                  key={area}
+                  className="inline-block bg-[#181C1F] border border-[#30363A] px-2 py-1 text-xs text-slate-300 rounded-xs"
+                >
+                  {area}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Direct Contacts & Maps Preview */}
+          <div className="space-y-4">
+            <div>
+              <h3 className="text-xs font-bold text-white uppercase tracking-wider mb-4 border-l-2 border-[#6F9AAA] pl-2 font-mono">
+                Lokasi &amp; Kontak
+              </h3>
+              <ul className="space-y-2.5 text-xs sm:text-sm text-slate-400">
+                <li className="flex items-start gap-2.5">
+                  <MapPin className="w-4 h-4 text-[#6F9AAA] shrink-0 mt-0.5" />
+                  <span className="text-xs leading-relaxed">
+                    <strong>Lokasi Operasional:</strong><br />
+                    {siteConfig.operationalLocation.village}, {siteConfig.operationalLocation.regency}, {siteConfig.operationalLocation.province}
+                  </span>
+                </li>
+                <li className="flex items-center gap-2.5">
+                  <Clock className="w-4 h-4 text-[#6F9AAA] shrink-0" />
+                  <span className="text-xs">{siteConfig.operatingHours}</span>
+                </li>
+                <li className="flex items-center gap-2.5">
+                  <Phone className="w-4 h-4 text-[#6F9AAA] shrink-0" />
+                  <a
+                    href={`tel:${siteConfig.whatsappNumber}`}
+                    className="text-xs hover:text-white transition-colors font-mono"
+                  >
+                    {siteConfig.phoneDisplay}
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Google Maps Visual Preview Card (Ultra-lightweight, no heavy iframes) */}
+            <div className="pt-1">
+              <a
+                href={siteConfig.googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Lihat lokasi PT. Bumi Kutai Perkasa di Google Maps"
+                className="group relative block overflow-hidden rounded border border-[#30363A] bg-[#181C1F] hover:border-[#6F9AAA] transition-all p-3"
+              >
+                {/* Visual Map Background Motif */}
+                <div
+                  className="absolute inset-0 opacity-15 group-hover:opacity-25 transition-opacity bg-grid-industrial pointer-events-none"
+                  aria-hidden="true"
+                />
+                
+                <div className="relative z-10 flex items-center justify-between gap-3">
+                  <div className="flex items-center gap-2.5">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-xs bg-[#1F4E5F]/30 border border-[#6F9AAA]/40 text-[#6F9AAA]">
+                      <MapPin className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <span className="block text-xs font-semibold text-white group-hover:text-[#6F9AAA] transition-colors">
+                        Peta Lokasi Depot
+                      </span>
+                      <span className="block text-[11px] text-slate-400">
+                        DSN Jambe, Kutai Kartanegara
+                      </span>
+                    </div>
+                  </div>
+                  <div className="shrink-0 flex items-center gap-1 text-[11px] text-[#6F9AAA] font-medium group-hover:translate-x-0.5 transition-transform">
+                    <span>Maps</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom bar */}
+        <div className="mt-12 pt-8 border-t border-[#30363A]/80 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+          <p>
+            &copy; {new Date().getFullYear()} {siteConfig.name}. Hak Cipta Dilindungi.
+          </p>
+          <p className="text-slate-500 text-[11px]">
+            Beroperasi di DSN Jambe, Kutai Kartanegara &bull; Melayani pengiriman ke Tenggarong dan sekitarnya.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}

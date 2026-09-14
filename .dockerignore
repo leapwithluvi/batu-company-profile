@@ -1,0 +1,17 @@
+node_modules
+.next
+.git
+.gitignore
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env*
+!.env.example
+.DS_Store
+README*.md
+.vscode
+.idea
+Dockerfile*
+docker-compose*.yml
