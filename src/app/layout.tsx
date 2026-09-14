@@ -23,7 +23,11 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteConfig.url),
+  metadataBase: new URL(
+    siteConfig.url.startsWith("http")
+      ? siteConfig.url
+      : `https://${siteConfig.url}`,
+  ),
   title: {
     default: `${siteConfig.name} | Supplier Batu & Material Konstruksi Tenggarong`,
     template: `%s | ${siteConfig.name}`,
@@ -160,9 +164,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body
-        className="font-[family-name:var(--font-sans)] min-h-full flex flex-col antialiased bg-[#F7F7F5] dark:bg-[#111416] text-[#171A1C] dark:text-[#F1F3F4] transition-colors duration-150"
-      >
+      <body className="font-[family-name:var(--font-sans)] min-h-full flex flex-col antialiased bg-[#F7F7F5] dark:bg-[#111416] text-[#171A1C] dark:text-[#F1F3F4] transition-colors duration-150">
         <ThemeProvider>
           <Navbar />
           <main className="flex-1">{children}</main>
