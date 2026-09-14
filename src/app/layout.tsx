@@ -163,6 +163,12 @@ export default function RootLayout({
             __html: safeJsonLdReplacer(localBusinessSchema),
           }}
         />
+
+        {/* google site verification */}
+        <meta
+          name="google-site-verification"
+          content="nfPMvC3-Z6tH0Yg8ShmywxgkmfrpSbuDgS7iKH4e7uY"
+        />
       </head>
       <body className="font-[family-name:var(--font-sans)] min-h-full flex flex-col antialiased bg-[#F7F7F5] dark:bg-[#111416] text-[#171A1C] dark:text-[#F1F3F4] transition-colors duration-150">
         <ThemeProvider>
