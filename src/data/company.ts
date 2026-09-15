@@ -26,6 +26,13 @@ export interface OperationalGalleryItem {
   location: string;
 }
 
+export interface KbliItem {
+  code: string;
+  title: string;
+  category: string;
+  description: string;
+}
+
 export interface CompanyData {
   officialName: string;
   shortName: string;
@@ -43,9 +50,11 @@ export interface CompanyData {
   contact: {
     phoneDisplay: string;
     whatsappNumber: string;
+    email: string;
     operatingHours: string;
   };
   legalSummary: string;
+  kbliList: KbliItem[];
   legalDocuments: LegalDocument[];
   operationalGallery: OperationalGalleryItem[];
 }
@@ -66,21 +75,49 @@ export const companyData: CompanyData = {
   },
   serviceAreaFocus: "Tenggarong & Wilayah Kutai Kartanegara Sekitarnya",
   serviceAreas: [
-    "Tenggarong Kota",
+    "SP Sebulu",
+    "SP Muara Kaman",
+    "Kec. Muara Kaman & Sekitarnya",
+    "Kec. Sebulu & Sekitarnya",
+    "Separi",
+    "L1, L2, L3",
+    "Tenggarong",
     "Tenggarong Seberang",
-    "Loa Janan",
-    "Loa Kulu",
-    "Sebulu",
-    "Anggana",
+    "Loa Janan & Loa Kulu",
     "Samarinda & Sekitarnya",
+    "Wilayah Kutai Kartanegara Lainnya",
   ],
   contact: {
-    phoneDisplay: "+62 831-5224-8722",
-    whatsappNumber: "6281234567890",
+    phoneDisplay: "+62 853-9333-9991",
+    whatsappNumber: "6285393339991",
+    email: "pt.bumikutaiperkasa@gmail.com",
     operatingHours: "Senin – Sabtu: 08.00 – 17.00 WITA",
   },
   legalSummary:
     "PT. Bumi Kutai Perkasa merupakan badan hukum resmi yang terdaftar dan memenuhi kewajiban perizinan usaha sesuai ketentuan perundang-undangan Republik Indonesia. Salinan dokumen legalitas disediakan bagi mitra kontraktor, instansi, maupun pengembang untuk keperluan audit perikatan, kontrak pengadaan, dan penerbitan faktur.",
+  kbliList: [
+    {
+      code: "46634",
+      title: "Perdagangan Besar Semen, Kapur, Pasir Dan Batu",
+      category: "KBLI Utama (Material Konstruksi)",
+      description:
+        "Mencakup usaha perdagangan besar semen, kapur, pasir, dan batu untuk keperluan bahan bangunan dan konstruksi sipil.",
+    },
+    // {
+    //   code: "46638",
+    //   title: "Perdagangan Besar Bahan Konstruksi Lainnya",
+    //   category: "KBLI Pendukung (Material Bangunan)",
+    //   description:
+    //     "Mencakup perdagangan besar aneka bahan konstruksi, agregat campuran, dan material pelengkap lainnya untuk pekerjaan jalan, jembatan, dan pondasi bangunan.",
+    // },
+    // {
+    //   code: "49431",
+    //   title: "Aktivitas Angkutan Bermotor untuk Barang Umum",
+    //   category: "KBLI Logistik & Distribusi Armada",
+    //   description:
+    //     "Mencakup operasional angkutan barang umum menggunakan armada dump truck untuk pengantaran langsung material batu dan agregat ke lokasi stockpile atau proyek konsumen.",
+    // },
+  ],
   legalDocuments: [
     {
       id: "nib",
@@ -89,7 +126,7 @@ export const companyData: CompanyData = {
       issuer:
         "Pemerintah Republik Indonesia (Kementerian Investasi / BKPM melalui OSS)",
       // Masukkan nomor NIB resmi Anda di sini (contoh: "0220008123456") agar langsung tampil di web
-      documentNumber: undefined,
+      documentNumber: "1012240094415",
       // Masukkan path PDF di sini (contoh: "/documents/nib.pdf") jika ingin ada tombol "Lihat Dokumen PDF"
       fileUrl: undefined,
       description:
@@ -103,7 +140,7 @@ export const companyData: CompanyData = {
       name: "Akta Pendirian Perseroan Terbatas",
       category: "Legalitas Badan Usaha",
       issuer: "Notaris Resmi & Pengesahan Kemenkumham RI",
-      documentNumber: undefined, // Contoh: "AHU-0012345.AH.01.01.TAHUN 2023"
+      documentNumber: "AHU-0266672.AH.01.11.TAHUN 2024", // Contoh: "AHU-0012345.AH.01.01.TAHUN 2023"
       fileUrl: undefined,
       description:
         "Akta autentik pendirian badan hukum PT. Bumi Kutai Perkasa lengkap dengan Surat Keputusan (SK) Pengesahan dari Kementerian Hukum dan HAM RI.",
@@ -126,7 +163,7 @@ export const companyData: CompanyData = {
     },
     {
       id: "izin-operasional",
-      name: "Izin Operasional Depot & Distribusi",
+      name: "Izin Operasional Penjualan / Distribusi / Pertambangan",
       category: "Perizinan Operasional",
       issuer: "Pemerintah Daerah / Instansi Terkait",
       documentNumber: undefined,
@@ -174,7 +211,7 @@ export const companyData: CompanyData = {
       title: "Distribusi ke Titik Pekerjaan Lapangan",
       category: "Pengiriman",
       description:
-        "Armada dump truck Colt Diesel dan Fuso siap melintasi rute Tenggarong dan kawasan sekitar Kutai Kartanegara secara terjadwal.",
+        "Armada dump truck dan kapal ponton siap melayani distribusi rute darat maupun perairan sungai ke Tenggarong dan kawasan sekitar Kutai Kartanegara secara terjadwal.",
       imageUrl:
         "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1000&q=80",
       location: "Rute Distribusi Tenggarong & Sekitarnya",

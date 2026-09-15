@@ -4,6 +4,7 @@ import {
   MapPin,
   Phone,
   Clock,
+  Mail,
   ShieldCheck,
   Truck,
   ExternalLink,
@@ -31,7 +32,7 @@ export function Footer() {
                   Spesifikasi Fraksi Terstandarisasi
                 </strong>
                 <p className="text-slate-400 text-xs leading-relaxed">
-                  Pecahan batu gunung ukuran 2x1, 2x3, 3x5, 5x7, abu batu, agregat,
+                  Pecahan batu split ukuran 1x1, 2x1, 2x3, 3x5, 5x7, 7x10, abu batu, agregat,
                   dan batu pondasi berkualitas padat.
                 </p>
               </div>
@@ -43,8 +44,9 @@ export function Footer() {
                   Pengiriman ke Titik Proyek
                 </strong>
                 <p className="text-slate-400 text-xs leading-relaxed">
-                  Layanan armada dump truck menjangkau Tenggarong dan wilayah
-                  sekitarnya di Kutai Kartanegara.
+                  SP Sebulu, SP Muara Kaman, Kec. Muara Kaman &amp; sekitarnya,
+                  Kec. Sebulu &amp; sekitarnya, Separi, L1, L2, L3, Tenggarong,
+                  dan wilayah Kutai Kartanegara lainnya.
                 </p>
               </div>
             </div>
@@ -76,8 +78,8 @@ export function Footer() {
               </span>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Penyedia material batu pondasi, abu batu, batu agregat, batu
-              tronjolan, dan aneka ukuran batu gunung berizin resmi. Melayani
+              Penyedia material batu split, batu pondasi, abu batu, batu agregat, batu
+              tronjolan, dan aneka ukuran batu split berizin resmi. Melayani
               kebutuhan proyek konstruksi di Tenggarong dan Kutai Kartanegara.
             </p>
             <div className="pt-2 border-t border-[#30363A]/80 text-xs text-slate-400 font-mono">
@@ -129,10 +131,10 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/produk/batu-gunung-21"
+                  href="/produk/batu-koral-2x1"
                   className="hover:text-slate-200 transition-colors"
                 >
-                  Batu Gunung 21, 23, 35, 57
+                  Batu split berbagai ukuran
                 </Link>
               </li>
               <li className="pt-2">
@@ -206,6 +208,15 @@ export function Footer() {
                     className="hover:text-slate-200 transition-colors font-mono text-xs"
                   >
                     {siteConfig.phoneDisplay}
+                  </a>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Mail className="w-3.5 h-3.5 text-[#6F9AAA] shrink-0" />
+                  <a
+                    href={`mailto:${siteConfig.email}`}
+                    className="hover:text-slate-200 transition-colors font-mono text-xs break-all"
+                  >
+                    {siteConfig.email}
                   </a>
                 </li>
               </ul>

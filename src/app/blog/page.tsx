@@ -10,11 +10,12 @@ import { BookOpen, HelpCircle } from "lucide-react";
 export const metadata: Metadata = {
   title: "Panduan Material Batu & Konstruksi | PT. Bumi Kutai Perkasa",
   description:
-    "Pusat informasi dan panduan teknis pemilihan material batu pondasi, abu batu, batu tronjolan, batu agregat, dan ukuran batu gunung untuk proyek konstruksi di Tenggarong dan Kutai Kartanegara.",
+    "Pusat informasi dan panduan teknis pemilihan material batu split, abu batu, batu tronjolan, batu agregat, dan ukuran batu split untuk proyek konstruksi di Tenggarong dan Kutai Kartanegara.",
   keywords: [
     "apa itu abu batu",
-    "fungsi batu pondasi",
-    "perbedaan ukuran batu gunung",
+    "ukuran batu split cor",
+    "harga batu split tenggarong",
+    "perbedaan ukuran batu koral",
     "kegunaan batu agregat",
     "batu tronjolan tenggarong",
     "supplier batu kutai kartanegara",
@@ -42,7 +43,7 @@ export default function BlogIndexPage() {
               Panduan Praktis Material &amp; Konstruksi
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-              Artikel informatif yang menjawab kebutuhan calon pelanggan dalam menentukan spesifikasi batu pondasi, abu batu, batu agregat, dan aneka ukuran batu gunung untuk konstruksi di Tenggarong dan Kutai Kartanegara.
+              Artikel informatif yang menjawab kebutuhan calon pelanggan dalam menentukan spesifikasi batu split, abu batu, batu agregat, batu pondasi, dan aneka ukuran batu split untuk konstruksi di Tenggarong dan Kutai Kartanegara.
             </p>
           </div>
         </div>

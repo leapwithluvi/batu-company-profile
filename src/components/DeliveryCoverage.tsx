@@ -16,44 +16,41 @@ export function DeliveryCoverage() {
                 <span>Logistik &amp; Jangkauan Distribusi</span>
               </div>
               <h2 className="text-2xl sm:text-3xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight">
-                Layanan Pengiriman ke Tenggarong dan Wilayah Sekitarnya
+                Layanan Pengiriman ke Kutai Kartanegara dan Sekitarnya
               </h2>
             </div>
 
             <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               <strong>{siteConfig.name}</strong> beroperasi di{" "}
               <strong>Dusun Jambe, Kec. Sebulu, Kutai Kartanegara</strong>. Untuk mendukung
-              kontinuitas pekerjaan konstruksi, kami melayani pengiriman
-              berbagai material batu dan agregat menggunakan armada dump truck
-              langsung ke lokasi proyek Anda di Tenggarong dan wilayah
-              sekitarnya.
+              kelancaran pasokan proyek konstruksi, kami melayani pengiriman
+              material batu dan agregat menggunakan armada <strong>dump truck</strong> (jalur darat) serta <strong>kapal ponton</strong> (jalur perairan / sungai)
+              langsung ke titik proyek Anda di wilayah Kutai Kartanegara.
             </p>
 
             {/* Armada Details */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="bg-white dark:bg-[#181C1F] border border-[#D9DCDD] dark:border-[#30363A] p-4 rounded-lg shadow-xs">
                 <div className="text-xs font-mono text-[#6B7378] dark:text-[#A5ADB2] uppercase font-bold">
-                  Armada Standar
+                  Armada Jalur Darat
                 </div>
                 <div className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] mt-1">
-                  Dump Truck Colt Diesel
+                  Dump Truck
                 </div>
                 <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] mt-2 leading-relaxed">
-                  Lincah menjangkau lokasi proyek perumahan, gang kota, dan
-                  jalan lingkungan di area Tenggarong.
+                  Pengiriman langsung ke titik proyek pembangunan, jalan lingkungan, perumahan, dan stockpile di area Kutai Kartanegara dan sekitarnya.
                 </p>
               </div>
 
               <div className="bg-white dark:bg-[#181C1F] border border-[#D9DCDD] dark:border-[#30363A] p-4 rounded-lg shadow-xs">
                 <div className="text-xs font-mono text-[#6B7378] dark:text-[#A5ADB2] uppercase font-bold">
-                  Armada Kapasitas Besar
+                  Armada Jalur Perairan / Sungai
                 </div>
                 <div className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] mt-1">
-                  Fuso / Tronton Dump
+                  Ponton (Tongkang)
                 </div>
                 <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] mt-2 leading-relaxed">
-                  Efisiensi logistik volume besar untuk proyek jalan raya,
-                  pergudangan, dan pengurugan lahan luas.
+                  Distribusi tonase besar via perairan Sungai Mahakam untuk suplai jetty pelabuhan, proyek tanggul, dan kebutuhan konstruksi skala masif.
                 </p>
               </div>
             </div>
@@ -88,10 +85,10 @@ export function DeliveryCoverage() {
               {siteConfig.serviceAreas.map((area) => (
                 <div
                   key={area}
-                  className="flex items-center gap-2 p-2.5 bg-[#EEF0F0] dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] text-xs font-medium text-[#171A1C] dark:text-[#F1F3F4] rounded-sm"
+                  className="flex items-start gap-2 p-2.5 bg-[#EEF0F0] dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] text-xs font-medium text-[#171A1C] dark:text-[#F1F3F4] rounded-sm"
                 >
-                  <CheckCircle className="w-3.5 h-3.5 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0" />
-                  <span className="truncate">{area}</span>
+                  <CheckCircle className="w-3.5 h-3.5 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
+                  <span className="leading-snug">{area}</span>
                 </div>
               ))}
             </div>

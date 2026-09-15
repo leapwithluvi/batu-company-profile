@@ -11,6 +11,7 @@ import {
   MapPin,
   Clock,
   Phone,
+  Mail,
   Building2,
   ExternalLink,
   FileCheck,
@@ -50,9 +51,9 @@ export default function TentangKamiPage() {
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               Penyedia material batu pondasi, abu batu, dan aneka agregat batu
-              gunung berizin resmi. Beroperasi nyata di Dusun Jambe, Kec. Sebulu,
-              Kutai Kartanegara, dan melayani pengiriman terjadwal ke Tenggarong dan
-              wilayah sekitarnya.
+              gunung berizin resmi. Beroperasi nyata di Dusun Jambe, Kec.
+              Sebulu, Kutai Kartanegara, dan melayani pengiriman terjadwal ke
+              Tenggarong dan wilayah sekitarnya.
             </p>
           </div>
         </div>
@@ -110,7 +111,7 @@ export default function TentangKamiPage() {
                 Bidang Usaha Utama
               </span>
               <strong className="text-[#171A1C] dark:text-[#F1F3F4] text-sm block">
-                Batu Alam, &amp; Agregat 
+                Batu Alam, &amp; Agregat
               </strong>
               <span className="text-[11px] text-[#3F4549] dark:text-[#C2C8CC] mt-0.5 block">
                 Pondasi, Adukan Cor &amp; Perkerasan Jalan
@@ -212,11 +213,11 @@ export default function TentangKamiPage() {
             </div>
 
             <p>
-              Fasilitas stockpile kami di <strong>Dusun Jambe, Kec. Sebulu</strong> dikelola
-              untuk menjaga ketersediaan material yang stabil, siap melayani
-              pengadaan eceran ritase perumahan hingga kebutuhan pengadaan
-              ratusan kubik untuk proyek infrastruktur jalan dan gedung
-              bertingkat.
+              Fasilitas stockpile kami di{" "}
+              <strong>Dusun Jambe, Kec. Sebulu</strong> dikelola untuk menjaga
+              ketersediaan material yang stabil, siap melayani pengadaan eceran
+              ritase perumahan hingga kebutuhan pengadaan ratusan kubik untuk
+              proyek infrastruktur jalan dan gedung bertingkat.
             </p>
           </div>
 
@@ -224,14 +225,14 @@ export default function TentangKamiPage() {
           <div className="lg:col-span-5 space-y-6">
             <div className="relative aspect-4/3 w-full bg-[#EEF0F0] dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] overflow-hidden rounded-lg shadow-xs">
               <Image
-                src="https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=800&q=80"
+                src="/mesin/mesin1_crusher.png"
                 alt="Stockpile dan operasional material batu PT. Bumi Kutai Perkasa di Dusun Jambe, Kec. Sebulu"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover"
               />
               <div className="absolute bottom-0 inset-x-0 bg-[#111416]/90 p-2.5 text-[11px] text-slate-300 font-mono border-t border-[#30363A] flex justify-between items-center">
-                <span>Stockpile Dusun Jambe, Kec. Sebulu</span>
+                <span>Dusun Jambe, Kec. Sebulu</span>
                 <span className="text-[#6F9AAA]">Kutai Kartanegara</span>
               </div>
             </div>
@@ -256,7 +257,7 @@ export default function TentangKamiPage() {
                     Armada Mandiri
                   </div>
                   <div className="text-slate-400 text-[11px] mt-1">
-                    Colt Diesel &amp; Fuso Dump
+                    Dump Truck &amp; Ponton Sungai
                   </div>
                 </div>
               </div>
@@ -376,6 +377,55 @@ export default function TentangKamiPage() {
             ))}
           </div>
 
+          {/* KBLI Section */}
+          <div className="mt-8 border border-[#D9DCDD] dark:border-[#30363A] bg-[#F7F7F5] dark:bg-[#111416] p-6 rounded-lg">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-4 border-b border-[#D9DCDD] dark:border-[#30363A]">
+              <div>
+                <span className="text-[11px] font-mono uppercase tracking-wider text-[#1F4E5F] dark:text-[#6F9AAA] font-semibold">
+                  Klasifikasi Baku Lapangan Usaha Indonesia (KBLI)
+                </span>
+                <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] mt-0.5">
+                  Bidang Usaha Terdaftar (Sistem OSS BKPM)
+                </h3>
+              </div>
+              <span className="text-xs font-mono text-[#6B7378] dark:text-[#A5ADB2]">
+                Sesuai NIB:{" "}
+                <strong className="text-[#1F4E5F] dark:text-[#6F9AAA]">
+                  {companyData.legalDocuments.find((d) => d.id === "nib")
+                    ?.documentNumber || "Terdaftar"}
+                </strong>
+              </span>
+            </div>
+
+            <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+              {companyData.kbliList.map((kbli) => (
+                <div
+                  key={kbli.code}
+                  className="bg-white dark:bg-[#181C1F] border border-[#D9DCDD] dark:border-[#30363A] p-4 rounded-md flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="flex items-center justify-between gap-2 mb-2">
+                      <span className="text-xs font-mono font-bold px-2 py-0.5 bg-[#E8EEF0] dark:bg-[#1C2A30] text-[#1F4E5F] dark:text-[#6F9AAA] rounded-sm">
+                        KBLI {kbli.code}
+                      </span>
+                    </div>
+                    <h4 className="text-xs font-bold text-[#171A1C] dark:text-[#F1F3F4] leading-snug">
+                      {kbli.title}
+                    </h4>
+                    <p className="text-[11px] text-[#3F4549] dark:text-[#C2C8CC] mt-2 leading-relaxed">
+                      {kbli.description}
+                    </p>
+                  </div>
+                  <div className="pt-3 mt-3 border-t border-[#D9DCDD]/50 dark:border-[#30363A]/50">
+                    <span className="text-[10px] font-mono text-[#6B7378] dark:text-[#A5ADB2] uppercase">
+                      {kbli.category}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
           <div className="mt-8 p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] text-xs text-[#3F4549] dark:text-[#C2C8CC] rounded-lg flex items-start gap-3">
             <ShieldCheck className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
             <div className="leading-relaxed">
@@ -404,10 +454,10 @@ export default function TentangKamiPage() {
 
             <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               PT. Bumi Kutai Perkasa beroperasi secara fisik di{" "}
-              <strong>Dusun Jambe, Kec. Sebulu, Kutai Kartanegara</strong>. Lokasi stockpile
-              ini dipilih secara strategis agar armada dump truck dapat dengan
-              mudah mengakses jalur logistik utama menuju wilayah{" "}
-              <strong>Tenggarong</strong>, <strong>Loa Kulu</strong>,{" "}
+              <strong>Dusun Jambe, Kec. Sebulu, Kutai Kartanegara</strong>.
+              Lokasi stockpile ini dipilih secara strategis agar armada dump
+              truck dapat dengan mudah mengakses jalur logistik utama menuju
+              wilayah <strong>Tenggarong</strong>, <strong>Loa Kulu</strong>,{" "}
               <strong>Loa Janan</strong>, hingga koridor{" "}
               <strong>Samarinda</strong>.
             </p>
@@ -447,6 +497,21 @@ export default function TentangKamiPage() {
                   <span className="text-[#3F4549] dark:text-[#C2C8CC] text-xs font-mono">
                     {siteConfig.phoneDisplay}
                   </span>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <Mail className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
+                <div>
+                  <strong className="block text-[#171A1C] dark:text-[#F1F3F4]">
+                    Email Resmi:
+                  </strong>
+                  <a
+                    href={`mailto:${siteConfig.email}`}
+                    className="text-[#3F4549] dark:text-[#C2C8CC] text-xs font-mono hover:text-[#1F4E5F] dark:hover:text-[#6F9AAA] break-all"
+                  >
+                    {siteConfig.email}
+                  </a>
                 </div>
               </div>
             </div>
@@ -589,7 +654,8 @@ export default function TentangKamiPage() {
           </div>
 
           <div className="text-xs text-slate-500 font-mono pt-4 border-t border-[#30363A]/80">
-            Operasional Resmi: Dusun Jambe, Kec. Sebulu, Kutai Kartanegara, Kalimantan Timur
+            Operasional Resmi: Dusun Jambe, Kec. Sebulu, Kutai Kartanegara,
+            Kalimantan Timur
           </div>
         </div>
       </section>

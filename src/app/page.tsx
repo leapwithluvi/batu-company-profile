@@ -18,6 +18,7 @@ import { getWhatsappUrl } from "@/lib/whatsapp";
 import { ProductCard } from "@/components/ProductCard";
 import { ArticleCard } from "@/components/ArticleCard";
 import { DeliveryCoverage } from "@/components/DeliveryCoverage";
+import { HeroImageSlider } from "@/components/HeroImageSlider";
 
 export default function HomePage() {
   const whatsappConsultUrl = getWhatsappUrl({
@@ -48,17 +49,18 @@ export default function HomePage() {
 
               {/* Dominant Headline */}
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#171A1C] dark:text-white leading-[1.15] font-heading">
-                Supplier Material Batu Pondasi &amp; Agregat Konstruksi Berkualitas
+                Supplier Material Batu Split &amp; Agregat Konstruksi
+                Berkualitas
               </h1>
 
               {/* Sub-headline */}
               <p className="text-base sm:text-lg text-[#3F4549] dark:text-[#C2C8CC] max-w-2xl leading-relaxed">
                 <strong>{siteConfig.name}</strong> menyediakan pasokan batu
-                belah pondasi, abu batu, batu agregat, batu tronjolan, serta
-                aneka ukuran batu gunung. Dikelola dengan transparansi volume
-                kubikasi serta kesiapan armada dump truck mandiri untuk
-                pengiriman terjadwal ke <strong>Tenggarong</strong> dan wilayah
-                sekitarnya.
+                split, abu batu, batu agregat, batu tronjolan, serta aneka
+                ukuran batu split. Dikelola dengan transparansi volume kubikasi
+                serta kesiapan armada dump truck dan ponton untuk pengiriman
+                terjadwal melayani <strong>Tenggarong</strong>, seluruh wilayah{" "}
+                <strong>Kutai Kartanegara</strong>, dan sekitarnya.
               </p>
 
               {/* Action Buttons (Deep Industrial Blue + Crisp Outline) */}
@@ -77,7 +79,7 @@ export default function HomePage() {
                   href="/produk"
                   className="inline-flex items-center justify-center gap-2 bg-white dark:bg-[#181C1F] hover:bg-[#EEF0F0] dark:hover:bg-[#202529] text-[#171A1C] dark:text-[#F1F3F4] px-6 py-3.5 text-sm font-semibold border border-[#D9DCDD] dark:border-[#30363A] rounded-md transition-all shadow-xs"
                 >
-                  <span>Katalog 8 Varian Batu</span>
+                  <span>Katalog {productsData.length} Varian Batu</span>
                   <ArrowRight className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
                 </Link>
               </div>
@@ -86,7 +88,7 @@ export default function HomePage() {
               <div className="pt-6 border-t border-[#D9DCDD] dark:border-[#30363A] grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs font-mono">
                 <div className="border-l-2 border-[#1F4E5F] dark:border-[#6F9AAA] pl-3">
                   <div className="text-[#171A1C] dark:text-white font-bold text-lg font-heading">
-                    8 Varian
+                    {productsData.length} Varian
                   </div>
                   <span className="text-[#6B7378] dark:text-[#A5ADB2] block mt-0.5">
                     Fraksi Siap Kirim
@@ -104,7 +106,7 @@ export default function HomePage() {
 
                 <div className="border-l-2 border-[#D9DCDD] dark:border-[#30363A] pl-3">
                   <div className="text-[#171A1C] dark:text-white font-bold text-lg font-heading">
-                    Tenggarong
+                    Kutai Kartanegara
                   </div>
                   <span className="text-[#6B7378] dark:text-[#A5ADB2] block mt-0.5">
                     Fokus Distribusi
@@ -113,7 +115,7 @@ export default function HomePage() {
 
                 <div className="border-l-2 border-[#D9DCDD] dark:border-[#30363A] pl-3">
                   <div className="text-[#171A1C] dark:text-white font-bold text-lg font-heading">
-                    Dump Truck
+                    Dump Truck & Ponton
                   </div>
                   <span className="text-[#6B7378] dark:text-[#A5ADB2] block mt-0.5">
                     Armada Mandiri
@@ -122,29 +124,9 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Right Hero Visual (Authentic Stockpile Photography with Technical Framing) */}
+            {/* Right Hero Visual (Authentic Material Photo Slider) */}
             <div className="lg:col-span-5">
-              <div className="relative border border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#181C1F] p-2.5 rounded-xl shadow-xs">
-                <div className="relative aspect-4/3 overflow-hidden bg-[#EEF0F0] dark:bg-[#202529] rounded-lg">
-                  <Image
-                    src="https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=1000&q=80"
-                    alt="Stockpile dan material batu konstruksi di operasional PT. Bumi Kutai Perkasa"
-                    fill
-                    priority
-                    sizes="(max-width: 1024px) 100vw, 40vw"
-                    className="object-cover"
-                  />
-                  <div className="absolute top-3 left-3 bg-[#111416]/90 text-white text-[11px] font-mono uppercase px-2.5 py-1 tracking-wider rounded-sm">
-                    Stockpile Fisik
-                  </div>
-                  <div className="absolute bottom-0 inset-x-0 bg-white/95 dark:bg-[#111416]/95 p-3 text-xs text-[#171A1C] dark:text-slate-300 font-mono border-t border-[#D9DCDD] dark:border-[#30363A] flex justify-between items-center">
-                    <span className="font-semibold">{siteConfig.name}</span>
-                    <span className="text-[#1F4E5F] dark:text-[#6F9AAA] font-bold">
-                      Dusun Jambe, Kec. Sebulu, Kukar
-                    </span>
-                  </div>
-                </div>
-              </div>
+              <HeroImageSlider companyName={siteConfig.name} />
             </div>
           </div>
         </div>
@@ -197,7 +179,7 @@ export default function HomePage() {
                   Jangkauan Logistik
                 </span>
                 <span className="block text-sm font-bold text-[#171A1C] dark:text-[#F1F3F4] mt-0.5">
-                  Tenggarong &amp; Sekitarnya
+                  Kutai Kartanegara &amp; Sekitarnya
                 </span>
                 <span className="block text-xs text-[#6B7378] dark:text-[#A5ADB2] mt-0.5">
                   Armada Dump Truck Mandiri
@@ -230,7 +212,10 @@ export default function HomePage() {
               Komitmen Kualitas &amp; Integritas Pengadaan Material
             </h2>
             <p className="mt-2.5 text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-              Kami menyadari bahwa keterlambatan material dan ketidaksesuaian takaran adalah masalah utama dalam pekerjaan konstruksi. PT. Bumi Kutai Perkasa beroperasi dengan prinsip transparansi dan disiplin teknis.
+              Kami menyadari bahwa keterlambatan material dan ketidaksesuaian
+              takaran adalah masalah utama dalam pekerjaan konstruksi. PT. Bumi
+              Kutai Perkasa beroperasi dengan prinsip transparansi dan disiplin
+              teknis.
             </p>
           </div>
 
@@ -238,10 +223,11 @@ export default function HomePage() {
             <div className="bg-white dark:bg-[#181C1F] p-6 border border-[#D9DCDD] dark:border-[#30363A] rounded-lg shadow-xs space-y-3">
               <Scale className="w-6 h-6 text-[#1F4E5F] dark:text-[#6F9AAA]" />
               <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] font-heading">
-                Transparansi Takaran Kubikasi
+                Transparansi Takaran Kubikasi & Tonase
               </h3>
               <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Volume bak dump truck dapat diinspeksi bersama sebelum muatan dibongkar di lokasi. Tidak ada kecurangan kubikasi di lapangan.
+                Volume bak dump truck dapat diinspeksi bersama sebelum muatan
+                dibongkar di lokasi. Tidak ada kecurangan kubikasi di lapangan.
               </p>
             </div>
 
@@ -251,7 +237,9 @@ export default function HomePage() {
                 Material Batu Keras Quarry
               </h3>
               <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Batu belah gunung padat bersudut tajam dengan daya rekat semen tinggi, sangat kokoh untuk pondasi bangunan dan adukan cor beton.
+                Batu belah gunung padat bersudut tajam dengan daya rekat semen
+                tinggi, sangat kokoh untuk pondasi bangunan dan adukan cor
+                beton.
               </p>
             </div>
 
@@ -261,7 +249,8 @@ export default function HomePage() {
                 Penjadwalan Armada Disiplin
               </h3>
               <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Koordinasi langsung dengan dispatcher lapangan memastikan kontinuitas pengiriman material sesuai jadwal pengecoran proyek.
+                Koordinasi langsung dengan dispatcher lapangan memastikan
+                kontinuitas pengiriman material sesuai jadwal pengecoran proyek.
               </p>
             </div>
 
@@ -271,7 +260,9 @@ export default function HomePage() {
                 Badan Usaha Resmi &amp; Legal
               </h3>
               <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Memenuhi legalitas usaha NIB dan NPWP Badan Usaha aktif untuk kebutuhan penerbitan faktur pajak serta perikatan kontrak formal.
+                Memenuhi legalitas usaha NIB dan NPWP Badan Usaha aktif untuk
+                kebutuhan penerbitan faktur pajak serta perikatan kontrak
+                formal.
               </p>
             </div>
           </div>
@@ -312,7 +303,7 @@ export default function HomePage() {
             href="/produk"
             className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#1F4E5F] hover:bg-[#173B48] text-white dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] text-xs sm:text-sm font-semibold transition-colors rounded-md shadow-xs"
           >
-            <span>Lihat Seluruh 8 Varian Produk &amp; Ukuran Batu</span>
+            <span>Lihat Seluruh {productsData.length} Varian Produk &amp; Ukuran Batu</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
@@ -333,9 +324,9 @@ export default function HomePage() {
                 <strong>{siteConfig.name}</strong> menyediakan berbagai material
                 batu untuk kebutuhan konstruksi di wilayah Kutai Kartanegara dan
                 sekitarnya. Fasilitas operasional kami berlokasi di{" "}
-                <strong>Dusun Jambe, Kec. Sebulu</strong>, dengan fokus distribusi utama
-                melayani kebutuhan proyek di <strong>Tenggarong</strong> serta
-                wilayah sekitarnya.
+                <strong>Dusun Jambe, Kec. Sebulu</strong>, dengan fokus
+                distribusi utama melayani kebutuhan proyek di{" "}
+                <strong>Tenggarong</strong> serta wilayah sekitarnya.
               </p>
               <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
                 Mulai dari pekerjaan pondasi awal rumah tinggal, dinding penahan
@@ -351,15 +342,22 @@ export default function HomePage() {
                 <ul className="space-y-1.5">
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-3.5 h-3.5 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0" />
-                    <span>Konfirmasi ketersediaan stok material secara faktual</span>
+                    <span>
+                      Konfirmasi ketersediaan stok material secara faktual
+                    </span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-3.5 h-3.5 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0" />
-                    <span>Penjadwalan ritase dump truck transparan &amp; terkoordinasi</span>
+                    <span>
+                      Penjadwalan ritase dump truck transparan &amp;
+                      terkoordinasi
+                    </span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-3.5 h-3.5 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0" />
-                    <span>Komunikasi mudah &amp; responsif via saluran resmi</span>
+                    <span>
+                      Komunikasi mudah &amp; responsif via saluran resmi
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -389,7 +387,9 @@ export default function HomePage() {
                   />
                   <div className="absolute bottom-0 inset-x-0 bg-white/95 dark:bg-[#111416]/95 p-2.5 text-[11px] text-[#171A1C] dark:text-slate-300 font-mono border-t border-[#D9DCDD] dark:border-[#30363A] flex justify-between items-center">
                     <span>Dokumentasi Operasional</span>
-                    <span className="text-[#1F4E5F] dark:text-[#6F9AAA] font-bold">Distribusi Lapangan</span>
+                    <span className="text-[#1F4E5F] dark:text-[#6F9AAA] font-bold">
+                      Distribusi Lapangan
+                    </span>
                   </div>
                 </div>
               </div>
@@ -435,7 +435,7 @@ export default function HomePage() {
           </span>
 
           <h2 className="text-2xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight font-heading">
-            Perlu Pasokan Material Batu untuk Proyek di Tenggarong?
+            Perlu Pasokan Material Batu untuk Proyek di Kukar dan sekitarnya?
           </h2>
 
           <p className="mt-4 text-[#3F4549] dark:text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
@@ -464,7 +464,8 @@ export default function HomePage() {
           </div>
 
           <div className="mt-6 text-xs text-[#6B7378] dark:text-slate-500 font-mono">
-            Operasional {siteConfig.name}: {siteConfig.operatingHours} &bull; Fasilitas: Dusun Jambe, Kec. Sebulu, Kutai Kartanegara
+            Operasional {siteConfig.name}: {siteConfig.operatingHours} &bull;
+            Fasilitas: Dusun Jambe, Kec. Sebulu, Kutai Kartanegara
           </div>
         </div>
       </section>

@@ -28,8 +28,7 @@ export const articlesData: Article[] = [
     readTime: "4 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
     category: "Material Agregat",
-    image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+    image: "/abu_batu.png",
     imageAlt:
       "Stok abu batu untuk kebutuhan konstruksi dan pembuatan paving block di Tenggarong",
     relatedProductSlug: "abu-batu",
@@ -53,7 +52,7 @@ export const articlesData: Article[] = [
         heading: "Pengadaan Abu Batu di Wilayah Tenggarong",
         paragraphs: [
           "Untuk kebutuhan proyek jalan, pabrik batako, maupun pekerjaan halaman rumah tinggal, PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara, menyediakan pasokan abu batu dengan pengiriman armada dump truck langsung ke lokasi proyek di Tenggarong dan sekitarnya.",
-          "Untuk kepastian takaran kubikasi serta jadwal ritase armada, calon pembeli dapat langsung berkonsultasi dengan tim operasional PT. Bumi Kutai Perkasa via WhatsApp.",
+          "Untuk kepastian takaran kubikasi dan tonase serta jadwal ritase armada, calon pembeli dapat langsung berkonsultasi dengan tim operasional PT. Bumi Kutai Perkasa via WhatsApp.",
         ],
       },
     ],
@@ -68,8 +67,7 @@ export const articlesData: Article[] = [
     readTime: "5 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
     category: "Material Pondasi",
-    image:
-      "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=1200&q=80",
+    image: "/pondasi_tronjolan.png",
     imageAlt:
       "Pemasangan batu pondasi lajur untuk bangunan rumah di Tenggarong",
     relatedProductSlug: "batu-pondasi",
@@ -99,46 +97,49 @@ export const articlesData: Article[] = [
   },
   {
     title:
-      "Perbedaan Batu Gunung Ukuran 2x1, 2x3, 3x5, dan 5x7 untuk Proyek Konstruksi",
-    slug: "perbedaan-ukuran-batu-gunung",
+      "Perbedaan Batu Split Ukuran 1x1, 2x1, 2x3, 3x5, 5x7, dan 7x10 untuk Proyek Konstruksi",
+    slug: "perbedaan-ukuran-batu-split",
     excerpt:
-      "Memahami perbedaan fungsi fraksi batu gunung ukuran 2x1, 2x3, 3x5, dan 5x7 untuk cor beton, pondasi jalan, dan perkuatan tanah lunak.",
+      "Memahami perbedaan fungsi fraksi batu split ukuran 1x1, 2x1, 2x3, 3x5, 5x7, dan 7x10 untuk beton mutu tinggi, cor struktur, pondasi jalan, dan stabilisasi tanah lunak di Tenggarong & Kutai Kartanegara.",
     publishedDate: "20 Januari 2025",
     readTime: "6 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
-    category: "Batu Gunung",
-    image:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
+    category: "Batu Split",
+    image: "/koral_23.png",
     imageAlt:
-      "Pecahan fraksi batu gunung berbagai ukuran di fasilitas pengolahan batu",
-    relatedProductSlug: "batu-gunung-21",
+      "Pecahan fraksi batu split berbagai ukuran di stockpile PT. Bumi Kutai Perkasa",
+    relatedProductSlug: "batu-split-2x1",
     relatedProductSlugs: [
-      "batu-gunung-21",
-      "batu-gunung-23",
-      "batu-gunung-35",
-      "batu-gunung-57",
+      "batu-split-1x1",
+      "batu-split-2x1",
+      "batu-split-2x3",
+      "batu-split-3x5",
+      "batu-split-5x7",
+      "batu-split-7x10",
     ],
     sections: [
       {
-        heading: "Mengapa Ukuran Fraksi Batu Gunung Berbeda-beda?",
+        heading: "Mengapa Ukuran Fraksi Batu Split Berbeda-beda?",
         paragraphs: [
-          "Dalam dunia konstruksi sipil, batuan hasil tambang gunung dipecah menjadi berbagai ukuran fraksi agar dapat memenuhi spesifikasi teknis pekerjaan yang berbeda. Setiap fraksi memiliki peruntukan khusus, mulai dari campuran adukan cor yang membutuhkan butiran halus hingga perkerasan dasar jalan yang menuntut batuan berukuran kasar.",
+          "Dalam dunia konstruksi sipil, batu split dipecah dan disortir menjadi berbagai ukuran fraksi agar dapat memenuhi spesifikasi teknis pekerjaan yang berbeda. Setiap fraksi memiliki peruntukan khusus, mulai dari campuran adukan cor yang membutuhkan butiran presisi hingga perkerasan dasar jalan yang menuntut batuan berukuran kasar.",
           "Mengetahui perbedaan ukuran ini akan membantu Anda memesan material yang tepat, menghemat anggaran proyek, serta memastikan ketahanan struktur yang dibangun.",
         ],
       },
       {
         heading: "Rincian Ukuran dan Penggunaannya di Lapangan",
         paragraphs: [
-          "1. Batu Gunung Ukuran 2x1 (1 – 2 cm): Fraksi ini biasa digunakan untuk campuran pengecoran beton bertulang seperti kolom praktis, balok gantung, dan plat dak lantai bertingkat. Ukurannya yang proporsional mampu mengisi celah sempit di antara anyaman besi tulangan tanpa menimbulkan rongga keropos.",
-          "2. Batu Gunung Ukuran 2x3 (2 – 3 cm): Ukuran yang sangat umum untuk pengecoran beton jalan (rigid pavement), pondasi telapak cakar ayam, serta lantai gudang berbeban berat.",
-          "3. Batu Gunung Ukuran 3x5 (3 – 5 cm): Cocok untuk lapis pondasi bawah jalan dan lapisan drainase resapan air agar tidak terjadi genangan yang merusak permukaan aspal atau beton.",
-          "4. Batu Gunung Ukuran 5x7 (5 – 7 cm): Fraksi kasar yang dirancang khusus untuk stabilisasi lahan lunak/rawa dan bantalan jalan akses sebelum dilapisi agregat halus. Daya interlocking-nya yang tinggi mencegah amblas.",
+          "1. Batu Split Ukuran 1x1 (±1 cm): Fraksi terkecil untuk campuran beton mutu tinggi (K-300 ke atas). Ukurannya yang sangat kecil mampu mengisi celah antara tulangan rapat tanpa rongga, sangat cocok untuk kolom praktis tipis, panel precast, dan pekerjaan beton presisi.",
+          "2. Batu Split Ukuran 2x1 (1 – 2 cm): Fraksi ini biasa digunakan untuk campuran pengecoran beton bertulang seperti kolom praktis, balok gantung, dan plat dak lantai bertingkat. Ukurannya yang proporsional mampu mengisi celah sempit di antara anyaman besi tulangan tanpa menimbulkan rongga keropos.",
+          "3. Batu Split Ukuran 2x3 (2 – 3 cm): Ukuran yang sangat umum untuk pengecoran beton jalan (rigid pavement), pondasi telapak cakar ayam, serta lantai gudang berbeban berat.",
+          "4. Batu Split Ukuran 3x5 (3 – 5 cm): Cocok untuk lapis pondasi bawah jalan dan lapisan drainase resapan air agar tidak terjadi genangan yang merusak permukaan aspal atau beton.",
+          "5. Batu Split Ukuran 5x7 (5 – 7 cm): Fraksi kasar yang dirancang khusus untuk stabilisasi lahan lunak/rawa dan bantalan jalan akses sebelum dilapisi agregat halus. Daya interlocking-nya yang tinggi mencegah amblas.",
+          "6. Batu Split Ukuran 7x10 (7 – 10 cm): Fraksi paling kasar. Digunakan sebagai lapis dasar perkerasan jalan berat di area tambang, pengurugan pondasi dalam, dan stabilisasi lereng longsor. Daya tahan beban dinamisnya sangat tinggi.",
         ],
       },
       {
-        heading: "Konsultasi Kebutuhan Batu Gunung di Kutai Kartanegara",
+        heading: "Konsultasi Kebutuhan Batu Split di Kutai Kartanegara",
         paragraphs: [
-          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Kec. Sebulu, menyediakan seluruh varian ukuran Batu Gunung 21, 23, 35, dan 57 untuk menyuplai proyek konstruksi di Tenggarong, Kutai Kartanegara, dan wilayah sekitarnya. Hubungi kami untuk memastikan ketersediaan ukuran dan estimasi volume armada.",
+          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Kec. Sebulu, menyediakan seluruh varian ukuran Batu Split 1x1, 2x1, 2x3, 3x5, 5x7, dan 7x10 untuk menyuplai proyek konstruksi di Tenggarong, Kutai Kartanegara, dan wilayah sekitarnya. Hubungi kami untuk memastikan ketersediaan ukuran dan estimasi volume armada.",
         ],
       },
     ],
@@ -153,8 +154,7 @@ export const articlesData: Article[] = [
     readTime: "4 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
     category: "Material Pondasi",
-    image:
-      "https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=1200&q=80",
+    image: "/pondasi_tronjolan.png",
     imageAlt:
       "Material batu tronjolan bongkahan besar untuk pekerjaan bronjong kawat",
     relatedProductSlug: "batu-tronjolan",
@@ -191,8 +191,7 @@ export const articlesData: Article[] = [
     readTime: "5 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
     category: "Material Agregat",
-    image:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
+    image: "/koral_57.png",
     imageAlt:
       "Material batu agregat konstruksi siap kirim untuk proyek perkerasan jalan",
     relatedProductSlug: "batu-agregat",
@@ -214,6 +213,44 @@ export const articlesData: Article[] = [
         heading: "Pengadaan Agregat Terpercaya di Kutai Kartanegara",
         paragraphs: [
           "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Kec. Sebulu, siap memenuhi kebutuhan batu agregat untuk proyek Anda di wilayah Tenggarong dan sekitarnya. Konsultasikan jadwal pengiriman dan estimasi kubikasi langsung via WhatsApp.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Mengenal Jenis Ukuran Batu Split untuk Cor Beton dan Standar Kualitasnya",
+    slug: "mengenal-batu-split-cor-beton",
+    excerpt:
+      "Panduan lengkap memilih ukuran batu split yang tepat untuk cor dak, kolom beton bertulang, dan perkerasan jalan beton di Tenggarong & Kutai Kartanegara.",
+    publishedDate: "20 Februari 2025",
+    readTime: "5 menit baca",
+    author: "Tim Teknis PT. Bumi Kutai Perkasa",
+    category: "Material Agregat",
+    image: "/koral_21.png",
+    imageAlt:
+      "Material batu split cor beton berkualitas di stockpile PT. Bumi Kutai Perkasa",
+    relatedProductSlug: "batu-split",
+    relatedProductSlugs: ["batu-split", "batu-agregat", "abu-batu"],
+    sections: [
+      {
+        heading: "Pengertian dan Peran Batu Split dalam Pengecoran Beton",
+        paragraphs: [
+          "Batu split (batu pecah mesin) merupakan agregat kasar yang dihasilkan dari proses penghancuran batu gunung menggunakan mesin stone crusher berstandar konstruksi. Dalam campuran beton bertulang, batu split menempati porsi volume terbesar dan berfungsi sebagai kerangka struktural utama yang memikul beban tekan fisik bangunan.",
+          "Kualitas batu split yang prima dicirikan dengan bentuk pecahan yang bersudut tajam (angular), bersih dari lapisan lempung berlebih, serta memiliki densitas padat dan tidak mudah retak atau remuk.",
+        ],
+      },
+      {
+        heading: "Ukuran Fraksi Batu Split dan Peruntukannya di Lapangan",
+        paragraphs: [
+          "1. Fraksi Split 1x2 (10-20 mm): Merupakan ukuran paling populer untuk pengecoran plat lantai, dak beton, balok gantung, balok sloof, serta kolom praktis rumah tinggal dan gedung bertingkat.",
+          "2. Fraksi Split 2x3 (20-30 mm): Sangat ideal diaplikasikan pada pekerjaan beton massa (mass concrete), pondasi telapak/cakar ayam, dan perkerasan kaku jalan lingkungan (rigid pavement).",
+          "3. Fraksi Split 3x5 (30-50 mm): Diperuntukkan bagi bantalan jalan akses berat, pengisi dasar perkerasan jalan, dan konstruksi drainase dasar.",
+        ],
+      },
+      {
+        heading: "Pasokan Batu Split Berkualitas & Legalitas Resmi di Kutai Kartanegara",
+        paragraphs: [
+          "Untuk menjamin mutu struktur bangunan Anda di Tenggarong dan sekitarnya, PT. Bumi Kutai Perkasa menyediakan pasokan batu split teruji dari stockpile Dusun Jambe, Kec. Sebulu. Pengiriman ditangani langsung armada dump truck dengan perhitungan ritase yang transparan dan tertib administrasi, siap menerbitkan Faktur Pajak resmi (PPN) untuk kebutuhan perusahaan Anda.",
         ],
       },
     ],

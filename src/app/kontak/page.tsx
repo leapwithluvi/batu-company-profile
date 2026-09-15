@@ -3,12 +3,12 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { WhatsappButton } from "@/components/WhatsappButton";
 import { siteConfig } from "@/lib/site-config";
-import { MapPin, Phone, Clock, Truck, HelpCircle, CheckCircle2 } from "lucide-react";
+import { MapPin, Phone, Clock, Mail, Truck, HelpCircle, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Hubungi Kami & Pemesanan Material | Tenggarong",
   description:
-    "Hubungi dispatcher CV Batu Mandiri Tenggarong. Cek harga material batu belah, split cor, dan estimasi ongkos kirim dump truck di Kutai Kartanegara langsung via WhatsApp.",
+    `Hubungi dispatcher ${siteConfig.name}. Cek harga material batu belah, split cor, dan estimasi ongkos kirim dump truck di Kutai Kartanegara langsung via WhatsApp.`,
 };
 
 const FAQ_ITEMS = [
@@ -26,7 +26,11 @@ const FAQ_ITEMS = [
   },
   {
     q: "Apakah dump truck bisa masuk ke gang perumahan sempit?",
-    a: "Armada Colt Diesel kami memiliki lebar bodi sekitar 2.1 meter, umumnya membutuhkan lebar jalan minimal 2.8 – 3 meter bebas hambatan pohon/kabel rendah untuk dapat bermanuver dan menumpahkan bak dengan aman.",
+    a: "Armada dump truck kami umumnya membutuhkan lebar jalan minimal 2.8 – 3 meter bebas hambatan kabel rendah untuk bermanuver dan menumpahkan bak dengan aman.",
+  },
+  {
+    q: "Apakah melayani pengiriman via jalur sungai dengan kapal ponton?",
+    a: "Ya. Selain pengiriman darat menggunakan dump truck, PT. Bumi Kutai Perkasa melayani pengiriman tonase besar menggunakan kapal ponton (tongkang) melintasi perairan Sungai Mahakam untuk kebutuhan suplai dermaga, jetty, maupun proyek tanggul skala besar.",
   },
 ];
 
@@ -98,6 +102,19 @@ export default function KontakPage() {
                     </a>
                   </div>
                 </div>
+
+                <div className="flex items-start gap-3">
+                  <Mail className="w-5 h-5 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="block text-[#171A1C] dark:text-[#F1F3F4]">Email Resmi:</strong>
+                    <a
+                      href={`mailto:${siteConfig.email}`}
+                      className="text-[#171A1C] dark:text-[#F1F3F4] font-mono font-semibold hover:text-[#1F4E5F] dark:hover:text-[#6F9AAA] break-all"
+                    >
+                      {siteConfig.email}
+                    </a>
+                  </div>
+                </div>
               </div>
 
               {/* Order Checklist */}
@@ -137,7 +154,7 @@ export default function KontakPage() {
                 <span>Radius Layanan Utama</span>
               </div>
               <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Tenggarong Kota, Tenggarong Seberang, Loa Kulu, Loa Janan, Sebulu, Muara Kaman, Kota Bangun, serta perbatasan poros Samarinda.
+                SP Sebulu, SP Muara Kaman, kecamatan Muara Kaman sekitarnya, kecamatan Sebulu sekitarnya, Separi, L1, L2, L3.
               </p>
             </div>
           </div>

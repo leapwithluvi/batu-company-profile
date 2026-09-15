@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useSyncExternalStore } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -95,8 +96,8 @@ export function Navbar() {
           <p className="flex items-center gap-2">
             <span className="inline-block w-2 h-2 rounded-full bg-[#1F4E5F] dark:bg-[#6F9AAA] animate-pulse" />
             <span>
-              Operasional: Dusun Jambe, Kec. Sebulu, Kukar &bull; Melayani Tenggarong &amp;
-              Sekitarnya
+              Operasional: Dusun Jambe, Kec. Sebulu, Kukar &bull; Melayani Kutai
+              Kartanegara &amp; Sekitarnya
             </span>
           </p>
           <div className="flex items-center gap-4">
@@ -119,18 +120,36 @@ export function Navbar() {
           {/* Brand Identity */}
           <Link
             href="/"
-            className="flex flex-col group py-2 focus-visible:outline-none"
+            className="flex items-center gap-1 group py-2 focus-visible:outline-none"
             aria-label={`${siteConfig.name} - Beranda`}
           >
-            <div className="flex items-center gap-2.5">
-              <span className="w-3 h-3 bg-[#1F4E5F] dark:bg-[#6F9AAA] inline-block shrink-0 rounded-sm" />
+            <div className="relative h-16 sm:h-20 w-[60px] sm:w-[75px] shrink-0">
+              <Image
+                src="/logo/logo.png"
+                alt={`Logo ${siteConfig.name}`}
+                fill
+                className="object-contain object-left dark:hidden"
+                priority
+              />
+
+              <Image
+                src="/logo/logo_white.png"
+                alt={`Logo ${siteConfig.name}`}
+                fill
+                className="hidden object-contain object-left dark:block"
+                priority
+              />
+            </div>
+
+            <div className="flex flex-col">
               <span className="text-base sm:text-lg font-bold tracking-tight text-[#171A1C] dark:text-white uppercase font-heading">
                 {siteConfig.name}
               </span>
+
+              <span className="text-[11px] text-[#6B7378] dark:text-[#A5ADB2] font-medium tracking-wide">
+                Supplier Material Batu &bull; Kutai Kartanegara &amp; Sekitarnya
+              </span>
             </div>
-            <span className="text-[11px] text-[#6B7378] dark:text-[#A5ADB2] font-medium tracking-wide">
-              Supplier Material Batu &bull; Tenggarong &amp; Kukar
-            </span>
           </Link>
 
           {/* Desktop Links */}
@@ -162,7 +181,9 @@ export function Navbar() {
 
           {/* Action CTA + Theme Toggle */}
           <div className="flex items-center gap-3">
-            <ThemeSwitcher />
+            <span className="hidden md:inline-flex">
+              <ThemeSwitcher />
+            </span>
 
             <a
               href={whatsappUrl}
@@ -224,7 +245,9 @@ export function Navbar() {
           </nav>
 
           <div className="pt-3 pb-1 px-3 border-t border-[#D9DCDD] dark:border-[#30363A]/80 flex items-center justify-between">
-            <span className="text-xs text-[#6B7378] dark:text-slate-400 font-mono">Mode Tampilan:</span>
+            <span className="text-xs text-[#6B7378] dark:text-slate-400 font-mono">
+              Mode Tampilan:
+            </span>
             <ThemeSwitcher />
           </div>
 

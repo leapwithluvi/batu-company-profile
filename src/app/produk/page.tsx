@@ -10,13 +10,14 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: "Katalog Batu & Material Konstruksi | PT. Bumi Kutai Perkasa",
   description:
-    "Katalog resmi material abu batu, batu agregat, batu pondasi, batu tronjolan, dan batu gunung ukuran 2x1, 2x3, 3x5, 5x7. PT. Bumi Kutai Perkasa melayani pengiriman ke Tenggarong dan Kutai Kartanegara.",
+    "Katalog resmi material abu batu, batu split, batu agregat, batu pondasi, batu tronjolan, dan batu split ukuran 1x1, 2x1, 2x3, 3x5, 5x7, 7x10. PT. Bumi Kutai Perkasa melayani pengiriman ke Tenggarong dan Kutai Kartanegara.",
   keywords: [
+    "jual batu split tenggarong",
+    "jual batu koral tenggarong",
     "jual abu batu tenggarong",
     "jual batu pondasi tenggarong",
     "batu tronjolan tenggarong",
     "batu agregat tenggarong",
-    "batu gunung tenggarong",
     "supplier batu kutai kartanegara",
   ],
 };

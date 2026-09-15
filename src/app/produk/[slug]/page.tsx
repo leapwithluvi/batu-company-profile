@@ -12,6 +12,7 @@ import { articlesData } from "@/data/articles";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { WhatsappButton } from "@/components/WhatsappButton";
 import { ProductCard } from "@/components/ProductCard";
+import { ProductMediaViewer } from "@/components/ProductMediaViewer";
 import { siteConfig } from "@/lib/site-config";
 import { safeJsonLdReplacer } from "@/lib/json-ld";
 import { CheckCircle2, Truck, ShieldCheck, BookOpen } from "lucide-react";
@@ -152,34 +153,15 @@ export default async function ProductDetailPage({ params }: PageProps) {
       {/* Main Product Layout */}
       <section className="py-10 sm:py-14 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12">
-          {/* Kolom Gambar */}
+          {/* Kolom Media (Gambar / Video) */}
           <div className="lg:col-span-6">
-            <div className="border border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#181C1F] p-2 sticky top-24 rounded-xl shadow-xs">
-              <div className="relative aspect-4/3 w-full bg-[#EEF0F0] dark:bg-[#202529] overflow-hidden rounded-lg">
-                <Image
-                  src={product.image}
-                  alt={product.imageAlt}
-                  fill
-                  priority
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover"
-                />
-                <div className="absolute top-3 left-3 bg-[#111416]/90 text-white text-xs font-mono uppercase px-2.5 py-1 rounded-sm">
-                  {product.category}
-                </div>
-              </div>
-
-              <div className="p-4 bg-[#EEF0F0] dark:bg-[#202529] border-t border-[#D9DCDD] dark:border-[#30363A] mt-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs text-[#3F4549] dark:text-[#C2C8CC] font-mono rounded-md">
-                <span className="flex items-center gap-1.5">
-                  <ShieldCheck className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
-                  <span>PT. Bumi Kutai Perkasa &bull; Dusun Jambe, Kec. Sebulu</span>
-                </span>
-                <span className="flex items-center gap-1.5">
-                  <Truck className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
-                  <span>Melayani Tenggarong &amp; Sekitarnya</span>
-                </span>
-              </div>
-            </div>
+            <ProductMediaViewer
+              image={product.image}
+              imageAlt={product.imageAlt}
+              category={product.category}
+              productName={product.name}
+              videoUrl={product.videoUrl}
+            />
           </div>
 
           {/* Kolom Detail & Aplikasi */}

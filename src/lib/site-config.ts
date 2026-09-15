@@ -6,6 +6,7 @@ export interface SiteConfig {
   url: string;
   phoneDisplay: string;
   whatsappNumber: string;
+  email: string;
   operationalLocation: {
     village: string; // Dusun Jambe
     subdistrict?: string; // Kec. Sebulu
@@ -32,11 +33,12 @@ export const siteConfig: SiteConfig = {
   tagline:
     "Supplier Batu & Material Konstruksi Melayani Tenggarong dan Kutai Kartanegara",
   description:
-    "PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara, menyediakan material batu pondasi, abu batu, batu agregat, batu tronjolan, dan aneka ukuran batu gunung untuk kebutuhan konstruksi di Tenggarong dan sekitarnya.",
+    "PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara, menyediakan material batu pondasi, abu batu, batu split, batu agregat, batu tronjolan, dan aneka ukuran batu split untuk kebutuhan konstruksi di Tenggarong dan sekitarnya.",
   url:
     process.env.NEXT_PUBLIC_SITE_URL || "https://bumikutaiperkasa.vercel.app",
-  phoneDisplay: "+62 831-5224-8722",
+  phoneDisplay: "+62 853-9333-9991",
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "6281234567890",
+  email: "pt.bumikutaiperkasa@gmail.com",
   googleMapsUrl:
     process.env.NEXT_PUBLIC_GOOGLE_MAPS_URL ||
     "https://maps.google.com/?q=Dusun+Jambe,+Kec.+Sebulu,+Kutai+Kartanegara,+Kalimantan+Timur",
@@ -56,14 +58,17 @@ export const siteConfig: SiteConfig = {
   },
   primaryTargetArea: "Tenggarong & Sekitarnya",
   serviceAreas: [
+    "SP Sebulu",
+    "SP Muara Kaman",
+    "Kec. Muara Kaman & Sekitarnya",
+    "Kec. Sebulu & Sekitarnya",
+    "Separi",
+    "L1, L2, L3",
     "Tenggarong",
-    "Kutai Kartanegara",
-    "Samarinda",
-    "Loa Janan",
-    "Loa Kulu",
-    "Sebulu",
-    "Anggana",
-    "Wilayah Kalimantan Timur Sekitarnya",
+    "Tenggarong Seberang",
+    "Loa Janan & Loa Kulu",
+    "Samarinda & Sekitarnya",
+    "Wilayah Kutai Kartanegara Lainnya",
   ],
   operatingHours: "Senin – Sabtu: 08.00 – 17.00 WITA",
 };
