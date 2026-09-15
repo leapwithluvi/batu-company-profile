@@ -65,13 +65,13 @@ export const companyData: CompanyData = {
   businessType:
     "Perseroan Terbatas (PT) Perdagangan & Distribusi Material Konstruksi",
   operationalLocation: {
-    village: "Dusun Jambe",
+    village: "Dusun Jambe, Desa Sanggulan",
     subdistrict: "Kec. Sebulu",
     regency: "Kutai Kartanegara",
     province: "Kalimantan Timur",
     country: "Indonesia",
     fullAddress:
-      "Dusun Jambe, Kec. Sebulu, Kutai Kartanegara, Kalimantan Timur, Indonesia 75511",
+      "Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara, Kalimantan Timur, Indonesia 75511",
   },
   serviceAreaFocus: "Tenggarong & Wilayah Kutai Kartanegara Sekitarnya",
   serviceAreas: [
@@ -184,17 +184,17 @@ export const companyData: CompanyData = {
         "Penampungan material batu belah, abu batu, dan agregat dengan pemisahan fraksi rapi untuk menjaga mutu sebelum dimuat ke armada.",
       imageUrl:
         "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=1000&q=80",
-      location: "Dusun Jambe, Kec. Sebulu, Kutai Kartanegara",
+      location: "Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara",
     },
     {
       id: "armada-loading",
-      title: "Pemuatan Dump Truck & Pengawasan Kubikasi",
+      title: "Pemuatan Dump Truck & Pengawasan Tonase",
       category: "Armada Dump Truck",
       description:
-        "Proses pemuatan material ke bak dump truck dengan inspeksi volume kubikasi bersama mandor sebelum armada diberangkatkan.",
+        "Proses pemuatan material ke bak dump truck dengan inspeksi volume tonase bersama mandor sebelum armada diberangkatkan.",
       imageUrl:
         "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80",
-      location: "Fasilitas Operasional Dusun Jambe, Kec. Sebulu",
+      location: "Fasilitas Operasional Dusun Jambe, Desa Sanggulan, Kec. Sebulu",
     },
     {
       id: "batu-pondasi-quarry",

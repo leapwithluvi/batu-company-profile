@@ -51,8 +51,8 @@ export const articlesData: Article[] = [
       {
         heading: "Pengadaan Abu Batu di Wilayah Tenggarong",
         paragraphs: [
-          "Untuk kebutuhan proyek jalan, pabrik batako, maupun pekerjaan halaman rumah tinggal, PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara, menyediakan pasokan abu batu dengan pengiriman armada dump truck langsung ke lokasi proyek di Tenggarong dan sekitarnya.",
-          "Untuk kepastian takaran kubikasi dan tonase serta jadwal ritase armada, calon pembeli dapat langsung berkonsultasi dengan tim operasional PT. Bumi Kutai Perkasa via WhatsApp.",
+          "Untuk kebutuhan proyek jalan, pabrik batako, maupun pekerjaan halaman rumah tinggal, PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara, menyediakan pasokan abu batu dengan pengiriman armada dump truck langsung ke lokasi proyek di Tenggarong dan sekitarnya.",
+          "Untuk kepastian takaran tonase dan tonase serta jadwal ritase armada, calon pembeli dapat langsung berkonsultasi dengan tim operasional PT. Bumi Kutai Perkasa via WhatsApp.",
         ],
       },
     ],
@@ -139,7 +139,7 @@ export const articlesData: Article[] = [
       {
         heading: "Konsultasi Kebutuhan Batu Split di Kutai Kartanegara",
         paragraphs: [
-          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Kec. Sebulu, menyediakan seluruh varian ukuran Batu Split 1x1, 2x1, 2x3, 3x5, 5x7, dan 7x10 untuk menyuplai proyek konstruksi di Tenggarong, Kutai Kartanegara, dan wilayah sekitarnya. Hubungi kami untuk memastikan ketersediaan ukuran dan estimasi volume armada.",
+          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, menyediakan seluruh varian ukuran Batu Split 1x1, 2x1, 2x3, 3x5, 5x7, dan 7x10 untuk menyuplai proyek konstruksi di Tenggarong, Kutai Kartanegara, dan wilayah sekitarnya. Hubungi kami untuk memastikan ketersediaan ukuran dan estimasi volume armada.",
         ],
       },
     ],
@@ -212,7 +212,7 @@ export const articlesData: Article[] = [
       {
         heading: "Pengadaan Agregat Terpercaya di Kutai Kartanegara",
         paragraphs: [
-          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Kec. Sebulu, siap memenuhi kebutuhan batu agregat untuk proyek Anda di wilayah Tenggarong dan sekitarnya. Konsultasikan jadwal pengiriman dan estimasi kubikasi langsung via WhatsApp.",
+          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, siap memenuhi kebutuhan batu agregat untuk proyek Anda di wilayah Tenggarong dan sekitarnya. Konsultasikan jadwal pengiriman dan estimasi tonase langsung via WhatsApp.",
         ],
       },
     ],
@@ -250,7 +250,7 @@ export const articlesData: Article[] = [
       {
         heading: "Pasokan Batu Split Berkualitas & Legalitas Resmi di Kutai Kartanegara",
         paragraphs: [
-          "Untuk menjamin mutu struktur bangunan Anda di Tenggarong dan sekitarnya, PT. Bumi Kutai Perkasa menyediakan pasokan batu split teruji dari stockpile Dusun Jambe, Kec. Sebulu. Pengiriman ditangani langsung armada dump truck dengan perhitungan ritase yang transparan dan tertib administrasi, siap menerbitkan Faktur Pajak resmi (PPN) untuk kebutuhan perusahaan Anda.",
+          "Untuk menjamin mutu struktur bangunan Anda di Tenggarong dan sekitarnya, PT. Bumi Kutai Perkasa menyediakan pasokan batu split teruji dari stockpile Dusun Jambe, Desa Sanggulan, Kec. Sebulu. Pengiriman ditangani langsung armada dump truck dengan perhitungan ritase yang transparan dan tertib administrasi, siap menerbitkan Faktur Pajak resmi (PPN) untuk kebutuhan perusahaan Anda.",
         ],
       },
     ],

@@ -132,7 +132,7 @@ export function HeroImageSlider({ companyName }: HeroImageSliderProps) {
         <div className="absolute bottom-0 inset-x-0 z-20 bg-white/95 dark:bg-[#111416]/95 p-3 text-xs text-[#171A1C] dark:text-slate-300 font-mono border-t border-[#D9DCDD] dark:border-[#30363A] flex justify-between items-center">
           <span className="font-semibold truncate mr-2">{companyName}</span>
           <span className="text-[#1F4E5F] dark:text-[#6F9AAA] font-bold shrink-0">
-            Dusun Jambe, Kec. Sebulu, Kukar
+            Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kukar
           </span>
         </div>
       </div>

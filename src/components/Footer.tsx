@@ -55,10 +55,10 @@ export function Footer() {
               <MapPin className="w-5 h-5 text-[#6F9AAA] shrink-0 mt-0.5" />
               <div>
                 <strong className="block text-white font-semibold mb-0.5">
-                  Operasional Dusun Jambe, Kec. Sebulu
+                  Operasional Dusun Jambe, Desa Sanggulan, Kec. Sebulu
                 </strong>
                 <p className="text-slate-400 text-xs leading-relaxed">
-                  Fasilitas operasional berlokasi di Dusun Jambe, Kec. Sebulu,
+                  Fasilitas operasional berlokasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu,
                   Kutai Kartanegara, Kalimantan Timur.
                 </p>
               </div>
@@ -93,9 +93,9 @@ export function Footer() {
             </p>
             <div className="pt-2 border-t border-[#30363A]/80 text-xs text-slate-400 font-mono">
               <span className="text-[#6F9AAA] font-semibold block">
-                Operasional Dusun Jambe, Kec. Sebulu
+                Operasional Dusun Jambe, Desa Sanggulan, Kec. Sebulu
               </span>
-              Fasilitas operasional berlokasi di Dusun Jambe, Kec. Sebulu, Kutai
+              Fasilitas operasional berlokasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai
               Kartanegara, Kalimantan Timur.
             </div>
           </div>
@@ -256,7 +256,7 @@ export function Footer() {
                         Peta Lokasi Depot
                       </span>
                       <span className="block text-[11px] text-slate-400">
-                        Dusun Jambe, Kec. Sebulu, Kutai Kartanegara
+                        Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara
                       </span>
                     </div>
                   </div>
@@ -277,7 +277,7 @@ export function Footer() {
             Dilindungi.
           </p>
           <p className="text-slate-500 text-[11px]">
-            Beroperasi di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara &bull;
+            Beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara &bull;
             Melayani pengiriman ke Tenggarong dan sekitarnya.
           </p>
         </div>

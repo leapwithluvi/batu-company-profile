@@ -21,7 +21,7 @@ const FAQ_ITEMS = [
     a: "Bisa, untuk konfirmasi pesanan yang masuk sebelum pukul 11.00 WITA dan ketersediaan slot antrean armada dump truck pada hari tersebut.",
   },
   {
-    q: "Bagaimana cara memastikan isi kubikasi bak dump truck tidak kurang?",
+    q: "Bagaimana cara memastikan isi tonase bak dump truck tidak kurang?",
     a: "Saat armada tiba di lokasi proyek Anda sebelum muatan ditumpahkan (dumping), Anda atau mandor lapangan dipersilakan mengukur dimensi bak (panjang x lebar x tinggi muatan) bersama pengemudi kami.",
   },
   {

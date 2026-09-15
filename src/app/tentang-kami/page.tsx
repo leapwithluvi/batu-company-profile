@@ -21,11 +21,11 @@ import {
 export const metadata: Metadata = {
   title: "Profil Perusahaan & Legalitas | PT. Bumi Kutai Perkasa",
   description:
-    "Profil resmi, identitas badan usaha, ketersediaan dokumen legalitas, dan fasilitas operasional PT. Bumi Kutai Perkasa di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara, melayani Tenggarong dan sekitarnya.",
+    "Profil resmi, identitas badan usaha, ketersediaan dokumen legalitas, dan fasilitas operasional PT. Bumi Kutai Perkasa di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara, melayani Tenggarong dan sekitarnya.",
   keywords: [
     "profil PT Bumi Kutai Perkasa",
     "legalitas PT Bumi Kutai Perkasa",
-    "supplier batu Dusun Jambe Kec. Sebulu",
+    "supplier batu Dusun Jambe, Desa Sanggulan, Kec. Sebulu",
     "distributor batu kutai kartanegara",
     "supplier material tenggarong",
   ],
@@ -51,7 +51,7 @@ export default function TentangKamiPage() {
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               Penyedia material batu pondasi, abu batu, dan aneka agregat batu
-              gunung berizin resmi. Beroperasi nyata di Dusun Jambe, Kec.
+              gunung berizin resmi. Beroperasi nyata di Dusun Jambe, Desa Sanggulan, Kec.
               Sebulu, Kutai Kartanegara, dan melayani pengiriman terjadwal ke
               Tenggarong dan wilayah sekitarnya.
             </p>
@@ -87,7 +87,7 @@ export default function TentangKamiPage() {
                 Fasilitas Stockpile &amp; Operasional
               </span>
               <strong className="text-[#171A1C] dark:text-[#F1F3F4] text-sm block">
-                Dusun Jambe, Kec. Sebulu, Kutai Kartanegara
+                Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara
               </strong>
               <span className="text-[11px] text-[#3F4549] dark:text-[#C2C8CC] mt-0.5 block">
                 Provinsi Kalimantan Timur 75511
@@ -165,7 +165,7 @@ export default function TentangKamiPage() {
               kerap dihadapi kontraktor, pengembang perumahan, dan pemilik
               proyek:{" "}
               <em>
-                ketidakpastian takaran kubikasi bak armada serta jadwal
+                ketidakpastian takaran tonase bak armada serta jadwal
                 pengiriman yang tidak teratur
               </em>
               .
@@ -188,7 +188,7 @@ export default function TentangKamiPage() {
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
                   <span>
-                    <strong>Tepat Kubikasi:</strong> Dimensi bak armada dump
+                    <strong>Tepat Tonase:</strong> Dimensi bak armada dump
                     truck dapat diukur bersama pengemudi kami saat armada tiba
                     di lokasi proyek sebelum penumpahan material.
                   </span>
@@ -214,7 +214,7 @@ export default function TentangKamiPage() {
 
             <p>
               Fasilitas stockpile kami di{" "}
-              <strong>Dusun Jambe, Kec. Sebulu</strong> dikelola untuk menjaga
+              <strong>Dusun Jambe, Desa Sanggulan, Kec. Sebulu</strong> dikelola untuk menjaga
               ketersediaan material yang stabil, siap melayani pengadaan eceran
               ritase perumahan hingga kebutuhan pengadaan ratusan kubik untuk
               proyek infrastruktur jalan dan gedung bertingkat.
@@ -226,13 +226,13 @@ export default function TentangKamiPage() {
             <div className="relative aspect-4/3 w-full bg-[#EEF0F0] dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] overflow-hidden rounded-lg shadow-xs">
               <Image
                 src="/mesin/mesin1_crusher.png"
-                alt="Stockpile dan operasional material batu PT. Bumi Kutai Perkasa di Dusun Jambe, Kec. Sebulu"
+                alt="Stockpile dan operasional material batu PT. Bumi Kutai Perkasa di Dusun Jambe, Desa Sanggulan, Kec. Sebulu"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover"
               />
               <div className="absolute bottom-0 inset-x-0 bg-[#111416]/90 p-2.5 text-[11px] text-slate-300 font-mono border-t border-[#30363A] flex justify-between items-center">
-                <span>Dusun Jambe, Kec. Sebulu</span>
+                <span>Dusun Jambe, Desa Sanggulan, Kec. Sebulu</span>
                 <span className="text-[#6F9AAA]">Kutai Kartanegara</span>
               </div>
             </div>
@@ -249,7 +249,7 @@ export default function TentangKamiPage() {
                     Fisik &amp; Nyata
                   </div>
                   <div className="text-slate-400 text-[11px] mt-1">
-                    Stockpile di Dusun Jambe, Kec. Sebulu
+                    Stockpile di Dusun Jambe, Desa Sanggulan, Kec. Sebulu
                   </div>
                 </div>
                 <div className="border border-[#30363A] p-3 bg-[#111416] rounded-md">
@@ -448,16 +448,16 @@ export default function TentangKamiPage() {
                 Lokasi Nyata &amp; Geografis
               </span>
               <h2 className="text-2xl sm:text-3xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight mt-1">
-                Fasilitas Operasional di Dusun Jambe, Kec. Sebulu
+                Fasilitas Operasional di Dusun Jambe, Desa Sanggulan, Kec. Sebulu
               </h2>
             </div>
 
             <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               PT. Bumi Kutai Perkasa beroperasi secara fisik di{" "}
-              <strong>Dusun Jambe, Kec. Sebulu, Kutai Kartanegara</strong>.
+              <strong>Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara</strong>.
               Lokasi stockpile ini dipilih secara strategis agar armada dump
               truck dapat dengan mudah mengakses jalur logistik utama menuju
-              wilayah <strong>Tenggarong</strong>, <strong>Loa Kulu</strong>,{" "}
+              wilayah <strong>Tenggarong</strong>, <strong>Loa Kulu</strong>, <strong>Sebulu</strong>, <strong>Muara Kaman</strong>,{" "}
               <strong>Loa Janan</strong>, hingga koridor{" "}
               <strong>Samarinda</strong>.
             </p>
@@ -555,7 +555,7 @@ export default function TentangKamiPage() {
                     Peta Lokasi Operasional
                   </span>
                   <h3 className="text-lg sm:text-xl font-bold text-white mt-1">
-                    Dusun Jambe, Kec. Sebulu
+                    Dusun Jambe, Desa Sanggulan, Kec. Sebulu
                   </h3>
                   <p className="text-xs text-slate-400 mt-1 max-w-sm mx-auto">
                     Kutai Kartanegara, Kalimantan Timur, Indonesia
@@ -642,7 +642,7 @@ export default function TentangKamiPage() {
           <p className="text-slate-300 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
             Hubungi tim dispatcher kami untuk permintaan penawaran harga resmi,
             konfirmasi ketersediaan volume material, atau penjadwalan inspeksi
-            kubikasi di lokasi proyek Anda di Tenggarong dan sekitarnya.
+            tonase di lokasi proyek Anda di Tenggarong dan sekitarnya.
           </p>
 
           <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -654,7 +654,7 @@ export default function TentangKamiPage() {
           </div>
 
           <div className="text-xs text-slate-500 font-mono pt-4 border-t border-[#30363A]/80">
-            Operasional Resmi: Dusun Jambe, Kec. Sebulu, Kutai Kartanegara,
+            Operasional Resmi: Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara,
             Kalimantan Timur
           </div>
         </div>

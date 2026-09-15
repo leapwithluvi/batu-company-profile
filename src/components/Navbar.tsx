@@ -96,8 +96,7 @@ export function Navbar() {
           <p className="flex items-center gap-2">
             <span className="inline-block w-2 h-2 rounded-full bg-[#1F4E5F] dark:bg-[#6F9AAA] animate-pulse" />
             <span>
-              Operasional: Dusun Jambe, Kec. Sebulu, Kukar &bull; Melayani Kutai
-              Kartanegara &amp; Sekitarnya
+              Operasional: Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara
             </span>
           </p>
           <div className="flex items-center gap-4">
@@ -262,7 +261,7 @@ export function Navbar() {
               <span>Konsultasi WhatsApp</span>
             </a>
             <div className="text-xs text-[#6B7378] dark:text-slate-400 text-center pt-2 font-mono">
-              Operasional: Dusun Jambe, Kec. Sebulu, Kutai Kartanegara
+              Operasional: Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara
             </div>
           </div>
         </div>

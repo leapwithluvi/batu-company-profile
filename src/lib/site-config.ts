@@ -33,7 +33,7 @@ export const siteConfig: SiteConfig = {
   tagline:
     "Supplier Batu & Material Konstruksi Melayani Tenggarong dan Kutai Kartanegara",
   description:
-    "PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara, menyediakan material batu pondasi, abu batu, batu split, batu agregat, batu tronjolan, dan aneka ukuran batu split untuk kebutuhan konstruksi di Tenggarong dan sekitarnya.",
+    "PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara, menyediakan material batu pondasi, abu batu, batu split, batu agregat, batu tronjolan, dan aneka ukuran batu split untuk kebutuhan konstruksi di Tenggarong dan sekitarnya.",
   url:
     process.env.NEXT_PUBLIC_SITE_URL || "https://bumikutaiperkasa.vercel.app",
   phoneDisplay: "+62 853-9333-9991",
@@ -43,14 +43,14 @@ export const siteConfig: SiteConfig = {
     process.env.NEXT_PUBLIC_GOOGLE_MAPS_URL ||
     "https://maps.google.com/?q=Dusun+Jambe,+Kec.+Sebulu,+Kutai+Kartanegara,+Kalimantan+Timur",
   operationalLocation: {
-    village: "Dusun Jambe",
+    village: "Dusun Jambe, Desa Sanggulan",
     subdistrict: "Kec. Sebulu",
     regency: "Kutai Kartanegara",
     province: "Kalimantan Timur",
     country: "Indonesia",
   },
   address: {
-    street: "Dusun Jambe",
+    street: "Dusun Jambe, Desa Sanggulan",
     subdistrict: "Sebulu",
     regency: "Kutai Kartanegara",
     province: "Kalimantan Timur",

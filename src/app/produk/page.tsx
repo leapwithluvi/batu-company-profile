@@ -35,14 +35,14 @@ export default function ProdukCatalogPage() {
 
           <div className="max-w-3xl">
             <span className="text-xs font-mono font-semibold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider">
-              {siteConfig.name} &bull; Dusun Jambe, Kec. Sebulu
+              {siteConfig.name} &bull; Dusun Jambe, Desa Sanggulan, Kec. Sebulu
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight mt-1 font-heading">
               Katalog Material Batu Konstruksi
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               Daftar produk material batu yang disediakan oleh PT. Bumi Kutai
-              Perkasa. Beroperasi di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara, dan
+              Perkasa. Beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara, dan
               melayani pengiriman ke Tenggarong dan wilayah sekitarnya.
             </p>
           </div>
@@ -111,7 +111,7 @@ export default function ProdukCatalogPage() {
           </h3>
           <p className="text-xs sm:text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
             PT. Bumi Kutai Perkasa beroperasi di{" "}
-            <strong>Dusun Jambe, Kec. Sebulu, Kutai Kartanegara</strong>. Untuk memenuhi
+            <strong>Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara</strong>. Untuk memenuhi
             kebutuhan proyek konstruksi perumahan, gedung, dan infrastruktur
             jalan, kami melayani pengiriman armada dump truck ke area
             Tenggarong, Kutai Kartanegara, Samarinda, dan wilayah Kalimantan

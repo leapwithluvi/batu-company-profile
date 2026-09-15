@@ -203,7 +203,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
                 Kebutuhan Material Terkait dari {siteConfig.name}
               </h3>
               <p className="text-xs text-slate-300 leading-relaxed">
-                {siteConfig.name} beroperasi di Dusun Jambe, Kec. Sebulu, Kutai
+                {siteConfig.name} beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai
                 Kartanegara, dan melayani kebutuhan pengiriman material ke
                 Tenggarong dan wilayah sekitarnya.
               </p>

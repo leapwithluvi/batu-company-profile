@@ -57,7 +57,7 @@ export default function HomePage() {
               <p className="text-base sm:text-lg text-[#3F4549] dark:text-[#C2C8CC] max-w-2xl leading-relaxed">
                 <strong>{siteConfig.name}</strong> menyediakan pasokan batu
                 split, abu batu, batu agregat, batu tronjolan, serta aneka
-                ukuran batu split. Dikelola dengan transparansi volume kubikasi
+                ukuran batu split. Dikelola dengan transparansi tonase
                 serta kesiapan armada dump truck dan ponton untuk pengiriman
                 terjadwal melayani <strong>Tenggarong</strong>, seluruh wilayah{" "}
                 <strong>Kutai Kartanegara</strong>, dan sekitarnya.
@@ -97,7 +97,7 @@ export default function HomePage() {
 
                 <div className="border-l-2 border-[#D9DCDD] dark:border-[#30363A] pl-3">
                   <div className="text-[#171A1C] dark:text-white font-bold text-lg font-heading">
-                    Dusun Jambe
+                    Dusun Jambe, Desa Sanggulan
                   </div>
                   <span className="text-[#6B7378] dark:text-[#A5ADB2] block mt-0.5">
                     Fasilitas Stockpile
@@ -155,7 +155,7 @@ export default function HomePage() {
                   Lokasi Operasional
                 </span>
                 <span className="block text-sm font-bold text-[#171A1C] dark:text-[#F1F3F4] mt-0.5">
-                  Dusun Jambe, Kec. Sebulu
+                  Dusun Jambe, Desa Sanggulan, Kec. Sebulu
                 </span>
                 <span className="block text-xs text-[#6B7378] dark:text-[#A5ADB2] mt-0.5">
                   Tersedia Titik Google Maps
@@ -223,11 +223,11 @@ export default function HomePage() {
             <div className="bg-white dark:bg-[#181C1F] p-6 border border-[#D9DCDD] dark:border-[#30363A] rounded-lg shadow-xs space-y-3">
               <Scale className="w-6 h-6 text-[#1F4E5F] dark:text-[#6F9AAA]" />
               <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] font-heading">
-                Transparansi Takaran Kubikasi & Tonase
+                Transparansi Takaran Tonase
               </h3>
               <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
                 Volume bak dump truck dapat diinspeksi bersama sebelum muatan
-                dibongkar di lokasi. Tidak ada kecurangan kubikasi di lapangan.
+                dibongkar di lokasi. Tidak ada kecurangan tonase di lapangan.
               </p>
             </div>
 
@@ -324,14 +324,14 @@ export default function HomePage() {
                 <strong>{siteConfig.name}</strong> menyediakan berbagai material
                 batu untuk kebutuhan konstruksi di wilayah Kutai Kartanegara dan
                 sekitarnya. Fasilitas operasional kami berlokasi di{" "}
-                <strong>Dusun Jambe, Kec. Sebulu</strong>, dengan fokus
+                <strong>Dusun Jambe, Desa Sanggulan, Kec. Sebulu</strong>, dengan fokus
                 distribusi utama melayani kebutuhan proyek di{" "}
                 <strong>Tenggarong</strong> serta wilayah sekitarnya.
               </p>
               <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
                 Mulai dari pekerjaan pondasi awal rumah tinggal, dinding penahan
                 tebing turap sungai, hingga perkerasan jalan akses alat berat,
-                kami berkomitmen menjaga ketepatan volume kubikasi serta
+                kami berkomitmen menjaga ketepatan tonase serta
                 kejelasan komunikasi pengiriman armada.
               </p>
 
@@ -465,7 +465,7 @@ export default function HomePage() {
 
           <div className="mt-6 text-xs text-[#6B7378] dark:text-slate-500 font-mono">
             Operasional {siteConfig.name}: {siteConfig.operatingHours} &bull;
-            Fasilitas: Dusun Jambe, Kec. Sebulu, Kutai Kartanegara
+            Fasilitas: Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara
           </div>
         </div>
       </section>

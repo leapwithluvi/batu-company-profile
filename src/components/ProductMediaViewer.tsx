@@ -157,7 +157,7 @@ export function ProductMediaViewer({
       <div className="p-4 bg-[#EEF0F0] dark:bg-[#202529] border-t border-[#D9DCDD] dark:border-[#30363A] mt-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs text-[#3F4549] dark:text-[#C2C8CC] font-mono rounded-md">
         <span className="flex items-center gap-1.5">
           <ShieldCheck className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
-          <span>PT. Bumi Kutai Perkasa &bull; Dusun Jambe, Kec. Sebulu</span>
+          <span>PT. Bumi Kutai Perkasa &bull; Dusun Jambe, Desa Sanggulan, Kec. Sebulu</span>
         </span>
         <span className="flex items-center gap-1.5">
           <Truck className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />

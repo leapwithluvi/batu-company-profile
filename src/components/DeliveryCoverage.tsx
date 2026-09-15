@@ -22,7 +22,7 @@ export function DeliveryCoverage() {
 
             <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               <strong>{siteConfig.name}</strong> beroperasi di{" "}
-              <strong>Dusun Jambe, Kec. Sebulu, Kutai Kartanegara</strong>. Untuk mendukung
+              <strong>Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara</strong>. Untuk mendukung
               kelancaran pasokan proyek konstruksi, kami melayani pengiriman
               material batu dan agregat menggunakan armada <strong>dump truck</strong> (jalur darat) serta <strong>kapal ponton</strong> (jalur perairan / sungai)
               langsung ke titik proyek Anda di wilayah Kutai Kartanegara.
@@ -97,7 +97,7 @@ export function DeliveryCoverage() {
               <Clock className="w-4 h-4 text-[#6B7378] dark:text-[#A5ADB2] shrink-0 mt-0.5" />
               <div className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
                 <strong>Catatan Operasional:</strong> Lokasi operasional berada
-                di <strong>Dusun Jambe, Kec. Sebulu</strong>. Jadwal pengantaran dan
+                di <strong>Dusun Jambe, Desa Sanggulan, Kec. Sebulu</strong>. Jadwal pengantaran dan
                 ketersediaan ritase armada dikonfirmasi secara langsung oleh tim
                 dispatcher sesuai antrean harian.
               </div>

@@ -42,7 +42,7 @@ export const productsData: Product[] = [
     metaDescription:
       "Jual abu batu berkualitas untuk kebutuhan paving, aspal, dan adukan konstruksi. Melayani pengiriman ke Tenggarong, Kutai Kartanegara & Sekitarnya oleh PT. Bumi Kutai Perkasa.",
     orderUnitNote:
-      "Sistem pengiriman menggunakan dump truck dengan metode perhitungan biaya (ritase / tonase / kubikasi) yang disesuaikan berdasarkan konfirmasi kesepakatan bersama",
+      "Sistem pengiriman menggunakan dump truck dengan metode perhitungan biaya yang disesuaikan berdasarkan konfirmasi kesepakatan bersama",
   },
   {
     name: "Batu Agregat",
