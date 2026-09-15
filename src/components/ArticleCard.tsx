@@ -12,7 +12,7 @@ export interface ArticleCardProps {
 export function ArticleCard({ article, featured = false }: ArticleCardProps) {
   if (featured) {
     return (
-      <article className="border border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#181C1F] grid grid-cols-1 md:grid-cols-12 gap-0 group rounded-xs shadow-xs">
+      <article className="border border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#181C1F] grid grid-cols-1 md:grid-cols-12 gap-0 group rounded-lg overflow-hidden shadow-xs">
         <div className="relative aspect-16/10 md:aspect-auto md:h-full md:col-span-5 bg-[#EEF0F0] dark:bg-[#202529] overflow-hidden">
           <Image
             src={article.image}
@@ -68,7 +68,7 @@ export function ArticleCard({ article, featured = false }: ArticleCardProps) {
   }
 
   return (
-    <article className="border border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#181C1F] flex flex-col justify-between group hover:border-[#B8BEC0] dark:hover:border-[#41494E] transition-colors rounded-xs shadow-xs">
+    <article className="border border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#181C1F] flex flex-col justify-between group hover:border-[#B8BEC0] dark:hover:border-[#41494E] transition-colors rounded-lg overflow-hidden shadow-xs">
       <div>
         <div className="relative aspect-16/10 bg-[#EEF0F0] dark:bg-[#202529] overflow-hidden">
           <Image
@@ -78,7 +78,7 @@ export function ArticleCard({ article, featured = false }: ArticleCardProps) {
             sizes="(max-width: 768px) 100vw, 33vw"
             className="object-cover transition-transform duration-500 group-hover:scale-105"
           />
-          <div className="absolute top-3 left-3 bg-[#111416]/90 text-white text-[10px] font-mono uppercase px-2 py-0.5 rounded-xs">
+          <div className="absolute top-3 left-3 bg-[#111416]/90 text-white text-[10px] font-mono uppercase px-2 py-0.5 rounded-sm">
             {article.category}
           </div>
         </div>

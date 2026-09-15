@@ -20,11 +20,11 @@ import {
 export const metadata: Metadata = {
   title: "Profil Perusahaan & Legalitas | PT. Bumi Kutai Perkasa",
   description:
-    "Profil resmi, identitas badan usaha, ketersediaan dokumen legalitas, dan fasilitas operasional PT. Bumi Kutai Perkasa di Dusun Jambe, Kutai Kartanegara, melayani Tenggarong dan sekitarnya.",
+    "Profil resmi, identitas badan usaha, ketersediaan dokumen legalitas, dan fasilitas operasional PT. Bumi Kutai Perkasa di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara, melayani Tenggarong dan sekitarnya.",
   keywords: [
     "profil PT Bumi Kutai Perkasa",
     "legalitas PT Bumi Kutai Perkasa",
-    "supplier batu Dusun Jambe",
+    "supplier batu Dusun Jambe Kec. Sebulu",
     "distributor batu kutai kartanegara",
     "supplier material tenggarong",
   ],
@@ -34,24 +34,24 @@ export default function TentangKamiPage() {
   return (
     <div className="bg-[#F7F7F5] dark:bg-[#111416] min-h-screen">
       {/* 1. TOP HEADER */}
-      <section className="bg-[#171A1C] text-slate-100 border-b border-[#30363A] py-12 sm:py-16">
+      <section className="bg-white dark:bg-[#16191C] text-[#171A1C] dark:text-[#F1F3F4] border-b border-[#D9DCDD] dark:border-[#30363A] py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb
             items={[{ label: "Tentang Kami" }]}
-            className="text-slate-400 [&_a]:text-slate-400 [&_a:hover]:text-white [&_span]:text-white mb-4"
+            className="text-[#6B7378] dark:text-[#A5ADB2] [&_a]:text-[#6B7378] [&_a:hover]:text-[#1F4E5F] dark:[&_a]:text-[#A5ADB2] dark:[&_a:hover]:text-white [&_span]:text-[#171A1C] dark:[&_span]:text-white mb-4"
           />
 
           <div className="max-w-3xl">
-            <span className="text-xs font-mono font-semibold uppercase text-[#6F9AAA] tracking-wider">
+            <span className="text-xs font-mono font-semibold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider">
               Profil &amp; Identitas Perusahaan
             </span>
-            <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mt-1">
+            <h1 className="text-3xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight mt-1 font-heading">
               PT. Bumi Kutai Perkasa
             </h1>
-            <p className="mt-3 text-sm sm:text-base text-slate-300 leading-relaxed">
+            <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               Penyedia material batu pondasi, abu batu, dan aneka agregat batu
-              gunung berizin resmi. Beroperasi nyata di Dusun Jambe, Kutai
-              Kartanegara, dan melayani pengiriman terjadwal ke Tenggarong dan
+              gunung berizin resmi. Beroperasi nyata di Dusun Jambe, Kec. Sebulu,
+              Kutai Kartanegara, dan melayani pengiriman terjadwal ke Tenggarong dan
               wilayah sekitarnya.
             </p>
           </div>
@@ -69,7 +69,7 @@ export default function TentangKamiPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-xs font-mono">
-            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-xs">
+            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-md">
               <span className="text-[#6B7378] dark:text-[#A5ADB2] block mb-1">
                 Nama Resmi Badan Usaha
               </span>
@@ -81,19 +81,19 @@ export default function TentangKamiPage() {
               </span>
             </div>
 
-            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-xs">
+            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-md">
               <span className="text-[#6B7378] dark:text-[#A5ADB2] block mb-1">
                 Fasilitas Stockpile &amp; Operasional
               </span>
               <strong className="text-[#171A1C] dark:text-[#F1F3F4] text-sm block">
-                Dusun Jambe, Kutai Kartanegara
+                Dusun Jambe, Kec. Sebulu, Kutai Kartanegara
               </strong>
               <span className="text-[11px] text-[#3F4549] dark:text-[#C2C8CC] mt-0.5 block">
                 Provinsi Kalimantan Timur 75511
               </span>
             </div>
 
-            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-xs">
+            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-md">
               <span className="text-[#6B7378] dark:text-[#A5ADB2] block mb-1">
                 Fokus Distribusi Pengiriman
               </span>
@@ -105,7 +105,7 @@ export default function TentangKamiPage() {
               </span>
             </div>
 
-            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-xs">
+            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-md">
               <span className="text-[#6B7378] dark:text-[#A5ADB2] block mb-1">
                 Bidang Usaha Utama
               </span>
@@ -117,7 +117,7 @@ export default function TentangKamiPage() {
               </span>
             </div>
 
-            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-xs">
+            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-md">
               <span className="text-[#6B7378] dark:text-[#A5ADB2] block mb-1">
                 Waktu Pelayanan Dispatcher
               </span>
@@ -129,7 +129,7 @@ export default function TentangKamiPage() {
               </span>
             </div>
 
-            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-xs">
+            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-md">
               <span className="text-[#6B7378] dark:text-[#A5ADB2] block mb-1">
                 Saluran Komunikasi Resmi
               </span>
@@ -212,7 +212,7 @@ export default function TentangKamiPage() {
             </div>
 
             <p>
-              Fasilitas stockpile kami di <strong>Dusun Jambe</strong> dikelola
+              Fasilitas stockpile kami di <strong>Dusun Jambe, Kec. Sebulu</strong> dikelola
               untuk menjaga ketersediaan material yang stabil, siap melayani
               pengadaan eceran ritase perumahan hingga kebutuhan pengadaan
               ratusan kubik untuk proyek infrastruktur jalan dan gedung
@@ -222,36 +222,36 @@ export default function TentangKamiPage() {
 
           {/* Right Column / Key Highlights & Facilities */}
           <div className="lg:col-span-5 space-y-6">
-            <div className="relative aspect-4/3 w-full bg-[#EEF0F0] dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] overflow-hidden rounded-xs shadow-xs">
+            <div className="relative aspect-4/3 w-full bg-[#EEF0F0] dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] overflow-hidden rounded-lg shadow-xs">
               <Image
                 src="https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=800&q=80"
-                alt="Stockpile dan operasional material batu PT. Bumi Kutai Perkasa di Dusun Jambe"
+                alt="Stockpile dan operasional material batu PT. Bumi Kutai Perkasa di Dusun Jambe, Kec. Sebulu"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover"
               />
               <div className="absolute bottom-0 inset-x-0 bg-[#111416]/90 p-2.5 text-[11px] text-slate-300 font-mono border-t border-[#30363A] flex justify-between items-center">
-                <span>Stockpile Dusun Jambe</span>
+                <span>Stockpile Dusun Jambe, Kec. Sebulu</span>
                 <span className="text-[#6F9AAA]">Kutai Kartanegara</span>
               </div>
             </div>
 
-            <div className="bg-[#171A1C] text-slate-100 p-6 border border-[#30363A] space-y-4 rounded-xs shadow-xs">
+            <div className="bg-[#171A1C] text-slate-100 p-6 border border-[#30363A] space-y-4 rounded-xl shadow-xs">
               <div className="flex items-center gap-2 text-xs font-mono uppercase text-[#6F9AAA] font-bold tracking-wider">
                 <ShieldCheck className="w-4 h-4" />
                 <span>Kredibilitas Operasional</span>
               </div>
 
               <div className="grid grid-cols-2 gap-3 text-xs font-mono">
-                <div className="border border-[#30363A] p-3 bg-[#111416] rounded-xs">
+                <div className="border border-[#30363A] p-3 bg-[#111416] rounded-md">
                   <div className="text-[#6F9AAA] font-bold text-base font-sans">
                     Fisik &amp; Nyata
                   </div>
                   <div className="text-slate-400 text-[11px] mt-1">
-                    Stockpile di Dusun Jambe
+                    Stockpile di Dusun Jambe, Kec. Sebulu
                   </div>
                 </div>
-                <div className="border border-[#30363A] p-3 bg-[#111416] rounded-xs">
+                <div className="border border-[#30363A] p-3 bg-[#111416] rounded-md">
                   <div className="text-[#6F9AAA] font-bold text-base font-sans">
                     Armada Mandiri
                   </div>
@@ -298,14 +298,14 @@ export default function TentangKamiPage() {
             {companyData.legalDocuments.map((doc) => (
               <div
                 key={doc.id}
-                className="border border-[#D9DCDD] dark:border-[#30363A] bg-[#F7F7F5] dark:bg-[#111416] p-6 rounded-xs flex flex-col justify-between space-y-4 shadow-xs"
+                className="border border-[#D9DCDD] dark:border-[#30363A] bg-[#F7F7F5] dark:bg-[#111416] p-6 rounded-lg flex flex-col justify-between space-y-4 shadow-xs"
               >
                 <div>
                   <div className="flex items-center justify-between gap-2 mb-2">
                     <span className="text-[11px] font-mono text-[#6B7378] dark:text-[#A5ADB2] uppercase">
                       {doc.category}
                     </span>
-                    <span className="inline-flex items-center gap-1 text-[11px] font-mono bg-[#E8EEF0] dark:bg-[#1C2A30] text-[#1F4E5F] dark:text-[#6F9AAA] px-2 py-0.5 rounded-xs font-semibold">
+                    <span className="inline-flex items-center gap-1 text-[11px] font-mono bg-[#E8EEF0] dark:bg-[#1C2A30] text-[#1F4E5F] dark:text-[#6F9AAA] px-2 py-0.5 rounded-sm font-semibold">
                       <CheckCircle2 className="w-3 h-3" />
                       <span>{doc.status}</span>
                     </span>
@@ -321,7 +321,7 @@ export default function TentangKamiPage() {
 
                   {/* Nomor Registrasi / Dokumen Faktual */}
                   {doc.documentNumber ? (
-                    <div className="mt-3.5 p-2.5 bg-white dark:bg-[#181C1F] border border-[#D9DCDD] dark:border-[#30363A] rounded-xs flex items-center justify-between">
+                    <div className="mt-3.5 p-2.5 bg-white dark:bg-[#181C1F] border border-[#D9DCDD] dark:border-[#30363A] rounded-md flex items-center justify-between">
                       <span className="text-[11px] font-mono text-[#6B7378] dark:text-[#A5ADB2] uppercase">
                         Nomor Registrasi:
                       </span>
@@ -330,7 +330,7 @@ export default function TentangKamiPage() {
                       </span>
                     </div>
                   ) : (
-                    <div className="mt-3.5 p-2 bg-[#EEF0F0]/50 dark:bg-[#181C1F]/50 border border-dashed border-[#D9DCDD] dark:border-[#30363A] rounded-xs flex items-center justify-between text-xs">
+                    <div className="mt-3.5 p-2 bg-[#EEF0F0]/50 dark:bg-[#181C1F]/50 border border-dashed border-[#D9DCDD] dark:border-[#30363A] rounded-md flex items-center justify-between text-xs">
                       <span className="text-[11px] font-mono text-[#6B7378] dark:text-[#A5ADB2]">
                         Status Registrasi:
                       </span>
@@ -356,7 +356,7 @@ export default function TentangKamiPage() {
                         href={doc.fileUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold bg-[#1F4E5F] text-white hover:bg-[#183E4C] rounded-xs transition-colors shrink-0"
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold bg-[#1F4E5F] text-white hover:bg-[#183E4C] rounded-md transition-colors shrink-0"
                       >
                         <FileText className="w-3.5 h-3.5" />
                         <span>Lihat Berkas</span>
@@ -376,7 +376,7 @@ export default function TentangKamiPage() {
             ))}
           </div>
 
-          <div className="mt-8 p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] text-xs text-[#3F4549] dark:text-[#C2C8CC] rounded-xs flex items-start gap-3">
+          <div className="mt-8 p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] text-xs text-[#3F4549] dark:text-[#C2C8CC] rounded-lg flex items-start gap-3">
             <ShieldCheck className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
             <div className="leading-relaxed">
               <strong>Kebijakan Perlindungan Dokumen:</strong> Untuk menjaga
@@ -398,13 +398,13 @@ export default function TentangKamiPage() {
                 Lokasi Nyata &amp; Geografis
               </span>
               <h2 className="text-2xl sm:text-3xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight mt-1">
-                Fasilitas Operasional di Dusun Jambe
+                Fasilitas Operasional di Dusun Jambe, Kec. Sebulu
               </h2>
             </div>
 
             <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               PT. Bumi Kutai Perkasa beroperasi secara fisik di{" "}
-              <strong>Dusun Jambe, Kutai Kartanegara</strong>. Lokasi stockpile
+              <strong>Dusun Jambe, Kec. Sebulu, Kutai Kartanegara</strong>. Lokasi stockpile
               ini dipilih secara strategis agar armada dump truck dapat dengan
               mudah mengakses jalur logistik utama menuju wilayah{" "}
               <strong>Tenggarong</strong>, <strong>Loa Kulu</strong>,{" "}
@@ -412,7 +412,7 @@ export default function TentangKamiPage() {
               <strong>Samarinda</strong>.
             </p>
 
-            <div className="space-y-3 text-xs sm:text-sm bg-white dark:bg-[#181C1F] border border-[#D9DCDD] dark:border-[#30363A] p-5 rounded-xs shadow-xs">
+            <div className="space-y-3 text-xs sm:text-sm bg-white dark:bg-[#181C1F] border border-[#D9DCDD] dark:border-[#30363A] p-5 rounded-lg shadow-xs">
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
                 <div>
@@ -456,7 +456,7 @@ export default function TentangKamiPage() {
                 href={siteConfig.googleMapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-3 bg-[#171A1C] dark:bg-[#202529] hover:bg-[#282E33] text-white text-xs font-semibold rounded-xs shadow-xs transition-colors border border-[#30363A]"
+                className="inline-flex items-center gap-2 px-5 py-3 bg-[#171A1C] dark:bg-[#202529] hover:bg-[#282E33] text-white text-xs font-semibold rounded-md shadow-xs transition-colors border border-[#30363A]"
               >
                 <MapPin className="w-4 h-4 text-[#6F9AAA]" />
                 <span>Buka Lokasi di Google Maps</span>
@@ -472,7 +472,7 @@ export default function TentangKamiPage() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Lihat lokasi operasional PT. Bumi Kutai Perkasa di Google Maps"
-              className="group block relative overflow-hidden rounded-xs border border-[#D9DCDD] dark:border-[#30363A] bg-[#181C1F] p-8 sm:p-12 text-center transition-all hover:border-[#6F9AAA] shadow-xs"
+              className="group block relative overflow-hidden rounded-xl border border-[#D9DCDD] dark:border-[#30363A] bg-[#181C1F] p-8 sm:p-12 text-center transition-all hover:border-[#6F9AAA] shadow-xs"
             >
               {/* Industrial Grid Vector Texture */}
               <div
@@ -490,14 +490,14 @@ export default function TentangKamiPage() {
                     Peta Lokasi Operasional
                   </span>
                   <h3 className="text-lg sm:text-xl font-bold text-white mt-1">
-                    Dusun Jambe, Kutai Kartanegara
+                    Dusun Jambe, Kec. Sebulu
                   </h3>
                   <p className="text-xs text-slate-400 mt-1 max-w-sm mx-auto">
                     Kutai Kartanegara, Kalimantan Timur, Indonesia
                   </p>
                 </div>
 
-                <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-white bg-[#1F4E5F] dark:bg-[#6F9AAA] dark:text-[#111416] px-4 py-2 rounded-xs shadow-xs group-hover:bg-[#173B48] transition-colors">
+                <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-white bg-[#1F4E5F] dark:bg-white dark:text-[#111416] px-4 py-2 rounded-md shadow-xs group-hover:bg-[#173B48] dark:group-hover:bg-slate-100 transition-colors">
                   <span>Lihat di Google Maps</span>
                   <ExternalLink className="w-3.5 h-3.5" />
                 </span>
@@ -528,7 +528,7 @@ export default function TentangKamiPage() {
             {companyData.operationalGallery.map((item) => (
               <div
                 key={item.id}
-                className="border border-[#D9DCDD] dark:border-[#30363A] bg-[#F7F7F5] dark:bg-[#111416] rounded-xs overflow-hidden flex flex-col justify-between shadow-xs group"
+                className="border border-[#D9DCDD] dark:border-[#30363A] bg-[#F7F7F5] dark:bg-[#111416] rounded-lg overflow-hidden flex flex-col justify-between shadow-xs group"
               >
                 <div className="relative aspect-4/3 overflow-hidden bg-[#EEF0F0] dark:bg-[#202529]">
                   <Image
@@ -538,7 +538,7 @@ export default function TentangKamiPage() {
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
-                  <div className="absolute top-2.5 left-2.5 bg-[#111416]/90 text-white text-[10px] font-mono uppercase px-2 py-0.5 rounded-xs">
+                  <div className="absolute top-2.5 left-2.5 bg-[#111416]/90 text-white text-[10px] font-mono uppercase px-2 py-0.5 rounded-sm">
                     {item.category}
                   </div>
                 </div>
@@ -589,7 +589,7 @@ export default function TentangKamiPage() {
           </div>
 
           <div className="text-xs text-slate-500 font-mono pt-4 border-t border-[#30363A]/80">
-            Operasional Resmi: Dusun Jambe, Kutai Kartanegara, Kalimantan Timur
+            Operasional Resmi: Dusun Jambe, Kec. Sebulu, Kutai Kartanegara, Kalimantan Timur
           </div>
         </div>
       </section>

@@ -52,7 +52,7 @@ export const articlesData: Article[] = [
       {
         heading: "Pengadaan Abu Batu di Wilayah Tenggarong",
         paragraphs: [
-          "Untuk kebutuhan proyek jalan, pabrik batako, maupun pekerjaan halaman rumah tinggal, PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Kutai Kartanegara, menyediakan pasokan abu batu dengan pengiriman armada dump truck langsung ke lokasi proyek di Tenggarong dan sekitarnya.",
+          "Untuk kebutuhan proyek jalan, pabrik batako, maupun pekerjaan halaman rumah tinggal, PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara, menyediakan pasokan abu batu dengan pengiriman armada dump truck langsung ke lokasi proyek di Tenggarong dan sekitarnya.",
           "Untuk kepastian takaran kubikasi serta jadwal ritase armada, calon pembeli dapat langsung berkonsultasi dengan tim operasional PT. Bumi Kutai Perkasa via WhatsApp.",
         ],
       },
@@ -138,7 +138,7 @@ export const articlesData: Article[] = [
       {
         heading: "Konsultasi Kebutuhan Batu Gunung di Kutai Kartanegara",
         paragraphs: [
-          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe menyediakan seluruh varian ukuran Batu Gunung 21, 23, 35, dan 57 untuk menyuplai proyek konstruksi di Tenggarong, Kutai Kartanegara, dan wilayah sekitarnya. Hubungi kami untuk memastikan ketersediaan ukuran dan estimasi volume armada.",
+          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Kec. Sebulu, menyediakan seluruh varian ukuran Batu Gunung 21, 23, 35, dan 57 untuk menyuplai proyek konstruksi di Tenggarong, Kutai Kartanegara, dan wilayah sekitarnya. Hubungi kami untuk memastikan ketersediaan ukuran dan estimasi volume armada.",
         ],
       },
     ],
@@ -213,7 +213,7 @@ export const articlesData: Article[] = [
       {
         heading: "Pengadaan Agregat Terpercaya di Kutai Kartanegara",
         paragraphs: [
-          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe siap memenuhi kebutuhan batu agregat untuk proyek Anda di wilayah Tenggarong dan sekitarnya. Konsultasikan jadwal pengiriman dan estimasi kubikasi langsung via WhatsApp.",
+          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Kec. Sebulu, siap memenuhi kebutuhan batu agregat untuk proyek Anda di wilayah Tenggarong dan sekitarnya. Konsultasikan jadwal pengiriman dan estimasi kubikasi langsung via WhatsApp.",
         ],
       },
     ],

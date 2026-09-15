@@ -154,8 +154,8 @@ export default async function ProductDetailPage({ params }: PageProps) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12">
           {/* Kolom Gambar */}
           <div className="lg:col-span-6">
-            <div className="border border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#181C1F] p-2 sticky top-24 rounded-xs shadow-xs">
-              <div className="relative aspect-4/3 w-full bg-[#EEF0F0] dark:bg-[#202529] overflow-hidden rounded-xs">
+            <div className="border border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#181C1F] p-2 sticky top-24 rounded-xl shadow-xs">
+              <div className="relative aspect-4/3 w-full bg-[#EEF0F0] dark:bg-[#202529] overflow-hidden rounded-lg">
                 <Image
                   src={product.image}
                   alt={product.imageAlt}
@@ -164,15 +164,15 @@ export default async function ProductDetailPage({ params }: PageProps) {
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                 />
-                <div className="absolute top-3 left-3 bg-[#111416]/90 text-white text-xs font-mono uppercase px-2.5 py-1 rounded-xs">
+                <div className="absolute top-3 left-3 bg-[#111416]/90 text-white text-xs font-mono uppercase px-2.5 py-1 rounded-sm">
                   {product.category}
                 </div>
               </div>
 
-              <div className="p-4 bg-[#EEF0F0] dark:bg-[#202529] border-t border-[#D9DCDD] dark:border-[#30363A] mt-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs text-[#3F4549] dark:text-[#C2C8CC] font-mono rounded-xs">
+              <div className="p-4 bg-[#EEF0F0] dark:bg-[#202529] border-t border-[#D9DCDD] dark:border-[#30363A] mt-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs text-[#3F4549] dark:text-[#C2C8CC] font-mono rounded-md">
                 <span className="flex items-center gap-1.5">
                   <ShieldCheck className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
-                  <span>PT. Bumi Kutai Perkasa &bull; Dusun Jambe</span>
+                  <span>PT. Bumi Kutai Perkasa &bull; Dusun Jambe, Kec. Sebulu</span>
                 </span>
                 <span className="flex items-center gap-1.5">
                   <Truck className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
@@ -189,70 +189,65 @@ export default async function ProductDetailPage({ params }: PageProps) {
                 <span className="text-xs font-mono text-[#1F4E5F] dark:text-[#6F9AAA] font-bold uppercase">
                   {product.category}
                 </span>
-                <span className="text-[11px] bg-[#EEF0F0] dark:bg-[#202529] text-[#3F4549] dark:text-[#C2C8CC] border border-[#D9DCDD] dark:border-[#30363A] font-medium px-2 py-0.5 rounded-xs font-mono">
+                <span className="text-[11px] bg-[#EEF0F0] dark:bg-[#202529] text-[#3F4549] dark:text-[#C2C8CC] border border-[#D9DCDD] dark:border-[#30363A] font-medium px-2 py-0.5 rounded-sm font-mono">
                   Kutai Kartanegara
                 </span>
               </div>
 
-              <h1 className="text-2xl sm:text-3xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight">
+              <h1 className="text-2xl sm:text-3xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight font-heading">
                 {product.name}
               </h1>
 
-              <p className="mt-3 text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
+              <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
                 {product.description}
               </p>
             </div>
 
-            {/* Rekomendasi Kegunaan */}
-            <div className="border border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#181C1F] p-5 rounded-xs shadow-xs">
-              <h2 className="text-xs font-mono font-bold uppercase text-[#171A1C] dark:text-[#F1F3F4] tracking-wider mb-3">
-                Rekomendasi Kegunaan Material
+            {/* Rekomendasi Aplikasi Proyek */}
+            <div className="border border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#181C1F] p-5 rounded-lg shadow-xs">
+              <h2 className="text-xs font-mono uppercase font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-wider mb-3">
+                Aplikasi &amp; Penggunaan Lapangan:
               </h2>
-              <ul className="space-y-2 text-xs sm:text-sm text-[#3F4549] dark:text-[#C2C8CC]">
-                {product.uses.map((use, i) => (
-                  <li key={i} className="flex items-start gap-2">
+              <ul className="space-y-2.5">
+                {product.uses.map((use, idx) => (
+                  <li
+                    key={idx}
+                    className="flex items-start gap-2.5 text-xs sm:text-sm text-[#3F4549] dark:text-[#C2C8CC]"
+                  >
                     <CheckCircle2 className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
-                    <span className="leading-relaxed">{use}</span>
+                    <span>{use}</span>
                   </li>
                 ))}
               </ul>
             </div>
 
-            {/* Catatan Transparansi Pemesanan */}
-            <div className="bg-[#EEF0F0]/80 dark:bg-[#202529]/80 border border-[#D9DCDD] dark:border-[#30363A] p-4 text-xs text-[#3F4549] dark:text-[#C2C8CC] space-y-1 rounded-xs">
-              <div className="font-bold text-[#171A1C] dark:text-[#F1F3F4] font-mono">
-                Ketentuan Pengadaan &amp; Layanan Logistik:
+            {/* Informasi Pengiriman & Satuan */}
+            <div className="bg-[#EEF0F0]/80 dark:bg-[#202529]/80 border border-[#D9DCDD] dark:border-[#30363A] p-4 text-xs text-[#3F4549] dark:text-[#C2C8CC] space-y-1 rounded-md">
+              <div className="font-bold font-mono text-[#171A1C] dark:text-[#F1F3F4]">
+                Ketentuan Pengiriman &amp; Pemesanan:
               </div>
-              <p className="leading-relaxed">
-                {product.orderUnitNote}. Detail spesifikasi teknis dan
-                konfirmasi ketersediaan volume dapat dikonfirmasi langsung
-                kepada <strong>{siteConfig.name}</strong> melalui WhatsApp.
+              <p>
+                {product.orderUnitNote}. Volume bak armada dump truck dapat diinspeksi bersama saat tiba di lokasi proyek Anda di Tenggarong dan sekitarnya.
               </p>
             </div>
 
-            {/* WhatsApp CTA Box */}
-            <div className="bg-[#171A1C] text-slate-100 p-6 border border-[#30363A] space-y-4 rounded-xs shadow-xs">
+            {/* Call To Action Box */}
+            <div className="bg-[#171A1C] text-slate-100 p-6 border border-[#30363A] space-y-4 rounded-xl shadow-xs">
               <div>
-                <div className="text-xs font-mono text-[#6F9AAA] font-semibold uppercase">
-                  Pemesanan &amp; Penawaran Harga
-                </div>
-                <h3 className="text-lg font-bold text-white mt-0.5">
-                  Tanya Ketersediaan &amp; Harga {product.name}
+                <h3 className="text-base font-bold text-white font-heading">
+                  Pemesanan &amp; Cek Ketersediaan Armada
                 </h3>
+                <p className="text-xs text-slate-300 mt-1 leading-relaxed">
+                  Hubungi kami via WhatsApp untuk mendapatkan penawaran harga resmi (termasuk ongkos kirim) sesuai volume kebutuhan proyek Anda.
+                </p>
               </div>
-
-              <p className="text-xs text-slate-300 leading-relaxed">
-                Hubungi {siteConfig.name} untuk informasi ketersediaan material,
-                estimasi volume ritase, dan jadwal pengiriman dump truck ke
-                lokasi proyek Anda di Tenggarong dan sekitarnya.
-              </p>
 
               <div className="pt-2">
                 <WhatsappButton
                   namaProduk={product.name}
                   variant="primary"
-                  className="w-full py-3.5 text-sm justify-center"
-                  label={`Tanya Harga ${product.name} via WhatsApp`}
+                  className="w-full text-xs sm:text-sm py-3.5 justify-center"
+                  label={`Konsultasi ${product.name} via WhatsApp`}
                 />
               </div>
 

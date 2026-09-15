@@ -9,8 +9,6 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
-import { productsData } from "@/data/products";
-import { WhatsappButton } from "./WhatsappButton";
 
 export function Footer() {
   return (
@@ -54,11 +52,11 @@ export function Footer() {
               <MapPin className="w-5 h-5 text-[#6F9AAA] shrink-0 mt-0.5" />
               <div>
                 <strong className="block text-white font-semibold mb-0.5">
-                  Operasional Dusun Jambe
+                  Operasional Dusun Jambe, Kec. Sebulu
                 </strong>
                 <p className="text-slate-400 text-xs leading-relaxed">
-                  Fasilitas operasional berlokasi di Dusun Jambe, Kutai
-                  Kartanegara, Kalimantan Timur.
+                  Fasilitas operasional berlokasi di Dusun Jambe, Kec. Sebulu,
+                  Kutai Kartanegara, Kalimantan Timur.
                 </p>
               </div>
             </div>
@@ -72,100 +70,140 @@ export function Footer() {
           {/* Company Brief */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <span className="w-3 h-3 bg-[#6F9AAA] inline-block rounded-xs" />
-              <span className="text-base font-bold tracking-tight text-white uppercase font-mono">
+              <span className="w-3 h-3 bg-[#6F9AAA] inline-block rounded-sm" />
+              <span className="font-mono text-sm tracking-tight text-white font-bold">
                 {siteConfig.name}
               </span>
             </div>
-            <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
+            <p className="text-xs text-slate-400 leading-relaxed">
               Penyedia material batu pondasi, abu batu, batu agregat, batu
-              tronjolan, dan batu gunung berbagai ukuran untuk kebutuhan
-              pembangunan gedung, perumahan, dan infrastruktur jalan di
-              Tenggarong dan Kutai Kartanegara.
+              tronjolan, dan aneka ukuran batu gunung berizin resmi. Melayani
+              kebutuhan proyek konstruksi di Tenggarong dan Kutai Kartanegara.
             </p>
-            <div className="pt-2">
-              <WhatsappButton
-                variant="outline"
-                className="text-xs !py-2 !px-3"
-                label="Konsultasi Kebutuhan Material"
-              />
+            <div className="pt-2 border-t border-[#30363A]/80 text-xs text-slate-400 font-mono">
+              <span className="text-[#6F9AAA] font-semibold block">
+                Operasional Dusun Jambe, Kec. Sebulu
+              </span>
+              Fasilitas operasional berlokasi di Dusun Jambe, Kec. Sebulu,
+              Kutai Kartanegara, Kalimantan Timur.
             </div>
           </div>
 
-          {/* Catalog Links */}
+          {/* Navigasi Produk */}
           <div>
-            <h3 className="text-xs font-bold text-white uppercase tracking-wider mb-4 border-l-2 border-[#6F9AAA] pl-2 font-mono">
-              Produk Material
+            <h3 className="text-xs font-mono font-semibold uppercase tracking-wider text-slate-200 mb-4 pb-2 border-b border-[#30363A]">
+              Katalog Material
             </h3>
-            <ul className="space-y-2 text-xs sm:text-sm">
-              {productsData.map((item) => (
-                <li key={item.slug}>
-                  <Link
-                    href={`/produk/${item.slug}`}
-                    className="text-slate-400 hover:text-white transition-colors block py-0.5"
-                  >
-                    {item.name}
-                  </Link>
-                </li>
-              ))}
+            <ul className="space-y-2 text-xs text-slate-400">
+              <li>
+                <Link
+                  href="/produk/abu-batu"
+                  className="hover:text-slate-200 transition-colors"
+                >
+                  Abu Batu (Dust Stone)
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/produk/batu-pondasi"
+                  className="hover:text-slate-200 transition-colors"
+                >
+                  Batu Pondasi Belah Gunung
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/produk/batu-agregat"
+                  className="hover:text-slate-200 transition-colors"
+                >
+                  Batu Agregat Campuran Cor
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/produk/batu-tronjolan"
+                  className="hover:text-slate-200 transition-colors"
+                >
+                  Batu Tronjolan Bronjong
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/produk/batu-gunung-21"
+                  className="hover:text-slate-200 transition-colors"
+                >
+                  Batu Gunung 21, 23, 35, 57
+                </Link>
+              </li>
               <li className="pt-2">
                 <Link
                   href="/produk"
-                  className="text-xs text-[#6F9AAA] hover:text-white font-medium inline-flex items-center gap-1"
+                  className="text-[#6F9AAA] hover:text-[#8AB2C2] font-medium"
                 >
-                  <span>Lihat Seluruh Katalog &rarr;</span>
+                  Lihat Seluruh Produk &rarr;
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Area Coverage (Local SEO) */}
+          {/* Panduan & Wilayah Layanan */}
           <div>
-            <h3 className="text-xs font-bold text-white uppercase tracking-wider mb-4 border-l-2 border-[#6F9AAA] pl-2 font-mono">
-              Wilayah Layanan
+            <h3 className="text-xs font-mono font-semibold uppercase tracking-wider text-slate-200 mb-4 pb-2 border-b border-[#30363A]">
+              Area Distribusi
             </h3>
-            <p className="text-xs text-slate-400 mb-3 leading-relaxed">
-              Melayani pengiriman material konstruksi ke area yang dapat
-              dijangkau armada di Kalimantan Timur:
-            </p>
-            <div className="flex flex-wrap gap-1.5">
+            <div className="flex flex-wrap gap-1.5 mb-6">
               {siteConfig.serviceAreas.map((area) => (
                 <span
                   key={area}
-                  className="inline-block bg-[#181C1F] border border-[#30363A] px-2 py-1 text-xs text-slate-300 rounded-xs"
+                  className="inline-block bg-[#181C1F] border border-[#30363A] px-2 py-1 text-xs text-slate-300 rounded-md"
                 >
                   {area}
                 </span>
               ))}
             </div>
+
+            <h3 className="text-xs font-mono font-semibold uppercase tracking-wider text-slate-200 mb-2">
+              Panduan Material
+            </h3>
+            <ul className="space-y-1 text-xs text-slate-400">
+              <li>
+                <Link
+                  href="/blog"
+                  className="hover:text-slate-200 transition-colors"
+                >
+                  Pusat Panduan &amp; Edukasi Proyek &rarr;
+                </Link>
+              </li>
+            </ul>
           </div>
 
-          {/* Direct Contacts & Maps Preview */}
+          {/* Kontak & Lokasi Operasional */}
           <div className="space-y-4">
             <div>
-              <h3 className="text-xs font-bold text-white uppercase tracking-wider mb-4 border-l-2 border-[#6F9AAA] pl-2 font-mono">
-                Lokasi &amp; Kontak
+              <h3 className="text-xs font-mono font-semibold uppercase tracking-wider text-slate-200 mb-4 pb-2 border-b border-[#30363A]">
+                Kontak &amp; Dispatcher
               </h3>
-              <ul className="space-y-2.5 text-xs sm:text-sm text-slate-400">
-                <li className="flex items-start gap-2.5">
-                  <MapPin className="w-4 h-4 text-[#6F9AAA] shrink-0 mt-0.5" />
+              <ul className="space-y-2 text-xs text-slate-400">
+                <li className="flex items-start gap-2">
+                  <MapPin className="w-3.5 h-3.5 text-[#6F9AAA] shrink-0 mt-0.5" />
                   <span className="text-xs leading-relaxed">
-                    <strong>Lokasi Operasional:</strong>
-                    <br />
                     {siteConfig.operationalLocation.village},{" "}
+                    {siteConfig.operationalLocation.subdistrict && (
+                      <>{siteConfig.operationalLocation.subdistrict},{" "}</>
+                    )}
                     {siteConfig.operationalLocation.regency},{" "}
                     {siteConfig.operationalLocation.province}
                   </span>
                 </li>
-                <li className="flex items-center gap-2.5">
-                  <Clock className="w-4 h-4 text-[#6F9AAA] shrink-0" />
+                <li className="flex items-center gap-2">
+                  <Clock className="w-3.5 h-3.5 text-[#6F9AAA] shrink-0" />
                   <span className="text-xs">{siteConfig.operatingHours}</span>
                 </li>
-                <li className="flex items-center gap-2.5">
-                  <Phone className="w-4 h-4 text-[#6F9AAA] shrink-0" />
+                <li className="flex items-center gap-2">
+                  <Phone className="w-3.5 h-3.5 text-[#6F9AAA] shrink-0" />
                   <a
                     href={`tel:${siteConfig.whatsappNumber}`}
-                    className="text-xs hover:text-white transition-colors font-mono"
+                    className="hover:text-slate-200 transition-colors font-mono text-xs"
                   >
                     {siteConfig.phoneDisplay}
                   </a>
@@ -180,7 +218,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Lihat lokasi PT. Bumi Kutai Perkasa di Google Maps"
-                className="group relative block overflow-hidden rounded border border-[#30363A] bg-[#181C1F] hover:border-[#6F9AAA] transition-all p-3"
+                className="group relative block overflow-hidden rounded-md border border-[#30363A] bg-[#181C1F] hover:border-[#6F9AAA] transition-all p-3"
               >
                 {/* Visual Map Background Motif */}
                 <div
@@ -190,7 +228,7 @@ export function Footer() {
 
                 <div className="relative z-10 flex items-center justify-between gap-3">
                   <div className="flex items-center gap-2.5">
-                    <div className="flex items-center justify-center w-8 h-8 rounded-xs bg-[#1F4E5F]/30 border border-[#6F9AAA]/40 text-[#6F9AAA]">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-md bg-[#1F4E5F]/30 border border-[#6F9AAA]/40 text-[#6F9AAA]">
                       <MapPin className="w-4 h-4" />
                     </div>
                     <div>
@@ -198,7 +236,7 @@ export function Footer() {
                         Peta Lokasi Depot
                       </span>
                       <span className="block text-[11px] text-slate-400">
-                        Dusun Jambe, Kutai Kartanegara
+                        Dusun Jambe, Kec. Sebulu, Kutai Kartanegara
                       </span>
                     </div>
                   </div>
@@ -219,7 +257,7 @@ export function Footer() {
             Dilindungi.
           </p>
           <p className="text-slate-500 text-[11px]">
-            Beroperasi di Dusun Jambe, Kutai Kartanegara &bull; Melayani
+            Beroperasi di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara &bull; Melayani
             pengiriman ke Tenggarong dan sekitarnya.
           </p>
         </div>

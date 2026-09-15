@@ -36,30 +36,30 @@ export function WhatsappButton({
   const buttonText = label || defaultLabel;
 
   const baseStyles =
-    "inline-flex items-center justify-center font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 select-none rounded-xs";
+    "inline-flex items-center justify-center font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 select-none rounded-md";
 
   let variantStyles = "";
 
   switch (variant) {
     case "primary":
       variantStyles =
-        "bg-[#25D366] hover:bg-[#20BA59] text-white px-5 py-3 text-sm font-semibold tracking-wide shadow-xs active:bg-[#1da850]";
+        "bg-[#1F4E5F] hover:bg-[#173B48] text-white border border-[#1F4E5F] dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] dark:border-white px-5 py-3 text-sm font-semibold tracking-wide shadow-xs active:bg-[#153440]";
       break;
     case "secondary":
       variantStyles =
-        "bg-[#1F4E5F] hover:bg-[#173B48] dark:bg-[#6F9AAA] dark:hover:bg-[#598291] text-white dark:text-[#111416] px-5 py-3 text-sm font-medium shadow-xs";
+        "bg-[#EEF0F0] hover:bg-[#E2E6E7] text-[#171A1C] border border-[#D9DCDD] dark:bg-[#1F2428] dark:hover:bg-[#2A3036] dark:text-[#F0F2F2] dark:border-[#30363A] px-5 py-3 text-sm font-medium shadow-xs";
       break;
     case "outline":
       variantStyles =
-        "bg-transparent hover:bg-[#25D366]/10 text-[#25D366] border border-[#25D366] px-4 py-2.5 text-sm font-semibold";
+        "bg-transparent hover:bg-[#1F4E5F]/10 text-[#1F4E5F] border border-[#1F4E5F] dark:text-white dark:border-white dark:hover:bg-white/10 px-4 py-2.5 text-sm font-semibold";
       break;
     case "compact":
       variantStyles =
-        "bg-[#25D366] hover:bg-[#20BA59] text-white px-3 py-1.5 text-xs font-semibold shadow-xs";
+        "bg-[#1F4E5F] hover:bg-[#173B48] text-white border border-[#1F4E5F] dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] dark:border-white px-3.5 py-1.5 text-xs font-semibold shadow-xs";
       break;
     case "floating":
       variantStyles =
-        "fixed bottom-5 right-5 z-40 bg-[#25D366] hover:bg-[#20BA59] text-white shadow-lg px-4 py-3 text-sm font-semibold rounded-xs border border-white/20 flex items-center gap-2 transition-transform hover:-translate-y-0.5";
+        "fixed bottom-5 right-5 z-40 bg-[#1F4E5F] hover:bg-[#173B48] text-white dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] shadow-xl px-4 py-3 text-sm font-semibold rounded-md border border-[#1F4E5F] dark:border-white flex items-center gap-2 transition-transform hover:-translate-y-0.5";
       break;
   }
 

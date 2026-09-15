@@ -27,21 +27,21 @@ export default function BlogIndexPage() {
   return (
     <div className="bg-[#F7F7F5] dark:bg-[#111416] min-h-screen">
       {/* Top Header */}
-      <section className="bg-[#171A1C] text-slate-100 border-b border-[#30363A] py-12 sm:py-16">
+      <section className="bg-white dark:bg-[#16191C] text-[#171A1C] dark:text-[#F1F3F4] border-b border-[#D9DCDD] dark:border-[#30363A] py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb
             items={[{ label: "Blog & Panduan" }]}
-            className="text-slate-400 [&_a]:text-slate-400 [&_a:hover]:text-white [&_span]:text-white mb-4"
+            className="text-[#6B7378] dark:text-[#A5ADB2] [&_a]:text-[#6B7378] [&_a:hover]:text-[#1F4E5F] dark:[&_a]:text-[#A5ADB2] dark:[&_a:hover]:text-white [&_span]:text-[#171A1C] dark:[&_span]:text-white mb-4"
           />
 
           <div className="max-w-3xl">
-            <span className="text-xs font-mono font-semibold uppercase text-[#6F9AAA] tracking-wider">
+            <span className="text-xs font-mono font-semibold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider">
               {siteConfig.name} &bull; Pusat Edukasi Material
             </span>
-            <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mt-1">
+            <h1 className="text-3xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight mt-1 font-heading">
               Panduan Praktis Material &amp; Konstruksi
             </h1>
-            <p className="mt-3 text-sm sm:text-base text-slate-300 leading-relaxed">
+            <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               Artikel informatif yang menjawab kebutuhan calon pelanggan dalam menentukan spesifikasi batu pondasi, abu batu, batu agregat, dan aneka ukuran batu gunung untuk konstruksi di Tenggarong dan Kutai Kartanegara.
             </p>
           </div>

@@ -25,23 +25,23 @@ export default function ProdukCatalogPage() {
   return (
     <div className="bg-[#F7F7F5] dark:bg-[#111416] min-h-screen">
       {/* Top Header */}
-      <section className="bg-[#171A1C] text-slate-100 border-b border-[#30363A] py-12 sm:py-16">
+      <section className="bg-white dark:bg-[#16191C] text-[#171A1C] dark:text-[#F1F3F4] border-b border-[#D9DCDD] dark:border-[#30363A] py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb
             items={[{ label: "Katalog Produk" }]}
-            className="text-slate-400 [&_a]:text-slate-400 [&_a:hover]:text-white [&_span]:text-white mb-4"
+            className="text-[#6B7378] dark:text-[#A5ADB2] [&_a]:text-[#6B7378] [&_a:hover]:text-[#1F4E5F] dark:[&_a]:text-[#A5ADB2] dark:[&_a:hover]:text-white [&_span]:text-[#171A1C] dark:[&_span]:text-white mb-4"
           />
 
           <div className="max-w-3xl">
-            <span className="text-xs font-mono font-semibold uppercase text-[#6F9AAA] tracking-wider">
-              {siteConfig.name} &bull; Dusun Jambe
+            <span className="text-xs font-mono font-semibold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider">
+              {siteConfig.name} &bull; Dusun Jambe, Kec. Sebulu
             </span>
-            <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mt-1">
+            <h1 className="text-3xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight mt-1 font-heading">
               Katalog Material Batu Konstruksi
             </h1>
-            <p className="mt-3 text-sm sm:text-base text-slate-300 leading-relaxed">
+            <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               Daftar produk material batu yang disediakan oleh PT. Bumi Kutai
-              Perkasa. Beroperasi di Dusun Jambe, Kutai Kartanegara, dan
+              Perkasa. Beroperasi di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara, dan
               melayani pengiriman ke Tenggarong dan wilayah sekitarnya.
             </p>
           </div>
@@ -110,7 +110,7 @@ export default function ProdukCatalogPage() {
           </h3>
           <p className="text-xs sm:text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
             PT. Bumi Kutai Perkasa beroperasi di{" "}
-            <strong>Dusun Jambe, Kutai Kartanegara</strong>. Untuk memenuhi
+            <strong>Dusun Jambe, Kec. Sebulu, Kutai Kartanegara</strong>. Untuk memenuhi
             kebutuhan proyek konstruksi perumahan, gedung, dan infrastruktur
             jalan, kami melayani pengiriman armada dump truck ke area
             Tenggarong, Kutai Kartanegara, Samarinda, dan wilayah Kalimantan

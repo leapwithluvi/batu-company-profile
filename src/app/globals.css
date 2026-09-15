@@ -87,6 +87,7 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     color: var(--text-primary);
+    letter-spacing: -0.025em;
   }
 
   /* Accessible focus indicator */
@@ -99,6 +100,15 @@
     background-color: var(--accent-main);
     color: var(--accent-fg);
   }
+}
+
+.font-heading {
+  font-family: var(--font-heading), system-ui, -apple-system, sans-serif !important;
+  letter-spacing: -0.025em;
+}
+
+.font-sans {
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif !important;
 }
 
 /* Respect user's motion preferences */

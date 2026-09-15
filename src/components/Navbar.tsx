@@ -88,25 +88,25 @@ export function Navbar() {
   const whatsappUrl = getWhatsappUrl({});
 
   return (
-    <header className="sticky top-0 z-50 bg-[#171A1C] text-slate-100 border-b border-[#30363A]">
+    <header className="sticky top-0 z-50 bg-white/95 dark:bg-[#111416]/95 backdrop-blur-md text-[#171A1C] dark:text-[#F1F3F4] border-b border-[#D9DCDD] dark:border-[#30363A]">
       {/* Top bar dengan informasi lokasi operasional yang jujur */}
-      <div className="hidden sm:block border-b border-[#30363A]/80 bg-[#111416]/90 px-4 py-1.5 text-xs text-slate-400 font-mono">
+      <div className="hidden sm:block border-b border-[#D9DCDD] dark:border-[#30363A]/80 bg-[#F0F2F2] dark:bg-[#16191C] px-4 py-1.5 text-xs text-[#555E64] dark:text-[#A5ADB2] font-mono">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <p className="flex items-center gap-2">
-            <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+            <span className="inline-block w-2 h-2 rounded-full bg-[#1F4E5F] dark:bg-[#6F9AAA] animate-pulse" />
             <span>
-              Operasional: Dusun Jambe, Kukar &bull; Melayani Tenggarong &amp;
+              Operasional: Dusun Jambe, Kec. Sebulu, Kukar &bull; Melayani Tenggarong &amp;
               Sekitarnya
             </span>
           </p>
           <div className="flex items-center gap-4">
             <span>Operasional: {siteConfig.operatingHours}</span>
-            <span className="text-slate-700">|</span>
+            <span className="text-[#D9DCDD] dark:text-slate-700">|</span>
             <a
               href={`tel:${siteConfig.whatsappNumber}`}
-              className="hover:text-slate-200 transition-colors inline-flex items-center gap-1"
+              className="hover:text-[#1F4E5F] dark:hover:text-slate-200 transition-colors inline-flex items-center gap-1 font-medium"
             >
-              <Phone className="w-3 h-3 text-slate-400" />
+              <Phone className="w-3 h-3 text-[#1F4E5F] dark:text-slate-400" />
               <span>{siteConfig.phoneDisplay}</span>
             </a>
           </div>
@@ -123,12 +123,12 @@ export function Navbar() {
             aria-label={`${siteConfig.name} - Beranda`}
           >
             <div className="flex items-center gap-2.5">
-              <span className="w-3 h-3 bg-[#1F4E5F] dark:bg-[#6F9AAA] inline-block shrink-0 rounded-xs" />
-              <span className="text-base sm:text-lg font-bold tracking-tight text-white uppercase font-mono">
+              <span className="w-3 h-3 bg-[#1F4E5F] dark:bg-[#6F9AAA] inline-block shrink-0 rounded-sm" />
+              <span className="text-base sm:text-lg font-bold tracking-tight text-[#171A1C] dark:text-white uppercase font-heading">
                 {siteConfig.name}
               </span>
             </div>
-            <span className="text-[11px] text-slate-400 font-medium tracking-wide">
+            <span className="text-[11px] text-[#6B7378] dark:text-[#A5ADB2] font-medium tracking-wide">
               Supplier Material Batu &bull; Tenggarong &amp; Kukar
             </span>
           </Link>
@@ -148,10 +148,10 @@ export function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`px-3 py-2 text-sm font-medium transition-colors rounded-xs ${
+                  className={`px-3 py-2 text-sm font-medium transition-colors rounded-md ${
                     isActive
-                      ? "text-white border-b-2 border-[#1F4E5F] dark:border-[#6F9AAA] font-semibold bg-white/5"
-                      : "text-slate-300 hover:text-white hover:bg-slate-800/60"
+                      ? "text-[#1F4E5F] dark:text-[#6F9AAA] border-b-2 border-[#1F4E5F] dark:border-[#6F9AAA] font-bold bg-[#E8EEF0]/60 dark:bg-white/5"
+                      : "text-[#3F4549] dark:text-slate-300 hover:text-[#171A1C] dark:hover:text-white hover:bg-[#EEF0F0] dark:hover:bg-slate-800/60"
                   }`}
                 >
                   {link.name}
@@ -168,18 +168,18 @@ export function Navbar() {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden sm:inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20BA59] text-white text-xs sm:text-sm font-semibold px-4 py-2.5 transition-colors rounded-xs shadow-xs"
+              className="hidden sm:inline-flex items-center gap-2 bg-[#1F4E5F] hover:bg-[#173B48] text-white dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] text-xs sm:text-sm font-semibold px-4 py-2.5 transition-colors rounded-md shadow-xs"
               aria-label="Hubungi WhatsApp PT. Bumi Kutai Perkasa"
             >
-              <MessageSquare className="w-4 h-4 text-white" />
-              <span>Tanya Harga WhatsApp</span>
+              <MessageSquare className="w-4 h-4" />
+              <span>Konsultasi WhatsApp</span>
             </a>
 
             {/* Mobile Hamburger */}
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden p-2 text-slate-300 hover:text-white hover:bg-slate-800 focus-visible:outline-[#1F4E5F]"
+              className="md:hidden p-2 text-[#171A1C] dark:text-slate-300 hover:bg-[#EEF0F0] dark:hover:bg-slate-800 rounded-md focus-visible:outline-[#1F4E5F]"
               aria-expanded={mobileMenuOpen}
               aria-label={mobileMenuOpen ? "Tutup menu" : "Buka menu navigasi"}
             >
@@ -195,7 +195,7 @@ export function Navbar() {
 
       {/* Mobile Menu Panel */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-[#30363A] bg-[#111416] px-4 pt-3 pb-6 space-y-2">
+        <div className="md:hidden border-t border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#111416] px-4 pt-3 pb-6 space-y-2">
           <nav
             aria-label="Navigasi Seluler"
             className="flex flex-col space-y-1"
@@ -211,10 +211,10 @@ export function Navbar() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileMenuOpen(false)}
-                  className={`px-3 py-2.5 text-base font-medium transition-colors rounded-xs ${
+                  className={`px-3 py-2.5 text-base font-medium transition-colors rounded-md ${
                     isActive
-                      ? "text-white bg-[#181C1F] border-l-4 border-[#1F4E5F] dark:border-[#6F9AAA] font-semibold"
-                      : "text-slate-300 hover:text-white hover:bg-[#181C1F]"
+                      ? "text-[#1F4E5F] bg-[#EEF0F0] dark:bg-[#181C1F] dark:text-[#6F9AAA] border-l-4 border-[#1F4E5F] dark:border-[#6F9AAA] font-bold"
+                      : "text-[#3F4549] dark:text-slate-300 hover:text-[#171A1C] dark:hover:text-white hover:bg-[#EEF0F0] dark:hover:bg-[#181C1F]"
                   }`}
                 >
                   {link.name}
@@ -223,18 +223,23 @@ export function Navbar() {
             })}
           </nav>
 
-          <div className="pt-4 mt-4 border-t border-[#30363A]/80 flex flex-col gap-2">
+          <div className="pt-3 pb-1 px-3 border-t border-[#D9DCDD] dark:border-[#30363A]/80 flex items-center justify-between">
+            <span className="text-xs text-[#6B7378] dark:text-slate-400 font-mono">Mode Tampilan:</span>
+            <ThemeSwitcher />
+          </div>
+
+          <div className="pt-3 border-t border-[#D9DCDD] dark:border-[#30363A]/80 flex flex-col gap-2">
             <a
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full inline-flex items-center justify-center gap-2 bg-[#25D366] active:bg-[#20BA59] text-white py-3 text-sm font-semibold rounded-xs"
+              className="w-full inline-flex items-center justify-center gap-2 bg-[#1F4E5F] hover:bg-[#173B48] text-white dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] py-3 text-sm font-semibold rounded-md"
             >
               <MessageSquare className="w-4 h-4" />
-              <span>Tanya Harga via WhatsApp</span>
+              <span>Konsultasi WhatsApp</span>
             </a>
-            <div className="text-xs text-slate-400 text-center pt-2 font-mono">
-              Operasional: Dusun Jambe, Kutai Kartanegara
+            <div className="text-xs text-[#6B7378] dark:text-slate-400 text-center pt-2 font-mono">
+              Operasional: Dusun Jambe, Kec. Sebulu, Kutai Kartanegara
             </div>
           </div>
         </div>

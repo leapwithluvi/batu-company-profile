@@ -1,7 +1,10 @@
 export interface LegalDocument {
   id: string;
   name: string;
-  category: "Legalitas Badan Usaha" | "Perizinan Operasional" | "Administrasi Perpajakan";
+  category:
+    | "Legalitas Badan Usaha"
+    | "Perizinan Operasional"
+    | "Administrasi Perpajakan";
   issuer: string;
   documentNumber?: string; // Nomor resmi dokumen (misal: NIB, NPWP, No. Akta Notaris)
   description: string;
@@ -13,7 +16,11 @@ export interface LegalDocument {
 export interface OperationalGalleryItem {
   id: string;
   title: string;
-  category: "Stockpile" | "Armada Dump Truck" | "Fraksi Material" | "Pengiriman";
+  category:
+    | "Stockpile"
+    | "Armada Dump Truck"
+    | "Fraksi Material"
+    | "Pengiriman";
   description: string;
   imageUrl: string;
   location: string;
@@ -25,6 +32,7 @@ export interface CompanyData {
   businessType: string;
   operationalLocation: {
     village: string;
+    subdistrict?: string;
     regency: string;
     province: string;
     country: string;
@@ -45,13 +53,16 @@ export interface CompanyData {
 export const companyData: CompanyData = {
   officialName: "PT. Bumi Kutai Perkasa",
   shortName: "Bumi Kutai Perkasa",
-  businessType: "Perseroan Terbatas (PT) Perdagangan & Distribusi Material Konstruksi",
+  businessType:
+    "Perseroan Terbatas (PT) Perdagangan & Distribusi Material Konstruksi",
   operationalLocation: {
     village: "Dusun Jambe",
+    subdistrict: "Kec. Sebulu",
     regency: "Kutai Kartanegara",
     province: "Kalimantan Timur",
     country: "Indonesia",
-    fullAddress: "Dusun Jambe, Kutai Kartanegara, Kalimantan Timur, Indonesia 75511",
+    fullAddress:
+      "Dusun Jambe, Kec. Sebulu, Kutai Kartanegara, Kalimantan Timur, Indonesia 75511",
   },
   serviceAreaFocus: "Tenggarong & Wilayah Kutai Kartanegara Sekitarnya",
   serviceAreas: [
@@ -66,7 +77,7 @@ export const companyData: CompanyData = {
   contact: {
     phoneDisplay: "+62 831-5224-8722",
     whatsappNumber: "6281234567890",
-    operatingHours: "Senin – Sabtu: 07.30 – 17.30 WITA",
+    operatingHours: "Senin – Sabtu: 08.00 – 17.00 WITA",
   },
   legalSummary:
     "PT. Bumi Kutai Perkasa merupakan badan hukum resmi yang terdaftar dan memenuhi kewajiban perizinan usaha sesuai ketentuan perundang-undangan Republik Indonesia. Salinan dokumen legalitas disediakan bagi mitra kontraktor, instansi, maupun pengembang untuk keperluan audit perikatan, kontrak pengadaan, dan penerbitan faktur.",
@@ -75,7 +86,8 @@ export const companyData: CompanyData = {
       id: "nib",
       name: "Nomor Induk Berusaha (NIB)",
       category: "Legalitas Badan Usaha",
-      issuer: "Pemerintah Republik Indonesia (Kementerian Investasi / BKPM melalui OSS)",
+      issuer:
+        "Pemerintah Republik Indonesia (Kementerian Investasi / BKPM melalui OSS)",
       // Masukkan nomor NIB resmi Anda di sini (contoh: "0220008123456") agar langsung tampil di web
       documentNumber: undefined,
       // Masukkan path PDF di sini (contoh: "/documents/nib.pdf") jika ingin ada tombol "Lihat Dokumen PDF"
@@ -83,7 +95,8 @@ export const companyData: CompanyData = {
       description:
         "Legalitas identitas pelaku usaha dan bukti registrasi operasional resmi untuk aktivitas perdagangan material batu alam dan agregat.",
       status: "Tersedia & Terverifikasi",
-      verificationNote: "Dokumen resmi aktif. Salinan berkas dapat dibuka langsung atau diverifikasi via tim administrasi.",
+      verificationNote:
+        "Dokumen resmi aktif. Salinan berkas dapat dibuka langsung atau diverifikasi via tim administrasi.",
     },
     {
       id: "akta-pendirian",
@@ -95,7 +108,8 @@ export const companyData: CompanyData = {
       description:
         "Akta autentik pendirian badan hukum PT. Bumi Kutai Perkasa lengkap dengan Surat Keputusan (SK) Pengesahan dari Kementerian Hukum dan HAM RI.",
       status: "Tersedia & Terverifikasi",
-      verificationNote: "Terdokumentasi lengkap dan sah secara hukum sebagai dasar perikatan bisnis formal.",
+      verificationNote:
+        "Terdokumentasi lengkap dan sah secara hukum sebagai dasar perikatan bisnis formal.",
     },
     {
       id: "npwp-badan",
@@ -107,7 +121,8 @@ export const companyData: CompanyData = {
       description:
         "Kepatuhan administrasi perpajakan badan usaha untuk penerbitan faktur pajak dan transaksi pengadaan material konstruksi.",
       status: "Tersedia & Terverifikasi",
-      verificationNote: "NPWP aktif terdaftar pada kantor pelayanan pajak wilayah Kalimantan Timur.",
+      verificationNote:
+        "NPWP aktif terdaftar pada kantor pelayanan pajak wilayah Kalimantan Timur.",
     },
     {
       id: "izin-operasional",
@@ -119,7 +134,8 @@ export const companyData: CompanyData = {
       description:
         "Izin pendukung operasional fasilitas stockpile serta armada logistik pengantaran material ke wilayah Kutai Kartanegara.",
       status: "Tersedia untuk Verifikasi Proyek",
-      verificationNote: "Dapat disertakan pada berkas tender / verifikasi teknis administrasi proyek lapangan.",
+      verificationNote:
+        "Dapat disertakan pada berkas tender / verifikasi teknis administrasi proyek lapangan.",
     },
   ],
   operationalGallery: [
@@ -131,7 +147,7 @@ export const companyData: CompanyData = {
         "Penampungan material batu belah, abu batu, dan agregat dengan pemisahan fraksi rapi untuk menjaga mutu sebelum dimuat ke armada.",
       imageUrl:
         "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=1000&q=80",
-      location: "Dusun Jambe, Kutai Kartanegara",
+      location: "Dusun Jambe, Kec. Sebulu, Kutai Kartanegara",
     },
     {
       id: "armada-loading",
@@ -141,7 +157,7 @@ export const companyData: CompanyData = {
         "Proses pemuatan material ke bak dump truck dengan inspeksi volume kubikasi bersama mandor sebelum armada diberangkatkan.",
       imageUrl:
         "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80",
-      location: "Fasilitas Operasional Dusun Jambe",
+      location: "Fasilitas Operasional Dusun Jambe, Kec. Sebulu",
     },
     {
       id: "batu-pondasi-quarry",
