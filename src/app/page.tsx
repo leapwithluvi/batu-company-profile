@@ -375,7 +375,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="lg:col-span-5">
+            {/* <div className="lg:col-span-5">
               <div className="relative aspect-4/3 bg-[#EEF0F0] dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] p-2 rounded-lg">
                 <div className="relative w-full h-full overflow-hidden bg-[#D9DCDD] dark:bg-[#30363A] rounded-md">
                   <Image
@@ -393,7 +393,7 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

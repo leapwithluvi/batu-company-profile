@@ -10,6 +10,7 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -32,8 +33,8 @@ export function Footer() {
                   Spesifikasi Fraksi Terstandarisasi
                 </strong>
                 <p className="text-slate-400 text-xs leading-relaxed">
-                  Pecahan batu split ukuran 1x1, 2x1, 2x3, 3x5, 5x7, 7x10, abu batu, agregat,
-                  dan batu pondasi berkualitas padat.
+                  Pecahan batu split ukuran 1x1, 2x1, 2x3, 3x5, 5x7, 7x10, abu
+                  batu, agregat, dan batu pondasi berkualitas padat.
                 </p>
               </div>
             </div>
@@ -71,23 +72,31 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
           {/* Company Brief */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <span className="w-3 h-3 bg-[#6F9AAA] inline-block rounded-sm" />
+            {/* Logo footer */}
+            <div className="flex items-center">
+              <Image
+                src="/logo/logo_white.png"
+                alt="PT. Bumi Kutai Perkasa"
+                width={100}
+                height={100}
+                className="w-12 h-12 object-contain"
+              />
               <span className="font-mono text-sm tracking-tight text-white font-bold">
                 {siteConfig.name}
               </span>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Penyedia material batu split, batu pondasi, abu batu, batu agregat, batu
-              tronjolan, dan aneka ukuran batu split berizin resmi. Melayani
-              kebutuhan proyek konstruksi di Tenggarong dan Kutai Kartanegara.
+              Penyedia material batu split, batu pondasi, abu batu, batu
+              agregat, batu tronjolan, dan aneka ukuran batu split berizin
+              resmi. Melayani kebutuhan proyek konstruksi di Tenggarong dan
+              Kutai Kartanegara.
             </p>
             <div className="pt-2 border-t border-[#30363A]/80 text-xs text-slate-400 font-mono">
               <span className="text-[#6F9AAA] font-semibold block">
                 Operasional Dusun Jambe, Kec. Sebulu
               </span>
-              Fasilitas operasional berlokasi di Dusun Jambe, Kec. Sebulu,
-              Kutai Kartanegara, Kalimantan Timur.
+              Fasilitas operasional berlokasi di Dusun Jambe, Kec. Sebulu, Kutai
+              Kartanegara, Kalimantan Timur.
             </div>
           </div>
 
@@ -191,7 +200,7 @@ export function Footer() {
                   <span className="text-xs leading-relaxed">
                     {siteConfig.operationalLocation.village},{" "}
                     {siteConfig.operationalLocation.subdistrict && (
-                      <>{siteConfig.operationalLocation.subdistrict},{" "}</>
+                      <>{siteConfig.operationalLocation.subdistrict}, </>
                     )}
                     {siteConfig.operationalLocation.regency},{" "}
                     {siteConfig.operationalLocation.province}
@@ -268,8 +277,8 @@ export function Footer() {
             Dilindungi.
           </p>
           <p className="text-slate-500 text-[11px]">
-            Beroperasi di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara &bull; Melayani
-            pengiriman ke Tenggarong dan sekitarnya.
+            Beroperasi di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara &bull;
+            Melayani pengiriman ke Tenggarong dan sekitarnya.
           </p>
         </div>
       </div>

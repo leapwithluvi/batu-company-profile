@@ -573,7 +573,7 @@ export default function TentangKamiPage() {
       </section>
 
       {/* 6. GALERI / DOKUMENTASI OPERASIONAL NYATA */}
-      <section className="bg-white dark:bg-[#181C1F] border-t border-b border-[#D9DCDD] dark:border-[#30363A] py-14 sm:py-20">
+      {/* <section className="bg-white dark:bg-[#181C1F] border-t border-b border-[#D9DCDD] dark:border-[#30363A] py-14 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mb-10">
             <span className="text-xs font-mono font-semibold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider">
@@ -626,7 +626,7 @@ export default function TentangKamiPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 7. CTA PENUTUP WHATSAPP */}
       <section className="bg-[#171A1C] text-slate-100 py-16 sm:py-20 border-t border-[#30363A]">

@@ -65,11 +65,27 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${siteConfig.name} - Supplier Batu di Tenggarong, Kutai Kartanegara & Sekitarnya`,
     description: siteConfig.description,
+    images: [
+      {
+        url: "/logo/full_logo.png",
+        width: 1024,
+        height: 1024,
+        alt: `${siteConfig.name} - Supplier Batu & Material Konstruksi`,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: `${siteConfig.name} - Supplier Batu di Tenggarong, Kutai Kartanegara & Sekitarnya`,
     description: siteConfig.description,
+    images: [
+      {
+        url: "/logo/full_logo.png",
+        width: 1024,
+        height: 1024,
+        alt: `${siteConfig.name} - Supplier Batu & Material Konstruksi`,
+      },
+    ],
   },
   robots: {
     index: true,
@@ -122,6 +138,7 @@ export default function RootLayout({
     alternateName: siteConfig.shortName,
     description: siteConfig.description,
     url: siteConfig.url,
+    logo: `${siteConfig.url}/logo/logo.png`,
     telephone: siteConfig.phoneDisplay,
     email: siteConfig.email,
     address: {
