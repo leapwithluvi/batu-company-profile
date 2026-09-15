@@ -99,7 +99,7 @@ export default function TentangKamiPage() {
                 Fokus Distribusi Pengiriman
               </span>
               <strong className="text-[#171A1C] dark:text-[#F1F3F4] text-sm block">
-                Tenggarong &amp; Sekitarnya
+                Tenggarong, Kutai Kartanegara &amp; Sekitarnya
               </strong>
               <span className="text-[11px] text-[#3F4549] dark:text-[#C2C8CC] mt-0.5 block">
                 Kutai Kartanegara, Samarinda &amp; sekitarnya
@@ -111,7 +111,7 @@ export default function TentangKamiPage() {
                 Bidang Usaha Utama
               </span>
               <strong className="text-[#171A1C] dark:text-[#F1F3F4] text-sm block">
-                Batu Alam, &amp; Agregat
+                Perdagangan Besar Semen, Kapur, Pasir Dan Batu
               </strong>
               <span className="text-[11px] text-[#3F4549] dark:text-[#C2C8CC] mt-0.5 block">
                 Pondasi, Adukan Cor &amp; Perkerasan Jalan

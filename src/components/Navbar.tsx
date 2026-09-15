@@ -120,15 +120,15 @@ export function Navbar() {
           {/* Brand Identity */}
           <Link
             href="/"
-            className="flex items-center gap-1 group py-2 focus-visible:outline-none"
+            className="flex items-center gap-2 group py-2 focus-visible:outline-none shrink-0"
             aria-label={`${siteConfig.name} - Beranda`}
           >
-            <div className="relative h-16 sm:h-20 w-[60px] sm:w-[75px] shrink-0">
+            <div className="relative h-10 sm:h-12 w-10 sm:w-12 shrink-0">
               <Image
                 src="/logo/logo.png"
                 alt={`Logo ${siteConfig.name}`}
                 fill
-                className="object-contain object-left dark:hidden"
+                className="object-contain dark:hidden"
                 priority
               />
 
@@ -136,17 +136,17 @@ export function Navbar() {
                 src="/logo/logo_white.png"
                 alt={`Logo ${siteConfig.name}`}
                 fill
-                className="hidden object-contain object-left dark:block"
+                className="hidden object-contain dark:block"
                 priority
               />
             </div>
 
-            <div className="flex flex-col">
-              <span className="text-base sm:text-lg font-bold tracking-tight text-[#171A1C] dark:text-white uppercase font-heading">
+            <div className="flex flex-col min-w-0">
+              <span className="text-base sm:text-lg font-bold tracking-tight text-[#171A1C] dark:text-white uppercase font-heading leading-tight">
                 {siteConfig.name}
               </span>
 
-              <span className="text-[11px] text-[#6B7378] dark:text-[#A5ADB2] font-medium tracking-wide">
+              <span className="text-[10px] sm:text-[11px] text-[#6B7378] dark:text-[#A5ADB2] font-medium tracking-wide truncate">
                 Supplier Material Batu &bull; Kutai Kartanegara &amp; Sekitarnya
               </span>
             </div>

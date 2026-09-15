@@ -87,6 +87,15 @@ export const metadata: Metadata = {
       },
     ],
   },
+  icons: {
+    icon: [
+      { url: "/logo/logo.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/logo/logo.png", type: "image/png" },
+    ],
+    shortcut: "/logo/logo.png",
+  },
   robots: {
     index: true,
     follow: true,
