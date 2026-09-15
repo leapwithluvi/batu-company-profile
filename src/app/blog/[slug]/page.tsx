@@ -102,7 +102,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
       name: siteConfig.name,
       logo: {
         "@type": "ImageObject",
-        url: `${siteConfig.url}/logo.png`,
+        url: `${siteConfig.url}/logo/logo.png`,
       },
     },
     datePublished: article.publishedDate,
@@ -203,9 +203,9 @@ export default async function BlogDetailPage({ params }: PageProps) {
                 Kebutuhan Material Terkait dari {siteConfig.name}
               </h3>
               <p className="text-xs text-slate-300 leading-relaxed">
-                {siteConfig.name} beroperasi di Dusun Jambe, Kec. Sebulu, Kutai Kartanegara,
-                dan melayani kebutuhan pengiriman material ke Tenggarong dan
-                wilayah sekitarnya.
+                {siteConfig.name} beroperasi di Dusun Jambe, Kec. Sebulu, Kutai
+                Kartanegara, dan melayani kebutuhan pengiriman material ke
+                Tenggarong dan wilayah sekitarnya.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">

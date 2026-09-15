@@ -63,12 +63,12 @@ export const metadata: Metadata = {
     locale: "id_ID",
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} - Supplier Batu di Tenggarong & Kutai Kartanegara`,
+    title: `${siteConfig.name} - Supplier Batu di Tenggarong, Kutai Kartanegara & Sekitarnya`,
     description: siteConfig.description,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} - Supplier Batu Tenggarong`,
+    title: `${siteConfig.name} - Supplier Batu di Tenggarong, Kutai Kartanegara & Sekitarnya`,
     description: siteConfig.description,
   },
   robots: {
