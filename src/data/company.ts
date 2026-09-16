@@ -91,7 +91,7 @@ export const companyData: CompanyData = {
     phoneDisplay: "+62 853-9333-9991",
     whatsappNumber: "6285393339991",
     email: "pt.bumikutaiperkasa@gmail.com",
-    operatingHours: "Senin – Sabtu: 08.00 – 17.00 WITA",
+    operatingHours: "Senin – Minggu: 08.00 – 17.00 WITA",
   },
   legalSummary:
     "PT. Bumi Kutai Perkasa merupakan badan hukum resmi yang terdaftar dan memenuhi kewajiban perizinan usaha sesuai ketentuan perundang-undangan Republik Indonesia. Salinan dokumen legalitas disediakan bagi mitra kontraktor, instansi, maupun pengembang untuk keperluan audit perikatan, kontrak pengadaan, dan penerbitan faktur.",
@@ -191,7 +191,7 @@ export const companyData: CompanyData = {
       title: "Pemuatan Dump Truck & Pengawasan Tonase",
       category: "Armada Dump Truck",
       description:
-        "Proses pemuatan material ke bak dump truck dengan inspeksi volume tonase bersama mandor sebelum armada diberangkatkan.",
+        "Proses pemuatan material ke armada dump truck dengan penimbangan dan verifikasi tonase bersama mandor sebelum armada diberangkatkan.",
       imageUrl:
         "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80",
       location: "Fasilitas Operasional Dusun Jambe, Desa Sanggulan, Kec. Sebulu",

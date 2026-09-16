@@ -28,7 +28,7 @@ export const articlesData: Article[] = [
     readTime: "4 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
     category: "Material Agregat",
-    image: "/abu_batu.png",
+    image: "/abu_batu.jpg",
     imageAlt:
       "Stok abu batu untuk kebutuhan konstruksi dan pembuatan paving block di Tenggarong",
     relatedProductSlug: "abu-batu",
@@ -52,7 +52,7 @@ export const articlesData: Article[] = [
         heading: "Pengadaan Abu Batu di Wilayah Tenggarong",
         paragraphs: [
           "Untuk kebutuhan proyek jalan, pabrik batako, maupun pekerjaan halaman rumah tinggal, PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara, menyediakan pasokan abu batu dengan pengiriman armada dump truck langsung ke lokasi proyek di Tenggarong dan sekitarnya.",
-          "Untuk kepastian takaran tonase dan tonase serta jadwal ritase armada, calon pembeli dapat langsung berkonsultasi dengan tim operasional PT. Bumi Kutai Perkasa via WhatsApp.",
+          "Untuk kepastian takaran tonase serta jadwal ritase armada, calon pembeli dapat langsung berkonsultasi dengan tim operasional PT. Bumi Kutai Perkasa via WhatsApp.",
         ],
       },
     ],
@@ -67,7 +67,7 @@ export const articlesData: Article[] = [
     readTime: "5 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
     category: "Material Pondasi",
-    image: "/pondasi_tronjolan.png",
+    image: "/pondasi_tronjolan.jpg",
     imageAlt:
       "Pemasangan batu pondasi lajur untuk bangunan rumah di Tenggarong",
     relatedProductSlug: "batu-pondasi",
@@ -105,7 +105,7 @@ export const articlesData: Article[] = [
     readTime: "6 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
     category: "Batu Split",
-    image: "/koral_23.png",
+    image: "/koral_23.jpg",
     imageAlt:
       "Pecahan fraksi batu split berbagai ukuran di stockpile PT. Bumi Kutai Perkasa",
     relatedProductSlug: "batu-split-2x1",
@@ -139,7 +139,7 @@ export const articlesData: Article[] = [
       {
         heading: "Konsultasi Kebutuhan Batu Split di Kutai Kartanegara",
         paragraphs: [
-          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, menyediakan seluruh varian ukuran Batu Split 1x1, 2x1, 2x3, 3x5, 5x7, dan 7x10 untuk menyuplai proyek konstruksi di Tenggarong, Kutai Kartanegara, dan wilayah sekitarnya. Hubungi kami untuk memastikan ketersediaan ukuran dan estimasi volume armada.",
+          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, menyediakan seluruh varian ukuran Batu Split 1x1, 2x1, 2x3, 3x5, 5x7, dan 7x10 untuk menyuplai proyek konstruksi di Tenggarong, Kutai Kartanegara, dan wilayah sekitarnya. Hubungi kami untuk memastikan ketersediaan ukuran dan estimasi tonase armada.",
         ],
       },
     ],
@@ -154,7 +154,7 @@ export const articlesData: Article[] = [
     readTime: "4 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
     category: "Material Pondasi",
-    image: "/pondasi_tronjolan.png",
+    image: "/pondasi_tronjolan.jpg",
     imageAlt:
       "Material batu tronjolan bongkahan besar untuk pekerjaan bronjong kawat",
     relatedProductSlug: "batu-tronjolan",
@@ -191,7 +191,7 @@ export const articlesData: Article[] = [
     readTime: "5 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
     category: "Material Agregat",
-    image: "/koral_57.png",
+    image: "/agregat.jpg",
     imageAlt:
       "Material batu agregat konstruksi siap kirim untuk proyek perkerasan jalan",
     relatedProductSlug: "batu-agregat",
@@ -218,7 +218,8 @@ export const articlesData: Article[] = [
     ],
   },
   {
-    title: "Mengenal Jenis Ukuran Batu Split untuk Cor Beton dan Standar Kualitasnya",
+    title:
+      "Mengenal Jenis Ukuran Batu Split untuk Cor Beton dan Standar Kualitasnya",
     slug: "mengenal-batu-split-cor-beton",
     excerpt:
       "Panduan lengkap memilih ukuran batu split yang tepat untuk cor dak, kolom beton bertulang, dan perkerasan jalan beton di Tenggarong & Kutai Kartanegara.",
@@ -226,7 +227,7 @@ export const articlesData: Article[] = [
     readTime: "5 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
     category: "Material Agregat",
-    image: "/koral_21.png",
+    image: "/koral_21.jpg",
     imageAlt:
       "Material batu split cor beton berkualitas di stockpile PT. Bumi Kutai Perkasa",
     relatedProductSlug: "batu-split",
@@ -248,7 +249,8 @@ export const articlesData: Article[] = [
         ],
       },
       {
-        heading: "Pasokan Batu Split Berkualitas & Legalitas Resmi di Kutai Kartanegara",
+        heading:
+          "Pasokan Batu Split Berkualitas & Legalitas Resmi di Kutai Kartanegara",
         paragraphs: [
           "Untuk menjamin mutu struktur bangunan Anda di Tenggarong dan sekitarnya, PT. Bumi Kutai Perkasa menyediakan pasokan batu split teruji dari stockpile Dusun Jambe, Desa Sanggulan, Kec. Sebulu. Pengiriman ditangani langsung armada dump truck dengan perhitungan ritase yang transparan dan tertib administrasi, siap menerbitkan Faktur Pajak resmi (PPN) untuk kebutuhan perusahaan Anda.",
         ],

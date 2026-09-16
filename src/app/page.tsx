@@ -8,8 +8,8 @@ import {
   Scale,
   FileText,
   Layers,
-  MessageSquare,
   ShieldCheck,
+  Factory,
 } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 import { productsData } from "@/data/products";
@@ -19,6 +19,7 @@ import { ProductCard } from "@/components/ProductCard";
 import { ArticleCard } from "@/components/ArticleCard";
 import { DeliveryCoverage } from "@/components/DeliveryCoverage";
 import { HeroImageSlider } from "@/components/HeroImageSlider";
+import { WhatsappIcon } from "@/components/WhatsappIcon";
 
 export default function HomePage() {
   const whatsappConsultUrl = getWhatsappUrl({
@@ -49,7 +50,7 @@ export default function HomePage() {
 
               {/* Dominant Headline */}
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#171A1C] dark:text-white leading-[1.15] font-heading">
-                Supplier Material Batu Split &amp; Agregat Konstruksi
+                Produsen dan Supplier Berizin Resmi Material Batu Split &amp; Agregat Konstruksi
                 Berkualitas
               </h1>
 
@@ -69,9 +70,9 @@ export default function HomePage() {
                   href={whatsappConsultUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2.5 bg-[#1F4E5F] hover:bg-[#173B48] text-white dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] px-7 py-3.5 text-sm font-semibold rounded-md shadow-sm transition-all"
+                  className="inline-flex items-center justify-center gap-2.5 bg-[#25D366] hover:bg-[#20BA59] text-white px-7 py-3.5 text-sm font-semibold rounded-md shadow-sm transition-all active:bg-[#1DA851]"
                 >
-                  <MessageSquare className="w-4 h-4" />
+                  <WhatsappIcon className="w-4 h-4" />
                   <span>Konsultasi &amp; Tanya Harga</span>
                 </a>
 
@@ -219,15 +220,25 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+            <div className="bg-white dark:bg-[#181C1F] p-6 border border-[#D9DCDD] dark:border-[#30363A] rounded-lg shadow-xs space-y-3">
+              <Factory className="w-6 h-6 text-[#1F4E5F] dark:text-[#6F9AAA]" />
+              <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] font-heading">
+                Kapasitas Produksi
+              </h3>
+              <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
+                Kapasitas produksi mesin stone crusher mampu menghasilkan 60 Ton/jam dan dapat memenuhi kebutuhan kontrak minimal 3000 MT/bulan
+              </p>
+            </div>
+
             <div className="bg-white dark:bg-[#181C1F] p-6 border border-[#D9DCDD] dark:border-[#30363A] rounded-lg shadow-xs space-y-3">
               <Scale className="w-6 h-6 text-[#1F4E5F] dark:text-[#6F9AAA]" />
               <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] font-heading">
                 Transparansi Takaran Tonase
               </h3>
               <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Volume bak dump truck dapat diinspeksi bersama sebelum muatan
-                dibongkar di lokasi. Tidak ada kecurangan tonase di lapangan.
+                Setiap muatan armada ditimbang secara akurat dan transparan sesuai
+                tonase pesanan sebelum dibongkar di lokasi. Tidak ada kecurangan tonase di lapangan.
               </p>
             </div>
 
@@ -449,9 +460,9 @@ export default function HomePage() {
               href={whatsappConsultUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#1F4E5F] hover:bg-[#173B48] text-white dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] px-8 py-4 text-sm font-semibold rounded-md shadow-sm transition-colors"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20BA59] text-white px-8 py-4 text-sm font-semibold rounded-md shadow-sm transition-colors active:bg-[#1DA851]"
             >
-              <MessageSquare className="w-4 h-4" />
+              <WhatsappIcon className="w-4 h-4" />
               <span>Hubungi Dispatcher via WhatsApp</span>
             </a>
             <Link

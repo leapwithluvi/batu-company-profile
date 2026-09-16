@@ -89,12 +89,13 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/logo/logo.png", type: "image/png" },
+      { url: "/icon.png", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any" },
     ],
     apple: [
-      { url: "/logo/logo.png", type: "image/png" },
+      { url: "/icon.png", type: "image/png" },
     ],
-    shortcut: "/logo/logo.png",
+    shortcut: "/favicon.ico",
   },
   robots: {
     index: true,
@@ -167,9 +168,10 @@ export default function RootLayout({
           "Thursday",
           "Friday",
           "Saturday",
+          "Sunday",
         ],
-        opens: "07:30",
-        closes: "17:30",
+        opens: "08:00",
+        closes: "17:00",
       },
     ],
     areaServed: siteConfig.serviceAreas.map((area) => ({

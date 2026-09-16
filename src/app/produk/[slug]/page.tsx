@@ -209,7 +209,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
                 Ketentuan Pengiriman &amp; Pemesanan:
               </div>
               <p>
-                {product.orderUnitNote}. Volume bak armada dump truck dapat diinspeksi bersama saat tiba di lokasi proyek Anda di Tenggarong dan sekitarnya.
+                {product.orderUnitNote}. Muatan dan tonase armada dump truck dapat diverifikasi bersama saat tiba di lokasi proyek Anda di Tenggarong dan sekitarnya.
               </p>
             </div>
 
@@ -220,7 +220,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
                   Pemesanan &amp; Cek Ketersediaan Armada
                 </h3>
                 <p className="text-xs text-slate-300 mt-1 leading-relaxed">
-                  Hubungi kami via WhatsApp untuk mendapatkan penawaran harga resmi (termasuk ongkos kirim) sesuai volume kebutuhan proyek Anda.
+                  Hubungi kami via WhatsApp untuk mendapatkan penawaran harga resmi (termasuk ongkos kirim) sesuai tonase kebutuhan proyek Anda.
                 </p>
               </div>
 

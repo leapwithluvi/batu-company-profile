@@ -8,7 +8,6 @@ import {
   Menu,
   X,
   Phone,
-  MessageSquare,
   Sun,
   Moon,
   Monitor,
@@ -16,6 +15,7 @@ import {
 import { siteConfig } from "@/lib/site-config";
 import { getWhatsappUrl } from "@/lib/whatsapp";
 import { useTheme, type Theme } from "@/components/ThemeProvider";
+import { WhatsappIcon } from "@/components/WhatsappIcon";
 
 const NAV_LINKS = [
   { name: "Beranda", href: "/" },
@@ -188,10 +188,10 @@ export function Navbar() {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden sm:inline-flex items-center gap-2 bg-[#1F4E5F] hover:bg-[#173B48] text-white dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] text-xs sm:text-sm font-semibold px-4 py-2.5 transition-colors rounded-md shadow-xs"
+              className="hidden sm:inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20BA59] text-white text-xs sm:text-sm font-semibold px-4 py-2.5 transition-colors rounded-md shadow-sm active:bg-[#1DA851]"
               aria-label="Hubungi WhatsApp PT. Bumi Kutai Perkasa"
             >
-              <MessageSquare className="w-4 h-4" />
+              <WhatsappIcon className="w-4 h-4" />
               <span>Konsultasi WhatsApp</span>
             </a>
 
@@ -255,9 +255,9 @@ export function Navbar() {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full inline-flex items-center justify-center gap-2 bg-[#1F4E5F] hover:bg-[#173B48] text-white dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] py-3 text-sm font-semibold rounded-md"
+              className="w-full inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20BA59] text-white py-3 text-sm font-semibold rounded-md shadow-sm active:bg-[#1DA851]"
             >
-              <MessageSquare className="w-4 h-4" />
+              <WhatsappIcon className="w-4 h-4" />
               <span>Konsultasi WhatsApp</span>
             </a>
             <div className="text-xs text-[#6B7378] dark:text-slate-400 text-center pt-2 font-mono">

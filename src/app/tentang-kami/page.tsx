@@ -51,9 +51,9 @@ export default function TentangKamiPage() {
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               Penyedia material batu pondasi, abu batu, dan aneka agregat batu
-              gunung berizin resmi. Beroperasi nyata di Dusun Jambe, Desa Sanggulan, Kec.
-              Sebulu, Kutai Kartanegara, dan melayani pengiriman terjadwal ke
-              Tenggarong dan wilayah sekitarnya.
+              gunung berizin resmi. Beroperasi nyata di Dusun Jambe, Desa
+              Sanggulan, Kec. Sebulu, Kutai Kartanegara, dan melayani pengiriman
+              terjadwal ke Tenggarong dan wilayah sekitarnya.
             </p>
           </div>
         </div>
@@ -165,8 +165,8 @@ export default function TentangKamiPage() {
               kerap dihadapi kontraktor, pengembang perumahan, dan pemilik
               proyek:{" "}
               <em>
-                ketidakpastian takaran tonase bak armada serta jadwal
-                pengiriman yang tidak teratur
+                ketidakpastian takaran tonase bak armada serta jadwal pengiriman
+                yang tidak teratur
               </em>
               .
             </p>
@@ -188,9 +188,9 @@ export default function TentangKamiPage() {
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
                   <span>
-                    <strong>Tepat Tonase:</strong> Dimensi bak armada dump
-                    truck dapat diukur bersama pengemudi kami saat armada tiba
-                    di lokasi proyek sebelum penumpahan material.
+                    <strong>Tepat Tonase:</strong> Setiap ritase armada ditimbang
+                    secara akurat dan transparan sesuai pesanan, disertai bukti
+                    timbangan resmi sebelum material dibongkar di lokasi proyek.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
@@ -214,9 +214,9 @@ export default function TentangKamiPage() {
 
             <p>
               Fasilitas stockpile kami di{" "}
-              <strong>Dusun Jambe, Desa Sanggulan, Kec. Sebulu</strong> dikelola untuk menjaga
-              ketersediaan material yang stabil, siap melayani pengadaan eceran
-              ritase perumahan hingga kebutuhan pengadaan ratusan kubik untuk
+              <strong>Dusun Jambe, Desa Sanggulan, Kec. Sebulu</strong> dikelola
+              untuk menjaga ketersediaan material yang stabil, siap melayani
+              pengadaan eceran ritase perumahan hingga kebutuhan pengadaan untuk
               proyek infrastruktur jalan dan gedung bertingkat.
             </p>
           </div>
@@ -225,7 +225,7 @@ export default function TentangKamiPage() {
           <div className="lg:col-span-5 space-y-6">
             <div className="relative aspect-4/3 w-full bg-[#EEF0F0] dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] overflow-hidden rounded-lg shadow-xs">
               <Image
-                src="/mesin/mesin1_crusher.png"
+                src="/mesin/mesin1_crusher.jpg"
                 alt="Stockpile dan operasional material batu PT. Bumi Kutai Perkasa di Dusun Jambe, Desa Sanggulan, Kec. Sebulu"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
@@ -448,16 +448,20 @@ export default function TentangKamiPage() {
                 Lokasi Nyata &amp; Geografis
               </span>
               <h2 className="text-2xl sm:text-3xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight mt-1">
-                Fasilitas Operasional di Dusun Jambe, Desa Sanggulan, Kec. Sebulu
+                Fasilitas Operasional di Dusun Jambe, Desa Sanggulan, Kec.
+                Sebulu
               </h2>
             </div>
 
             <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               PT. Bumi Kutai Perkasa beroperasi secara fisik di{" "}
-              <strong>Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara</strong>.
-              Lokasi stockpile ini dipilih secara strategis agar armada dump
+              <strong>
+                Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara
+              </strong>
+              . Lokasi stockpile ini dipilih secara strategis agar armada dump
               truck dapat dengan mudah mengakses jalur logistik utama menuju
-              wilayah <strong>Tenggarong</strong>, <strong>Loa Kulu</strong>, <strong>Sebulu</strong>, <strong>Muara Kaman</strong>,{" "}
+              wilayah <strong>Tenggarong</strong>, <strong>Loa Kulu</strong>,{" "}
+              <strong>Sebulu</strong>, <strong>Muara Kaman</strong>,{" "}
               <strong>Loa Janan</strong>, hingga koridor{" "}
               <strong>Samarinda</strong>.
             </p>
@@ -482,8 +486,7 @@ export default function TentangKamiPage() {
                     Jam Buka Fasilitas:
                   </strong>
                   <span className="text-[#3F4549] dark:text-[#C2C8CC] text-xs">
-                    {siteConfig.operatingHours} (Minggu pengiriman proyek
-                    terjadwal)
+                    {siteConfig.operatingHours} (Melayani Setiap Hari)
                   </span>
                 </div>
               </div>
@@ -641,7 +644,7 @@ export default function TentangKamiPage() {
 
           <p className="text-slate-300 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
             Hubungi tim dispatcher kami untuk permintaan penawaran harga resmi,
-            konfirmasi ketersediaan volume material, atau penjadwalan inspeksi
+            konfirmasi ketersediaan tonase material, atau penjadwalan inspeksi
             tonase di lokasi proyek Anda di Tenggarong dan sekitarnya.
           </p>
 
@@ -654,8 +657,8 @@ export default function TentangKamiPage() {
           </div>
 
           <div className="text-xs text-slate-500 font-mono pt-4 border-t border-[#30363A]/80">
-            Operasional Resmi: Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara,
-            Kalimantan Timur
+            Operasional Resmi: Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai
+            Kartanegara, Kalimantan Timur
           </div>
         </div>
       </section>

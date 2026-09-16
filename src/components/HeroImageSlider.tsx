@@ -12,17 +12,17 @@ interface SlideItem {
 
 const HERO_SLIDES: SlideItem[] = [
   {
-    src: "/mesin/mesin1_crusher.png",
+    src: "/mesin/mesin1_crusher.jpg",
     alt: "Material Mesin Crusher PT. Bumi Kutai Perkasa",
     label: "Mesin Crusher",
   },
   {
-    src: "/mesin/mesin2_crusher.png",
+    src: "/mesin/mesin2_crusher.jpg",
     alt: "Material Mesin Crusher PT. Bumi Kutai Perkasa",
     label: "Mesin Crusher",
   },
   {
-    src: "/mesin/mesin3_crusher.png",
+    src: "/mesin/mesin3_crusher.jpg",
     alt: "Material Mesin Crusher PT. Bumi Kutai Perkasa",
     label: "Mesin Crusher",
   },

@@ -34,7 +34,7 @@ export const productsData: Product[] = [
       "Lapis perata (bedding sand alternative) sebelum pemasangan paving",
       "Campuran adukan plesteran dan pengisi rongga agregat kasar",
     ],
-    image: "/abu_batu.png",
+    image: "/abu_batu.jpg",
     imageAlt:
       "Tumpukan abu batu agregat halus di stockpile PT. Bumi Kutai Perkasa",
     metaTitle:
@@ -58,7 +58,7 @@ export const productsData: Product[] = [
       "Pengerasan lahan parkir, halaman pergudangan, dan jalan akses",
       "Drainase dan lapisan penyaring konstruksi",
     ],
-    image: "/koral_21.png",
+    image: "/agregat.jpg",
     imageAlt:
       "Material batu agregat konstruksi berkualitas siap kirim ke Tenggarong, Kutai Kartanegara & Sekitarnya",
     metaTitle:
@@ -82,7 +82,7 @@ export const productsData: Product[] = [
       "Bahan baku adukan ready mix dan industri pracetak beton (precast)",
       "Pengecoran pondasi telapak (footplate) dan kolom struktur",
     ],
-    image: "/batu_split.png",
+    image: "/batu_split.jpg",
     imageAlt:
       "Material batu split cor beton berkualitas di stockpile PT. Bumi Kutai Perkasa",
     metaTitle:
@@ -106,7 +106,7 @@ export const productsData: Product[] = [
       "Konstruksi saluran drainase, gorong-gorong, dan talud sungai",
       "Penguat tanggul dan dinding pelindung gerusan air",
     ],
-    image: "/pondasi_tronjolan.png",
+    image: "/pondasi_tronjolan.jpg",
     imageAlt:
       "Batu pondasi padat untuk konstruksi bangunan di wilayah Tenggarong, Kutai Kartanegara & Sekitarnya",
     metaTitle:
@@ -129,7 +129,7 @@ export const productsData: Product[] = [
       "Pondasi jembatan darurat, penahan abrasi, dan pemecah arus air",
       "Pekerjaan rip-rap pelindung lereng jalan",
     ],
-    image: "/pondasi_tronjolan.png",
+    image: "/pondasi_tronjolan.jpg",
     imageAlt:
       "Material batu tronjolan bongkahan besar untuk pekerjaan bronjong dan turap",
     metaTitle:
@@ -152,14 +152,14 @@ export const productsData: Product[] = [
       "Pengisian celah sempit tulangan rapat tanpa rongga keropos",
       "Adukan beton plesteran struktural dan lapis finishing cor",
     ],
-    image: "/koral_11.png",
+    image: "/koral_11.jpg",
     imageAlt:
       "Batu Split ukuran 1x1 fraksi halus untuk campuran beton mutu tinggi",
     metaTitle:
       "Batu Split Ukuran 1x1 | PT. Bumi Kutai Perkasa - Tenggarong, Kutai Kartanegara & Sekitarnya",
     metaDescription:
       "Jual batu split ukuran 1x1 fraksi halus untuk beton mutu tinggi dan precast presisi. PT. Bumi Kutai Perkasa melayani pengiriman ke Tenggarong, Kutai Kartanegara & Sekitarnya.",
-    orderUnitNote: "Takaran isi bak terukur, pengiriman dump truck",
+    orderUnitNote: "Takaran tonase terukur, pengiriman dump truck",
   },
   {
     name: "Batu Split ukuran 2x1",
@@ -175,7 +175,7 @@ export const productsData: Product[] = [
       "Pekerjaan rabat beton dan lantai kerja",
       "Bahan precast beton mutu tinggi",
     ],
-    image: "/koral_21.png",
+    image: "/koral_21.jpg",
     videoUrl: "/videos/koral_21.mp4",
     imageAlt:
       "Batu Split ukuran 2x1 untuk campuran cor beton di Tenggarong, Kutai Kartanegara & Sekitarnya",
@@ -183,7 +183,7 @@ export const productsData: Product[] = [
       "Batu Split Ukuran 2x1 | PT. Bumi Kutai Perkasa - Tenggarong, Kutai Kartanegara & Sekitarnya",
     metaDescription:
       "Jual batu split ukuran 2x1 untuk pengecoran beton bermutu. PT. Bumi Kutai Perkasa melayani pengiriman ke Tenggarong, Kutai Kartanegara & Sekitarnya.",
-    orderUnitNote: "Takaran isi bak terukur, pengiriman dump truck",
+    orderUnitNote: "Takaran tonase terukur, pengiriman dump truck",
   },
   {
     name: "Batu Split ukuran 2x3",
@@ -199,7 +199,7 @@ export const productsData: Product[] = [
       "Pekerjaan retaining wall dan gorong-gorong beton",
       "Campuran readymix maupun batching manual",
     ],
-    image: "/koral_23.png",
+    image: "/koral_23.jpg",
     imageAlt: "Batu Split ukuran 2x3 agregat cor beton berkualitas",
     metaTitle:
       "Batu Split Ukuran 2x3 | PT. Bumi Kutai Perkasa - Tenggarong, Kutai Kartanegara & Sekitarnya",
@@ -221,14 +221,14 @@ export const productsData: Product[] = [
       "Pengerasan area tambang, perkebunan, dan jalan akses alat berat",
       "Perataan tanah dasar berbatu tahan amblas",
     ],
-    image: "/koral_57.png",
+    image: "/koral_57.jpg",
     videoUrl: "/videos/koral_57.mp4",
     imageAlt: "Batu Split ukuran 3x5 untuk pengerasan pondasi jalan proyek",
     metaTitle:
       "Batu Split ukuran 3x5 | PT. Bumi Kutai Perkasa - Tenggarong, Kutai Kartanegara & Sekitarnya",
     metaDescription:
       "Jual batu split ukuran 3x5 untuk lapis perkerasan jalan dan drainase proyek di wilayah Tenggarong, Kutai Kartanegara & Sekitarnya oleh PT. Bumi Kutai Perkasa.",
-    orderUnitNote: "Konfirmasi ketersediaan volume per rit via WhatsApp",
+    orderUnitNote: "Konfirmasi ketersediaan tonase per rit via WhatsApp",
   },
   {
     name: "Batu Split ukuran 5x7",
@@ -244,7 +244,7 @@ export const productsData: Product[] = [
       "Saluran pembuangan air terbuka dan pelindung lereng galian",
       "Material urugan padat pondasi jalan utama",
     ],
-    image: "/koral_57.png",
+    image: "/koral_57.jpg",
     videoUrl: "/videos/koral_57.mp4",
     imageAlt:
       "Batu Split ukuran 5x7 untuk stabilisasi tanah dan jalan berat di Kutai Kartanegara",
@@ -252,7 +252,7 @@ export const productsData: Product[] = [
       "Batu Split ukuran 5x7 | PT. Bumi Kutai Perkasa - Tenggarong, Kutai Kartanegara & Sekitarnya",
     metaDescription:
       "Supplier batu split ukuran 5x7 untuk stabilisasi tanah lembek dan pondasi jalan muatan berat di Tenggarong, Kutai Kartanegara & Sekitarnya oleh PT. Bumi Kutai Perkasa.",
-    orderUnitNote: "Pengiriman terjadwal dump truck kapasitas m³ terukur",
+    orderUnitNote: "Pengiriman terjadwal dump truck kapasitas tonase terukur",
   },
   {
     name: "Batu Split ukuran 7x10",
@@ -268,14 +268,14 @@ export const productsData: Product[] = [
       "Pengisi cerucuk batu pada stabilisasi lereng dan tebing rawan longsor",
       "Material lapis pertama pada perbaikan jalan amblas akibat muatan overload",
     ],
-    image: "/pondasi_tronjolan.png",
+    image: "/pondasi_tronjolan.jpg",
     imageAlt:
       "Batu Split ukuran 7x10 fraksi kasar untuk pondasi jalan berat dan stabilisasi lereng",
     metaTitle:
       "Batu Split ukuran 7x10 | PT. Bumi Kutai Perkasa - Tenggarong, Kutai Kartanegara & Sekitarnya",
     metaDescription:
       "Supplier batu split ukuran 7x10 fraksi kasar untuk pondasi jalan berat dan stabilisasi lereng di Tenggarong, Kutai Kartanegara & Sekitarnya oleh PT. Bumi Kutai Perkasa.",
-    orderUnitNote: "Konfirmasi ketersediaan volume dan armada via WhatsApp",
+    orderUnitNote: "Konfirmasi ketersediaan tonase dan armada via WhatsApp",
   },
 ];
 

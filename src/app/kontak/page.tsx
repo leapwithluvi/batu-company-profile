@@ -14,15 +14,15 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     q: "Bagaimana alur pemesanan material melalui WhatsApp?",
-    a: "Cukup klik tombol WhatsApp, infokan jenis material yang dibutuhkan, estimasi volume (kubik atau rit), serta share location proyek Anda. Tim kami akan memberikan rincian harga total beserta ongkos kirim resmi.",
+    a: "Cukup klik tombol WhatsApp, infokan jenis material yang dibutuhkan, estimasi tonase (rit dump truck), serta share location proyek Anda. Tim kami akan memberikan rincian harga total beserta ongkos kirim resmi.",
   },
   {
     q: "Apakah bisa kirim di hari yang sama (Same-Day Delivery)?",
     a: "Bisa, untuk konfirmasi pesanan yang masuk sebelum pukul 11.00 WITA dan ketersediaan slot antrean armada dump truck pada hari tersebut.",
   },
   {
-    q: "Bagaimana cara memastikan isi tonase bak dump truck tidak kurang?",
-    a: "Saat armada tiba di lokasi proyek Anda sebelum muatan ditumpahkan (dumping), Anda atau mandor lapangan dipersilakan mengukur dimensi bak (panjang x lebar x tinggi muatan) bersama pengemudi kami.",
+    q: "Bagaimana cara memastikan isi tonase muatan armada tidak kurang?",
+    a: "Setiap pengiriman material ditimbang secara akurat dan disertai bukti timbangan tonase resmi. Anda atau mandor lapangan dapat memverifikasi kesesuaian tonase dan muatan bersama pengemudi kami sebelum material dibongkar di lokasi proyek.",
   },
   {
     q: "Apakah dump truck bisa masuk ke gang perumahan sempit?",
@@ -53,7 +53,7 @@ export default function KontakPage() {
               Hubungi Dispatcher &amp; Lokasi Operasional
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-              Konsultasikan kebutuhan volume batu belah, koral split, abu batu, atau agregat langsung dengan tim operasional Kutai Kartanegara.
+              Konsultasikan kebutuhan tonase batu belah, split cor, abu batu, atau agregat langsung dengan tim operasional Kutai Kartanegara.
             </p>
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function KontakPage() {
                   <div>
                     <strong className="block text-[#171A1C] dark:text-[#F1F3F4]">Jam Operasional:</strong>
                     <span className="text-[#3F4549] dark:text-[#C2C8CC] text-xs sm:text-sm">
-                      {siteConfig.operatingHours} (Minggu/Hari Libur Nasional: Pengiriman Proyek Terjadwal)
+                      {siteConfig.operatingHours} (Setiap Hari Melayani Pengiriman &amp; Operasional)
                     </span>
                   </div>
                 </div>
@@ -129,7 +129,7 @@ export default function KontakPage() {
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0" />
-                    <span>Perkiraan jumlah kebutuhan (rit dump truck atau kubik)</span>
+                    <span>Perkiraan jumlah kebutuhan (rit dump truck)</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0" />

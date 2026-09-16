@@ -10,6 +10,8 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
+import { getWhatsappUrl } from "@/lib/whatsapp";
+import { WhatsappIcon } from "@/components/WhatsappIcon";
 import Image from "next/image";
 
 export function Footer() {
@@ -211,12 +213,14 @@ export function Footer() {
                   <span className="text-xs">{siteConfig.operatingHours}</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <Phone className="w-3.5 h-3.5 text-[#6F9AAA] shrink-0" />
+                  <WhatsappIcon className="w-3.5 h-3.5 text-[#25D366] shrink-0" />
                   <a
-                    href={`tel:${siteConfig.whatsappNumber}`}
-                    className="hover:text-slate-200 transition-colors font-mono text-xs"
+                    href={getWhatsappUrl({})}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#25D366] transition-colors font-mono text-xs flex items-center gap-1.5"
                   >
-                    {siteConfig.phoneDisplay}
+                    <span>{siteConfig.phoneDisplay} (WhatsApp)</span>
                   </a>
                 </li>
                 <li className="flex items-center gap-2">

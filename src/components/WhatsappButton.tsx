@@ -1,5 +1,5 @@
 import React from "react";
-import { MessageSquare } from "lucide-react";
+import { WhatsappIcon } from "@/components/WhatsappIcon";
 import { getWhatsappUrl } from "@/lib/whatsapp";
 import { siteConfig } from "@/lib/site-config";
 
@@ -43,7 +43,7 @@ export function WhatsappButton({
   switch (variant) {
     case "primary":
       variantStyles =
-        "bg-[#1F4E5F] hover:bg-[#173B48] text-white border border-[#1F4E5F] dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] dark:border-white px-5 py-3 text-sm font-semibold tracking-wide shadow-xs active:bg-[#153440]";
+        "bg-[#25D366] hover:bg-[#20BA59] text-white border border-[#25D366] hover:border-[#20BA59] px-5 py-3 text-sm font-semibold tracking-wide shadow-sm active:bg-[#1DA851]";
       break;
     case "secondary":
       variantStyles =
@@ -51,15 +51,15 @@ export function WhatsappButton({
       break;
     case "outline":
       variantStyles =
-        "bg-transparent hover:bg-[#1F4E5F]/10 text-[#1F4E5F] border border-[#1F4E5F] dark:text-white dark:border-white dark:hover:bg-white/10 px-4 py-2.5 text-sm font-semibold";
+        "bg-transparent hover:bg-[#25D366]/10 text-[#25D366] border border-[#25D366] dark:text-[#25D366] dark:border-[#25D366] dark:hover:bg-[#25D366]/10 px-4 py-2.5 text-sm font-semibold";
       break;
     case "compact":
       variantStyles =
-        "bg-[#1F4E5F] hover:bg-[#173B48] text-white border border-[#1F4E5F] dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] dark:border-white px-3.5 py-1.5 text-xs font-semibold shadow-xs";
+        "bg-[#25D366] hover:bg-[#20BA59] text-white border border-[#25D366] hover:border-[#20BA59] px-3.5 py-1.5 text-xs font-semibold shadow-xs active:bg-[#1DA851]";
       break;
     case "floating":
       variantStyles =
-        "fixed bottom-5 right-5 z-40 bg-[#1F4E5F] hover:bg-[#173B48] text-white dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] shadow-xl px-4 py-3 text-sm font-semibold rounded-md border border-[#1F4E5F] dark:border-white flex items-center gap-2 transition-transform hover:-translate-y-0.5";
+        "fixed bottom-5 right-5 z-40 bg-[#25D366] hover:bg-[#20BA59] text-white shadow-xl px-4 py-3 text-sm font-semibold rounded-full border border-[#25D366] flex items-center gap-2 transition-transform hover:-translate-y-0.5 active:bg-[#1DA851]";
       break;
   }
 
@@ -72,7 +72,7 @@ export function WhatsappButton({
       className={`${baseStyles} ${variantStyles} ${className}`}
     >
       {showIcon && (
-        <MessageSquare
+        <WhatsappIcon
           className={`${
             variant === "compact" ? "w-3.5 h-3.5 mr-1.5" : "w-4 h-4 mr-2"
           } shrink-0`}

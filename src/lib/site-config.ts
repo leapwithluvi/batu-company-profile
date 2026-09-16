@@ -70,5 +70,5 @@ export const siteConfig: SiteConfig = {
     "Samarinda & Sekitarnya",
     "Wilayah Kutai Kartanegara Lainnya",
   ],
-  operatingHours: "Senin – Sabtu: 08.00 – 17.00 WITA",
+  operatingHours: "Senin – Minggu: 08.00 – 17.00 WITA",
 };

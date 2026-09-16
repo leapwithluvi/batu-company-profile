@@ -9,10 +9,14 @@ const contentSecurityPolicy = [
   // Production: 'unsafe-eval' dihapus — CSP tetap ketat.
   `script-src 'self' 'unsafe-inline'${isProd ? "" : " 'unsafe-eval'"}`,
   "style-src 'self' 'unsafe-inline'",
-  // Pembatasan sumber gambar hanya ke origin sendiri dan domain Unsplash terverifikasi
-  "img-src 'self' data: https://images.unsplash.com",
+  // Pembatasan sumber gambar hanya ke origin sendiri, data URIs, dan domain Unsplash terverifikasi
+  "img-src 'self' data: https://images.unsplash.com https://i.ytimg.com",
   "font-src 'self' data:",
   "connect-src 'self'",
+  // YouTube embed untuk ProductMediaViewer (iframe)
+  "frame-src https://www.youtube.com https://www.youtube-nocookie.com",
+  // Video self-hosted dari folder /videos/
+  "media-src 'self'",
   // Perlindungan modern anti-clickjacking
   "frame-ancestors 'none'",
   "form-action 'self'",
