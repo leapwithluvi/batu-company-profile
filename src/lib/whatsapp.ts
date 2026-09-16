@@ -18,10 +18,10 @@ export function buildWhatsappMessage({
   const subject = namaProduk || judulArtikel;
 
   if (subject) {
-    return `Halo Admin, saya tertarik dengan ${subject} di Tenggarong. Mohon info harga terbaru dan ongkos kirim.`;
+    return `Halo Admin, saya tertarik dengan ${subject} untuk proyek di [wilayah]. Mohon info harga terbaru dan ongkos kirim.`;
   }
 
-  return `Halo Admin, saya ingin konsultasi kebutuhan material batu di Tenggarong. Mohon info harga terbaru dan ketersediaan pengiriman armada dump truck.`;
+  return `Halo Admin, saya ingin konsultasi kebutuhan material batu untuk proyek di [wilayah]. Mohon info harga terbaru dan ketersediaan pengiriman armada dump truck.`;
 }
 
 /**

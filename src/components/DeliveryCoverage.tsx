@@ -57,7 +57,7 @@ export function DeliveryCoverage() {
 
             <div className="pt-2 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <WhatsappButton
-                customMessage="Halo Admin PT. Bumi Kutai Perkasa, saya ingin cek ketersediaan armada dan ongkir pengiriman batu ke lokasi proyek saya."
+                customMessage="Halo Admin PT. Bumi Kutai Perkasa, saya ingin cek ketersediaan armada dan ongkir pengiriman batu ke lokasi proyek saya di [wilayah]."
                 label="Cek Pengiriman ke Lokasi Anda"
                 variant="primary"
               />

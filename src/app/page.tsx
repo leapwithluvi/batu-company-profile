@@ -23,13 +23,13 @@ import { WhatsappIcon } from "@/components/WhatsappIcon";
 
 export default function HomePage() {
   const whatsappConsultUrl = getWhatsappUrl({
-    customMessage: `Halo PT. Bumi Kutai Perkasa, saya ingin berkonsultasi mengenai kebutuhan material batu dan cek estimasi ongkos kirim ke proyek saya di Tenggarong.`,
+    customMessage: `Halo PT. Bumi Kutai Perkasa, saya ingin berkonsultasi mengenai kebutuhan material batu dan cek estimasi ongkos kirim ke proyek saya di [wilayah].`,
   });
 
   return (
     <div className="flex flex-col">
       {/* 1. HERO SECTION (Clean, High-End Corporate Industrial Canvas) */}
-      <section className="relative bg-[#F7F7F5] dark:bg-[#111416] text-[#171A1C] dark:text-[#F1F3F4] border-b border-[#D9DCDD] dark:border-[#30363A] overflow-hidden py-14 sm:py-20 lg:py-24">
+      <section className="relative bg-[#F7F7F5] dark:bg-[#111416] text-[#171A1C] dark:text-[#F1F3F4] border-b border-[#D9DCDD] dark:border-[#30363A] overflow-hidden py-12 sm:py-16 lg:py-20">
         {/* Subtle architectural grid pattern */}
         <div
           className="absolute inset-0 bg-grid-industrial opacity-35 dark:opacity-20 pointer-events-none"
@@ -37,17 +37,9 @@ export default function HomePage() {
         />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
             {/* Left Content */}
             <div className="lg:col-span-7 space-y-6">
-              {/* Eyebrow badge */}
-              {/* <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white dark:bg-[#181C1F] border border-[#D9DCDD] dark:border-[#30363A] rounded-md shadow-xs">
-                <span className="w-2 h-2 rounded-full bg-[#1F4E5F] dark:bg-[#6F9AAA]" />
-                <span className="text-xs font-mono font-semibold uppercase tracking-wider text-[#1F4E5F] dark:text-[#6F9AAA]">
-                  Badan Usaha Resmi &bull; Fasilitas Dusun Jambe, Kec. Sebulu, Kukar
-                </span>
-              </div> */}
-
               {/* Dominant Headline */}
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#171A1C] dark:text-white leading-[1.15] font-heading">
                 Produsen dan Supplier Berizin Resmi Material Batu Split &amp; Agregat Konstruksi
@@ -87,7 +79,7 @@ export default function HomePage() {
 
               {/* Quick Trust Highlights (4-Column Data Grid) */}
               <div className="pt-6 border-t border-[#D9DCDD] dark:border-[#30363A] grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs font-mono">
-                <div className="border-l-2 border-[#1F4E5F] dark:border-[#6F9AAA] pl-3">
+                <div className="p-3 bg-white/70 dark:bg-[#181C1F]/70 border border-[#D9DCDD] dark:border-[#30363A] rounded-md border-l-2 border-l-[#1F4E5F] dark:border-l-[#6F9AAA]">
                   <div className="text-[#171A1C] dark:text-white font-bold text-lg font-heading">
                     {productsData.length} Varian
                   </div>
@@ -96,27 +88,27 @@ export default function HomePage() {
                   </span>
                 </div>
 
-                <div className="border-l-2 border-[#D9DCDD] dark:border-[#30363A] pl-3">
-                  <div className="text-[#171A1C] dark:text-white font-bold text-lg font-heading">
-                    Dusun Jambe, Desa Sanggulan
+                <div className="p-3 bg-white/70 dark:bg-[#181C1F]/70 border border-[#D9DCDD] dark:border-[#30363A] rounded-md border-l-2 border-l-[#1F4E5F] dark:border-l-[#6F9AAA]">
+                  <div className="text-[#171A1C] dark:text-white font-bold text-sm sm:text-base font-heading truncate" title="Dusun Jambe, Desa Sanggulan">
+                    Dusun Jambe
                   </div>
                   <span className="text-[#6B7378] dark:text-[#A5ADB2] block mt-0.5">
                     Fasilitas Stockpile
                   </span>
                 </div>
 
-                <div className="border-l-2 border-[#D9DCDD] dark:border-[#30363A] pl-3">
-                  <div className="text-[#171A1C] dark:text-white font-bold text-lg font-heading">
-                    Kutai Kartanegara
+                <div className="p-3 bg-white/70 dark:bg-[#181C1F]/70 border border-[#D9DCDD] dark:border-[#30363A] rounded-md border-l-2 border-l-[#1F4E5F] dark:border-l-[#6F9AAA]">
+                  <div className="text-[#171A1C] dark:text-white font-bold text-sm sm:text-base font-heading truncate" title="Kutai Kartanegara">
+                    Kukar &amp; Kaltim
                   </div>
                   <span className="text-[#6B7378] dark:text-[#A5ADB2] block mt-0.5">
                     Fokus Distribusi
                   </span>
                 </div>
 
-                <div className="border-l-2 border-[#D9DCDD] dark:border-[#30363A] pl-3">
-                  <div className="text-[#171A1C] dark:text-white font-bold text-lg font-heading">
-                    Dump Truck & Ponton
+                <div className="p-3 bg-white/70 dark:bg-[#181C1F]/70 border border-[#D9DCDD] dark:border-[#30363A] rounded-md border-l-2 border-l-[#1F4E5F] dark:border-l-[#6F9AAA]">
+                  <div className="text-[#171A1C] dark:text-white font-bold text-sm sm:text-base font-heading truncate" title="Dump Truck & Ponton">
+                    Truck &amp; Ponton
                   </div>
                   <span className="text-[#6B7378] dark:text-[#A5ADB2] block mt-0.5">
                     Armada Mandiri
@@ -134,7 +126,7 @@ export default function HomePage() {
       </section>
 
       {/* 2. TRUST / COMPANY SNAPSHOT (Factual Corporate Proof) */}
-      <section className="bg-white dark:bg-[#181C1F] border-b border-[#D9DCDD] dark:border-[#30363A] py-7">
+      <section className="bg-white dark:bg-[#181C1F] border-b border-[#D9DCDD] dark:border-[#30363A] py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
             {/* Snapshot Facts */}
@@ -151,7 +143,7 @@ export default function HomePage() {
                 </span>
               </div>
 
-              <div className="border-l-2 border-[#D9DCDD] dark:border-[#30363A] pl-3.5">
+              <div className="border-l-2 border-[#1F4E5F] dark:border-[#6F9AAA] pl-3.5">
                 <span className="block text-[11px] font-mono text-[#6B7378] dark:text-[#A5ADB2] uppercase tracking-wider">
                   Lokasi Operasional
                 </span>
@@ -163,7 +155,7 @@ export default function HomePage() {
                 </span>
               </div>
 
-              <div className="border-l-2 border-[#D9DCDD] dark:border-[#30363A] pl-3.5">
+              <div className="border-l-2 border-[#1F4E5F] dark:border-[#6F9AAA] pl-3.5">
                 <span className="block text-[11px] font-mono text-[#6B7378] dark:text-[#A5ADB2] uppercase tracking-wider">
                   Kesiapan Dokumen
                 </span>
@@ -175,7 +167,7 @@ export default function HomePage() {
                 </span>
               </div>
 
-              <div className="border-l-2 border-[#D9DCDD] dark:border-[#30363A] pl-3.5">
+              <div className="border-l-2 border-[#1F4E5F] dark:border-[#6F9AAA] pl-3.5">
                 <span className="block text-[11px] font-mono text-[#6B7378] dark:text-[#A5ADB2] uppercase tracking-wider">
                   Jangkauan Logistik
                 </span>
@@ -189,7 +181,7 @@ export default function HomePage() {
             </div>
 
             {/* Factual CTA Link to About & Legality */}
-            <div className="shrink-0 pt-3 lg:pt-0 border-t lg:border-t-0 lg:border-l border-[#D9DCDD] dark:border-[#30363A] lg:pl-6 flex items-center">
+            <div className="shrink-0 pt-4 lg:pt-0 border-t lg:border-t-0 lg:border-l border-[#D9DCDD] dark:border-[#30363A] lg:pl-6 flex items-center">
               <Link
                 href="/tentang-kami"
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#1F4E5F] dark:text-[#6F9AAA] hover:text-[#173B48] dark:hover:text-[#8AB2C2] transition-colors py-1 group"
@@ -220,61 +212,81 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-            <div className="bg-white dark:bg-[#181C1F] p-6 border border-[#D9DCDD] dark:border-[#30363A] rounded-lg shadow-xs space-y-3">
-              <Factory className="w-6 h-6 text-[#1F4E5F] dark:text-[#6F9AAA]" />
-              <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] font-heading">
-                Kapasitas Produksi
-              </h3>
-              <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Kapasitas produksi mesin stone crusher mampu menghasilkan 60 Ton/jam dan dapat memenuhi kebutuhan kontrak minimal 3000 MT/bulan
-              </p>
+          {/* Balanced 3-column layout: Card 1 (Kapasitas Produksi) spans 2 cols, Card 2 spans 1 col. Row 2 has 3 equal cards. */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="md:col-span-2 lg:col-span-2 bg-white dark:bg-[#181C1F] p-6 sm:p-7 border border-[#D9DCDD] dark:border-[#30363A] rounded-lg shadow-xs flex flex-col justify-between space-y-4 border-l-4 border-l-[#1F4E5F] dark:border-l-[#6F9AAA]">
+              <div className="space-y-3">
+                <div className="flex items-center justify-between">
+                  <Factory className="w-7 h-7 text-[#1F4E5F] dark:text-[#6F9AAA]" />
+                  <span className="text-[11px] font-mono font-semibold uppercase px-2.5 py-1 bg-[#EEF0F0] dark:bg-[#202529] text-[#1F4E5F] dark:text-[#6F9AAA] rounded">
+                    Mesin Stone Crusher
+                  </span>
+                </div>
+                <h3 className="text-lg sm:text-xl font-bold text-[#171A1C] dark:text-[#F1F3F4] font-heading">
+                  Kapasitas Produksi
+                </h3>
+                <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed max-w-2xl">
+                  Kapasitas produksi mesin stone crusher mampu menghasilkan 60 Ton/jam dan dapat memenuhi kebutuhan kontrak minimal 3000 MT/bulan
+                </p>
+              </div>
+              <div className="pt-3 border-t border-[#D9DCDD]/60 dark:border-[#30363A] text-xs font-mono text-[#6B7378] dark:text-[#A5ADB2] flex items-center gap-4">
+                <span>&bull; Output: 60 Ton / Jam</span>
+                <span>&bull; Kontrak: &ge; 3.000 MT / Bulan</span>
+              </div>
             </div>
 
-            <div className="bg-white dark:bg-[#181C1F] p-6 border border-[#D9DCDD] dark:border-[#30363A] rounded-lg shadow-xs space-y-3">
-              <Scale className="w-6 h-6 text-[#1F4E5F] dark:text-[#6F9AAA]" />
-              <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] font-heading">
-                Transparansi Takaran Tonase
-              </h3>
-              <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Setiap muatan armada ditimbang secara akurat dan transparan sesuai
-                tonase pesanan sebelum dibongkar di lokasi. Tidak ada kecurangan tonase di lapangan.
-              </p>
+            <div className="bg-white dark:bg-[#181C1F] p-6 border border-[#D9DCDD] dark:border-[#30363A] rounded-lg shadow-xs flex flex-col justify-between space-y-3">
+              <div className="space-y-3">
+                <Scale className="w-6 h-6 text-[#1F4E5F] dark:text-[#6F9AAA]" />
+                <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] font-heading">
+                  Transparansi Takaran Tonase
+                </h3>
+                <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
+                  Setiap muatan armada ditimbang secara akurat dan transparan sesuai
+                  tonase pesanan sebelum dibongkar di lokasi. Tidak ada kecurangan tonase di lapangan.
+                </p>
+              </div>
             </div>
 
-            <div className="bg-white dark:bg-[#181C1F] p-6 border border-[#D9DCDD] dark:border-[#30363A] rounded-lg shadow-xs space-y-3">
-              <Layers className="w-6 h-6 text-[#1F4E5F] dark:text-[#6F9AAA]" />
-              <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] font-heading">
-                Material Batu Keras Quarry
-              </h3>
-              <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Batu belah gunung padat bersudut tajam dengan daya rekat semen
-                tinggi, sangat kokoh untuk pondasi bangunan dan adukan cor
-                beton.
-              </p>
+            <div className="bg-white dark:bg-[#181C1F] p-6 border border-[#D9DCDD] dark:border-[#30363A] rounded-lg shadow-xs flex flex-col justify-between space-y-3">
+              <div className="space-y-3">
+                <Layers className="w-6 h-6 text-[#1F4E5F] dark:text-[#6F9AAA]" />
+                <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] font-heading">
+                  Material Batu Keras Quarry
+                </h3>
+                <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
+                  Batu belah gunung padat bersudut tajam dengan daya rekat semen
+                  tinggi, sangat kokoh untuk pondasi bangunan dan adukan cor
+                  beton.
+                </p>
+              </div>
             </div>
 
-            <div className="bg-white dark:bg-[#181C1F] p-6 border border-[#D9DCDD] dark:border-[#30363A] rounded-lg shadow-xs space-y-3">
-              <Truck className="w-6 h-6 text-[#1F4E5F] dark:text-[#6F9AAA]" />
-              <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] font-heading">
-                Penjadwalan Armada Disiplin
-              </h3>
-              <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Koordinasi langsung dengan dispatcher lapangan memastikan
-                kontinuitas pengiriman material sesuai jadwal pengecoran proyek.
-              </p>
+            <div className="bg-white dark:bg-[#181C1F] p-6 border border-[#D9DCDD] dark:border-[#30363A] rounded-lg shadow-xs flex flex-col justify-between space-y-3">
+              <div className="space-y-3">
+                <Truck className="w-6 h-6 text-[#1F4E5F] dark:text-[#6F9AAA]" />
+                <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] font-heading">
+                  Penjadwalan Armada Disiplin
+                </h3>
+                <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
+                  Koordinasi langsung dengan dispatcher lapangan memastikan
+                  kontinuitas pengiriman material sesuai jadwal pengecoran proyek.
+                </p>
+              </div>
             </div>
 
-            <div className="bg-white dark:bg-[#181C1F] p-6 border border-[#D9DCDD] dark:border-[#30363A] rounded-lg shadow-xs space-y-3">
-              <ShieldCheck className="w-6 h-6 text-[#1F4E5F] dark:text-[#6F9AAA]" />
-              <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] font-heading">
-                Badan Usaha Resmi &amp; Legal
-              </h3>
-              <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                Memenuhi legalitas usaha NIB dan NPWP Badan Usaha aktif untuk
-                kebutuhan penerbitan faktur pajak serta perikatan kontrak
-                formal.
-              </p>
+            <div className="bg-white dark:bg-[#181C1F] p-6 border border-[#D9DCDD] dark:border-[#30363A] rounded-lg shadow-xs flex flex-col justify-between space-y-3">
+              <div className="space-y-3">
+                <ShieldCheck className="w-6 h-6 text-[#1F4E5F] dark:text-[#6F9AAA]" />
+                <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] font-heading">
+                  Badan Usaha Resmi &amp; Legal
+                </h3>
+                <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
+                  Memenuhi legalitas usaha NIB dan NPWP Badan Usaha aktif untuk
+                  kebutuhan penerbitan faktur pajak serta perikatan kontrak
+                  formal.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -324,6 +336,7 @@ export default function HomePage() {
       <section className="py-16 sm:py-24 bg-white dark:bg-[#181C1F] border-t border-b border-[#D9DCDD] dark:border-[#30363A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            {/* Left Content (7 Cols) */}
             <div className="lg:col-span-7 space-y-5">
               <span className="text-xs font-mono font-semibold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider">
                 Profil Perusahaan
@@ -386,12 +399,13 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* <div className="lg:col-span-5">
-              <div className="relative aspect-4/3 bg-[#EEF0F0] dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] p-2 rounded-lg">
+            {/* Right Visual (5 Cols) - Balanced layout with authentic facility photo */}
+            <div className="lg:col-span-5">
+              <div className="relative aspect-4/3 bg-[#EEF0F0] dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] p-2 rounded-lg shadow-xs">
                 <div className="relative w-full h-full overflow-hidden bg-[#D9DCDD] dark:bg-[#30363A] rounded-md">
                   <Image
-                    src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
-                    alt="Pekerjaan perkerasan dan distribusi batu material oleh PT. Bumi Kutai Perkasa"
+                    src="/mesin/mesin1_crusher.jpg"
+                    alt="Fasilitas operasional material batu PT. Bumi Kutai Perkasa di Dusun Jambe, Desa Sanggulan, Kec. Sebulu"
                     fill
                     sizes="(max-width: 1024px) 100vw, 40vw"
                     className="object-cover"
@@ -399,12 +413,12 @@ export default function HomePage() {
                   <div className="absolute bottom-0 inset-x-0 bg-white/95 dark:bg-[#111416]/95 p-2.5 text-[11px] text-[#171A1C] dark:text-slate-300 font-mono border-t border-[#D9DCDD] dark:border-[#30363A] flex justify-between items-center">
                     <span>Dokumentasi Operasional</span>
                     <span className="text-[#1F4E5F] dark:text-[#6F9AAA] font-bold">
-                      Distribusi Lapangan
+                      Fasilitas Dusun Jambe
                     </span>
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
@@ -483,3 +497,4 @@ export default function HomePage() {
     </div>
   );
 }
+
