@@ -7,6 +7,7 @@ import { WhatsappButton } from "@/components/WhatsappButton";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { siteConfig } from "@/lib/site-config";
 import { safeJsonLdReplacer } from "@/lib/json-ld";
+import { seoKeywords200 } from "@/data/seo-keywords";
 
 const manrope = Manrope({
   variable: "--font-heading",
@@ -33,23 +34,7 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: [
-    "jual batu tenggarong",
-    "batu tenggarong",
-    "supplier batu tenggarong",
-    "jual batu split tenggarong",
-    "batu split tenggarong",
-    "jual batu koral tenggarong",
-    "batu koral tenggarong",
-    "supplier material tenggarong",
-    "jual batu kutai kartanegara",
-    "supplier batu kutai kartanegara",
-    "material konstruksi tenggarong",
-    "jual abu batu tenggarong",
-    "batu pondasi tenggarong",
-    "batu tronjolan tenggarong",
-    "batu agregat tenggarong",
-  ],
+  keywords: seoKeywords200,
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
   publisher: siteConfig.name,

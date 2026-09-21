@@ -42,9 +42,20 @@ export async function generateMetadata({
     };
   }
 
+  const articleKeywords = [
+    article.title.toLowerCase(),
+    `${article.category.toLowerCase()} tenggarong`,
+    `${article.category.toLowerCase()} sebulu`,
+    `${article.category.toLowerCase()} kukar`,
+    `material konstruksi ${siteConfig.shortName.toLowerCase()}`,
+    `batu split ${siteConfig.shortName.toLowerCase()}`,
+    "supplier batu kalimantan timur",
+  ];
+
   return {
     title: `${article.title} | ${siteConfig.name}`,
     description: article.excerpt,
+    keywords: articleKeywords,
     alternates: {
       canonical: `${siteConfig.url}/blog/${article.slug}`,
     },

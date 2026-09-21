@@ -20,6 +20,7 @@ import { ArticleCard } from "@/components/ArticleCard";
 import { DeliveryCoverage } from "@/components/DeliveryCoverage";
 import { HeroImageSlider } from "@/components/HeroImageSlider";
 import { WhatsappIcon } from "@/components/WhatsappIcon";
+import { FaqSection } from "@/components/FaqSection";
 
 export default function HomePage() {
   const whatsappConsultUrl = getWhatsappUrl({
@@ -452,7 +453,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 8. CORPORATE INQUIRY BANNER (Clean Light/Dark Corporate Surface) */}
+      {/* 8. TANYA JAWAB (FAQ) & STRUCTURED DATA FOR GOOGLE RICH SNIPPETS */}
+      <FaqSection />
+
+      {/* 9. CORPORATE INQUIRY BANNER (Clean Light/Dark Corporate Surface) */}
       <section className="bg-[#EEF0F0]/80 dark:bg-[#181C1F] border-t border-[#D9DCDD] dark:border-[#30363A] py-16 sm:py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block text-xs font-mono uppercase text-[#1F4E5F] dark:text-[#6F9AAA] font-semibold mb-2">

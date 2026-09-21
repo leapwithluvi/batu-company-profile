@@ -37,9 +37,25 @@ export async function generateMetadata({
     };
   }
 
+  const localizedKeywords = [
+    `jual ${product.name.toLowerCase()} tenggarong`,
+    `harga ${product.name.toLowerCase()} per ton`,
+    `supplier ${product.name.toLowerCase()} sebulu`,
+    `distributor ${product.name.toLowerCase()} kutai kartanegara`,
+    `${product.name.toLowerCase()} dusun jambe`,
+    `${product.name.toLowerCase()} muara kaman`,
+    `${product.name.toLowerCase()} separi`,
+    `${product.name.toLowerCase()} samarinda`,
+    `${product.name.toLowerCase()} ikn nusantara`,
+    `quarry ${product.name.toLowerCase()} kaltim`,
+    `stone crusher ${product.name.toLowerCase()}`,
+    `${product.name.toLowerCase()} dump truck`,
+  ];
+
   return {
     title: product.metaTitle,
     description: product.metaDescription,
+    keywords: localizedKeywords,
     alternates: {
       canonical: `${siteConfig.url}/produk/${product.slug}`,
     },
