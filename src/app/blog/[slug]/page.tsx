@@ -103,21 +103,35 @@ export default async function BlogDetailPage({ params }: PageProps) {
     "@type": "Article",
     headline: article.title,
     description: article.excerpt,
-    image: article.image,
+    image: `${siteConfig.url}${article.image}`,
+    url: `${siteConfig.url}/blog/${article.slug}`,
+    datePublished: article.publishedDate,
+    dateModified: article.publishedDate,
+    inLanguage: "id-ID",
     author: {
       "@type": "Organization",
       name: siteConfig.name,
+      url: `${siteConfig.url}/tentang-kami`,
     },
     publisher: {
       "@type": "Organization",
       name: siteConfig.name,
+      url: siteConfig.url,
       logo: {
         "@type": "ImageObject",
         url: `${siteConfig.url}/logo/logo.png`,
+        width: 200,
+        height: 200,
       },
     },
-    datePublished: article.publishedDate,
-    mainEntityOfPage: `${siteConfig.url}/blog/${article.slug}`,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${siteConfig.url}/blog/${article.slug}`,
+    },
+    about: {
+      "@type": "Thing",
+      name: "Batu Koral Tenggarong & Material Konstruksi Kutai Kartanegara",
+    },
   };
 
   return (
@@ -156,7 +170,12 @@ export default async function BlogDetailPage({ params }: PageProps) {
           <div className="mt-4 pt-4 border-t border-[#D9DCDD] dark:border-[#30363A] flex flex-wrap items-center gap-4 sm:gap-6 text-xs text-[#6B7378] dark:text-[#A5ADB2] font-mono">
             <span className="flex items-center gap-1.5">
               <User className="w-3.5 h-3.5 text-[#6B7378] dark:text-[#A5ADB2]" />
-              <span>{article.author}</span>
+              <a
+                href="/tentang-kami"
+                className="hover:text-[#1F4E5F] dark:hover:text-[#6F9AAA] transition-colors underline-offset-2 hover:underline"
+              >
+                {article.author}
+              </a>
             </span>
             <span className="flex items-center gap-1.5">
               <Calendar className="w-3.5 h-3.5 text-[#6B7378] dark:text-[#A5ADB2]" />

@@ -153,6 +153,24 @@ export default async function ProductDetailPage({ params }: PageProps) {
     ],
   };
 
+  // VideoObject schema — hanya untuk produk yang punya video (batu-split-2x1, batu-split-3x5, dll)
+  const videoSchema = product.videoUrl
+    ? {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        name: `${product.name} - Material Batu Tenggarong, Kutai Kartanegara`,
+        description: `Video dokumentasi ${product.name} dari stockpile ${siteConfig.name} di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara. Siap kirim ke Tenggarong dan wilayah Kutai Kartanegara.`,
+        thumbnailUrl: `${siteConfig.url}${product.image}`,
+        contentUrl: `${siteConfig.url}${product.videoUrl}`,
+        uploadDate: "2025-01-01T00:00:00+08:00",
+        publisher: {
+          "@type": "Organization",
+          name: siteConfig.name,
+          url: siteConfig.url,
+        },
+      }
+    : null;
+
   return (
     <div className="bg-[#F7F7F5] dark:bg-[#111416] min-h-screen">
       <script
@@ -167,6 +185,14 @@ export default async function ProductDetailPage({ params }: PageProps) {
           __html: safeJsonLdReplacer(breadcrumbSchema),
         }}
       />
+      {videoSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: safeJsonLdReplacer(videoSchema),
+          }}
+        />
+      )}
 
       {/* Breadcrumb Bar */}
       <div className="bg-white dark:bg-[#181C1F] border-b border-[#D9DCDD] dark:border-[#30363A]">

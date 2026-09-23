@@ -81,9 +81,7 @@ export const metadata: Metadata = {
       { url: "/icon.png", type: "image/png" },
       { url: "/favicon.ico", sizes: "any" },
     ],
-    apple: [
-      { url: "/icon.png", type: "image/png" },
-    ],
+    apple: [{ url: "/icon.png", type: "image/png" }],
     shortcut: "/favicon.ico",
   },
   robots: {
@@ -249,10 +247,10 @@ export default function RootLayout({
         />
 
         {/* google site verification */}
-        <meta
+        {/* <meta
           name="google-site-verification"
           content="nfPMvC3-Z6tH0Yg8ShmywxgkmfrpSbuDgS7iKH4e7uY"
-        />
+        /> */}
       </head>
       <body className="font-[family-name:var(--font-sans)] min-h-full flex flex-col antialiased bg-[#F7F7F5] dark:bg-[#111416] text-[#171A1C] dark:text-[#F1F3F4] transition-colors duration-150">
         <ThemeProvider>
