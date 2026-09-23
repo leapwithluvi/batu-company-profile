@@ -36,7 +36,7 @@ export const productsData: Product[] = [
     ],
     image: "/abu_batu.jpg",
     imageAlt:
-      "Tumpukan abu batu agregat halus di stockpile PT. Bumi Kutai Perkasa",
+      "Tumpukan abu batu agregat halus di stockpile PT. Bumi Kutai Perkasa, Dusun Jambe, Tenggarong, Kutai Kartanegara",
     metaTitle:
       "Jual Abu Batu | PT. Bumi Kutai Perkasa - Tenggarong, Kutai Kartanegara & Sekitarnya",
     metaDescription:
@@ -131,7 +131,7 @@ export const productsData: Product[] = [
     ],
     image: "/pondasi_tronjolan.jpg",
     imageAlt:
-      "Material batu tronjolan bongkahan besar untuk pekerjaan bronjong dan turap",
+      "Material batu tronjolan bongkahan besar untuk pekerjaan bronjong kawat dan turap di Tenggarong, Kutai Kartanegara",
     metaTitle:
       "Jual Batu Tronjolan | PT. Bumi Kutai Perkasa - Tenggarong, Kutai Kartanegara & Sekitarnya",
     metaDescription:
@@ -154,7 +154,7 @@ export const productsData: Product[] = [
     ],
     image: "/koral_11.jpg",
     imageAlt:
-      "Batu Split ukuran 1x1 fraksi halus untuk campuran beton mutu tinggi",
+      "Batu Split ukuran 1x1 fraksi halus untuk campuran beton mutu tinggi di Tenggarong, Kutai Kartanegara",
     metaTitle:
       "Batu Split Ukuran 1x1 | PT. Bumi Kutai Perkasa - Tenggarong, Kutai Kartanegara & Sekitarnya",
     metaDescription:
@@ -200,7 +200,8 @@ export const productsData: Product[] = [
       "Campuran readymix maupun batching manual",
     ],
     image: "/koral_23.jpg",
-    imageAlt: "Batu Split ukuran 2x3 agregat cor beton berkualitas",
+    imageAlt:
+      "Batu Split ukuran 2x3 agregat cor beton berkualitas siap kirim ke Tenggarong, Kutai Kartanegara",
     metaTitle:
       "Batu Split Ukuran 2x3 | PT. Bumi Kutai Perkasa - Tenggarong, Kutai Kartanegara & Sekitarnya",
     metaDescription:
@@ -223,7 +224,8 @@ export const productsData: Product[] = [
     ],
     image: "/koral_57.jpg",
     videoUrl: "/videos/koral_57.mp4",
-    imageAlt: "Batu Split ukuran 3x5 untuk pengerasan pondasi jalan proyek",
+    imageAlt:
+      "Batu Split ukuran 3x5 untuk pengerasan pondasi jalan proyek di Tenggarong & Kutai Kartanegara",
     metaTitle:
       "Batu Split ukuran 3x5 | PT. Bumi Kutai Perkasa - Tenggarong, Kutai Kartanegara & Sekitarnya",
     metaDescription:

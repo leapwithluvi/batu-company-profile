@@ -30,10 +30,11 @@ export const metadata: Metadata = {
       : `https://${siteConfig.url}`,
   ),
   title: {
-    default: `${siteConfig.name} | Supplier Batu & Material Konstruksi Tenggarong`,
+    default: `Batu Koral Tenggarong Berkualitas - ${siteConfig.name}`,
     template: `%s | ${siteConfig.name}`,
   },
-  description: siteConfig.description,
+  description:
+    "Supplier batu koral terpercaya di Tenggarong, Kutai Kartanegara. PT. Bumi Kutai Perkasa menyediakan batu koral, batu split, abu batu, batu agregat, batu tronjolan untuk kebutuhan proyek konstruksi — pengiriman dump truck ke seluruh Kukar & Kaltim.",
   keywords: seoKeywords200,
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
@@ -48,27 +49,30 @@ export const metadata: Metadata = {
     locale: "id_ID",
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} - Supplier Batu di Tenggarong, Kutai Kartanegara & Sekitarnya`,
-    description: siteConfig.description,
+    title: `Batu Koral Tenggarong & Material Konstruksi - ${siteConfig.name}`,
+    description:
+      "Supplier batu koral terpercaya di Tenggarong, Kutai Kartanegara. Menyediakan batu koral, batu split, abu batu, batu agregat, dan batu tronjolan untuk proyek konstruksi. PT. Bumi Kutai Perkasa.",
     images: [
       {
-        url: "/logo/full_logo.png",
-        width: 1024,
-        height: 1024,
-        alt: `${siteConfig.name} - Supplier Batu & Material Konstruksi`,
+        url: "/og-banner.jpg",
+        width: 1200,
+        height: 630,
+        alt: `Batu Koral Tenggarong - ${siteConfig.name} · Supplier Resmi Kutai Kartanegara`,
+        type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} - Supplier Batu di Tenggarong, Kutai Kartanegara & Sekitarnya`,
-    description: siteConfig.description,
+    title: `Batu Koral Tenggarong & Material Konstruksi - ${siteConfig.name}`,
+    description:
+      "Supplier batu koral terpercaya di Tenggarong, Kutai Kartanegara. Menyediakan batu koral, batu split, abu batu, batu agregat untuk proyek konstruksi.",
     images: [
       {
-        url: "/logo/full_logo.png",
-        width: 1024,
-        height: 1024,
-        alt: `${siteConfig.name} - Supplier Batu & Material Konstruksi`,
+        url: "/og-banner.jpg",
+        width: 1200,
+        height: 630,
+        alt: `Batu Koral Tenggarong - ${siteConfig.name}`,
       },
     ],
   },
@@ -92,6 +96,9 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
+  },
+  alternates: {
+    canonical: siteConfig.url,
   },
 };
 
@@ -128,19 +135,40 @@ export default function RootLayout({
 }>) {
   const localBusinessSchema = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": ["LocalBusiness", "Store"],
     name: siteConfig.name,
-    alternateName: siteConfig.shortName,
+    alternateName: [
+      siteConfig.shortName,
+      "Batu Koral Tenggarong",
+      "PT Bumi Kutai Perkasa",
+    ],
     description: siteConfig.description,
     url: siteConfig.url,
-    logo: `${siteConfig.url}/logo/logo.png`,
+    logo: {
+      "@type": "ImageObject",
+      url: `${siteConfig.url}/logo/logo.png`,
+      width: 512,
+      height: 512,
+    },
+    image: `${siteConfig.url}/logo/full_logo.png`,
     telephone: siteConfig.phoneDisplay,
     email: siteConfig.email,
+    priceRange: "IDR",
+    currenciesAccepted: "IDR",
+    paymentAccepted: "Cash, Transfer Bank",
+    hasMap: siteConfig.googleMapsUrl,
+    // Geo coordinates GPS: Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "-0.2758",
+      longitude: "117.0425",
+    },
     address: {
       "@type": "PostalAddress",
       streetAddress: siteConfig.operationalLocation.village,
       addressLocality: siteConfig.operationalLocation.regency,
       addressRegion: siteConfig.operationalLocation.province,
+      postalCode: siteConfig.address.postalCode,
       addressCountry: "ID",
     },
     openingHoursSpecification: [
@@ -163,6 +191,39 @@ export default function RootLayout({
       "@type": "AdministrativeArea",
       name: `${area}, Kalimantan Timur`,
     })),
+    sameAs: [
+      siteConfig.googleMapsUrl,
+      `https://wa.me/${siteConfig.whatsappNumber}`,
+      siteConfig.url,
+    ],
+    knowsAbout: [
+      "Batu Koral",
+      "Batu Split",
+      "Abu Batu",
+      "Batu Agregat",
+      "Batu Tronjolan",
+      "Material Konstruksi",
+      "Stone Crusher",
+      "Quarry Kalimantan Timur",
+    ],
+  };
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: siteConfig.name,
+    alternateName: "Batu Koral Tenggarong",
+    url: siteConfig.url,
+    description: siteConfig.description,
+    inLanguage: "id-ID",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${siteConfig.url}/produk?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
   };
 
   return (
@@ -178,6 +239,12 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: safeJsonLdReplacer(localBusinessSchema),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: safeJsonLdReplacer(websiteSchema),
           }}
         />
 

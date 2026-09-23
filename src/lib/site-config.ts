@@ -31,17 +31,17 @@ export const siteConfig: SiteConfig = {
   name: "PT. Bumi Kutai Perkasa",
   shortName: "Bumi Kutai Perkasa",
   tagline:
-    "Supplier Batu & Material Konstruksi Melayani Tenggarong dan Kutai Kartanegara",
+    "Batu Koral Tenggarong & Material Konstruksi - PT. Bumi Kutai Perkasa",
   description:
     "PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara, menyediakan material batu pondasi, abu batu, batu split, batu agregat, batu tronjolan, dan aneka ukuran batu split untuk kebutuhan konstruksi di Tenggarong dan sekitarnya.",
   url:
-    process.env.NEXT_PUBLIC_SITE_URL || "https://bumikutaiperkasa.vercel.app",
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.bumikutaiperkasa.co.id",
   phoneDisplay: "+62 853-9333-9991",
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "6281234567890",
   email: "pt.bumikutaiperkasa@gmail.com",
   googleMapsUrl:
     process.env.NEXT_PUBLIC_GOOGLE_MAPS_URL ||
-    "https://maps.google.com/?q=Dusun+Jambe,+Kec.+Sebulu,+Kutai+Kartanegara,+Kalimantan+Timur",
+    "https://maps.app.goo.gl/UP5iCQLTTphUztAH6",
   operationalLocation: {
     village: "Dusun Jambe, Desa Sanggulan",
     subdistrict: "Kec. Sebulu",

@@ -5,20 +5,49 @@ import { ArticleCard } from "@/components/ArticleCard";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { WhatsappButton } from "@/components/WhatsappButton";
 import { siteConfig } from "@/lib/site-config";
+import { safeJsonLdReplacer } from "@/lib/json-ld";
 import { BookOpen, HelpCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Panduan Material Batu & Konstruksi | PT. Bumi Kutai Perkasa",
+  title: "Panduan Material Batu Koral & Konstruksi Tenggarong | PT. Bumi Kutai Perkasa",
   description:
-    "Pusat informasi dan panduan teknis pemilihan material batu split, abu batu, batu tronjolan, batu agregat, dan ukuran batu split untuk proyek konstruksi di Tenggarong dan Kutai Kartanegara.",
+    "Pusat informasi dan panduan teknis pemilihan batu koral, batu split, abu batu, batu tronjolan, dan batu agregat untuk proyek konstruksi di Tenggarong dan Kutai Kartanegara. Supplier resmi PT. Bumi Kutai Perkasa.",
   keywords: [
-    "apa itu abu batu",
-    "ukuran batu split cor",
-    "harga batu split tenggarong",
-    "perbedaan ukuran batu koral",
-    "kegunaan batu agregat",
-    "batu tronjolan tenggarong",
-    "supplier batu kutai kartanegara",
+    // Intent informatif + lokal
+    "panduan batu koral tenggarong",
+    "panduan memilih batu split konstruksi",
+    "apa itu batu koral ayak",
+    "perbedaan batu split 1x1 2x1 2x3",
+    "ukuran batu split untuk cor beton",
+    "harga batu split tenggarong per ton",
+    "harga abu batu kutai kartanegara",
+    "batu tronjolan untuk bronjong tenggarong",
+    "kegunaan batu agregat base course",
+    "batu koral untuk pondasi rumah",
+    "material konstruksi kutai kartanegara",
+    "supplier batu koral sebulu kukar",
+  ],
+  alternates: {
+    canonical: "https://www.bumikutaiperkasa.co.id/blog",
+  },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Beranda",
+      item: siteConfig.url,
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Blog & Panduan Material",
+      item: `${siteConfig.url}/blog`,
+    },
   ],
 };
 
@@ -27,6 +56,12 @@ export default function BlogIndexPage() {
 
   return (
     <div className="bg-[#F7F7F5] dark:bg-[#111416] min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: safeJsonLdReplacer(breadcrumbSchema),
+        }}
+      />
       {/* Top Header */}
       <section className="bg-white dark:bg-[#16191C] text-[#171A1C] dark:text-[#F1F3F4] border-b border-[#D9DCDD] dark:border-[#30363A] py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -40,10 +75,13 @@ export default function BlogIndexPage() {
               {siteConfig.name} &bull; Pusat Edukasi Material
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight mt-1 font-heading">
-              Panduan Praktis Material &amp; Konstruksi
+              Panduan Batu Koral &amp; Material Konstruksi Tenggarong
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-              Artikel informatif yang menjawab kebutuhan calon pelanggan dalam menentukan spesifikasi batu split, abu batu, batu agregat, batu pondasi, dan aneka ukuran batu split untuk konstruksi di Tenggarong dan Kutai Kartanegara.
+              Artikel teknis dan panduan praktis pemilihan <strong>batu koral</strong>,{" "}
+              <strong>batu split</strong>, abu batu, batu agregat, dan batu tronjolan untuk
+              proyek konstruksi di <strong>Tenggarong</strong> dan{" "}
+              <strong>Kutai Kartanegara</strong> &mdash; disusun oleh tim teknis {siteConfig.name}.
             </p>
           </div>
         </div>

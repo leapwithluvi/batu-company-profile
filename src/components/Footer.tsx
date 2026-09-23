@@ -78,7 +78,7 @@ export function Footer() {
             <div className="flex items-center">
               <Image
                 src="/logo/logo_white.png"
-                alt="PT. Bumi Kutai Perkasa"
+                alt="PT. Bumi Kutai Perkasa - Supplier Batu Koral Tenggarong, Kutai Kartanegara"
                 width={100}
                 height={100}
                 className="w-12 h-12 object-contain"
@@ -113,7 +113,7 @@ export function Footer() {
                   href="/produk/abu-batu"
                   className="hover:text-slate-200 transition-colors"
                 >
-                  Abu Batu (Dust Stone)
+                  Abu Batu Tenggarong (Dust Stone)
                 </Link>
               </li>
               <li>
@@ -121,7 +121,7 @@ export function Footer() {
                   href="/produk/batu-pondasi"
                   className="hover:text-slate-200 transition-colors"
                 >
-                  Batu Pondasi Belah Gunung
+                  Batu Pondasi Belah Gunung Kutai Kartanegara
                 </Link>
               </li>
               <li>
@@ -129,7 +129,7 @@ export function Footer() {
                   href="/produk/batu-agregat"
                   className="hover:text-slate-200 transition-colors"
                 >
-                  Batu Agregat Campuran Cor
+                  Batu Agregat Base Course Tenggarong
                 </Link>
               </li>
               <li>
@@ -137,15 +137,15 @@ export function Footer() {
                   href="/produk/batu-tronjolan"
                   className="hover:text-slate-200 transition-colors"
                 >
-                  Batu Tronjolan Bronjong
+                  Batu Tronjolan Bronjong Kutai Kartanegara
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/produk/batu-koral-2x1"
+                  href="/produk/batu-split-2x1"
                   className="hover:text-slate-200 transition-colors"
                 >
-                  Batu split berbagai ukuran
+                  Batu Split 2x1, 2x3, 3x5 Tenggarong
                 </Link>
               </li>
               <li className="pt-2">
@@ -153,7 +153,7 @@ export function Footer() {
                   href="/produk"
                   className="text-[#6F9AAA] hover:text-[#8AB2C2] font-medium"
                 >
-                  Lihat Seluruh Produk &rarr;
+                  Lihat Katalog Batu Koral Lengkap &rarr;
                 </Link>
               </li>
             </ul>
@@ -176,7 +176,7 @@ export function Footer() {
             </div>
 
             <h3 className="text-xs font-mono font-semibold uppercase tracking-wider text-slate-200 mb-2">
-              Panduan Material
+              Panduan Material Batu Koral
             </h3>
             <ul className="space-y-1 text-xs text-slate-400">
               <li>
@@ -184,7 +184,15 @@ export function Footer() {
                   href="/blog"
                   className="hover:text-slate-200 transition-colors"
                 >
-                  Pusat Panduan &amp; Edukasi Proyek &rarr;
+                  Panduan Batu Koral &amp; Batu Split Tenggarong &rarr;
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/tentang-kami"
+                  className="hover:text-slate-200 transition-colors"
+                >
+                  Profil &amp; Legalitas Supplier Resmi &rarr;
                 </Link>
               </li>
             </ul>

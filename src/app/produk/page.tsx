@@ -8,18 +8,26 @@ import { Truck, MapPin, Layers } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Katalog Batu & Material Konstruksi | PT. Bumi Kutai Perkasa",
+  title: "Batu Koral Tenggarong & Material Konstruksi - Katalog Lengkap | PT. Bumi Kutai Perkasa",
   description:
-    "Katalog resmi material abu batu, batu split, batu agregat, batu pondasi, batu tronjolan, dan batu split ukuran 1x1, 2x1, 2x3, 3x5, 5x7, 7x10. PT. Bumi Kutai Perkasa melayani pengiriman ke Tenggarong dan Kutai Kartanegara.",
+    "Katalog resmi batu koral, abu batu, batu split, batu agregat, batu pondasi, batu tronjolan, dan aneka ukuran batu split 1x1, 2x1, 2x3, 3x5, 5x7, 7x10. Supplier PT. Bumi Kutai Perkasa melayani pengiriman ke Tenggarong dan Kutai Kartanegara.",
   keywords: [
-    "jual batu split tenggarong",
-    "jual batu koral tenggarong",
-    "jual abu batu tenggarong",
+    // Transaksional + Lokal — Intent beli/pesan
+    "batu koral tenggarong",
+    "jual batu koral tenggarong kutai kartanegara",
+    "harga batu split tenggarong per rit",
+    "jual batu split 2x1 tenggarong",
+    "jual abu batu tenggarong kukar",
     "jual batu pondasi tenggarong",
-    "batu tronjolan tenggarong",
-    "batu agregat tenggarong",
-    "supplier batu kutai kartanegara",
+    "batu tronjolan bronjong tenggarong",
+    "batu agregat base course kutai kartanegara",
+    "supplier batu split sebulu kalimantan timur",
+    "kirim batu koral ke tenggarong seberang",
+    "batu split untuk batching plant kaltim",
   ],
+  alternates: {
+    canonical: "https://www.bumikutaiperkasa.co.id/produk",
+  },
 };
 
 export default function ProdukCatalogPage() {
@@ -38,12 +46,13 @@ export default function ProdukCatalogPage() {
               {siteConfig.name} &bull; Dusun Jambe, Desa Sanggulan, Kec. Sebulu
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight mt-1 font-heading">
-              Katalog Material Batu Konstruksi
+              Batu Koral Tenggarong &amp; Material Konstruksi Berkualitas
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-              Daftar produk material batu yang disediakan oleh PT. Bumi Kutai
-              Perkasa. Beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara, dan
-              melayani pengiriman ke Tenggarong dan wilayah sekitarnya.
+              Katalog resmi <strong>batu koral</strong>, <strong>batu split</strong>, <strong>abu batu</strong>, batu agregat, batu pondasi, dan batu tronjolan dari{" "}
+              <strong>{siteConfig.name}</strong> &mdash; beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu,{" "}
+              <strong>Kutai Kartanegara</strong>. Melayani pengiriman armada dump truck ke{" "}
+              <strong>Tenggarong</strong>, Tenggarong Seberang, Samarinda, dan seluruh wilayah Kalimantan Timur.
             </p>
           </div>
         </div>
@@ -79,11 +88,10 @@ export default function ProdukCatalogPage() {
             <div key={category} id={anchorId} className="space-y-6 pt-4">
               <div className="border-l-4 border-[#1F4E5F] dark:border-[#6F9AAA] pl-4">
                 <h2 className="text-xl sm:text-2xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight">
-                  {category}
+                  {category} &mdash; Tenggarong &amp; Kutai Kartanegara
                 </h2>
                 <p className="text-xs text-[#6B7378] dark:text-[#A5ADB2] mt-0.5 font-mono">
-                  Menyediakan {categoryProducts.length} pilihan spesifikasi
-                  material untuk proyek Anda
+                  Tersedia {categoryProducts.length} pilihan spesifikasi material &bull; Siap kirim via dump truck ke lokasi proyek Anda
                 </p>
               </div>
 
@@ -110,12 +118,12 @@ export default function ProdukCatalogPage() {
             Pengiriman Material ke Tenggarong dan Wilayah Sekitarnya
           </h3>
           <p className="text-xs sm:text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-            PT. Bumi Kutai Perkasa beroperasi di{" "}
-            <strong>Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara</strong>. Untuk memenuhi
-            kebutuhan proyek konstruksi perumahan, gedung, dan infrastruktur
-            jalan, kami melayani pengiriman armada dump truck ke area
-            Tenggarong, Kutai Kartanegara, Samarinda, dan wilayah Kalimantan
-            Timur lainnya yang terjangkau.
+            <strong>{siteConfig.name}</strong> beroperasi di{" "}
+            <strong>Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara</strong>. Kami melayani
+            pengiriman <strong>batu koral</strong>, batu split, abu batu, batu agregat, dan batu pondasi
+            ke <strong>Tenggarong</strong>, Tenggarong Seberang, SP Sebulu, SP Muara Kaman, Separi,
+            Loa Janan, Loa Kulu, <strong>Samarinda</strong>, dan wilayah{" "}
+            <strong>Kutai Kartanegara</strong> lainnya menggunakan armada dump truck dan ponton.
           </p>
           <div className="pt-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-t border-[#D9DCDD]/60 dark:border-[#30363A]">
             <span className="text-xs text-[#6B7378] dark:text-[#A5ADB2] font-mono flex items-center gap-1.5">

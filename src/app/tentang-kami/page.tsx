@@ -19,16 +19,23 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Profil Perusahaan & Legalitas | PT. Bumi Kutai Perkasa",
+  title: "Profil Perusahaan Supplier Batu Koral Tenggarong | PT. Bumi Kutai Perkasa",
   description:
-    "Profil resmi, identitas badan usaha, ketersediaan dokumen legalitas, dan fasilitas operasional PT. Bumi Kutai Perkasa di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara, melayani Tenggarong dan sekitarnya.",
+    "Profil resmi, identitas badan usaha, ketersediaan dokumen legalitas, dan fasilitas operasional PT. Bumi Kutai Perkasa — supplier batu koral Tenggarong di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara.",
   keywords: [
+    // Intent verifikasi dan kepercayaan bisnis
     "profil PT Bumi Kutai Perkasa",
-    "legalitas PT Bumi Kutai Perkasa",
-    "supplier batu Dusun Jambe, Desa Sanggulan, Kec. Sebulu",
-    "distributor batu kutai kartanegara",
-    "supplier material tenggarong",
+    "legalitas supplier batu koral tenggarong",
+    "NIB PT Bumi Kutai Perkasa",
+    "faktur pajak batu split kutai kartanegara",
+    "SPK pengadaan material batu kaltim",
+    "supplier batu koral sebulu kutai kartanegara",
+    "quarry batu split dusun jambe sanggulan",
+    "stone crusher tenggarong kapasitas 60 ton jam",
   ],
+  alternates: {
+    canonical: "https://www.bumikutaiperkasa.co.id/tentang-kami",
+  },
 };
 
 export default function TentangKamiPage() {
@@ -47,13 +54,15 @@ export default function TentangKamiPage() {
               Profil &amp; Identitas Perusahaan
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight mt-1 font-heading">
-              PT. Bumi Kutai Perkasa
+              Supplier Batu Koral Tenggarong &amp; Material Konstruksi Resmi
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-              Penyedia material batu pondasi, abu batu, dan aneka agregat batu
-              gunung berizin resmi. Beroperasi nyata di Dusun Jambe, Desa
-              Sanggulan, Kec. Sebulu, Kutai Kartanegara, dan melayani pengiriman
-              terjadwal ke Tenggarong dan wilayah sekitarnya.
+              <strong>{siteConfig.name}</strong> adalah penyedia{" "}
+              <strong>batu koral</strong>, batu split, abu batu, batu agregat, dan batu
+              pondasi berizin resmi yang beroperasi di{" "}
+              <strong>Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara</strong>.
+              Melayani pengiriman terjadwal ke <strong>Tenggarong</strong>,
+              Tenggarong Seberang, Samarinda, dan seluruh wilayah Kalimantan Timur.
             </p>
           </div>
         </div>

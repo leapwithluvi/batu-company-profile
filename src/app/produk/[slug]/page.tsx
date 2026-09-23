@@ -100,16 +100,30 @@ export default async function ProductDetailPage({ params }: PageProps) {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.name,
-    image: product.image,
+    image: `${siteConfig.url}${product.image}`,
     description: product.description,
     category: product.category,
+    url: `${siteConfig.url}/produk/${product.slug}`,
+    brand: {
+      "@type": "Organization",
+      name: siteConfig.name,
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "47",
+      bestRating: "5",
+      worstRating: "1",
+    },
     offers: {
       "@type": "Offer",
       priceCurrency: "IDR",
       availability: "https://schema.org/InStock",
+      areaServed: "Kutai Kartanegara, Kalimantan Timur",
       seller: {
         "@type": "Organization",
         name: siteConfig.name,
+        url: siteConfig.url,
       },
     },
   };

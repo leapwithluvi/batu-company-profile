@@ -43,8 +43,10 @@ export default function HomePage() {
             <div className="lg:col-span-7 space-y-6">
               {/* Dominant Headline */}
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#171A1C] dark:text-white leading-[1.15] font-heading">
-                Produsen dan Supplier Berizin Resmi Material Batu Split &amp; Agregat Konstruksi
-                Berkualitas
+                Batu Koral Tenggarong &amp; Material Konstruksi Berkualitas
+                <span className="block text-2xl sm:text-3xl lg:text-4xl mt-1 text-[#1F4E5F] dark:text-[#6F9AAA] font-semibold">
+                  Produsen &amp; Supplier Berizin Resmi
+                </span>
               </h1>
 
               {/* Sub-headline */}
@@ -73,7 +75,7 @@ export default function HomePage() {
                   href="/produk"
                   className="inline-flex items-center justify-center gap-2 bg-white dark:bg-[#181C1F] hover:bg-[#EEF0F0] dark:hover:bg-[#202529] text-[#171A1C] dark:text-[#F1F3F4] px-6 py-3.5 text-sm font-semibold border border-[#D9DCDD] dark:border-[#30363A] rounded-md transition-all shadow-xs"
                 >
-                  <span>Katalog {productsData.length} Varian Batu</span>
+                  <span>Katalog Batu Koral &amp; Material Konstruksi</span>
                   <ArrowRight className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
                 </Link>
               </div>
@@ -327,7 +329,7 @@ export default function HomePage() {
             href="/produk"
             className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#1F4E5F] hover:bg-[#173B48] text-white dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] text-xs sm:text-sm font-semibold transition-colors rounded-md shadow-xs"
           >
-            <span>Lihat Seluruh {productsData.length} Varian Produk &amp; Ukuran Batu</span>
+            <span>Lihat Seluruh Katalog Batu Koral &amp; Material Konstruksi</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
@@ -442,7 +444,7 @@ export default function HomePage() {
             href="/blog"
             className="text-xs sm:text-sm font-semibold text-[#1F4E5F] dark:text-[#6F9AAA] hover:text-[#173B48] dark:hover:text-[#8AB2C2] inline-flex items-center gap-1"
           >
-            <span>Lihat Semua Panduan &rarr;</span>
+            <span>Lihat Semua Panduan Batu Koral &rarr;</span>
           </Link>
         </div>
 

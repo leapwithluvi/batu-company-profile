@@ -6,9 +6,22 @@ import { siteConfig } from "@/lib/site-config";
 import { MapPin, Phone, Clock, Mail, Truck, HelpCircle, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Hubungi Kami & Pemesanan Material | Tenggarong",
+  title: "Hubungi & Pesan Batu Koral Tenggarong | PT. Bumi Kutai Perkasa",
   description:
-    `Hubungi dispatcher ${siteConfig.name}. Cek harga material batu belah, split cor, dan estimasi ongkos kirim dump truck di Kutai Kartanegara langsung via WhatsApp.`,
+    `Hubungi dispatcher ${siteConfig.name} via WhatsApp. Cek harga batu koral, batu belah, batu split, dan estimasi ongkos kirim dump truck ke Tenggarong & Kutai Kartanegara.`,
+  keywords: [
+    // Intent transaksional tinggi
+    "kontak supplier batu koral tenggarong",
+    "pesan batu split kutai kartanegara whatsapp",
+    "nomor whatsapp supplier batu tenggarong",
+    "harga batu koral per rit tenggarong",
+    "estimasi ongkos kirim batu split kukar",
+    "order material konstruksi tenggarong",
+    "dispatcher batu split kalimantan timur",
+  ],
+  alternates: {
+    canonical: "https://www.bumikutaiperkasa.co.id/kontak",
+  },
 };
 
 const FAQ_ITEMS = [
@@ -50,10 +63,14 @@ export default function KontakPage() {
               Layanan Pemesanan &amp; Logistik
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight mt-1 font-heading">
-              Hubungi Dispatcher &amp; Lokasi Operasional
+              Pesan Batu Koral &amp; Material Konstruksi ke Tenggarong
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-              Konsultasikan kebutuhan tonase batu belah, split cor, abu batu, atau agregat langsung dengan tim operasional Kutai Kartanegara.
+              Konsultasikan kebutuhan <strong>batu koral</strong>, batu split, abu batu, dan batu agregat
+              langsung dengan dispatcher <strong>{siteConfig.name}</strong>.{" "}
+              Kami melayani pengiriman dump truck ke <strong>Tenggarong</strong>, Tenggarong Seberang,
+              Sebulu, Muara Kaman, Separi, <strong>Samarinda</strong>, dan seluruh wilayah{" "}
+              <strong>Kutai Kartanegara</strong>.
             </p>
           </div>
         </div>
