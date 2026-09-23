@@ -15,13 +15,42 @@ export function buildWhatsappMessage({
     return customMessage;
   }
 
-  const subject = namaProduk || judulArtikel;
+  // Pesan dari halaman produk spesifik
+  if (namaProduk) {
+    return `Halo Admin PT. Bumi Kutai Perkasa 👋
 
-  if (subject) {
-    return `Halo Admin, saya tertarik dengan ${subject} untuk proyek di [wilayah]. Mohon info harga terbaru dan ongkos kirim.`;
+Saya ingin pesan *${namaProduk}* untuk proyek di [wilayah/kecamatan].
+
+Mohon info:
+1. Harga per rit / per ton
+2. Estimasi ongkos kirim ke lokasi saya
+3. Ketersediaan armada & jadwal pengiriman
+
+Terima kasih.`;
   }
 
-  return `Halo Admin, saya ingin konsultasi kebutuhan material batu untuk proyek di [wilayah]. Mohon info harga terbaru dan ketersediaan pengiriman armada dump truck.`;
+  // Pesan dari halaman artikel blog
+  if (judulArtikel) {
+    return `Halo Admin PT. Bumi Kutai Perkasa 👋
+
+Saya baru baca artikel "${judulArtikel}" dan ingin konsultasi kebutuhan material untuk proyek di [wilayah/kecamatan].
+
+Mohon info harga terbaru dan ketersediaan pengiriman.
+
+Terima kasih.`;
+  }
+
+  // Pesan umum (floating button, beranda, navbar)
+  return `Halo Admin PT. Bumi Kutai Perkasa 👋
+
+Saya ingin konsultasi kebutuhan material batu untuk proyek di [wilayah/kecamatan].
+
+Mohon info:
+1. Jenis & harga material yang tersedia
+2. Estimasi ongkos kirim
+3. Ketersediaan armada dump truck
+
+Terima kasih.`;
 }
 
 /**

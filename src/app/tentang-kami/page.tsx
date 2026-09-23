@@ -281,6 +281,16 @@ export default function TentangKamiPage() {
                 label="Konsultasi Pengadaan via WhatsApp"
                 variant="primary"
                 className="w-full text-xs py-3 justify-center"
+                customMessage={`Halo Admin PT. Bumi Kutai Perkasa 👋
+
+Saya dari [instansi/perusahaan] ingin berkonsultasi pengadaan material batu untuk proyek di [wilayah].
+
+Mohon info:
+1. Harga & ketersediaan material
+2. Dokumen penawaran harga resmi
+3. Kapasitas pengiriman & jadwal
+
+Terima kasih.`}
               />
             </div>
           </div>
@@ -662,6 +672,16 @@ export default function TentangKamiPage() {
               label="Konsultasi Kebutuhan Material via WhatsApp"
               variant="primary"
               className="text-sm py-3.5 px-6 w-full sm:w-auto"
+              customMessage={`Halo Admin PT. Bumi Kutai Perkasa 👋
+
+Saya ingin konsultasi kebutuhan material batu untuk proyek di [wilayah/kecamatan].
+
+Mohon info:
+1. Jenis material & harga terbaru
+2. Estimasi ongkos kirim
+3. Ketersediaan armada & jadwal pengiriman
+
+Terima kasih.`}
             />
           </div>
 

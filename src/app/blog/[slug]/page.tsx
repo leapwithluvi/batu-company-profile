@@ -60,20 +60,30 @@ export async function generateMetadata({
       canonical: `${siteConfig.url}/blog/${article.slug}`,
     },
     openGraph: {
-      title: article.title,
+      // og:title keyword-rich supaya saat dishare di WA/FB tampil lengkap
+      title: `${article.title} - ${siteConfig.name} | Tenggarong, Kutai Kartanegara`,
       description: article.excerpt,
       type: "article",
+      locale: "id_ID",
+      siteName: siteConfig.name,
       publishedTime: article.publishedDate,
       authors: [article.author],
       url: `${siteConfig.url}/blog/${article.slug}`,
       images: [
         {
-          url: article.image,
+          url: `${siteConfig.url}${article.image}`,
           width: 1200,
           height: 800,
           alt: article.imageAlt,
+          type: "image/jpeg",
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${article.title} - ${siteConfig.name}`,
+      description: article.excerpt,
+      images: [`${siteConfig.url}${article.image}`],
     },
   };
 }

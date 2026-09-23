@@ -60,17 +60,28 @@ export async function generateMetadata({
       canonical: `${siteConfig.url}/produk/${product.slug}`,
     },
     openGraph: {
-      title: `${product.name} | ${siteConfig.name}`,
+      type: "website",
+      locale: "id_ID",
+      siteName: siteConfig.name,
+      // og:title keyword-rich supaya saat dishare di WA/FB tampil lengkap
+      title: `${product.name} Tenggarong, Kutai Kartanegara - ${siteConfig.name}`,
       description: product.metaDescription,
       url: `${siteConfig.url}/produk/${product.slug}`,
       images: [
         {
-          url: product.image,
+          url: `${siteConfig.url}${product.image}`,
           width: 1200,
           height: 800,
           alt: product.imageAlt,
+          type: "image/jpeg",
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${product.name} Tenggarong - ${siteConfig.name}`,
+      description: product.metaDescription,
+      images: [`${siteConfig.url}${product.image}`],
     },
   };
 }

@@ -37,7 +37,7 @@ export const siteConfig: SiteConfig = {
   url:
     process.env.NEXT_PUBLIC_SITE_URL || "https://www.bumikutaiperkasa.co.id",
   phoneDisplay: "+62 853-9333-9991",
-  whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "6281234567890",
+  whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "6285393339991",
   email: "pt.bumikutaiperkasa@gmail.com",
   googleMapsUrl:
     process.env.NEXT_PUBLIC_GOOGLE_MAPS_URL ||

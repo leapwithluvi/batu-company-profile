@@ -78,11 +78,17 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/icon.png", type: "image/png" },
+      { url: "/icon-48.png", sizes: "48x48", type: "image/png" },
+      { url: "/icon-96.png", sizes: "96x96", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
       { url: "/favicon.ico", sizes: "any" },
     ],
-    apple: [{ url: "/icon.png", type: "image/png" }],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
     shortcut: "/favicon.ico",
+  },
+  manifest: "/manifest.webmanifest",
+  verification: {
+    google: "nfPMvC3-Z6tH0Yg8ShmywxgkmfrpSbuDgS7iKH4e7uY",
   },
   robots: {
     index: true,
@@ -246,11 +252,7 @@ export default function RootLayout({
           }}
         />
 
-        {/* google site verification */}
-        {/* <meta
-          name="google-site-verification"
-          content="nfPMvC3-Z6tH0Yg8ShmywxgkmfrpSbuDgS7iKH4e7uY"
-        /> */}
+
       </head>
       <body className="font-[family-name:var(--font-sans)] min-h-full flex flex-col antialiased bg-[#F7F7F5] dark:bg-[#111416] text-[#171A1C] dark:text-[#F1F3F4] transition-colors duration-150">
         <ThemeProvider>

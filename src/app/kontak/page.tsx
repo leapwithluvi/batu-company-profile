@@ -160,6 +160,16 @@ export default function KontakPage() {
                   variant="primary"
                   className="w-full py-3.5 text-sm justify-center"
                   label="Mulai Chat WhatsApp Sekarang"
+                  customMessage={`Halo Admin PT. Bumi Kutai Perkasa 👋
+
+Saya ingin konsultasi dan pesan material batu untuk proyek di [wilayah/kecamatan].
+
+Mohon info:
+1. Jenis material & harga terbaru
+2. Estimasi ongkos kirim
+3. Ketersediaan armada & jadwal
+
+Terima kasih.`}
                 />
               </div>
             </div>

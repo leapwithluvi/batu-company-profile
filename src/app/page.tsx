@@ -24,7 +24,16 @@ import { FaqSection } from "@/components/FaqSection";
 
 export default function HomePage() {
   const whatsappConsultUrl = getWhatsappUrl({
-    customMessage: `Halo PT. Bumi Kutai Perkasa, saya ingin berkonsultasi mengenai kebutuhan material batu dan cek estimasi ongkos kirim ke proyek saya di [wilayah].`,
+    customMessage: `Halo Admin PT. Bumi Kutai Perkasa 👋
+
+Saya ingin konsultasi kebutuhan material batu untuk proyek di [wilayah/kecamatan].
+
+Mohon info:
+1. Jenis & harga material yang tersedia
+2. Estimasi ongkos kirim
+3. Ketersediaan armada dump truck
+
+Terima kasih.`,
   });
 
   return (
