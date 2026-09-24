@@ -251,7 +251,7 @@ export default function RootLayout({
 
 
       </head>
-      <body className="font-[family-name:var(--font-sans)] min-h-full flex flex-col antialiased bg-[#F7F7F5] dark:bg-[#111416] text-[#171A1C] dark:text-[#F1F3F4] transition-colors duration-150">
+      <body className="font-[family-name:var(--font-sans)] min-h-full flex flex-col antialiased bg-[#FFFFFF] dark:bg-[#111416] text-[#171A1C] dark:text-[#F1F3F4] transition-colors duration-150">
         <ThemeProvider>
           <Navbar />
           <main className="flex-1">{children}</main>

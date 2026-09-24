@@ -13,18 +13,28 @@ interface SlideItem {
 const HERO_SLIDES: SlideItem[] = [
   {
     src: "/mesin/mesin1_crusher.jpg",
-    alt: "Material Mesin Crusher PT. Bumi Kutai Perkasa",
-    label: "Mesin Crusher",
+    alt: "Fasilitas Stone Crusher 60 Ton per Jam PT. Bumi Kutai Perkasa di Dusun Jambe",
+    label: "Stone Crusher 60 Ton/Jam",
+  },
+  {
+    src: "/koral_23.jpg",
+    alt: "Stockpile Batu Split dan Batu Koral Cor Beton PT. Bumi Kutai Perkasa",
+    label: "Batu Split 2-3 cm (Cor Beton)",
+  },
+  {
+    src: "/pondasi_tronjolan.jpg",
+    alt: "Batu Belah Pondasi Bangunan dan Batu Tronjolan Bronjong PT. Bumi Kutai Perkasa",
+    label: "Batu Belah Pondasi & Tronjolan",
+  },
+  {
+    src: "/batu_split.jpg",
+    alt: "Stockpile Agregat Batu Pecah Mesin PT. Bumi Kutai Perkasa di Sebulu",
+    label: "Stockpile Agregat Batu",
   },
   {
     src: "/mesin/mesin2_crusher.jpg",
-    alt: "Material Mesin Crusher PT. Bumi Kutai Perkasa",
-    label: "Mesin Crusher",
-  },
-  {
-    src: "/mesin/mesin3_crusher.jpg",
-    alt: "Material Mesin Crusher PT. Bumi Kutai Perkasa",
-    label: "Mesin Crusher",
+    alt: "Unit Screening dan Pemilahan Ukuran Fraksi Batu PT. Bumi Kutai Perkasa",
+    label: "Screening Fraksi Ukuran",
   },
 ];
 
@@ -56,11 +66,11 @@ export function HeroImageSlider({ companyName }: HeroImageSliderProps) {
 
   return (
     <div
-      className="relative border border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#181C1F] p-2.5 rounded-xl shadow-xs"
+      className="relative border border-[#E2E8F0] dark:border-[#30363A] bg-white dark:bg-[#181C1F] p-2.5 rounded-xl shadow-xs"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
-      <div className="relative aspect-4/3 overflow-hidden bg-[#EEF0F0] dark:bg-[#202529] rounded-lg group">
+      <div className="relative aspect-4/3 overflow-hidden bg-[#F1F5F9] dark:bg-[#202529] rounded-lg group">
         {/* Slides Images */}
         {HERO_SLIDES.map((slide, idx) => (
           <div
@@ -84,7 +94,7 @@ export function HeroImageSlider({ companyName }: HeroImageSliderProps) {
 
         {/* Slide Material Label Badge (Top-left) */}
         <div className="absolute top-3 left-3 z-20 bg-[#111416]/85 backdrop-blur-xs text-white text-xs font-mono px-3 py-1.5 rounded-md shadow-xs flex items-center gap-2">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#6F9AAA] animate-pulse" />
+          <span className="w-1.5 h-1.5 rounded-full bg-[#FB923C] animate-pulse" />
           <span>{HERO_SLIDES[currentIndex].label}</span>
         </div>
 
@@ -98,7 +108,7 @@ export function HeroImageSlider({ companyName }: HeroImageSliderProps) {
           type="button"
           onClick={prevSlide}
           aria-label="Foto sebelumnya"
-          className="absolute left-2.5 top-1/2 -translate-y-1/2 z-20 p-2 rounded-full bg-[#111416]/60 hover:bg-[#111416]/90 text-white backdrop-blur-xs transition-all opacity-80 group-hover:opacity-100 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#6F9AAA]"
+          className="absolute left-2.5 top-1/2 -translate-y-1/2 z-20 p-2 rounded-full bg-[#111416]/60 hover:bg-[#111416]/90 text-white backdrop-blur-xs transition-all opacity-80 group-hover:opacity-100 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#FB923C]"
         >
           <ChevronLeft className="w-4 h-4" />
         </button>
@@ -106,7 +116,7 @@ export function HeroImageSlider({ companyName }: HeroImageSliderProps) {
           type="button"
           onClick={nextSlide}
           aria-label="Foto selanjutnya"
-          className="absolute right-2.5 top-1/2 -translate-y-1/2 z-20 p-2 rounded-full bg-[#111416]/60 hover:bg-[#111416]/90 text-white backdrop-blur-xs transition-all opacity-80 group-hover:opacity-100 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#6F9AAA]"
+          className="absolute right-2.5 top-1/2 -translate-y-1/2 z-20 p-2 rounded-full bg-[#111416]/60 hover:bg-[#111416]/90 text-white backdrop-blur-xs transition-all opacity-80 group-hover:opacity-100 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#FB923C]"
         >
           <ChevronRight className="w-4 h-4" />
         </button>
@@ -129,9 +139,9 @@ export function HeroImageSlider({ companyName }: HeroImageSliderProps) {
         </div>
 
         {/* Bottom Technical Bar */}
-        <div className="absolute bottom-0 inset-x-0 z-20 bg-white/95 dark:bg-[#111416]/95 p-3 text-xs text-[#171A1C] dark:text-slate-300 font-mono border-t border-[#D9DCDD] dark:border-[#30363A] flex justify-between items-center">
+        <div className="absolute bottom-0 inset-x-0 z-20 bg-white/95 dark:bg-[#111416]/95 p-3 text-xs text-[#171A1C] dark:text-slate-300 font-mono border-t border-[#E2E8F0] dark:border-[#30363A] flex justify-between items-center">
           <span className="font-semibold truncate mr-2">{companyName}</span>
-          <span className="text-[#1F4E5F] dark:text-[#6F9AAA] font-bold shrink-0">
+          <span className="text-[#EA580C] dark:text-[#FB923C] font-bold shrink-0">
             Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kukar
           </span>
         </div>

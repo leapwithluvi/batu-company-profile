@@ -198,7 +198,54 @@ export const seoKeywords200: string[] = [
   "harga abu batu per kubik sebulu",
   "batu split 1 2 cor rumah sebulu",
   "supplier batu pondasi gedung tenggarong",
-  "rekomendasi supplier batu split kukar"
+  "rekomendasi supplier batu split kukar",
+
+  // === TAMBAHAN: Keyword transaksional tinggi yang belum ada ===
+  // Intent beli langsung
+  "beli batu split tenggarong",
+  "beli batu koral tenggarong",
+  "beli batu agregat tenggarong",
+  "beli batu tronjolan tenggarong",
+  "beli batu pondasi tenggarong",
+  "beli abu batu tenggarong",
+  "order batu split tenggarong whatsapp",
+  "pesan batu koral tenggarong whatsapp",
+  "pesan batu split kutai kartanegara",
+  "pemesanan batu split online tenggarong",
+
+  // Harga per produk
+  "harga batu koral tenggarong",
+  "harga batu koral per ton kukar",
+  "harga batu agregat tenggarong",
+  "harga batu agregat base course kukar",
+  "harga batu tronjolan tenggarong",
+  "harga batu tronjolan per kubik kukar",
+  "harga batu pondasi tenggarong",
+  "harga batu pondasi per ton sebulu",
+  "harga abu batu tenggarong",
+  "harga abu batu paving block kukar",
+
+  // Jual per produk
+  "jual batu koral tenggarong",
+  "jual batu koral kutai kartanegara",
+  "jual batu koral sebulu",
+  "jual batu split 7-10 tenggarong",
+  "jual batu split 5-7 tenggarong",
+
+  // Toko / depo terdekat
+  "toko batu koral terdekat tenggarong",
+  "toko batu tronjolan terdekat kutai kartanegara",
+  "depo batu tronjolan kukar",
+  "depo batu pondasi tenggarong",
+  "depo material konstruksi sebulu",
+
+  // Kombinasi keyword long-tail
+  "supplier batu koral terpercaya tenggarong",
+  "supplier material batu berizin kutai kartanegara",
+  "harga batu split 2x1 tenggarong",
+  "harga batu split 2x3 tenggarong",
+  "harga batu split 3x5 tenggarong",
+  "harga batu split 1x1 tenggarong",
 ];
 
 // Alias for convenience & backwards compatibility

@@ -62,7 +62,7 @@ export function FaqSection() {
   };
 
   return (
-    <section className="py-16 sm:py-24 bg-white dark:bg-[#181C1F] border-t border-b border-[#D9DCDD] dark:border-[#30363A]">
+    <section className="py-16 sm:py-20 bg-white dark:bg-[#0B0F12] border-t border-b border-[#E2E8F0] dark:border-[#1E293B]">
       {/* FAQ Schema JSON-LD for Google Rich Snippets */}
       <script
         type="application/ld+json"
@@ -72,30 +72,30 @@ export function FaqSection() {
       />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <span className="text-xs font-mono font-bold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider flex items-center justify-center gap-1.5 mb-2">
+        <div className="text-center mb-10">
+          <span className="text-xs font-mono font-bold uppercase text-[#EA580C] dark:text-[#FB923C] tracking-wider flex items-center justify-center gap-1.5 mb-2">
             <HelpCircle className="w-4 h-4" />
             <span>Tanya Jawab Seputar Pengadaan Material</span>
           </span>
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight font-heading">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#0F172A] dark:text-white tracking-tight font-heading">
             Pertanyaan Umum (FAQ) Pengadaan Batu &amp; Agregat
           </h2>
-          <p className="mt-2 text-xs sm:text-sm text-[#3F4549] dark:text-[#C2C8CC] max-w-xl mx-auto leading-relaxed">
+          <p className="mt-2 text-xs sm:text-sm text-[#475569] dark:text-[#94A3B8] max-w-xl mx-auto leading-relaxed">
             Informasi lengkap seputar spesifikasi ukuran batu split, lokasi stockpile Sebulu, jangkauan armada pengiriman, dan jaminan tonase timbangan resmi {siteConfig.name}.
           </p>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-3.5">
           {FAQ_ITEMS.map((item, idx) => (
             <details
               key={idx}
-              className="group border border-[#D9DCDD] dark:border-[#30363A] bg-[#F7F7F5] dark:bg-[#111416] rounded-lg p-5 transition-colors open:bg-white dark:open:bg-[#161A1D] open:shadow-xs"
+              className="group border border-[#E2E8F0] dark:border-[#1E293B] bg-[#F8FAFC] dark:bg-[#161D24] rounded-xl p-5 transition-colors open:bg-white dark:open:bg-[#1E2630] open:shadow-xs"
             >
-              <summary className="flex items-center justify-between cursor-pointer list-none font-bold text-sm sm:text-base text-[#171A1C] dark:text-[#F1F3F4] select-none">
+              <summary className="flex items-center justify-between cursor-pointer list-none font-bold text-sm sm:text-base text-[#0F172A] dark:text-[#F8FAFC] select-none">
                 <span className="pr-4">{item.question}</span>
-                <ChevronDown className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                <ChevronDown className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C] shrink-0 transition-transform duration-200 group-open:rotate-180" />
               </summary>
-              <p className="mt-3.5 text-xs sm:text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed border-t border-[#D9DCDD]/60 dark:border-[#30363A] pt-3">
+              <p className="mt-3 text-xs sm:text-sm text-[#475569] dark:text-[#94A3B8] leading-relaxed border-t border-[#E2E8F0] dark:border-[#1E293B] pt-3">
                 {item.answer}
               </p>
             </details>

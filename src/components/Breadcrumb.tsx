@@ -22,7 +22,7 @@ export function Breadcrumb({ items, className = "" }: BreadcrumbProps) {
         <li>
           <Link
             href="/"
-            className="hover:text-[#1F4E5F] dark:hover:text-[#6F9AAA] transition-colors text-[#6B7378] dark:text-[#A5ADB2] font-medium"
+            className="hover:text-[#EA580C] dark:hover:text-[#FB923C] transition-colors text-[#6B7378] dark:text-[#A5ADB2] font-medium"
           >
             Beranda
           </Link>
@@ -33,14 +33,14 @@ export function Breadcrumb({ items, className = "" }: BreadcrumbProps) {
 
           return (
             <React.Fragment key={index}>
-              <li aria-hidden="true" className="text-[#B8BEC0] dark:text-[#41494E]">
+              <li aria-hidden="true" className="text-[#CBD5E1] dark:text-[#41494E]">
                 <ChevronRight className="w-3 h-3" />
               </li>
               <li>
                 {item.href && !isLast ? (
                   <Link
                     href={item.href}
-                    className="hover:text-[#1F4E5F] dark:hover:text-[#6F9AAA] transition-colors text-[#6B7378] dark:text-[#A5ADB2] font-medium"
+                    className="hover:text-[#EA580C] dark:hover:text-[#FB923C] transition-colors text-[#6B7378] dark:text-[#A5ADB2] font-medium"
                   >
                     {item.label}
                   </Link>

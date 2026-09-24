@@ -33,7 +33,7 @@ export const siteConfig: SiteConfig = {
   tagline:
     "Jual Batu Koral Tenggarong & Batu Split Berkualitas - PT. Bumi Kutai Perkasa",
   description:
-    "Pusat jual batu koral Tenggarong, batu split aneka ukuran, abu batu, batu agregat, dan batu pondasi langsung dari stone crusher PT. Bumi Kutai Perkasa di Sebulu, Kutai Kartanegara. Melayani pengiriman armada dump truck & ponton.",
+    "Pusat jual batu koral Tenggarong, batu split aneka ukuran, abu batu, batu agregat, dan batu pondasi langsung dari stone crusher PT. Bumi Kutai Perkasa di Sebulu untuk pengiriman ke Tenggarong, Kutai Kartanegara, dan sekitarnya.",
   url:
     process.env.NEXT_PUBLIC_SITE_URL || "https://www.bumikutaiperkasa.co.id",
   phoneDisplay: "+62 853-9333-9991",
@@ -56,7 +56,7 @@ export const siteConfig: SiteConfig = {
     province: "Kalimantan Timur",
     postalCode: "75511",
   },
-  primaryTargetArea: "Tenggarong & Sekitarnya",
+  primaryTargetArea: "Tenggarong, Kutai Kartanegara, dan sekitarnya",
   serviceAreas: [
     "SP Sebulu",
     "SP Muara Kaman",

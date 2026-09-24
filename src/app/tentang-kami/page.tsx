@@ -25,13 +25,21 @@ export const metadata: Metadata = {
   keywords: [
     // Intent verifikasi dan kepercayaan bisnis
     "profil PT Bumi Kutai Perkasa",
+    "tentang PT Bumi Kutai Perkasa",
     "legalitas supplier batu koral tenggarong",
     "NIB PT Bumi Kutai Perkasa",
     "faktur pajak batu split kutai kartanegara",
     "SPK pengadaan material batu kaltim",
     "supplier batu koral sebulu kutai kartanegara",
+    "supplier batu split resmi tenggarong",
+    "supplier batu agregat resmi kutai kartanegara",
+    "supplier batu tronjolan resmi tenggarong",
+    "supplier batu pondasi tenggarong",
     "quarry batu split dusun jambe sanggulan",
     "stone crusher tenggarong kapasitas 60 ton jam",
+    "produsen batu split kutai kartanegara",
+    "alamat supplier batu tenggarong",
+    "kontak supplier batu split kutai kartanegara",
   ],
   alternates: {
     canonical: "https://www.bumikutaiperkasa.co.id/tentang-kami",
@@ -40,17 +48,17 @@ export const metadata: Metadata = {
 
 export default function TentangKamiPage() {
   return (
-    <div className="bg-[#F7F7F5] dark:bg-[#111416] min-h-screen">
+    <div className="bg-[#FFFFFF] dark:bg-[#111416] min-h-screen">
       {/* 1. TOP HEADER */}
-      <section className="bg-white dark:bg-[#16191C] text-[#171A1C] dark:text-[#F1F3F4] border-b border-[#D9DCDD] dark:border-[#30363A] py-12 sm:py-16">
+      <section className="bg-white dark:bg-[#16191C] text-[#171A1C] dark:text-[#F1F3F4] border-b border-[#E2E8F0] dark:border-[#30363A] py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb
             items={[{ label: "Tentang Kami" }]}
-            className="text-[#6B7378] dark:text-[#A5ADB2] [&_a]:text-[#6B7378] [&_a:hover]:text-[#1F4E5F] dark:[&_a]:text-[#A5ADB2] dark:[&_a:hover]:text-white [&_span]:text-[#171A1C] dark:[&_span]:text-white mb-4"
+            className="text-[#6B7378] dark:text-[#A5ADB2] [&_a]:text-[#6B7378] [&_a:hover]:text-[#EA580C] dark:[&_a]:text-[#A5ADB2] dark:[&_a:hover]:text-white [&_span]:text-[#171A1C] dark:[&_span]:text-white mb-4"
           />
 
           <div className="max-w-3xl">
-            <span className="text-xs font-mono font-semibold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider">
+            <span className="text-xs font-mono font-semibold uppercase text-[#EA580C] dark:text-[#FB923C] tracking-wider">
               Profil &amp; Identitas Perusahaan
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight mt-1 font-heading">
@@ -69,17 +77,17 @@ export default function TentangKamiPage() {
       </section>
 
       {/* 2. FACTUAL IDENTITY TABLE */}
-      <section className="border-b border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#181C1F] py-10">
+      <section className="border-b border-[#E2E8F0] dark:border-[#30363A] bg-white dark:bg-[#181C1F] py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-6 flex items-center gap-2">
-            <Building2 className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
+            <Building2 className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C]" />
             <h2 className="text-xs font-mono uppercase font-bold text-[#6B7378] dark:text-[#A5ADB2] tracking-wider">
               Ringkasan Data Identitas Perusahaan
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-xs font-mono">
-            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-md">
+            <div className="p-4 bg-[#F1F5F9]/60 dark:bg-[#202529] border border-[#E2E8F0] dark:border-[#30363A] rounded-md">
               <span className="text-[#6B7378] dark:text-[#A5ADB2] block mb-1">
                 Nama Resmi Badan Usaha
               </span>
@@ -91,7 +99,7 @@ export default function TentangKamiPage() {
               </span>
             </div>
 
-            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-md">
+            <div className="p-4 bg-[#F1F5F9]/60 dark:bg-[#202529] border border-[#E2E8F0] dark:border-[#30363A] rounded-md">
               <span className="text-[#6B7378] dark:text-[#A5ADB2] block mb-1">
                 Fasilitas Stockpile &amp; Operasional
               </span>
@@ -103,19 +111,19 @@ export default function TentangKamiPage() {
               </span>
             </div>
 
-            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-md">
+            <div className="p-4 bg-[#F1F5F9]/60 dark:bg-[#202529] border border-[#E2E8F0] dark:border-[#30363A] rounded-md">
               <span className="text-[#6B7378] dark:text-[#A5ADB2] block mb-1">
                 Fokus Distribusi Pengiriman
               </span>
               <strong className="text-[#171A1C] dark:text-[#F1F3F4] text-sm block">
-                Tenggarong, Kutai Kartanegara &amp; Sekitarnya
+                Tenggarong, Kutai Kartanegara, dan Sekitarnya
               </strong>
               <span className="text-[11px] text-[#3F4549] dark:text-[#C2C8CC] mt-0.5 block">
                 Kutai Kartanegara, Samarinda &amp; sekitarnya
               </span>
             </div>
 
-            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-md">
+            <div className="p-4 bg-[#F1F5F9]/60 dark:bg-[#202529] border border-[#E2E8F0] dark:border-[#30363A] rounded-md">
               <span className="text-[#6B7378] dark:text-[#A5ADB2] block mb-1">
                 Bidang Usaha Utama
               </span>
@@ -127,7 +135,7 @@ export default function TentangKamiPage() {
               </span>
             </div>
 
-            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-md">
+            <div className="p-4 bg-[#F1F5F9]/60 dark:bg-[#202529] border border-[#E2E8F0] dark:border-[#30363A] rounded-md">
               <span className="text-[#6B7378] dark:text-[#A5ADB2] block mb-1">
                 Waktu Pelayanan Dispatcher
               </span>
@@ -139,7 +147,7 @@ export default function TentangKamiPage() {
               </span>
             </div>
 
-            <div className="p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] rounded-md">
+            <div className="p-4 bg-[#F1F5F9]/60 dark:bg-[#202529] border border-[#E2E8F0] dark:border-[#30363A] rounded-md">
               <span className="text-[#6B7378] dark:text-[#A5ADB2] block mb-1">
                 Saluran Komunikasi Resmi
               </span>
@@ -159,7 +167,7 @@ export default function TentangKamiPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           <div className="lg:col-span-7 space-y-6 text-[#3F4549] dark:text-[#C2C8CC] text-sm sm:text-base leading-relaxed">
             <div>
-              <span className="text-xs font-mono font-semibold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider">
+              <span className="text-xs font-mono font-semibold uppercase text-[#EA580C] dark:text-[#FB923C] tracking-wider">
                 Latar Belakang &amp; Komitmen
               </span>
               <h2 className="text-2xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight mt-1">
@@ -189,13 +197,13 @@ export default function TentangKamiPage() {
               drastis.
             </p>
 
-            <div className="border-l-4 border-[#1F4E5F] dark:border-[#6F9AAA] bg-white dark:bg-[#181C1F] p-5 border border-[#D9DCDD] dark:border-[#30363A] rounded-r-xs shadow-xs">
+            <div className="border-l-4 border-[#EA580C] dark:border-[#FB923C] bg-white dark:bg-[#181C1F] p-5 border border-[#E2E8F0] dark:border-[#30363A] rounded-r-xs shadow-xs">
               <h3 className="font-bold text-[#171A1C] dark:text-[#F1F3F4] text-base mb-2 font-mono">
                 Standar Operasional 3T PT. Bumi Kutai Perkasa:
               </h3>
               <ul className="space-y-2 text-xs sm:text-sm text-[#3F4549] dark:text-[#C2C8CC]">
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C] shrink-0 mt-0.5" />
                   <span>
                     <strong>Tepat Tonase:</strong> Setiap ritase armada ditimbang
                     secara akurat dan transparan sesuai pesanan, disertai bukti
@@ -203,7 +211,7 @@ export default function TentangKamiPage() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C] shrink-0 mt-0.5" />
                   <span>
                     <strong>Tepat Waktu:</strong> Penjadwalan ritase jelas dan
                     terencana sehingga pekerjaan tukang dan pengecoran tidak
@@ -211,7 +219,7 @@ export default function TentangKamiPage() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C] shrink-0 mt-0.5" />
                   <span>
                     <strong>Tepat Mutu:</strong> Bebatuan keras pilihan dengan
                     bidang rekat padat, disortir berdasarkan ukuran fraksi
@@ -232,7 +240,7 @@ export default function TentangKamiPage() {
 
           {/* Right Column / Key Highlights & Facilities */}
           <div className="lg:col-span-5 space-y-6">
-            <div className="relative aspect-4/3 w-full bg-[#EEF0F0] dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] overflow-hidden rounded-lg shadow-xs">
+            <div className="relative aspect-4/3 w-full bg-[#F1F5F9] dark:bg-[#202529] border border-[#E2E8F0] dark:border-[#30363A] overflow-hidden rounded-lg shadow-xs">
               <Image
                 src="/mesin/mesin1_crusher.jpg"
                 alt="Stockpile dan operasional material batu PT. Bumi Kutai Perkasa di Dusun Jambe, Desa Sanggulan, Kec. Sebulu"
@@ -242,19 +250,19 @@ export default function TentangKamiPage() {
               />
               <div className="absolute bottom-0 inset-x-0 bg-[#111416]/90 p-2.5 text-[11px] text-slate-300 font-mono border-t border-[#30363A] flex justify-between items-center">
                 <span>Dusun Jambe, Desa Sanggulan, Kec. Sebulu</span>
-                <span className="text-[#6F9AAA]">Kutai Kartanegara</span>
+                <span className="text-[#FB923C]">Kutai Kartanegara</span>
               </div>
             </div>
 
             <div className="bg-[#171A1C] text-slate-100 p-6 border border-[#30363A] space-y-4 rounded-xl shadow-xs">
-              <div className="flex items-center gap-2 text-xs font-mono uppercase text-[#6F9AAA] font-bold tracking-wider">
+              <div className="flex items-center gap-2 text-xs font-mono uppercase text-[#FB923C] font-bold tracking-wider">
                 <ShieldCheck className="w-4 h-4" />
                 <span>Kredibilitas Operasional</span>
               </div>
 
               <div className="grid grid-cols-2 gap-3 text-xs font-mono">
                 <div className="border border-[#30363A] p-3 bg-[#111416] rounded-md">
-                  <div className="text-[#6F9AAA] font-bold text-base font-sans">
+                  <div className="text-[#FB923C] font-bold text-base font-sans">
                     Fisik &amp; Nyata
                   </div>
                   <div className="text-slate-400 text-[11px] mt-1">
@@ -262,7 +270,7 @@ export default function TentangKamiPage() {
                   </div>
                 </div>
                 <div className="border border-[#30363A] p-3 bg-[#111416] rounded-md">
-                  <div className="text-[#6F9AAA] font-bold text-base font-sans">
+                  <div className="text-[#FB923C] font-bold text-base font-sans">
                     Armada Mandiri
                   </div>
                   <div className="text-slate-400 text-[11px] mt-1">
@@ -298,10 +306,10 @@ Terima kasih.`}
       </section>
 
       {/* 4. LEGALITAS & DOKUMEN PERUSAHAAN */}
-      <section className="bg-white dark:bg-[#181C1F] border-t border-b border-[#D9DCDD] dark:border-[#30363A] py-14 sm:py-20">
+      <section className="bg-white dark:bg-[#181C1F] border-t border-b border-[#E2E8F0] dark:border-[#30363A] py-14 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <div className="flex items-center gap-2 text-xs font-mono font-semibold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider mb-2">
+            <div className="flex items-center gap-2 text-xs font-mono font-semibold uppercase text-[#EA580C] dark:text-[#FB923C] tracking-wider mb-2">
               <FileCheck className="w-4 h-4" />
               <span>Kepatuhan Hukum &amp; Legalitas</span>
             </div>
@@ -318,14 +326,14 @@ Terima kasih.`}
             {companyData.legalDocuments.map((doc) => (
               <div
                 key={doc.id}
-                className="border border-[#D9DCDD] dark:border-[#30363A] bg-[#F7F7F5] dark:bg-[#111416] p-6 rounded-lg flex flex-col justify-between space-y-4 shadow-xs"
+                className="border border-[#E2E8F0] dark:border-[#30363A] bg-[#FFFFFF] dark:bg-[#111416] p-6 rounded-lg flex flex-col justify-between space-y-4 shadow-xs"
               >
                 <div>
                   <div className="flex items-center justify-between gap-2 mb-2">
                     <span className="text-[11px] font-mono text-[#6B7378] dark:text-[#A5ADB2] uppercase">
                       {doc.category}
                     </span>
-                    <span className="inline-flex items-center gap-1 text-[11px] font-mono bg-[#E8EEF0] dark:bg-[#1C2A30] text-[#1F4E5F] dark:text-[#6F9AAA] px-2 py-0.5 rounded-sm font-semibold">
+                    <span className="inline-flex items-center gap-1 text-[11px] font-mono bg-[#FFF7ED] dark:bg-[#2A1608] text-[#EA580C] dark:text-[#FB923C] px-2 py-0.5 rounded-sm font-semibold">
                       <CheckCircle2 className="w-3 h-3" />
                       <span>{doc.status}</span>
                     </span>
@@ -341,20 +349,20 @@ Terima kasih.`}
 
                   {/* Nomor Registrasi / Dokumen Faktual */}
                   {doc.documentNumber ? (
-                    <div className="mt-3.5 p-2.5 bg-white dark:bg-[#181C1F] border border-[#D9DCDD] dark:border-[#30363A] rounded-md flex items-center justify-between">
+                    <div className="mt-3.5 p-2.5 bg-white dark:bg-[#181C1F] border border-[#E2E8F0] dark:border-[#30363A] rounded-md flex items-center justify-between">
                       <span className="text-[11px] font-mono text-[#6B7378] dark:text-[#A5ADB2] uppercase">
                         Nomor Registrasi:
                       </span>
-                      <span className="text-xs font-mono font-bold text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wide">
+                      <span className="text-xs font-mono font-bold text-[#EA580C] dark:text-[#FB923C] tracking-wide">
                         {doc.documentNumber}
                       </span>
                     </div>
                   ) : (
-                    <div className="mt-3.5 p-2 bg-[#EEF0F0]/50 dark:bg-[#181C1F]/50 border border-dashed border-[#D9DCDD] dark:border-[#30363A] rounded-md flex items-center justify-between text-xs">
+                    <div className="mt-3.5 p-2 bg-[#F1F5F9]/50 dark:bg-[#181C1F]/50 border border-dashed border-[#E2E8F0] dark:border-[#30363A] rounded-md flex items-center justify-between text-xs">
                       <span className="text-[11px] font-mono text-[#6B7378] dark:text-[#A5ADB2]">
                         Status Registrasi:
                       </span>
-                      <span className="text-[11px] font-mono font-semibold text-[#1F4E5F] dark:text-[#6F9AAA]">
+                      <span className="text-[11px] font-mono font-semibold text-[#EA580C] dark:text-[#FB923C]">
                         Terdaftar Resmi
                       </span>
                     </div>
@@ -365,7 +373,7 @@ Terima kasih.`}
                   </p>
                 </div>
 
-                <div className="pt-4 border-t border-[#D9DCDD]/80 dark:border-[#30363A] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
+                <div className="pt-4 border-t border-[#E2E8F0]/80 dark:border-[#30363A] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
                   <span className="text-[11px] text-[#6B7378] dark:text-[#A5ADB2] italic">
                     {doc.verificationNote}
                   </span>
@@ -376,7 +384,7 @@ Terima kasih.`}
                         href={doc.fileUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold bg-[#1F4E5F] text-white hover:bg-[#183E4C] rounded-md transition-colors shrink-0"
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold bg-[#EA580C] text-white hover:bg-[#9A3412] rounded-md transition-colors shrink-0"
                       >
                         <FileText className="w-3.5 h-3.5" />
                         <span>Lihat Berkas</span>
@@ -397,10 +405,10 @@ Terima kasih.`}
           </div>
 
           {/* KBLI Section */}
-          <div className="mt-8 border border-[#D9DCDD] dark:border-[#30363A] bg-[#F7F7F5] dark:bg-[#111416] p-6 rounded-lg">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-4 border-b border-[#D9DCDD] dark:border-[#30363A]">
+          <div className="mt-8 border border-[#E2E8F0] dark:border-[#30363A] bg-[#FFFFFF] dark:bg-[#111416] p-6 rounded-lg">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-4 border-b border-[#E2E8F0] dark:border-[#30363A]">
               <div>
-                <span className="text-[11px] font-mono uppercase tracking-wider text-[#1F4E5F] dark:text-[#6F9AAA] font-semibold">
+                <span className="text-[11px] font-mono uppercase tracking-wider text-[#EA580C] dark:text-[#FB923C] font-semibold">
                   Klasifikasi Baku Lapangan Usaha Indonesia (KBLI)
                 </span>
                 <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4] mt-0.5">
@@ -409,7 +417,7 @@ Terima kasih.`}
               </div>
               <span className="text-xs font-mono text-[#6B7378] dark:text-[#A5ADB2]">
                 Sesuai NIB:{" "}
-                <strong className="text-[#1F4E5F] dark:text-[#6F9AAA]">
+                <strong className="text-[#EA580C] dark:text-[#FB923C]">
                   {companyData.legalDocuments.find((d) => d.id === "nib")
                     ?.documentNumber || "Terdaftar"}
                 </strong>
@@ -420,11 +428,11 @@ Terima kasih.`}
               {companyData.kbliList.map((kbli) => (
                 <div
                   key={kbli.code}
-                  className="bg-white dark:bg-[#181C1F] border border-[#D9DCDD] dark:border-[#30363A] p-4 rounded-md flex flex-col justify-between"
+                  className="bg-white dark:bg-[#181C1F] border border-[#E2E8F0] dark:border-[#30363A] p-4 rounded-md flex flex-col justify-between"
                 >
                   <div>
                     <div className="flex items-center justify-between gap-2 mb-2">
-                      <span className="text-xs font-mono font-bold px-2 py-0.5 bg-[#E8EEF0] dark:bg-[#1C2A30] text-[#1F4E5F] dark:text-[#6F9AAA] rounded-sm">
+                      <span className="text-xs font-mono font-bold px-2 py-0.5 bg-[#FFF7ED] dark:bg-[#2A1608] text-[#EA580C] dark:text-[#FB923C] rounded-sm">
                         KBLI {kbli.code}
                       </span>
                     </div>
@@ -435,7 +443,7 @@ Terima kasih.`}
                       {kbli.description}
                     </p>
                   </div>
-                  <div className="pt-3 mt-3 border-t border-[#D9DCDD]/50 dark:border-[#30363A]/50">
+                  <div className="pt-3 mt-3 border-t border-[#E2E8F0]/50 dark:border-[#30363A]/50">
                     <span className="text-[10px] font-mono text-[#6B7378] dark:text-[#A5ADB2] uppercase">
                       {kbli.category}
                     </span>
@@ -445,8 +453,8 @@ Terima kasih.`}
             </div>
           </div>
 
-          <div className="mt-8 p-4 bg-[#EEF0F0]/60 dark:bg-[#202529] border border-[#D9DCDD] dark:border-[#30363A] text-xs text-[#3F4549] dark:text-[#C2C8CC] rounded-lg flex items-start gap-3">
-            <ShieldCheck className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
+          <div className="mt-8 p-4 bg-[#F1F5F9]/60 dark:bg-[#202529] border border-[#E2E8F0] dark:border-[#30363A] text-xs text-[#3F4549] dark:text-[#C2C8CC] rounded-lg flex items-start gap-3">
+            <ShieldCheck className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C] shrink-0 mt-0.5" />
             <div className="leading-relaxed">
               <strong>Kebijakan Perlindungan Dokumen:</strong> Untuk menjaga
               privasi dan keamanan identitas pengurus perseroan, dokumen resmi
@@ -463,7 +471,7 @@ Terima kasih.`}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
           <div className="lg:col-span-6 space-y-6">
             <div>
-              <span className="text-xs font-mono font-semibold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider">
+              <span className="text-xs font-mono font-semibold uppercase text-[#EA580C] dark:text-[#FB923C] tracking-wider">
                 Lokasi Nyata &amp; Geografis
               </span>
               <h2 className="text-2xl sm:text-3xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight mt-1">
@@ -485,9 +493,9 @@ Terima kasih.`}
               <strong>Samarinda</strong>.
             </p>
 
-            <div className="space-y-3 text-xs sm:text-sm bg-white dark:bg-[#181C1F] border border-[#D9DCDD] dark:border-[#30363A] p-5 rounded-lg shadow-xs">
+            <div className="space-y-3 text-xs sm:text-sm bg-white dark:bg-[#181C1F] border border-[#E2E8F0] dark:border-[#30363A] p-5 rounded-lg shadow-xs">
               <div className="flex items-start gap-3">
-                <MapPin className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C] shrink-0 mt-0.5" />
                 <div>
                   <strong className="block text-[#171A1C] dark:text-[#F1F3F4]">
                     Alamat Stockpile:
@@ -499,7 +507,7 @@ Terima kasih.`}
               </div>
 
               <div className="flex items-start gap-3">
-                <Clock className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
+                <Clock className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C] shrink-0 mt-0.5" />
                 <div>
                   <strong className="block text-[#171A1C] dark:text-[#F1F3F4]">
                     Jam Buka Fasilitas:
@@ -511,7 +519,7 @@ Terima kasih.`}
               </div>
 
               <div className="flex items-start gap-3">
-                <Phone className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
+                <Phone className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C] shrink-0 mt-0.5" />
                 <div>
                   <strong className="block text-[#171A1C] dark:text-[#F1F3F4]">
                     Kontak Dispatcher:
@@ -523,14 +531,14 @@ Terima kasih.`}
               </div>
 
               <div className="flex items-start gap-3">
-                <Mail className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
+                <Mail className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C] shrink-0 mt-0.5" />
                 <div>
                   <strong className="block text-[#171A1C] dark:text-[#F1F3F4]">
                     Email Resmi:
                   </strong>
                   <a
                     href={`mailto:${siteConfig.email}`}
-                    className="text-[#3F4549] dark:text-[#C2C8CC] text-xs font-mono hover:text-[#1F4E5F] dark:hover:text-[#6F9AAA] break-all"
+                    className="text-[#3F4549] dark:text-[#C2C8CC] text-xs font-mono hover:text-[#EA580C] dark:hover:text-[#FB923C] break-all"
                   >
                     {siteConfig.email}
                   </a>
@@ -545,7 +553,7 @@ Terima kasih.`}
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-3 bg-[#171A1C] dark:bg-[#202529] hover:bg-[#282E33] text-white text-xs font-semibold rounded-md shadow-xs transition-colors border border-[#30363A]"
               >
-                <MapPin className="w-4 h-4 text-[#6F9AAA]" />
+                <MapPin className="w-4 h-4 text-[#FB923C]" />
                 <span>Buka Lokasi di Google Maps</span>
                 <ExternalLink className="w-3.5 h-3.5 ml-1" />
               </a>
@@ -559,7 +567,7 @@ Terima kasih.`}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Lihat lokasi operasional PT. Bumi Kutai Perkasa di Google Maps"
-              className="group block relative overflow-hidden rounded-xl border border-[#D9DCDD] dark:border-[#30363A] bg-[#181C1F] p-8 sm:p-12 text-center transition-all hover:border-[#6F9AAA] shadow-xs"
+              className="group block relative overflow-hidden rounded-xl border border-[#E2E8F0] dark:border-[#30363A] bg-[#181C1F] p-8 sm:p-12 text-center transition-all hover:border-[#FB923C] shadow-xs"
             >
               {/* Industrial Grid Vector Texture */}
               <div
@@ -568,12 +576,12 @@ Terima kasih.`}
               />
 
               <div className="relative z-10 flex flex-col items-center justify-center space-y-4">
-                <div className="flex items-center justify-center w-14 h-14 rounded-full bg-[#1F4E5F]/40 border border-[#6F9AAA]/50 text-[#6F9AAA] group-hover:scale-110 transition-transform">
+                <div className="flex items-center justify-center w-14 h-14 rounded-full bg-[#EA580C]/40 border border-[#FB923C]/50 text-[#FB923C] group-hover:scale-110 transition-transform">
                   <MapPin className="w-7 h-7" />
                 </div>
 
                 <div>
-                  <span className="text-xs font-mono uppercase tracking-wider text-[#6F9AAA] block">
+                  <span className="text-xs font-mono uppercase tracking-wider text-[#FB923C] block">
                     Peta Lokasi Operasional
                   </span>
                   <h3 className="text-lg sm:text-xl font-bold text-white mt-1">
@@ -584,7 +592,7 @@ Terima kasih.`}
                   </p>
                 </div>
 
-                <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-white bg-[#1F4E5F] dark:bg-white dark:text-[#111416] px-4 py-2 rounded-md shadow-xs group-hover:bg-[#173B48] dark:group-hover:bg-slate-100 transition-colors">
+                <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-white bg-[#EA580C] dark:bg-white dark:text-[#111416] px-4 py-2 rounded-md shadow-xs group-hover:bg-[#C2410C] dark:group-hover:bg-slate-100 transition-colors">
                   <span>Lihat di Google Maps</span>
                   <ExternalLink className="w-3.5 h-3.5" />
                 </span>
@@ -595,10 +603,10 @@ Terima kasih.`}
       </section>
 
       {/* 6. GALERI / DOKUMENTASI OPERASIONAL NYATA */}
-      {/* <section className="bg-white dark:bg-[#181C1F] border-t border-b border-[#D9DCDD] dark:border-[#30363A] py-14 sm:py-20">
+      {/* <section className="bg-white dark:bg-[#181C1F] border-t border-b border-[#E2E8F0] dark:border-[#30363A] py-14 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <span className="text-xs font-mono font-semibold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider">
+            <span className="text-xs font-mono font-semibold uppercase text-[#EA580C] dark:text-[#FB923C] tracking-wider">
               Dokumentasi Lapangan
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight mt-1">
@@ -615,9 +623,9 @@ Terima kasih.`}
             {companyData.operationalGallery.map((item) => (
               <div
                 key={item.id}
-                className="border border-[#D9DCDD] dark:border-[#30363A] bg-[#F7F7F5] dark:bg-[#111416] rounded-lg overflow-hidden flex flex-col justify-between shadow-xs group"
+                className="border border-[#E2E8F0] dark:border-[#30363A] bg-[#FFFFFF] dark:bg-[#111416] rounded-lg overflow-hidden flex flex-col justify-between shadow-xs group"
               >
-                <div className="relative aspect-4/3 overflow-hidden bg-[#EEF0F0] dark:bg-[#202529]">
+                <div className="relative aspect-4/3 overflow-hidden bg-[#F1F5F9] dark:bg-[#202529]">
                   <Image
                     src={item.imageUrl}
                     alt={item.title}
@@ -639,8 +647,8 @@ Terima kasih.`}
                       {item.description}
                     </p>
                   </div>
-                  <div className="pt-3 border-t border-[#D9DCDD]/60 dark:border-[#30363A] text-[11px] text-[#6B7378] dark:text-[#A5ADB2] font-mono flex items-center gap-1">
-                    <MapPin className="w-3 h-3 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0" />
+                  <div className="pt-3 border-t border-[#E2E8F0]/60 dark:border-[#30363A] text-[11px] text-[#6B7378] dark:text-[#A5ADB2] font-mono flex items-center gap-1">
+                    <MapPin className="w-3 h-3 text-[#EA580C] dark:text-[#FB923C] shrink-0" />
                     <span className="truncate">{item.location}</span>
                   </div>
                 </div>
@@ -653,7 +661,7 @@ Terima kasih.`}
       {/* 7. CTA PENUTUP WHATSAPP */}
       <section className="bg-[#171A1C] text-slate-100 py-16 sm:py-20 border-t border-[#30363A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-          <span className="inline-block text-xs font-mono uppercase text-[#6F9AAA] font-semibold">
+          <span className="inline-block text-xs font-mono uppercase text-[#FB923C] font-semibold">
             Kemitraan &amp; Pengadaan Proyek
           </span>
 
@@ -664,7 +672,7 @@ Terima kasih.`}
           <p className="text-slate-300 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
             Hubungi tim dispatcher kami untuk permintaan penawaran harga resmi,
             konfirmasi ketersediaan tonase material, atau penjadwalan inspeksi
-            tonase di lokasi proyek Anda di Tenggarong dan sekitarnya.
+            tonase di lokasi proyek Anda di Tenggarong, Kutai Kartanegara, dan sekitarnya.
           </p>
 
           <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">

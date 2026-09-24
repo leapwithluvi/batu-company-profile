@@ -52,10 +52,10 @@ export function ProductMediaViewer({
   const youtubeEmbedUrl = videoUrl ? getYouTubeEmbedUrl(videoUrl) : null;
 
   return (
-    <div className="border border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#181C1F] p-2 sticky top-24 rounded-xl shadow-xs">
+    <div className="border border-[#E2E8F0] dark:border-[#30363A] bg-white dark:bg-[#181C1F] p-2 sticky top-24 rounded-xl shadow-xs">
       {/* Tab Switcher jika ada video */}
       {videoUrl && (
-        <div className="flex items-center gap-1.5 p-1 bg-[#EEF0F0] dark:bg-[#202529] rounded-lg mb-2 text-xs font-mono">
+        <div className="flex items-center gap-1.5 p-1 bg-[#F1F5F9] dark:bg-[#202529] rounded-lg mb-2 text-xs font-mono">
           <button
             type="button"
             onClick={() => setActiveTab("image")}
@@ -73,7 +73,7 @@ export function ProductMediaViewer({
             onClick={() => setActiveTab("video")}
             className={`flex-1 flex items-center justify-center gap-1.5 py-1.5 px-3 rounded-md transition-all font-semibold ${
               activeTab === "video"
-                ? "bg-[#1F4E5F] text-white dark:bg-white dark:text-[#111416] shadow-xs"
+                ? "bg-[#EA580C] text-white dark:bg-white dark:text-[#111416] shadow-xs"
                 : "text-[#6B7378] dark:text-[#A5ADB2] hover:text-[#171A1C] dark:hover:text-white"
             }`}
           >
@@ -85,7 +85,7 @@ export function ProductMediaViewer({
       )}
 
       {/* Media Display Area */}
-      <div className="relative aspect-4/3 w-full bg-[#EEF0F0] dark:bg-[#202529] overflow-hidden rounded-lg">
+      <div className="relative aspect-4/3 w-full bg-[#F1F5F9] dark:bg-[#202529] overflow-hidden rounded-lg">
         {activeTab === "image" || !videoUrl ? (
           <>
             <Image
@@ -154,13 +154,13 @@ export function ProductMediaViewer({
       </div>
 
       {/* Info Garansi & Operasional */}
-      <div className="p-4 bg-[#EEF0F0] dark:bg-[#202529] border-t border-[#D9DCDD] dark:border-[#30363A] mt-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs text-[#3F4549] dark:text-[#C2C8CC] font-mono rounded-md">
+      <div className="p-4 bg-[#F1F5F9] dark:bg-[#202529] border-t border-[#E2E8F0] dark:border-[#30363A] mt-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs text-[#3F4549] dark:text-[#C2C8CC] font-mono rounded-md">
         <span className="flex items-center gap-1.5">
-          <ShieldCheck className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
+          <ShieldCheck className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C]" />
           <span>PT. Bumi Kutai Perkasa &bull; Dusun Jambe, Desa Sanggulan, Kec. Sebulu</span>
         </span>
         <span className="flex items-center gap-1.5">
-          <Truck className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
+          <Truck className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C]" />
           <span>Melayani Kutai Kartanegara &amp; Sekitarnya</span>
         </span>
       </div>

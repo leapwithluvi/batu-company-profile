@@ -14,23 +14,23 @@
    DESIGN TOKENS — Warm Neutral + Deep Industrial Steel
    ============================================================ */
 :root {
-  /* Light Theme (Default) */
-  --bg-main:             #F7F7F5;
+  /* Light Theme (Clean White & Industrial Orange) */
+  --bg-main:             #FFFFFF;
   --surface-card:        #FFFFFF;
-  --surface-secondary:   #EEF0F0;
-  --surface-muted:       #E5E8E8;
+  --surface-secondary:   #F8FAFC;
+  --surface-muted:       #F1F5F9;
 
-  --text-primary:        #171A1C;
-  --text-secondary:      #3F4549;
-  --text-muted:          #6B7378;
+  --text-primary:        #0F172A;
+  --text-secondary:      #475569;
+  --text-muted:          #64748B;
 
-  --border-subtle:       #D9DCDD;
-  --border-strong:       #B8BEC0;
+  --border-subtle:       #E2E8F0;
+  --border-strong:       #CBD5E1;
 
-  /* Accent: Deep Industrial Blue / Steel */
-  --accent-main:         #1F4E5F;
-  --accent-dark:         #173B48;
-  --accent-soft:         #E8EEF0;
+  /* Accent: Industrial Orange */
+  --accent-main:         #EA580C;
+  --accent-dark:         #C2410C;
+  --accent-soft:         #FFF7ED;
   --accent-fg:           #FFFFFF;
 
   /* WhatsApp Official */
@@ -40,23 +40,23 @@
 
 .dark {
   /* Dark Theme (Enterprise & Industrial) */
-  --bg-main:             #111416;
-  --surface-card:        #181C1F;
-  --surface-secondary:   #202529;
-  --surface-muted:       #282E33;
+  --bg-main:             #0B0F12;
+  --surface-card:        #161D24;
+  --surface-secondary:   #1E2630;
+  --surface-muted:       #26313D;
 
-  --text-primary:        #F1F3F4;
-  --text-secondary:      #C2C8CC;
-  --text-muted:          #A5ADB2;
+  --text-primary:        #F8FAFC;
+  --text-secondary:      #CBD5E1;
+  --text-muted:          #94A3B8;
 
-  --border-subtle:       #30363A;
-  --border-strong:       #41494E;
+  --border-subtle:       #1E293B;
+  --border-strong:       #334155;
 
-  /* Accent: Steel Muted Blue */
-  --accent-main:         #6F9AAA;
-  --accent-dark:         #598291;
-  --accent-soft:         #1C2A30;
-  --accent-fg:           #111416;
+  /* Accent: Industrial Amber / Orange */
+  --accent-main:         #FB923C;
+  --accent-dark:         #EA580C;
+  --accent-soft:         #2A1608;
+  --accent-fg:           #0B0F12;
 
   /* WhatsApp Official */
   --wa-green:            #25D366;

@@ -15,15 +15,32 @@ export const metadata: Metadata = {
     // Transaksional + Lokal — Intent beli/pesan
     "jual batu koral tenggarong",
     "jual batu split tenggarong",
+    "jual batu agregat tenggarong",
+    "jual batu tronjolan tenggarong",
+    "jual batu pondasi tenggarong",
+    "jual abu batu tenggarong",
+    "jual batu belah tenggarong",
     "jual batu split ukuran 1x1 tenggarong",
     "jual batu split ukuran 2x1 tenggarong",
     "jual batu split ukuran 2x3 tenggarong",
     "jual batu split ukuran 3x5 tenggarong",
-    "jual abu batu tenggarong",
-    "jual batu pondasi tenggarong",
+    "jual batu split ukuran 5x7 tenggarong",
+    "jual batu split ukuran 7x10 tenggarong",
+    "jual batu agregat base course tenggarong",
+    "jual batu tronjolan bronjong tenggarong",
+    "jual batu pondasi rumah tenggarong",
     "harga batu split tenggarong per rit",
+    "harga batu koral tenggarong per dump truck",
+    "harga batu agregat tenggarong",
+    "harga batu tronjolan tenggarong",
+    "harga batu pondasi tenggarong",
+    "harga abu batu tenggarong",
     "supplier batu split sebulu kalimantan timur",
+    "supplier batu koral tenggarong",
     "distributor batu koral kutai kartanegara",
+    "toko batu split terdekat tenggarong",
+    "beli batu split tenggarong",
+    "order batu split tenggarong whatsapp",
   ],
   alternates: {
     canonical: "https://www.bumikutaiperkasa.co.id/produk",
@@ -32,17 +49,17 @@ export const metadata: Metadata = {
 
 export default function ProdukCatalogPage() {
   return (
-    <div className="bg-[#F7F7F5] dark:bg-[#111416] min-h-screen">
+    <div className="bg-[#FFFFFF] dark:bg-[#111416] min-h-screen">
       {/* Top Header */}
-      <section className="bg-white dark:bg-[#16191C] text-[#171A1C] dark:text-[#F1F3F4] border-b border-[#D9DCDD] dark:border-[#30363A] py-12 sm:py-16">
+      <section className="bg-white dark:bg-[#16191C] text-[#171A1C] dark:text-[#F1F3F4] border-b border-[#E2E8F0] dark:border-[#30363A] py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb
             items={[{ label: "Katalog Produk" }]}
-            className="text-[#6B7378] dark:text-[#A5ADB2] [&_a]:text-[#6B7378] [&_a:hover]:text-[#1F4E5F] dark:[&_a]:text-[#A5ADB2] dark:[&_a:hover]:text-white [&_span]:text-[#171A1C] dark:[&_span]:text-white mb-4"
+            className="text-[#6B7378] dark:text-[#A5ADB2] [&_a]:text-[#6B7378] [&_a:hover]:text-[#EA580C] dark:[&_a]:text-[#A5ADB2] dark:[&_a:hover]:text-white [&_span]:text-[#171A1C] dark:[&_span]:text-white mb-4"
           />
 
           <div className="max-w-3xl">
-            <span className="text-xs font-mono font-semibold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider">
+            <span className="text-xs font-mono font-semibold uppercase text-[#EA580C] dark:text-[#FB923C] tracking-wider">
               {siteConfig.name} &bull; Dusun Jambe, Desa Sanggulan, Kec. Sebulu
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight mt-1 font-heading">
@@ -61,9 +78,9 @@ export default function ProdukCatalogPage() {
       {/* Catalog Grouped by Categories */}
       <section className="py-12 sm:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         {/* Category Navigation Bar */}
-        <div className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-[#D9DCDD] dark:border-[#30363A]">
+        <div className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-[#E2E8F0] dark:border-[#30363A]">
           <div className="flex items-center gap-2 text-xs font-mono text-[#3F4549] dark:text-[#C2C8CC]">
-            <Layers className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
+            <Layers className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C]" />
             <span>Kategori Material:</span>
           </div>
           <div className="flex flex-wrap gap-2">
@@ -71,7 +88,7 @@ export default function ProdukCatalogPage() {
               <a
                 key={category}
                 href={`#${category.toLowerCase().replace(/\s+/g, "-")}`}
-                className="text-xs font-mono bg-white dark:bg-[#181C1F] border border-[#D9DCDD] dark:border-[#30363A] hover:border-[#1F4E5F] dark:hover:border-[#6F9AAA] px-3 py-1 text-[#3F4549] dark:text-[#C2C8CC] hover:text-[#1F4E5F] dark:hover:text-[#6F9AAA] transition-colors rounded-xs shadow-xs"
+                className="text-xs font-mono bg-white dark:bg-[#181C1F] border border-[#E2E8F0] dark:border-[#30363A] hover:border-[#EA580C] dark:hover:border-[#FB923C] px-3 py-1 text-[#3F4549] dark:text-[#C2C8CC] hover:text-[#EA580C] dark:hover:text-[#FB923C] transition-colors rounded-xs shadow-xs"
               >
                 {category}
               </a>
@@ -86,9 +103,9 @@ export default function ProdukCatalogPage() {
 
           return (
             <div key={category} id={anchorId} className="space-y-6 pt-4">
-              <div className="border-l-4 border-[#1F4E5F] dark:border-[#6F9AAA] pl-4">
+              <div className="border-l-4 border-[#EA580C] dark:border-[#FB923C] pl-4">
                 <h2 className="text-xl sm:text-2xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight">
-                  {category} &mdash; Tenggarong &amp; Kutai Kartanegara
+                  Jual {category} di Tenggarong, Kutai Kartanegara, dan Sekitarnya
                 </h2>
                 <p className="text-xs text-[#6B7378] dark:text-[#A5ADB2] mt-0.5 font-mono">
                   Tersedia {categoryProducts.length} pilihan spesifikasi material &bull; Siap kirim via dump truck ke lokasi proyek Anda
@@ -109,13 +126,13 @@ export default function ProdukCatalogPage() {
         })}
 
         {/* Operational Note & Honest Geo Positioning */}
-        <div className="bg-white dark:bg-[#181C1F] border border-[#D9DCDD] dark:border-[#30363A] p-6 sm:p-8 space-y-4 rounded-xs shadow-xs">
-          <div className="flex items-center gap-2 text-xs font-mono text-[#1F4E5F] dark:text-[#6F9AAA] font-bold uppercase">
+        <div className="bg-white dark:bg-[#181C1F] border border-[#E2E8F0] dark:border-[#30363A] p-6 sm:p-8 space-y-4 rounded-xs shadow-xs">
+          <div className="flex items-center gap-2 text-xs font-mono text-[#EA580C] dark:text-[#FB923C] font-bold uppercase">
             <MapPin className="w-4 h-4" />
             <span>Informasi Lokasi &amp; Jangkauan Layanan</span>
           </div>
           <h3 className="text-base font-bold text-[#171A1C] dark:text-[#F1F3F4]">
-            Pengiriman Material ke Tenggarong dan Wilayah Sekitarnya
+            Pengiriman Material ke Tenggarong, Kutai Kartanegara, dan Sekitarnya
           </h3>
           <p className="text-xs sm:text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
             <strong>{siteConfig.name}</strong> beroperasi di{" "}
@@ -125,7 +142,7 @@ export default function ProdukCatalogPage() {
             Loa Janan, Loa Kulu, <strong>Samarinda</strong>, dan wilayah{" "}
             <strong>Kutai Kartanegara</strong> lainnya menggunakan armada dump truck dan ponton.
           </p>
-          <div className="pt-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-t border-[#D9DCDD]/60 dark:border-[#30363A]">
+          <div className="pt-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-t border-[#E2E8F0]/60 dark:border-[#30363A]">
             <span className="text-xs text-[#6B7378] dark:text-[#A5ADB2] font-mono flex items-center gap-1.5">
               <Truck className="w-4 h-4 text-[#6B7378] dark:text-[#A5ADB2]" />
               <span>

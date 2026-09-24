@@ -47,7 +47,7 @@ export function WhatsappButton({
       break;
     case "secondary":
       variantStyles =
-        "bg-[#EEF0F0] hover:bg-[#E2E6E7] text-[#171A1C] border border-[#D9DCDD] dark:bg-[#1F2428] dark:hover:bg-[#2A3036] dark:text-[#F0F2F2] dark:border-[#30363A] px-5 py-3 text-sm font-medium shadow-xs";
+        "bg-[#F1F5F9] hover:bg-[#E2E6E7] text-[#171A1C] border border-[#E2E8F0] dark:bg-[#1F2428] dark:hover:bg-[#2A3036] dark:text-[#F0F2F2] dark:border-[#30363A] px-5 py-3 text-sm font-medium shadow-xs";
       break;
     case "outline":
       variantStyles =

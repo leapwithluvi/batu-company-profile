@@ -38,18 +38,37 @@ export async function generateMetadata({
   }
 
   const localizedKeywords = [
+    // Transaksional
     `jual ${product.name.toLowerCase()} tenggarong`,
+    `jual ${product.name.toLowerCase()} kutai kartanegara`,
+    `jual ${product.name.toLowerCase()} sebulu`,
+    `jual ${product.name.toLowerCase()} kukar`,
+    `jual ${product.name.toLowerCase()} samarinda`,
+    `beli ${product.name.toLowerCase()} tenggarong`,
+    `order ${product.name.toLowerCase()} tenggarong whatsapp`,
+    // Harga
+    `harga ${product.name.toLowerCase()} tenggarong`,
     `harga ${product.name.toLowerCase()} per ton`,
+    `harga ${product.name.toLowerCase()} per rit`,
+    `harga ${product.name.toLowerCase()} 1 dump truck`,
+    // Supplier / distributor
+    `supplier ${product.name.toLowerCase()} tenggarong`,
     `supplier ${product.name.toLowerCase()} sebulu`,
     `distributor ${product.name.toLowerCase()} kutai kartanegara`,
+    `vendor ${product.name.toLowerCase()} kutai kartanegara`,
+    // Lokasi detail
     `${product.name.toLowerCase()} dusun jambe`,
     `${product.name.toLowerCase()} muara kaman`,
     `${product.name.toLowerCase()} separi`,
     `${product.name.toLowerCase()} samarinda`,
     `${product.name.toLowerCase()} ikn nusantara`,
+    `${product.name.toLowerCase()} tenggarong seberang`,
+    // Teknis
     `quarry ${product.name.toLowerCase()} kaltim`,
     `stone crusher ${product.name.toLowerCase()}`,
     `${product.name.toLowerCase()} dump truck`,
+    `stockpile ${product.name.toLowerCase()} sebulu`,
+    `toko ${product.name.toLowerCase()} terdekat tenggarong`,
   ];
 
   return {
@@ -170,7 +189,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
         "@context": "https://schema.org",
         "@type": "VideoObject",
         name: `${product.name} - Material Batu Tenggarong, Kutai Kartanegara`,
-        description: `Video dokumentasi ${product.name} dari stockpile ${siteConfig.name} di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara. Siap kirim ke Tenggarong dan wilayah Kutai Kartanegara.`,
+        description: `Video dokumentasi ${product.name} dari stockpile ${siteConfig.name} di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara. Siap kirim ke Tenggarong, Kutai Kartanegara, dan sekitarnya.`,
         thumbnailUrl: `${siteConfig.url}${product.image}`,
         contentUrl: `${siteConfig.url}${product.videoUrl}`,
         uploadDate: "2025-01-01T00:00:00+08:00",
@@ -183,7 +202,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
     : null;
 
   return (
-    <div className="bg-[#F7F7F5] dark:bg-[#111416] min-h-screen">
+    <div className="bg-[#FFFFFF] dark:bg-[#111416] min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -206,7 +225,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
       )}
 
       {/* Breadcrumb Bar */}
-      <div className="bg-white dark:bg-[#181C1F] border-b border-[#D9DCDD] dark:border-[#30363A]">
+      <div className="bg-white dark:bg-[#181C1F] border-b border-[#E2E8F0] dark:border-[#30363A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb
             items={[
@@ -235,16 +254,16 @@ export default async function ProductDetailPage({ params }: PageProps) {
           <div className="lg:col-span-6 space-y-6">
             <div>
               <div className="flex items-center gap-2 mb-2">
-                <span className="text-xs font-mono text-[#1F4E5F] dark:text-[#6F9AAA] font-bold uppercase">
+                <span className="text-xs font-mono text-[#EA580C] dark:text-[#FB923C] font-bold uppercase">
                   {product.category}
                 </span>
-                <span className="text-[11px] bg-[#EEF0F0] dark:bg-[#202529] text-[#3F4549] dark:text-[#C2C8CC] border border-[#D9DCDD] dark:border-[#30363A] font-medium px-2 py-0.5 rounded-sm font-mono">
+                <span className="text-[11px] bg-[#F1F5F9] dark:bg-[#202529] text-[#3F4549] dark:text-[#C2C8CC] border border-[#E2E8F0] dark:border-[#30363A] font-medium px-2 py-0.5 rounded-sm font-mono">
                   Kutai Kartanegara
                 </span>
               </div>
 
               <h1 className="text-2xl sm:text-3xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight font-heading">
-                Jual {product.name} di Tenggarong &amp; Kutai Kartanegara
+                Jual {product.name} di Tenggarong, Kutai Kartanegara, dan Sekitarnya
               </h1>
 
               <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
@@ -253,7 +272,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
             </div>
 
             {/* Rekomendasi Aplikasi Proyek */}
-            <div className="border border-[#D9DCDD] dark:border-[#30363A] bg-white dark:bg-[#181C1F] p-5 rounded-lg shadow-xs">
+            <div className="border border-[#E2E8F0] dark:border-[#30363A] bg-white dark:bg-[#181C1F] p-5 rounded-lg shadow-xs">
               <h2 className="text-xs font-mono uppercase font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-wider mb-3">
                 Aplikasi &amp; Penggunaan Lapangan:
               </h2>
@@ -263,7 +282,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
                     key={idx}
                     className="flex items-start gap-2.5 text-xs sm:text-sm text-[#3F4549] dark:text-[#C2C8CC]"
                   >
-                    <CheckCircle2 className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA] shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C] shrink-0 mt-0.5" />
                     <span>{use}</span>
                   </li>
                 ))}
@@ -271,12 +290,12 @@ export default async function ProductDetailPage({ params }: PageProps) {
             </div>
 
             {/* Informasi Pengiriman & Satuan */}
-            <div className="bg-[#EEF0F0]/80 dark:bg-[#202529]/80 border border-[#D9DCDD] dark:border-[#30363A] p-4 text-xs text-[#3F4549] dark:text-[#C2C8CC] space-y-1 rounded-md">
+            <div className="bg-[#F1F5F9]/80 dark:bg-[#202529]/80 border border-[#E2E8F0] dark:border-[#30363A] p-4 text-xs text-[#3F4549] dark:text-[#C2C8CC] space-y-1 rounded-md">
               <div className="font-bold font-mono text-[#171A1C] dark:text-[#F1F3F4]">
                 Ketentuan Pengiriman &amp; Pemesanan:
               </div>
               <p>
-                {product.orderUnitNote}. Muatan dan tonase armada dump truck dapat diverifikasi bersama saat tiba di lokasi proyek Anda di Tenggarong dan sekitarnya.
+                {product.orderUnitNote}. Muatan dan tonase armada dump truck dapat diverifikasi bersama saat tiba di lokasi proyek Anda di Tenggarong, Kutai Kartanegara, dan sekitarnya.
               </p>
             </div>
 
@@ -307,9 +326,9 @@ export default async function ProductDetailPage({ params }: PageProps) {
 
             {/* Panduan Terkait Dari Blog */}
             {relevantArticles.length > 0 && (
-              <div className="border border-[#1F4E5F]/30 dark:border-[#6F9AAA]/30 bg-[#E8EEF0]/60 dark:bg-[#1C2A30]/40 p-4 space-y-2 rounded-xs">
-                <div className="flex items-center gap-1.5 text-xs font-mono font-bold text-[#1F4E5F] dark:text-[#6F9AAA] uppercase">
-                  <BookOpen className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
+              <div className="border border-[#EA580C]/30 dark:border-[#FB923C]/30 bg-[#FFF7ED]/60 dark:bg-[#2A1608]/40 p-4 space-y-2 rounded-xs">
+                <div className="flex items-center gap-1.5 text-xs font-mono font-bold text-[#EA580C] dark:text-[#FB923C] uppercase">
+                  <BookOpen className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C]" />
                   <span>Panduan Terkait Material Ini:</span>
                 </div>
                 <ul className="space-y-1.5 text-xs">
@@ -317,7 +336,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
                     <li key={article.slug}>
                       <Link
                         href={`/blog/${article.slug}`}
-                        className="text-[#1F4E5F] dark:text-[#6F9AAA] hover:underline font-semibold inline-flex items-center gap-1"
+                        className="text-[#EA580C] dark:text-[#FB923C] hover:underline font-semibold inline-flex items-center gap-1"
                       >
                         <span>&rarr; {article.title}</span>
                       </Link>
@@ -330,14 +349,14 @@ export default async function ProductDetailPage({ params }: PageProps) {
         </div>
 
         {/* Produk Terkait Lainnya */}
-        <div className="mt-16 sm:mt-24 pt-12 border-t border-[#D9DCDD] dark:border-[#30363A]">
+        <div className="mt-16 sm:mt-24 pt-12 border-t border-[#E2E8F0] dark:border-[#30363A]">
           <div className="flex items-center justify-between mb-8">
             <h2 className="text-xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight">
               Produk Material Batu Lainnya dari {siteConfig.name}
             </h2>
             <Link
               href="/produk"
-              className="text-xs font-semibold text-[#1F4E5F] dark:text-[#6F9AAA] hover:text-[#173B48] dark:hover:text-[#8AB2C2] inline-flex items-center gap-1"
+              className="text-xs font-semibold text-[#EA580C] dark:text-[#FB923C] hover:text-[#C2410C] dark:hover:text-[#FDBA74] inline-flex items-center gap-1"
             >
               <span>Semua Produk &rarr;</span>
             </Link>

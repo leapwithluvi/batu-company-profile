@@ -11,7 +11,7 @@ import { BookOpen, HelpCircle } from "lucide-react";
 export const metadata: Metadata = {
   title: "Panduan Material Batu Koral & Konstruksi Tenggarong | PT. Bumi Kutai Perkasa",
   description:
-    "Pusat informasi dan panduan teknis pemilihan batu koral, batu split, abu batu, batu tronjolan, dan batu agregat untuk proyek konstruksi di Tenggarong dan Kutai Kartanegara. Supplier resmi PT. Bumi Kutai Perkasa.",
+    "Pusat informasi dan panduan teknis pemilihan batu koral, batu split, abu batu, batu tronjolan, dan batu agregat untuk proyek konstruksi di Tenggarong, Kutai Kartanegara, dan sekitarnya. Supplier resmi PT. Bumi Kutai Perkasa.",
   keywords: [
     // Intent informatif + lokal
     "panduan batu koral tenggarong",
@@ -55,7 +55,7 @@ export default function BlogIndexPage() {
   const [featuredArticle, ...otherArticles] = articlesData;
 
   return (
-    <div className="bg-[#F7F7F5] dark:bg-[#111416] min-h-screen">
+    <div className="bg-[#FFFFFF] dark:bg-[#111416] min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -63,15 +63,15 @@ export default function BlogIndexPage() {
         }}
       />
       {/* Top Header */}
-      <section className="bg-white dark:bg-[#16191C] text-[#171A1C] dark:text-[#F1F3F4] border-b border-[#D9DCDD] dark:border-[#30363A] py-12 sm:py-16">
+      <section className="bg-white dark:bg-[#16191C] text-[#171A1C] dark:text-[#F1F3F4] border-b border-[#E2E8F0] dark:border-[#30363A] py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb
             items={[{ label: "Blog & Panduan" }]}
-            className="text-[#6B7378] dark:text-[#A5ADB2] [&_a]:text-[#6B7378] [&_a:hover]:text-[#1F4E5F] dark:[&_a]:text-[#A5ADB2] dark:[&_a:hover]:text-white [&_span]:text-[#171A1C] dark:[&_span]:text-white mb-4"
+            className="text-[#6B7378] dark:text-[#A5ADB2] [&_a]:text-[#6B7378] [&_a:hover]:text-[#EA580C] dark:[&_a]:text-[#A5ADB2] dark:[&_a:hover]:text-white [&_span]:text-[#171A1C] dark:[&_span]:text-white mb-4"
           />
 
           <div className="max-w-3xl">
-            <span className="text-xs font-mono font-semibold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider">
+            <span className="text-xs font-mono font-semibold uppercase text-[#EA580C] dark:text-[#FB923C] tracking-wider">
               {siteConfig.name} &bull; Pusat Edukasi Material
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight mt-1 font-heading">
@@ -80,8 +80,8 @@ export default function BlogIndexPage() {
             <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               Artikel teknis dan panduan praktis pemilihan <strong>batu koral</strong>,{" "}
               <strong>batu split</strong>, abu batu, batu agregat, dan batu tronjolan untuk
-              proyek konstruksi di <strong>Tenggarong</strong> dan{" "}
-              <strong>Kutai Kartanegara</strong> &mdash; disusun oleh tim teknis {siteConfig.name}.
+              proyek konstruksi di <strong>Tenggarong</strong>,{" "}
+              <strong>Kutai Kartanegara</strong>, dan sekitarnya &mdash; disusun oleh tim teknis {siteConfig.name}.
             </p>
           </div>
         </div>
@@ -93,7 +93,7 @@ export default function BlogIndexPage() {
         {featuredArticle && (
           <div>
             <div className="flex items-center gap-2 mb-4 text-xs font-mono font-bold uppercase text-[#6B7378] dark:text-[#A5ADB2]">
-              <BookOpen className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
+              <BookOpen className="w-4 h-4 text-[#EA580C] dark:text-[#FB923C]" />
               <span>Artikel Pilihan</span>
             </div>
             <ArticleCard article={featuredArticle} featured={true} />
@@ -102,7 +102,7 @@ export default function BlogIndexPage() {
 
         {/* Other Articles Grid */}
         <div>
-          <div className="flex items-center justify-between pb-4 mb-6 border-b border-[#D9DCDD] dark:border-[#30363A]">
+          <div className="flex items-center justify-between pb-4 mb-6 border-b border-[#E2E8F0] dark:border-[#30363A]">
             <h2 className="text-xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight">
               Kumpulan Panduan Material
             </h2>
@@ -121,7 +121,7 @@ export default function BlogIndexPage() {
         {/* Consultation Callout */}
         <div className="bg-[#171A1C] text-slate-100 p-8 border border-[#30363A] flex flex-col sm:flex-row items-center justify-between gap-6 rounded-xs shadow-xs">
           <div className="space-y-1">
-            <div className="flex items-center gap-2 text-xs font-mono text-[#6F9AAA] font-semibold uppercase">
+            <div className="flex items-center gap-2 text-xs font-mono text-[#FB923C] font-semibold uppercase">
               <HelpCircle className="w-4 h-4" />
               <span>Butuh Bantuan Menentukan Material yang Sesuai?</span>
             </div>

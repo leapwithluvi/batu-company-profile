@@ -23,14 +23,14 @@ export const articlesData: Article[] = [
     title: "Apa Itu Abu Batu dan Kegunaannya dalam Pekerjaan Konstruksi?",
     slug: "apa-itu-abu-batu-kegunaan",
     excerpt:
-      "Mengenal fungsi abu batu sebagai agregat halus untuk campuran aspal, bahan baku paving block berkualitas, dan pelapis lantai kerja di Tenggarong.",
+      "Mengenal fungsi abu batu sebagai agregat halus untuk campuran aspal, bahan baku paving block berkualitas, dan pelapis lantai kerja di Tenggarong, Kutai Kartanegara, dan sekitarnya.",
     publishedDate: "15 Februari 2025",
     readTime: "4 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
     category: "Material Agregat",
     image: "/abu_batu.jpg",
     imageAlt:
-      "Stok abu batu untuk kebutuhan konstruksi dan pembuatan paving block di Tenggarong",
+      "Stok abu batu untuk kebutuhan konstruksi dan pembuatan paving block di Tenggarong, Kutai Kartanegara, dan sekitarnya",
     relatedProductSlug: "abu-batu",
     sections: [
       {
@@ -44,14 +44,14 @@ export const articlesData: Article[] = [
         heading: "Fungsi Utama Abu Batu di Lapangan",
         paragraphs: [
           "1. Bahan Baku Paving Block & Batako: Abu batu menjadi bahan kunci dalam memproduksi paving block press berdensitas tinggi karena dapat mengisi pori-pori mikro adukan, meminimalkan penyerapan air, dan meningkatkan kuat tekan paving.",
-          "2. Lapis Perata Pemasangan Paving: Saat memasang conblock atau paving jalan perumahan di Tenggarong, abu batu sering digunakan sebagai lapisan perata (bedding sand) karena lebih stabil dan tidak mudah tergerus air hujan dibanding pasir halus biasa.",
+          "2. Lapis Perata Pemasangan Paving: Saat memasang conblock atau paving jalan perumahan di Tenggarong, Kutai Kartanegara, dan sekitarnya, abu batu sering digunakan sebagai lapisan perata (bedding sand) karena lebih stabil dan tidak mudah tergerus air hujan dibanding pasir halus biasa.",
           "3. Campuran Aspal Hotmix (Asphaltic Concrete): Abu batu berfungsi sebagai filler agregat halus yang mengunci agregat kasar batu split dengan aspal bitumen.",
         ],
       },
       {
-        heading: "Pengadaan Abu Batu di Wilayah Tenggarong",
+        heading: "Pengadaan Abu Batu di Tenggarong, Kutai Kartanegara, dan Sekitarnya",
         paragraphs: [
-          "Untuk kebutuhan proyek jalan, pabrik batako, maupun pekerjaan halaman rumah tinggal, PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara, menyediakan pasokan abu batu dengan pengiriman armada dump truck langsung ke lokasi proyek di Tenggarong dan sekitarnya.",
+          "Untuk kebutuhan proyek jalan, pabrik batako, maupun pekerjaan halaman rumah tinggal, PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara, menyediakan pasokan abu batu dengan pengiriman armada dump truck langsung ke lokasi proyek di Tenggarong, Kutai Kartanegara, dan sekitarnya.",
           "Untuk kepastian takaran tonase serta jadwal ritase armada, calon pembeli dapat langsung berkonsultasi dengan tim operasional PT. Bumi Kutai Perkasa via WhatsApp.",
         ],
       },
@@ -59,7 +59,7 @@ export const articlesData: Article[] = [
   },
   {
     title:
-      "Fungsi Batu Pondasi dalam Pembangunan dan Cara Memilihnya di Tenggarong",
+      "Fungsi Batu Pondasi dalam Pembangunan dan Cara Memilihnya di Tenggarong, Kutai Kartanegara, dan Sekitarnya",
     slug: "fungsi-dan-cara-memilih-batu-pondasi",
     excerpt:
       "Panduan memilih batu pondasi padat dan tahan lapuk untuk menopang struktur bangunan pada kontur tanah Kalimantan Timur.",
@@ -69,7 +69,7 @@ export const articlesData: Article[] = [
     category: "Material Pondasi",
     image: "/pondasi_tronjolan.jpg",
     imageAlt:
-      "Pemasangan batu pondasi lajur untuk bangunan rumah di Tenggarong",
+      "Pemasangan batu pondasi lajur untuk bangunan rumah di Tenggarong, Kutai Kartanegara, dan sekitarnya",
     relatedProductSlug: "batu-pondasi",
     sections: [
       {
@@ -90,7 +90,7 @@ export const articlesData: Article[] = [
       {
         heading: "Layanan Pengiriman ke Titik Proyek",
         paragraphs: [
-          "PT. Bumi Kutai Perkasa melayani pengiriman batu pondasi untuk pembangunan rumah tinggal, ruko, dinding penahan tanah (turap), hingga saluran drainase di wilayah Tenggarong dan sekitarnya. Pengiriman dilakukan menggunakan armada dump truck dengan penjadwalan yang transparan.",
+          "PT. Bumi Kutai Perkasa melayani pengiriman batu pondasi untuk pembangunan rumah tinggal, ruko, dinding penahan tanah (turap), hingga saluran drainase di wilayah Tenggarong, Kutai Kartanegara, dan sekitarnya. Pengiriman dilakukan menggunakan armada dump truck dengan penjadwalan yang transparan.",
         ],
       },
     ],
@@ -100,7 +100,7 @@ export const articlesData: Article[] = [
       "Perbedaan Batu Split Ukuran 1x1, 2x1, 2x3, 3x5, 5x7, dan 7x10 untuk Proyek Konstruksi",
     slug: "perbedaan-ukuran-batu-split",
     excerpt:
-      "Memahami perbedaan fungsi fraksi batu split ukuran 1x1, 2x1, 2x3, 3x5, 5x7, dan 7x10 untuk beton mutu tinggi, cor struktur, pondasi jalan, dan stabilisasi tanah lunak di Tenggarong & Kutai Kartanegara.",
+      "Memahami perbedaan fungsi fraksi batu split ukuran 1x1, 2x1, 2x3, 3x5, 5x7, dan 7x10 untuk beton mutu tinggi, cor struktur, pondasi jalan, dan stabilisasi tanah lunak di Tenggarong, Kutai Kartanegara, dan sekitarnya.",
     publishedDate: "20 Januari 2025",
     readTime: "6 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
@@ -139,7 +139,7 @@ export const articlesData: Article[] = [
       {
         heading: "Konsultasi Kebutuhan Batu Split di Kutai Kartanegara",
         paragraphs: [
-          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, menyediakan seluruh varian ukuran Batu Split 1x1, 2x1, 2x3, 3x5, 5x7, dan 7x10 untuk menyuplai proyek konstruksi di Tenggarong, Kutai Kartanegara, dan wilayah sekitarnya. Hubungi kami untuk memastikan ketersediaan ukuran dan estimasi tonase armada.",
+          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, menyediakan seluruh varian ukuran Batu Split 1x1, 2x1, 2x3, 3x5, 5x7, dan 7x10 untuk menyuplai proyek konstruksi di Tenggarong, Kutai Kartanegara, dan sekitarnya. Hubungi kami untuk memastikan ketersediaan ukuran dan estimasi tonase armada.",
         ],
       },
     ],
@@ -177,7 +177,7 @@ export const articlesData: Article[] = [
       {
         heading: "Pemesanan Material Tronjolan",
         paragraphs: [
-          "PT. Bumi Kutai Perkasa menyediakan pasokan batu tronjolan siap kirim menggunakan armada dump truck untuk proyek infrastruktur publik maupun swasta di wilayah Tenggarong dan sekitarnya.",
+          "PT. Bumi Kutai Perkasa menyediakan pasokan batu tronjolan siap kirim menggunakan armada dump truck untuk proyek infrastruktur publik maupun swasta di wilayah Tenggarong, Kutai Kartanegara, dan sekitarnya.",
         ],
       },
     ],
@@ -212,7 +212,7 @@ export const articlesData: Article[] = [
       {
         heading: "Pengadaan Agregat Terpercaya di Kutai Kartanegara",
         paragraphs: [
-          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, siap memenuhi kebutuhan batu agregat untuk proyek Anda di wilayah Tenggarong dan sekitarnya. Konsultasikan jadwal pengiriman dan estimasi tonase langsung via WhatsApp.",
+          "PT. Bumi Kutai Perkasa yang beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, siap memenuhi kebutuhan batu agregat untuk proyek Anda di wilayah Tenggarong, Kutai Kartanegara, dan sekitarnya. Konsultasikan jadwal pengiriman dan estimasi tonase langsung via WhatsApp.",
         ],
       },
     ],
@@ -222,7 +222,7 @@ export const articlesData: Article[] = [
       "Mengenal Jenis Ukuran Batu Split untuk Cor Beton dan Standar Kualitasnya",
     slug: "mengenal-batu-split-cor-beton",
     excerpt:
-      "Panduan lengkap memilih ukuran batu split yang tepat untuk cor dak, kolom beton bertulang, dan perkerasan jalan beton di Tenggarong & Kutai Kartanegara.",
+      "Panduan lengkap memilih ukuran batu split yang tepat untuk cor dak, kolom beton bertulang, dan perkerasan jalan beton di Tenggarong, Kutai Kartanegara, dan sekitarnya.",
     publishedDate: "20 Februari 2025",
     readTime: "5 menit baca",
     author: "Tim Teknis PT. Bumi Kutai Perkasa",
@@ -252,7 +252,7 @@ export const articlesData: Article[] = [
         heading:
           "Pasokan Batu Split Berkualitas & Legalitas Resmi di Kutai Kartanegara",
         paragraphs: [
-          "Untuk menjamin mutu struktur bangunan Anda di Tenggarong dan sekitarnya, PT. Bumi Kutai Perkasa menyediakan pasokan batu split teruji dari stockpile Dusun Jambe, Desa Sanggulan, Kec. Sebulu. Pengiriman ditangani langsung armada dump truck dengan perhitungan ritase yang transparan dan tertib administrasi, siap menerbitkan Faktur Pajak resmi (PPN) untuk kebutuhan perusahaan Anda.",
+          "Untuk menjamin mutu struktur bangunan Anda di Tenggarong, Kutai Kartanegara, dan sekitarnya, PT. Bumi Kutai Perkasa menyediakan pasokan batu split teruji dari stockpile Dusun Jambe, Desa Sanggulan, Kec. Sebulu. Pengiriman ditangani langsung armada dump truck dengan perhitungan ritase yang transparan dan tertib administrasi, siap menerbitkan Faktur Pajak resmi (PPN) untuk kebutuhan perusahaan Anda.",
         ],
       },
     ],
