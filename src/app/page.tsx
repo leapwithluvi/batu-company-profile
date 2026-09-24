@@ -52,20 +52,25 @@ Terima kasih.`,
             <div className="lg:col-span-7 space-y-6">
               {/* Dominant Headline */}
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#171A1C] dark:text-white leading-[1.15] font-heading">
-                Batu Koral Tenggarong &amp; Material Konstruksi Berkualitas
+                Jual Batu Koral Tenggarong &amp; Jual Batu Split Berkualitas
                 <span className="block text-2xl sm:text-3xl lg:text-4xl mt-1 text-[#1F4E5F] dark:text-[#6F9AAA] font-semibold">
-                  Produsen &amp; Supplier Berizin Resmi
+                  Produsen &amp; Supplier Batu Berizin Resmi
                 </span>
               </h1>
 
               {/* Sub-headline */}
               <p className="text-base sm:text-lg text-[#3F4549] dark:text-[#C2C8CC] max-w-2xl leading-relaxed">
-                <strong>{siteConfig.name}</strong> menyediakan pasokan batu
-                split, abu batu, batu agregat, batu tronjolan, serta aneka
-                ukuran batu split. Dikelola dengan transparansi tonase
-                serta kesiapan armada dump truck dan ponton untuk pengiriman
-                terjadwal melayani <strong>Tenggarong</strong>, seluruh wilayah{" "}
-                <strong>Kutai Kartanegara</strong>, dan sekitarnya.
+                <strong>{siteConfig.name}</strong> melayani penjualan dan
+                pengadaan khusus material batu: <strong>jual batu koral</strong>
+                , <strong>jual batu split</strong> aneka ukuran,{" "}
+                <strong>abu batu</strong>, <strong>batu agregat</strong>,{" "}
+                <strong>batu pondasi</strong>, dan{" "}
+                <strong>batu tronjolan</strong> langsung dari stone crusher.
+                Kami melayani penjualan material batu murni untuk proyek cor
+                beton, jalan, jembatan, dan pondasi &mdash; dengan jaminan
+                transparansi tonase serta kesiapan armada dump truck dan ponton
+                pengiriman terjadwal ke <strong>Tenggarong</strong>, seluruh
+                wilayah <strong>Kutai Kartanegara</strong>, dan sekitarnya.
               </p>
 
               {/* Action Buttons (Deep Industrial Blue + Crisp Outline) */}
@@ -84,7 +89,7 @@ Terima kasih.`,
                   href="/produk"
                   className="inline-flex items-center justify-center gap-2 bg-white dark:bg-[#181C1F] hover:bg-[#EEF0F0] dark:hover:bg-[#202529] text-[#171A1C] dark:text-[#F1F3F4] px-6 py-3.5 text-sm font-semibold border border-[#D9DCDD] dark:border-[#30363A] rounded-md transition-all shadow-xs"
                 >
-                  <span>Katalog Batu Koral &amp; Material Konstruksi</span>
+                  <span>Katalog Produk Batu Koral &amp; Batu Split</span>
                   <ArrowRight className="w-4 h-4 text-[#1F4E5F] dark:text-[#6F9AAA]" />
                 </Link>
               </div>
@@ -101,7 +106,10 @@ Terima kasih.`,
                 </div>
 
                 <div className="p-3 bg-white/70 dark:bg-[#181C1F]/70 border border-[#D9DCDD] dark:border-[#30363A] rounded-md border-l-2 border-l-[#1F4E5F] dark:border-l-[#6F9AAA]">
-                  <div className="text-[#171A1C] dark:text-white font-bold text-sm sm:text-base font-heading truncate" title="Dusun Jambe, Desa Sanggulan">
+                  <div
+                    className="text-[#171A1C] dark:text-white font-bold text-sm sm:text-base font-heading truncate"
+                    title="Dusun Jambe, Desa Sanggulan"
+                  >
                     Dusun Jambe
                   </div>
                   <span className="text-[#6B7378] dark:text-[#A5ADB2] block mt-0.5">
@@ -110,7 +118,10 @@ Terima kasih.`,
                 </div>
 
                 <div className="p-3 bg-white/70 dark:bg-[#181C1F]/70 border border-[#D9DCDD] dark:border-[#30363A] rounded-md border-l-2 border-l-[#1F4E5F] dark:border-l-[#6F9AAA]">
-                  <div className="text-[#171A1C] dark:text-white font-bold text-sm sm:text-base font-heading truncate" title="Kutai Kartanegara">
+                  <div
+                    className="text-[#171A1C] dark:text-white font-bold text-sm sm:text-base font-heading truncate"
+                    title="Kutai Kartanegara"
+                  >
                     Kukar &amp; Kaltim
                   </div>
                   <span className="text-[#6B7378] dark:text-[#A5ADB2] block mt-0.5">
@@ -119,7 +130,10 @@ Terima kasih.`,
                 </div>
 
                 <div className="p-3 bg-white/70 dark:bg-[#181C1F]/70 border border-[#D9DCDD] dark:border-[#30363A] rounded-md border-l-2 border-l-[#1F4E5F] dark:border-l-[#6F9AAA]">
-                  <div className="text-[#171A1C] dark:text-white font-bold text-sm sm:text-base font-heading truncate" title="Dump Truck & Ponton">
+                  <div
+                    className="text-[#171A1C] dark:text-white font-bold text-sm sm:text-base font-heading truncate"
+                    title="Dump Truck & Ponton"
+                  >
                     Truck &amp; Ponton
                   </div>
                   <span className="text-[#6B7378] dark:text-[#A5ADB2] block mt-0.5">
@@ -238,7 +252,9 @@ Terima kasih.`,
                   Kapasitas Produksi
                 </h3>
                 <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed max-w-2xl">
-                  Kapasitas produksi mesin stone crusher mampu menghasilkan 60 Ton/jam dan dapat memenuhi kebutuhan kontrak minimal 3000 MT/bulan
+                  Kapasitas produksi mesin stone crusher mampu menghasilkan 60
+                  Ton/jam dan dapat memenuhi kebutuhan kontrak minimal 3000
+                  MT/bulan
                 </p>
               </div>
               <div className="pt-3 border-t border-[#D9DCDD]/60 dark:border-[#30363A] text-xs font-mono text-[#6B7378] dark:text-[#A5ADB2] flex items-center gap-4">
@@ -254,8 +270,9 @@ Terima kasih.`,
                   Transparansi Takaran Tonase
                 </h3>
                 <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-                  Setiap muatan armada ditimbang secara akurat dan transparan sesuai
-                  tonase pesanan sebelum dibongkar di lokasi. Tidak ada kecurangan tonase di lapangan.
+                  Setiap muatan armada ditimbang secara akurat dan transparan
+                  sesuai tonase pesanan sebelum dibongkar di lokasi. Tidak ada
+                  kecurangan tonase di lapangan.
                 </p>
               </div>
             </div>
@@ -282,7 +299,8 @@ Terima kasih.`,
                 </h3>
                 <p className="text-xs text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
                   Koordinasi langsung dengan dispatcher lapangan memastikan
-                  kontinuitas pengiriman material sesuai jadwal pengecoran proyek.
+                  kontinuitas pengiriman material sesuai jadwal pengecoran
+                  proyek.
                 </p>
               </div>
             </div>
@@ -309,15 +327,16 @@ Terima kasih.`,
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 pb-6 border-b border-[#D9DCDD] dark:border-[#30363A] gap-4">
           <div>
             <span className="text-xs font-mono font-semibold uppercase text-[#1F4E5F] dark:text-[#6F9AAA] tracking-wider">
-              Katalog Material Pilihan
+              Katalog Batu Pilihan
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight mt-1 font-heading">
-              Material Batu Konstruksi dari {siteConfig.name}
+              Jual Batu Koral &amp; Batu Split dari {siteConfig.name}
             </h2>
           </div>
           <p className="text-xs sm:text-sm text-[#3F4549] dark:text-[#C2C8CC] max-w-md">
-            Pilihan material konstruksi untuk pondasi bangunan, adukan cor,
-            paving block, hingga lapis perkerasan jalan di Kutai Kartanegara.
+            Pusat jual batu koral Tenggarong, batu split aneka ukuran, abu batu,
+            batu agregat, dan batu pondasi langsung dari stone crusher di Kutai
+            Kartanegara.
           </p>
         </div>
 
@@ -338,7 +357,7 @@ Terima kasih.`,
             href="/produk"
             className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#1F4E5F] hover:bg-[#173B48] text-white dark:bg-white dark:hover:bg-slate-100 dark:text-[#111416] text-xs sm:text-sm font-semibold transition-colors rounded-md shadow-xs"
           >
-            <span>Lihat Seluruh Katalog Batu Koral &amp; Material Konstruksi</span>
+            <span>Lihat Semua Produk Jual Batu Koral &amp; Batu Split</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
@@ -354,21 +373,22 @@ Terima kasih.`,
                 Profil Perusahaan
               </span>
               <h2 className="text-2xl sm:text-3xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight font-heading">
-                Penyedia Material Batu Konstruksi Resmi di Kutai Kartanegara
+                Pusat Jual Batu Koral &amp; Batu Split Resmi di Kutai
+                Kartanegara
               </h2>
               <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
                 <strong>{siteConfig.name}</strong> menyediakan berbagai material
                 batu untuk kebutuhan konstruksi di wilayah Kutai Kartanegara dan
                 sekitarnya. Fasilitas operasional kami berlokasi di{" "}
-                <strong>Dusun Jambe, Desa Sanggulan, Kec. Sebulu</strong>, dengan fokus
-                distribusi utama melayani kebutuhan proyek di{" "}
+                <strong>Dusun Jambe, Desa Sanggulan, Kec. Sebulu</strong>,
+                dengan fokus distribusi utama melayani kebutuhan proyek di{" "}
                 <strong>Tenggarong</strong> serta wilayah sekitarnya.
               </p>
               <p className="text-sm text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
                 Mulai dari pekerjaan pondasi awal rumah tinggal, dinding penahan
                 tebing turap sungai, hingga perkerasan jalan akses alat berat,
-                kami berkomitmen menjaga ketepatan tonase serta
-                kejelasan komunikasi pengiriman armada.
+                kami berkomitmen menjaga ketepatan tonase serta kejelasan
+                komunikasi pengiriman armada.
               </p>
 
               <div className="border-l-4 border-[#1F4E5F] dark:border-[#6F9AAA] bg-[#EEF0F0]/60 dark:bg-[#202529] p-4 space-y-2 text-xs text-[#3F4549] dark:text-[#C2C8CC] rounded-r-md">
@@ -505,11 +525,11 @@ Terima kasih.`,
 
           <div className="mt-6 text-xs text-[#6B7378] dark:text-slate-500 font-mono">
             Operasional {siteConfig.name}: {siteConfig.operatingHours} &bull;
-            Fasilitas: Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara
+            Fasilitas: Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai
+            Kartanegara
           </div>
         </div>
       </section>
     </div>
   );
 }
-

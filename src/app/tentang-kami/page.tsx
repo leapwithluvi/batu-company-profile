@@ -54,7 +54,7 @@ export default function TentangKamiPage() {
               Profil &amp; Identitas Perusahaan
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight mt-1 font-heading">
-              Supplier Batu Koral Tenggarong &amp; Material Konstruksi Resmi
+              Produsen &amp; Supplier Jual Batu Koral Tenggarong Resmi
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               <strong>{siteConfig.name}</strong> adalah penyedia{" "}

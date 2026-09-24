@@ -63,7 +63,7 @@ export default function KontakPage() {
               Layanan Pemesanan &amp; Logistik
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight mt-1 font-heading">
-              Pesan Batu Koral &amp; Material Konstruksi ke Tenggarong
+              Pusat Pemesanan &amp; Jual Batu Koral Tenggarong
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
               Konsultasikan kebutuhan <strong>batu koral</strong>, batu split, abu batu, dan batu agregat

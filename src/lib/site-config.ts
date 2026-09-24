@@ -31,9 +31,9 @@ export const siteConfig: SiteConfig = {
   name: "PT. Bumi Kutai Perkasa",
   shortName: "Bumi Kutai Perkasa",
   tagline:
-    "Batu Koral Tenggarong & Material Konstruksi - PT. Bumi Kutai Perkasa",
+    "Jual Batu Koral Tenggarong & Batu Split Berkualitas - PT. Bumi Kutai Perkasa",
   description:
-    "PT. Bumi Kutai Perkasa beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu, Kutai Kartanegara, menyediakan material batu pondasi, abu batu, batu split, batu agregat, batu tronjolan, dan aneka ukuran batu split untuk kebutuhan konstruksi di Tenggarong dan sekitarnya.",
+    "Pusat jual batu koral Tenggarong, batu split aneka ukuran, abu batu, batu agregat, dan batu pondasi langsung dari stone crusher PT. Bumi Kutai Perkasa di Sebulu, Kutai Kartanegara. Melayani pengiriman armada dump truck & ponton.",
   url:
     process.env.NEXT_PUBLIC_SITE_URL || "https://www.bumikutaiperkasa.co.id",
   phoneDisplay: "+62 853-9333-9991",

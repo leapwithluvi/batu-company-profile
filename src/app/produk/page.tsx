@@ -8,22 +8,22 @@ import { Truck, MapPin, Layers } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Batu Koral Tenggarong & Material Konstruksi - Katalog Lengkap | PT. Bumi Kutai Perkasa",
+  title: "Jual Batu Koral Tenggarong & Jual Batu Split Aneka Ukuran - PT. Bumi Kutai Perkasa",
   description:
-    "Katalog resmi batu koral, abu batu, batu split, batu agregat, batu pondasi, batu tronjolan, dan aneka ukuran batu split 1x1, 2x1, 2x3, 3x5, 5x7, 7x10. Supplier PT. Bumi Kutai Perkasa melayani pengiriman ke Tenggarong dan Kutai Kartanegara.",
+    "Pusat jual batu koral Tenggarong, abu batu, batu agregat, batu pondasi, dan jual batu split aneka ukuran (1x1, 2x1, 2x3, 3x5, 5x7, 7x10). Supplier PT. Bumi Kutai Perkasa melayani pengiriman dump truck & ponton se-Kukar dan Kaltim.",
   keywords: [
     // Transaksional + Lokal — Intent beli/pesan
-    "batu koral tenggarong",
-    "jual batu koral tenggarong kutai kartanegara",
-    "harga batu split tenggarong per rit",
-    "jual batu split 2x1 tenggarong",
-    "jual abu batu tenggarong kukar",
+    "jual batu koral tenggarong",
+    "jual batu split tenggarong",
+    "jual batu split ukuran 1x1 tenggarong",
+    "jual batu split ukuran 2x1 tenggarong",
+    "jual batu split ukuran 2x3 tenggarong",
+    "jual batu split ukuran 3x5 tenggarong",
+    "jual abu batu tenggarong",
     "jual batu pondasi tenggarong",
-    "batu tronjolan bronjong tenggarong",
-    "batu agregat base course kutai kartanegara",
+    "harga batu split tenggarong per rit",
     "supplier batu split sebulu kalimantan timur",
-    "kirim batu koral ke tenggarong seberang",
-    "batu split untuk batching plant kaltim",
+    "distributor batu koral kutai kartanegara",
   ],
   alternates: {
     canonical: "https://www.bumikutaiperkasa.co.id/produk",
@@ -46,13 +46,13 @@ export default function ProdukCatalogPage() {
               {siteConfig.name} &bull; Dusun Jambe, Desa Sanggulan, Kec. Sebulu
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-[#171A1C] dark:text-white tracking-tight mt-1 font-heading">
-              Batu Koral Tenggarong &amp; Material Konstruksi Berkualitas
+              Jual Batu Koral &amp; Jual Batu Split Aneka Ukuran di Tenggarong
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
-              Katalog resmi <strong>batu koral</strong>, <strong>batu split</strong>, <strong>abu batu</strong>, batu agregat, batu pondasi, dan batu tronjolan dari{" "}
-              <strong>{siteConfig.name}</strong> &mdash; beroperasi di Dusun Jambe, Desa Sanggulan, Kec. Sebulu,{" "}
-              <strong>Kutai Kartanegara</strong>. Melayani pengiriman armada dump truck ke{" "}
-              <strong>Tenggarong</strong>, Tenggarong Seberang, Samarinda, dan seluruh wilayah Kalimantan Timur.
+              Katalog resmi pusat <strong>jual batu koral Tenggarong</strong>, <strong>jual batu split</strong> aneka ukuran lengkap (1x1, 2x1, 2x3, 3x5, 5x7, 7x10), <strong>abu batu</strong>, <strong>batu agregat</strong>, dan <strong>batu pondasi</strong> dari{" "}
+              <strong>{siteConfig.name}</strong> &mdash; diproduksi langsung dari stone crusher di Dusun Jambe, Desa Sanggulan, Kec. Sebulu,{" "}
+              <strong>Kutai Kartanegara</strong>. Melayani penjualan material batu murni dan pengiriman dump truck &amp; ponton terjadwal ke{" "}
+              <strong>Tenggarong</strong>, Samarinda, dan seluruh Kalimantan Timur.
             </p>
           </div>
         </div>

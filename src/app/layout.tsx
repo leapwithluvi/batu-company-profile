@@ -30,11 +30,11 @@ export const metadata: Metadata = {
       : `https://${siteConfig.url}`,
   ),
   title: {
-    default: `Batu Koral Tenggarong Berkualitas - ${siteConfig.name}`,
+    default: `Jual Batu Koral Tenggarong & Batu Split Berkualitas - ${siteConfig.name}`,
     template: `%s | ${siteConfig.name}`,
   },
   description:
-    "Supplier batu koral terpercaya di Tenggarong, Kutai Kartanegara. PT. Bumi Kutai Perkasa menyediakan batu koral, batu split, abu batu, batu agregat, batu tronjolan untuk kebutuhan proyek konstruksi — pengiriman dump truck ke seluruh Kukar & Kaltim.",
+    "Pusat jual batu koral Tenggarong, batu split aneka ukuran, abu batu, batu agregat, dan batu pondasi di Kutai Kartanegara. PT. Bumi Kutai Perkasa melayani penjualan batu alam & batu pecah mesin stone crusher — pengiriman dump truck & ponton se-Kaltim.",
   keywords: seoKeywords200,
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
@@ -49,24 +49,24 @@ export const metadata: Metadata = {
     locale: "id_ID",
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `Batu Koral Tenggarong & Material Konstruksi - ${siteConfig.name}`,
+    title: `Jual Batu Koral Tenggarong & Jual Batu Split - ${siteConfig.name}`,
     description:
-      "Supplier batu koral terpercaya di Tenggarong, Kutai Kartanegara. Menyediakan batu koral, batu split, abu batu, batu agregat, dan batu tronjolan untuk proyek konstruksi. PT. Bumi Kutai Perkasa.",
+      "Pusat jual batu koral Tenggarong dan jual batu split aneka ukuran langsung dari stone crusher. Melayani pengiriman dump truck & ponton ke Tenggarong dan seluruh Kutai Kartanegara.",
     images: [
       {
         url: "/og-banner.jpg",
         width: 1200,
         height: 630,
-        alt: `Batu Koral Tenggarong - ${siteConfig.name} · Supplier Resmi Kutai Kartanegara`,
+        alt: `Jual Batu Koral Tenggarong - ${siteConfig.name} · Supplier Resmi Kutai Kartanegara`,
         type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `Batu Koral Tenggarong & Material Konstruksi - ${siteConfig.name}`,
+    title: `Jual Batu Koral Tenggarong & Jual Batu Split - ${siteConfig.name}`,
     description:
-      "Supplier batu koral terpercaya di Tenggarong, Kutai Kartanegara. Menyediakan batu koral, batu split, abu batu, batu agregat untuk proyek konstruksi.",
+      "Pusat jual batu koral Tenggarong dan jual batu split aneka ukuran berkualitas langsung dari stone crusher PT. Bumi Kutai Perkasa.",
     images: [
       {
         url: "/og-banner.jpg",
@@ -87,9 +87,6 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
   },
   manifest: "/manifest.webmanifest",
-  verification: {
-    google: "nfPMvC3-Z6tH0Yg8ShmywxgkmfrpSbuDgS7iKH4e7uY",
-  },
   robots: {
     index: true,
     follow: true,

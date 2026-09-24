@@ -64,7 +64,7 @@ export async function generateMetadata({
       locale: "id_ID",
       siteName: siteConfig.name,
       // og:title keyword-rich supaya saat dishare di WA/FB tampil lengkap
-      title: `${product.name} Tenggarong, Kutai Kartanegara - ${siteConfig.name}`,
+      title: `Jual ${product.name} Tenggarong, Kutai Kartanegara - ${siteConfig.name}`,
       description: product.metaDescription,
       url: `${siteConfig.url}/produk/${product.slug}`,
       images: [
@@ -79,7 +79,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${product.name} Tenggarong - ${siteConfig.name}`,
+      title: `Jual ${product.name} Tenggarong - ${siteConfig.name}`,
       description: product.metaDescription,
       images: [`${siteConfig.url}${product.image}`],
     },
@@ -244,7 +244,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
               </div>
 
               <h1 className="text-2xl sm:text-3xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight font-heading">
-                {product.name}
+                Jual {product.name} di Tenggarong &amp; Kutai Kartanegara
               </h1>
 
               <p className="mt-3 text-sm sm:text-base text-[#3F4549] dark:text-[#C2C8CC] leading-relaxed">
@@ -333,7 +333,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
         <div className="mt-16 sm:mt-24 pt-12 border-t border-[#D9DCDD] dark:border-[#30363A]">
           <div className="flex items-center justify-between mb-8">
             <h2 className="text-xl font-bold text-[#171A1C] dark:text-[#F1F3F4] tracking-tight">
-              Material Konstruksi Lainnya dari {siteConfig.name}
+              Produk Material Batu Lainnya dari {siteConfig.name}
             </h2>
             <Link
               href="/produk"
